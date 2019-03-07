@@ -50,6 +50,9 @@ enum PointerDeviceKind {
   /// A pointer device with a stylus that has been inverted.
   invertedStylus,
 
+  /// A pointer event representing an action such as scrolling.
+  signal,
+
   /// An unknown pointer device.
   unknown
 }
