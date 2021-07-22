@@ -7,6 +7,7 @@
 #include <memory>
 #include <string>
 
+#include "flutter/fml/logging.h"
 #include "flutter/shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
 #include "gtest/gtest.h"
 
@@ -49,6 +50,7 @@ TEST(FlutterViewControllerTest, CreateDestroy) {
   }
   EXPECT_EQ(test_api->init_called(), true);
   EXPECT_EQ(test_api->terminate_called(), true);
+  FML_CHECK(false) << "***** TEST assertion failure";
 }
 
 }  // namespace flutter
