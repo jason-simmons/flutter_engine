@@ -56,8 +56,4 @@ source_set("surface_mock") {
     "//third_party/googletest:gmock",
     "//third_party/googletest:gtest",
   ]
-
-  if (shell_enable_vulkan) {
-    deps += [ "//flutter/vulkan" ]
-  }
 }

@@ -34,6 +34,7 @@ GPUSurfaceGLDelegate::GLProcResolver GPUSurfaceGLDelegate::GetGLProcResolver()
   return nullptr;
 }
 
+/*
 static bool IsProcResolverOpenGLES(
     const GPUSurfaceGLDelegate::GLProcResolver& proc_resolver) {
   // Version string prefix that identifies an OpenGL ES implementation.
@@ -96,14 +97,17 @@ static sk_sp<const GrGLInterface> CreateGLInterface(
   FML_LOG(ERROR) << "Could not create a valid GL interface.";
   return nullptr;
 }
+*/
 
 sk_sp<const GrGLInterface> GPUSurfaceGLDelegate::GetGLInterface() const {
-  return CreateGLInterface(GetGLProcResolver());
+  //return CreateGLInterface(GetGLProcResolver());
+  return {};
 }
 
 sk_sp<const GrGLInterface>
 GPUSurfaceGLDelegate::GetDefaultPlatformGLInterface() {
-  return CreateGLInterface(nullptr);
+  //return CreateGLInterface(nullptr);
+  return {};
 }
 
 bool GPUSurfaceGLDelegate::AllowsDrawingWhenGpuDisabled() const {

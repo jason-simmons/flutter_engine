@@ -18,8 +18,4 @@ source_set("context") {
     "//flutter/impeller/renderer",
     "//third_party/skia",
   ]
-
-  if (shell_enable_vulkan) {
-    deps += [ "//flutter/vulkan" ]
-  }
 }

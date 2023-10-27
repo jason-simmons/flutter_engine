@@ -290,7 +290,7 @@ bool ShellTest::GetNeedsReportTimings(Shell* shell) {
 void ShellTest::StorePersistentCache(PersistentCache* cache,
                                      const SkData& key,
                                      const SkData& value) {
-  cache->store(key, value);
+  //cache->store(key, value);
 }
 
 void ShellTest::OnServiceProtocol(

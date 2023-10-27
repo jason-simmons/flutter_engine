@@ -8,7 +8,7 @@
 #include <utility>
 
 #include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/common/graphics/persistent_cache.h"
+//#include "flutter/common/graphics/persistent_cache.h"
 #include "flutter/fml/file.h"
 #include "flutter/fml/unique_fd.h"
 #include "flutter/runtime/dart_vm.h"
@@ -39,7 +39,7 @@ RunConfiguration::RunConfiguration(
     std::unique_ptr<IsolateConfiguration> configuration)
     : RunConfiguration(std::move(configuration),
                        std::make_shared<AssetManager>()) {
-  PersistentCache::SetAssetManager(asset_manager_);
+  //PersistentCache::SetAssetManager(asset_manager_);
 }
 
 RunConfiguration::RunConfiguration(
@@ -47,7 +47,7 @@ RunConfiguration::RunConfiguration(
     std::shared_ptr<AssetManager> asset_manager)
     : isolate_configuration_(std::move(configuration)),
       asset_manager_(std::move(asset_manager)) {
-  PersistentCache::SetAssetManager(asset_manager_);
+  //PersistentCache::SetAssetManager(asset_manager_);
 }
 
 RunConfiguration::RunConfiguration(RunConfiguration&&) = default;

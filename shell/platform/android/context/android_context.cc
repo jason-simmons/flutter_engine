@@ -10,9 +10,11 @@ AndroidContext::AndroidContext(AndroidRenderingAPI rendering_api)
     : rendering_api_(rendering_api) {}
 
 AndroidContext::~AndroidContext() {
+  /*
   if (main_context_) {
     main_context_->releaseResourcesAndAbandonContext();
   }
+  */
 };
 
 AndroidRenderingAPI AndroidContext::RenderingApi() const {

@@ -28,11 +28,15 @@ std::unique_ptr<ImageDecoder> ImageDecoder::Make(
         gpu_disabled_switch);
   }
 #endif  // IMPELLER_SUPPORTS_RENDERING
+
+  /*
   return std::make_unique<ImageDecoderSkia>(
       runners,                            //
       std::move(concurrent_task_runner),  //
       std::move(io_manager)               //
   );
+  */
+  return {};
 }
 
 ImageDecoder::ImageDecoder(

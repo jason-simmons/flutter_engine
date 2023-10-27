@@ -385,6 +385,9 @@ def to_gn_args(args):
   gn_args['skia_use_expat'] = True
   gn_args['skia_use_fontconfig'] = args.enable_fontconfig
   gn_args['skia_use_icu'] = True
+  gn_args['skia_enable_gpu'] = False
+  gn_args['skia_enable_ganesh'] = False
+  gn_args['skia_enable_graphite'] = False
   gn_args['is_official_build'] = True  # Disable Skia test utilities.
   gn_args['android_full_debug'
          ] = args.target_os == 'android' and args.unoptimized

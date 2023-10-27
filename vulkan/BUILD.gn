@@ -31,7 +31,7 @@ source_set("vulkan") {
     "vulkan_window.h",
   ]
 
-  if (is_android) {
+  if (false) {
     sources += [
       "vulkan_native_surface_android.cc",
       "vulkan_native_surface_android.h",

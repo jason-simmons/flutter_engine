@@ -44,7 +44,7 @@ class UnrefQueue : public fml::RefCountedThreadSafe<UnrefQueue<T>> {
     // drain_immediate_ should only be used on Impeller.
     FML_DCHECK(!drain_immediate_);
     std::scoped_lock lock(mutex_);
-    textures_.push_back(texture);
+    //textures_.push_back(texture);
     if (!drain_pending_) {
       drain_pending_ = true;
       task_runner_->PostDelayedTask(
@@ -60,6 +60,7 @@ class UnrefQueue : public fml::RefCountedThreadSafe<UnrefQueue<T>> {
   void Drain() {
     TRACE_EVENT0("flutter", "SkiaUnrefQueue::Drain");
     std::deque<SkRefCnt*> skia_objects;
+    /*
     std::deque<GrBackendTexture> textures;
     {
       std::scoped_lock lock(mutex_);
@@ -67,7 +68,8 @@ class UnrefQueue : public fml::RefCountedThreadSafe<UnrefQueue<T>> {
       textures_.swap(textures);
       drain_pending_ = false;
     }
-    DoDrain(skia_objects, textures, context_);
+    */
+    DoDrain(skia_objects, /*textures,*/ context_);
   }
 
   void UpdateResourceContext(sk_sp<ResourceContext> context) {
@@ -79,7 +81,7 @@ class UnrefQueue : public fml::RefCountedThreadSafe<UnrefQueue<T>> {
   const fml::TimeDelta drain_delay_;
   std::mutex mutex_;
   std::deque<SkRefCnt*> objects_;
-  std::deque<GrBackendTexture> textures_;
+  //std::deque<GrBackendTexture> textures_;
   bool drain_pending_;
   sk_sp<ResourceContext> context_;
   // Enabled when there is an impeller context, which removes the usage of
@@ -106,22 +108,24 @@ class UnrefQueue : public fml::RefCountedThreadSafe<UnrefQueue<T>> {
     ResourceContext* raw_context = context_.release();
     fml::TaskRunner::RunNowOrPostTask(
         task_runner_, [objects = std::move(objects_),
-                       textures = std::move(textures_), raw_context]() mutable {
+                       //textures = std::move(textures_),
+                       raw_context]() mutable {
           sk_sp<ResourceContext> context(raw_context);
-          DoDrain(objects, textures, context);
+          DoDrain(objects, /*textures,*/ context);
           context.reset();
         });
   }
 
   // static
   static void DoDrain(const std::deque<SkRefCnt*>& skia_objects,
-                      const std::deque<GrBackendTexture>& textures,
+                      //const std::deque<GrBackendTexture>& textures,
                       sk_sp<ResourceContext> context) {
     for (SkRefCnt* skia_object : skia_objects) {
       skia_object->unref();
     }
 
     if (context) {
+      /*
       for (GrBackendTexture texture : textures) {
         context->deleteBackendTexture(texture);
       }
@@ -131,6 +135,7 @@ class UnrefQueue : public fml::RefCountedThreadSafe<UnrefQueue<T>> {
       }
 
       context->flushAndSubmit(GrSyncCpu::kYes);
+      */
     }
   }
 

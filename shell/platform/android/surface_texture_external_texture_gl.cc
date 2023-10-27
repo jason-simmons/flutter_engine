@@ -21,6 +21,7 @@
 
 namespace flutter {
 
+/*
 SurfaceTextureExternalTextureGL::SurfaceTextureExternalTextureGL(
     int64_t id,
     const fml::jni::ScopedJavaGlobalRef<jobject>& surface_texture,
@@ -62,6 +63,7 @@ void SurfaceTextureExternalTextureGL::Detach() {
     texture_name_ = 0;
   }
 }
+*/
 
 SurfaceTextureExternalTextureImpellerGL::
     SurfaceTextureExternalTextureImpellerGL(

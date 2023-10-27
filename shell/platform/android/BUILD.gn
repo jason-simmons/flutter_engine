@@ -80,8 +80,6 @@ source_set("flutter_shell_native_src") {
     "android_choreographer.h",
     "android_context_gl_impeller.cc",
     "android_context_gl_impeller.h",
-    "android_context_gl_skia.cc",
-    "android_context_gl_skia.h",
     "android_context_vulkan_impeller.cc",
     "android_context_vulkan_impeller.h",
     "android_display.cc",
@@ -94,8 +92,6 @@ source_set("flutter_shell_native_src") {
     "android_shell_holder.h",
     "android_surface_gl_impeller.cc",
     "android_surface_gl_impeller.h",
-    "android_surface_gl_skia.cc",
-    "android_surface_gl_skia.h",
     "android_surface_software.cc",
     "android_surface_software.h",
     "android_surface_vulkan_impeller.cc",
@@ -153,7 +149,6 @@ source_set("flutter_shell_native_src") {
     "//flutter/shell/platform/android/platform_view_android_delegate",
     "//flutter/shell/platform/android/surface",
     "//flutter/shell/platform/android/surface:native_window",
-    "//flutter/vulkan",
     "//third_party/skia",
   ]
 

@@ -343,11 +343,13 @@ void DlSkCanvasAdapter::DrawShadow(const SkPath& path,
 }
 
 void DlSkCanvasAdapter::Flush() {
+  /*
   auto dContext = GrAsDirectContext(delegate_->recordingContext());
 
   if (dContext) {
     dContext->flushAndSubmit();
   }
+  */
 }
 
 }  // namespace flutter

@@ -20,7 +20,9 @@ std::unique_ptr<SnapshotController> SnapshotController::Make(
     return std::make_unique<SnapshotControllerImpeller>(delegate);
   }
 #endif  // IMPELLER_SUPPORTS_RENDERING
-  return std::make_unique<SnapshotControllerSkia>(delegate);
+
+  //return std::make_unique<SnapshotControllerSkia>(delegate);
+  return {};
 }
 
 SnapshotController::SnapshotController(const Delegate& delegate)

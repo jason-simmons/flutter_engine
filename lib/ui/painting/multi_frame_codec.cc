@@ -155,6 +155,7 @@ MultiFrameCodec::State::GetNextFrameImage(
   }
 #endif  // IMPELLER_SUPPORTS_RENDERING
 
+  /*
   sk_sp<SkImage> skImage;
   gpu_disable_sync_switch->Execute(
       fml::SyncSwitch::Handlers()
@@ -180,6 +181,9 @@ MultiFrameCodec::State::GetNextFrameImage(
 
   return std::make_pair(DlImageGPU::Make({skImage, std::move(unref_queue)}),
                         std::string());
+  */
+
+  return std::make_pair<sk_sp<DlImage>, std::string>({}, {});
 }
 
 void MultiFrameCodec::State::GetNextFrameAndInvokeCallback(

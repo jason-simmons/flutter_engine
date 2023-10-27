@@ -171,7 +171,7 @@ sk_sp<GrDirectContext> EmbedderSurfaceVulkan::CreateGrContext(
 
   GrContextOptions options =
       MakeDefaultContextOptions(context_type, GrBackendApi::kVulkan);
-  options.fReduceOpsTaskSplitting = GrContextOptions::Enable::kNo;
+  //options.fReduceOpsTaskSplitting = GrContextOptions::Enable::kNo;
   return GrDirectContexts::MakeVulkan(backend_context, options);
 }
 

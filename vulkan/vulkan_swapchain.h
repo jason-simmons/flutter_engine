@@ -60,7 +60,7 @@ class VulkanSwapchain {
 
   SkISize GetSize() const;
 
-#if FML_OS_ANDROID
+#if false
  private:
   const VulkanProcTable& vk;
   const VulkanDevice& device_;

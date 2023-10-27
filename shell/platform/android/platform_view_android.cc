@@ -50,8 +50,11 @@ std::unique_ptr<AndroidSurface> AndroidSurfaceFactoryImpl::CreateSurface() {
             std::static_pointer_cast<AndroidContextGLImpeller>(
                 android_context_));
       } else {
-        return std::make_unique<AndroidSurfaceGLSkia>(
+        /*
+          return std::make_unique<AndroidSurfaceGLSkia>(
             std::static_pointer_cast<AndroidContextGLSkia>(android_context_));
+        */
+        return {};
       }
     case AndroidRenderingAPI::kVulkan:
       FML_DCHECK(enable_impeller_);
@@ -110,12 +113,15 @@ static std::shared_ptr<flutter::AndroidContext> CreateAndroidContext(
         FML_UNREACHABLE();
     }
   }
+  /*
   return std::make_unique<AndroidContextGLSkia>(
       AndroidRenderingAPI::kOpenGLES,               //
       fml::MakeRefCounted<AndroidEnvironmentGL>(),  //
       task_runners,                                 //
       msaa_samples                                  //
   );
+  */
+  return {};
 }
 
 PlatformViewAndroid::PlatformViewAndroid(
@@ -316,8 +322,10 @@ void PlatformViewAndroid::RegisterExternalTexture(
           texture_id, surface_texture, jni_facade_));
     } else {
       // Legacy GL.
+      /*
       RegisterTexture(std::make_shared<SurfaceTextureExternalTextureGL>(
           texture_id, surface_texture, jni_facade_));
+      */
     }
   } else {
     FML_LOG(INFO) << "Attempted to use a SurfaceTextureExternalTexture with an "
@@ -337,9 +345,11 @@ void PlatformViewAndroid::RegisterImageTexture(
           texture_id, image_texture_entry, jni_facade_));
     } else {
       // Legacy GL.
+      /*
       RegisterTexture(std::make_shared<ImageExternalTextureGLSkia>(
           std::static_pointer_cast<AndroidContextGLSkia>(android_context_),
           texture_id, image_texture_entry, jni_facade_));
+      */
     }
   } else if (android_context_->RenderingApi() == AndroidRenderingAPI::kVulkan) {
     RegisterTexture(std::make_shared<ImageExternalTextureVK>(
@@ -392,9 +402,11 @@ sk_sp<GrDirectContext> PlatformViewAndroid::CreateResourceContext() const {
     // TODO(chinmaygarde): Currently, this code depends on the fact that only
     // the OpenGL surface will be able to make a resource context current. If
     // this changes, this assumption breaks. Handle the same.
+    /*
     resource_context = ShellIOManager::CreateCompatibleResourceLoadingContext(
         GrBackendApi::kOpenGL,
         GPUSurfaceGLDelegate::GetDefaultPlatformGLInterface());
+    */
   } else {
     FML_DLOG(ERROR) << "Could not make the resource context current.";
   }

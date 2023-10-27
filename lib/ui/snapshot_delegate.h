@@ -47,14 +47,6 @@ class SnapshotDelegate {
   };
 
   //----------------------------------------------------------------------------
-  /// @brief      Attempts to create a GrBackendTexture for the specified
-  ///             DisplayList. May result in a raster bitmap if no GPU context
-  ///             is available.
-  virtual std::unique_ptr<GpuImageResult> MakeSkiaGpuImage(
-      sk_sp<DisplayList> display_list,
-      const SkImageInfo& image_info) = 0;
-
-  //----------------------------------------------------------------------------
   /// @brief      Gets the registry of external textures currently in use by the
   ///             rasterizer. These textures may be updated at a cadence
   ///             different from that of the Flutter application. When an

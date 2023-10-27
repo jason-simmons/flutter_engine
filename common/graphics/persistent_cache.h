@@ -68,7 +68,7 @@ class PersistentCache : public GrContextOptions::PersistentCache {
     uint32_t key_size;
   };
 
-  ~PersistentCache() override;
+  ~PersistentCache();
 
   void AddWorkerTaskRunner(const fml::RefPtr<fml::TaskRunner>& task_runner);
 
@@ -88,7 +88,7 @@ class PersistentCache : public GrContextOptions::PersistentCache {
   bool Purge();
 
   // |GrContextOptions::PersistentCache|
-  sk_sp<SkData> load(const SkData& key) override;
+  sk_sp<SkData> load(const SkData& key);
 
   struct SkSLCache {
     sk_sp<SkData> key;
@@ -168,7 +168,7 @@ class PersistentCache : public GrContextOptions::PersistentCache {
   explicit PersistentCache(bool read_only = false);
 
   // |GrContextOptions::PersistentCache|
-  void store(const SkData& key, const SkData& data) override;
+  void store(const SkData& key, const SkData& data);
 
   fml::RefPtr<fml::TaskRunner> GetWorkerTaskRunner() const;
 

@@ -186,9 +186,11 @@ void EmbedderExternalViewEmbedder::SubmitFrame(
   // The OpenGL context could have been trampled by the embedder at this point
   // as it attempted to collect old render targets and create new ones. Tell
   // Skia to not rely on existing bindings.
+  /*
   if (context) {
     context->resetContext(kAll_GrBackendState);
   }
+  */
 
   // Scribble embedder provide render targets. The order in which we scribble
   // into the buffers is irrelevant to the presentation order.
@@ -206,9 +208,11 @@ void EmbedderExternalViewEmbedder::SubmitFrame(
   // rendering API.
   //
   // @warning: Embedder may trample on our OpenGL context here.
+  /*
   if (context) {
     context->flushAndSubmit();
   }
+  */
 
   // Submit the scribbled layer to the embedder for presentation.
   //

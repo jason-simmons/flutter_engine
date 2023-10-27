@@ -41,7 +41,7 @@ extern const intptr_t kPlatformStrongDillSize;
 }
 
 #include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/common/graphics/persistent_cache.h"
+//#include "flutter/common/graphics/persistent_cache.h"
 #include "flutter/common/task_runners.h"
 #include "flutter/fml/command_line.h"
 #include "flutter/fml/file.h"
@@ -242,7 +242,7 @@ static bool IsRendererValid(const FlutterRendererConfig* config) {
   return false;
 }
 
-#if FML_OS_LINUX || FML_OS_WIN
+#if false
 static void* DefaultGLProcResolver(const char* name) {
   static fml::RefPtr<fml::NativeLibrary> proc_library =
 #if FML_OS_LINUX
@@ -1686,6 +1686,7 @@ FlutterEngineResult FlutterEngineInitialize(size_t version,
     icu_data_path = SAFE_ACCESS(args, icu_data_path, nullptr);
   }
 
+  /*
   if (SAFE_ACCESS(args, persistent_cache_path, nullptr) != nullptr) {
     std::string persistent_cache_path =
         SAFE_ACCESS(args, persistent_cache_path, nullptr);
@@ -1695,6 +1696,7 @@ FlutterEngineResult FlutterEngineInitialize(size_t version,
   if (SAFE_ACCESS(args, is_persistent_cache_read_only, false)) {
     flutter::PersistentCache::gIsReadOnly = true;
   }
+  */
 
   fml::CommandLine command_line;
   if (SAFE_ACCESS(args, command_line_argc, 0) != 0 &&

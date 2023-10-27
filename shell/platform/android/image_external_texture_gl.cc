@@ -98,6 +98,7 @@ impeller::UniqueEGLImageKHR ImageExternalTextureGL::CreateEGLImage(
   return impeller::UniqueEGLImageKHR(maybe_image);
 }
 
+/*
 ImageExternalTextureGLSkia::ImageExternalTextureGLSkia(
     const std::shared_ptr<AndroidContextGLSkia>& context,
     int64_t id,
@@ -154,6 +155,7 @@ sk_sp<flutter::DlImage> ImageExternalTextureGLSkia::CreateDlImage(
       context.gr_context, backendTexture, kTopLeft_GrSurfaceOrigin,
       kRGBA_8888_SkColorType, kPremul_SkAlphaType, nullptr));
 }
+*/
 
 ImageExternalTextureGLImpeller::ImageExternalTextureGLImpeller(
     const std::shared_ptr<impeller::ContextGLES>& context,

@@ -42,6 +42,7 @@ class ImageExternalTextureGL : public ImageExternalTexture {
   FML_DISALLOW_COPY_AND_ASSIGN(ImageExternalTextureGL);
 };
 
+/*
 class ImageExternalTextureGLSkia : public ImageExternalTextureGL {
  public:
   ImageExternalTextureGLSkia(
@@ -63,6 +64,7 @@ class ImageExternalTextureGLSkia : public ImageExternalTextureGL {
 
   FML_DISALLOW_COPY_AND_ASSIGN(ImageExternalTextureGLSkia);
 };
+*/
 
 class ImageExternalTextureGLImpeller : public ImageExternalTextureGL {
  public:

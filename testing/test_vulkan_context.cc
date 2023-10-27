@@ -106,7 +106,7 @@ TestVulkanContext::TestVulkanContext() {
 
   GrContextOptions options =
       MakeDefaultContextOptions(ContextType::kRender, GrBackendApi::kVulkan);
-  options.fReduceOpsTaskSplitting = GrContextOptions::Enable::kNo;
+  //options.fReduceOpsTaskSplitting = GrContextOptions::Enable::kNo;
   context_ = GrDirectContexts::MakeVulkan(backend_context, options);
 }
 

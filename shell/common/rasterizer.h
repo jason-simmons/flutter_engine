@@ -613,11 +613,6 @@ class Rasterizer final : public SnapshotDelegate,
   };
 
   // |SnapshotDelegate|
-  std::unique_ptr<GpuImageResult> MakeSkiaGpuImage(
-      sk_sp<DisplayList> display_list,
-      const SkImageInfo& image_info) override;
-
-  // |SnapshotDelegate|
   sk_sp<DlImage> MakeRasterSnapshot(sk_sp<DisplayList> display_list,
                                     SkISize picture_size) override;
 

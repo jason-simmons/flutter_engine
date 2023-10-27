@@ -71,10 +71,13 @@ std::unique_ptr<DisplayListRasterCacheItem> DisplayListRasterCacheItem::Make(
 void DisplayListRasterCacheItem::PrerollSetup(PrerollContext* context,
                                               const SkMatrix& matrix) {
   cache_state_ = CacheState::kNone;
+  /*
   DisplayListComplexityCalculator* complexity_calculator =
       context->gr_context ? DisplayListComplexityCalculator::GetForBackend(
                                 context->gr_context->backend())
                           : DisplayListComplexityCalculator::GetForSoftware();
+  */
+  DisplayListComplexityCalculator* complexity_calculator = DisplayListComplexityCalculator::GetForSoftware();
 
   if (!IsDisplayListWorthRasterizing(display_list(), will_change_, is_complex_,
                                      complexity_calculator)) {

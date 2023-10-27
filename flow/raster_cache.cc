@@ -89,11 +89,14 @@ std::unique_ptr<RasterCacheResult> RasterCache::Rasterize(
       SkImageInfo::MakeN32Premul(dest_rect.width(), dest_rect.height(),
                                  sk_ref_sp(context.dst_color_space));
 
+  /*
   sk_sp<SkSurface> surface =
       context.gr_context
           ? SkSurfaces::RenderTarget(context.gr_context, skgpu::Budgeted::kYes,
                                      image_info)
           : SkSurfaces::Raster(image_info);
+  */
+  sk_sp<SkSurface> surface = SkSurfaces::Raster(image_info);
 
   if (!surface) {
     return nullptr;

@@ -10,7 +10,7 @@
 
 #include "flow/frame_timings.h"
 #include "flutter/common/constants.h"
-#include "flutter/common/graphics/persistent_cache.h"
+//#include "flutter/common/graphics/persistent_cache.h"
 #include "flutter/flow/layers/offscreen_surface.h"
 #include "flutter/fml/time/time_delta.h"
 #include "flutter/fml/time/time_point.h"
@@ -114,9 +114,11 @@ void Rasterizer::Teardown() {
     auto context_switch = surface_->MakeRenderContextCurrent();
     if (context_switch->GetResult()) {
       compositor_context_->OnGrContextDestroyed();
+      /*
       if (auto* context = surface_->GetContext()) {
         context->purgeUnlockedResources(GrPurgeResourceOptions::kAllResources);
       }
+      */
     }
     surface_.reset();
   }
@@ -173,7 +175,7 @@ void Rasterizer::NotifyLowMemoryWarning() const {
   if (!context_switch->GetResult()) {
     return;
   }
-  context->performDeferredCleanup(std::chrono::milliseconds(0));
+  //context->performDeferredCleanup(std::chrono::milliseconds(0));
 }
 
 void Rasterizer::CollectView(int64_t view_id) {
@@ -313,105 +315,6 @@ DrawStatus Rasterizer::ToDrawStatus(DoDrawStatus status) {
   FML_UNREACHABLE();
 }
 
-namespace {
-std::unique_ptr<SnapshotDelegate::GpuImageResult> MakeBitmapImage(
-    const sk_sp<DisplayList>& display_list,
-    const SkImageInfo& image_info) {
-  FML_DCHECK(display_list);
-  // Use 16384 as a proxy for the maximum texture size for a GPU image.
-  // This is meant to be large enough to avoid false positives in test contexts,
-  // but not so artificially large to be completely unrealistic on any platform.
-  // This limit is taken from the Metal specification. D3D, Vulkan, and GL
-  // generally have lower limits.
-  if (image_info.width() > 16384 || image_info.height() > 16384) {
-    return std::make_unique<SnapshotDelegate::GpuImageResult>(
-        GrBackendTexture(), nullptr, nullptr,
-        "unable to create bitmap render target at specified size " +
-            std::to_string(image_info.width()) + "x" +
-            std::to_string(image_info.height()));
-  };
-
-  sk_sp<SkSurface> surface = SkSurfaces::Raster(image_info);
-  auto canvas = DlSkCanvasAdapter(surface->getCanvas());
-  canvas.Clear(DlColor::kTransparent());
-  canvas.DrawDisplayList(display_list);
-
-  sk_sp<SkImage> image = surface->makeImageSnapshot();
-  return std::make_unique<SnapshotDelegate::GpuImageResult>(
-      GrBackendTexture(), nullptr, image,
-      image ? "" : "Unable to create image");
-}
-}  // namespace
-
-std::unique_ptr<Rasterizer::GpuImageResult> Rasterizer::MakeSkiaGpuImage(
-    sk_sp<DisplayList> display_list,
-    const SkImageInfo& image_info) {
-  TRACE_EVENT0("flutter", "Rasterizer::MakeGpuImage");
-  FML_DCHECK(display_list);
-
-  std::unique_ptr<SnapshotDelegate::GpuImageResult> result;
-  delegate_.GetIsGpuDisabledSyncSwitch()->Execute(
-      fml::SyncSwitch::Handlers()
-          .SetIfTrue([&result, &image_info, &display_list] {
-            // TODO(dnfield): This isn't safe if display_list contains any GPU
-            // resources like an SkImage_gpu.
-            result = MakeBitmapImage(display_list, image_info);
-          })
-          .SetIfFalse([&result, &image_info, &display_list,
-                       surface = surface_.get(),
-                       gpu_image_behavior = gpu_image_behavior_] {
-            if (!surface ||
-                gpu_image_behavior == MakeGpuImageBehavior::kBitmap) {
-              // TODO(dnfield): This isn't safe if display_list contains any GPU
-              // resources like an SkImage_gpu.
-              result = MakeBitmapImage(display_list, image_info);
-              return;
-            }
-
-            auto context_switch = surface->MakeRenderContextCurrent();
-            if (!context_switch->GetResult()) {
-              result = MakeBitmapImage(display_list, image_info);
-              return;
-            }
-
-            auto* context = surface->GetContext();
-            if (!context) {
-              result = MakeBitmapImage(display_list, image_info);
-              return;
-            }
-
-            GrBackendTexture texture = context->createBackendTexture(
-                image_info.width(), image_info.height(), image_info.colorType(),
-                skgpu::Mipmapped::kNo, GrRenderable::kYes);
-            if (!texture.isValid()) {
-              result = std::make_unique<SnapshotDelegate::GpuImageResult>(
-                  GrBackendTexture(), nullptr, nullptr,
-                  "unable to create texture render target at specified size " +
-                      std::to_string(image_info.width()) + "x" +
-                      std::to_string(image_info.height()));
-              return;
-            }
-
-            sk_sp<SkSurface> sk_surface = SkSurfaces::WrapBackendTexture(
-                context, texture, kTopLeft_GrSurfaceOrigin, /*sampleCnt=*/0,
-                image_info.colorType(), image_info.refColorSpace(), nullptr);
-            if (!sk_surface) {
-              result = std::make_unique<SnapshotDelegate::GpuImageResult>(
-                  GrBackendTexture(), nullptr, nullptr,
-                  "unable to create rendering surface for image");
-              return;
-            }
-
-            auto canvas = DlSkCanvasAdapter(sk_surface->getCanvas());
-            canvas.Clear(DlColor::kTransparent());
-            canvas.DrawDisplayList(display_list);
-
-            result = std::make_unique<SnapshotDelegate::GpuImageResult>(
-                texture, sk_ref_sp(context), nullptr, "");
-          }));
-  return result;
-}
-
 sk_sp<DlImage> Rasterizer::MakeRasterSnapshot(sk_sp<DisplayList> display_list,
                                               SkISize picture_size) {
   return snapshot_controller_->MakeRasterSnapshot(display_list, picture_size);
@@ -444,8 +347,10 @@ Rasterizer::DoDrawResult Rasterizer::DoDraw(
     return DoDrawResult{DoDrawStatus::kNotSetUp};
   }
 
+  /*
   PersistentCache* persistent_cache = PersistentCache::GetCacheForProcess();
   persistent_cache->ResetStoredNewShaders();
+  */
 
   DoDrawResult result =
       DrawToSurfaces(*frame_timings_recorder, std::move(tasks));
@@ -455,12 +360,14 @@ Rasterizer::DoDrawResult Rasterizer::DoDraw(
     return DoDrawResult{DoDrawStatus::kGpuUnavailable};
   }
 
+  /*
   if (persistent_cache->IsDumpingSkp() &&
       persistent_cache->StoredNewShaders()) {
     auto screenshot =
         ScreenshotLastLayerTree(ScreenshotType::SkiaPicture, false);
     persistent_cache->DumpSkp(*screenshot.data);
   }
+  */
 
   // TODO(liyuqian): in Fuchsia, the rasterization doesn't finish when
   // Rasterizer::DoDraw finishes. Future work is needed to adapt the timestamp
@@ -642,9 +549,11 @@ std::unique_ptr<FrameItem> Rasterizer::DrawToSurfacesUnsafe(
   frame_timings_recorder.RecordRasterEnd(&compositor_context_->raster_cache());
   FireNextFrameCallbackIfPresent();
 
+  /*
   if (surface_->GetContext()) {
     surface_->GetContext()->performDeferredCleanup(kSkiaCleanupExpiration);
   }
+  */
 
   if (resubmitted_tasks.empty()) {
     return nullptr;
@@ -962,6 +871,7 @@ void Rasterizer::SetResourceCacheMaxBytes(size_t max_bytes, bool from_user) {
     return;
   }
 
+  /*
   GrDirectContext* context = surface_->GetContext();
   if (context) {
     auto context_switch = surface_->MakeRenderContextCurrent();
@@ -971,16 +881,19 @@ void Rasterizer::SetResourceCacheMaxBytes(size_t max_bytes, bool from_user) {
 
     context->setResourceCacheLimit(max_bytes);
   }
+  */
 }
 
 std::optional<size_t> Rasterizer::GetResourceCacheMaxBytes() const {
   if (!surface_) {
     return std::nullopt;
   }
+  /*
   GrDirectContext* context = surface_->GetContext();
   if (context) {
     return context->getResourceCacheLimit();
   }
+  */
   return std::nullopt;
 }
 

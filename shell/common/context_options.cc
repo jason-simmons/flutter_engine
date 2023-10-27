@@ -4,7 +4,7 @@
 
 #include "flutter/shell/common/context_options.h"
 
-#include "flutter/common/graphics/persistent_cache.h"
+//#include "flutter/common/graphics/persistent_cache.h"
 
 namespace flutter {
 
@@ -12,6 +12,7 @@ GrContextOptions MakeDefaultContextOptions(ContextType type,
                                            std::optional<GrBackendApi> api) {
   GrContextOptions options;
 
+  /*
   if (PersistentCache::cache_sksl()) {
     options.fShaderCacheStrategy = GrContextOptions::ShaderCacheStrategy::kSkSL;
   }
@@ -36,6 +37,7 @@ GrContextOptions MakeDefaultContextOptions(ContextType type,
   options.fReduceOpsTaskSplitting = GrContextOptions::Enable::kNo;
 
   options.fReducedShaderVariations = false;
+  */
 
   return options;
 };

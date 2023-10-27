@@ -98,6 +98,7 @@ static sk_sp<DlImage> CreateDeferredImage(
   }
 #endif  // IMPELLER_SUPPORTS_RENDERING
 
+  /*
   const auto& frame_size = layer_tree->frame_size();
   const SkImageInfo image_info =
       SkImageInfo::Make(frame_size.width(), frame_size.height(),
@@ -105,6 +106,8 @@ static sk_sp<DlImage> CreateDeferredImage(
   return DlDeferredImageGPUSkia::MakeFromLayerTree(
       image_info, std::move(layer_tree), std::move(snapshot_delegate),
       raster_task_runner, std::move(unref_queue));
+  */
+  return nullptr;
 }
 
 void Scene::RasterizeToImage(uint32_t width,

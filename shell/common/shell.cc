@@ -12,7 +12,7 @@
 
 #include "flutter/assets/directory_asset_bundle.h"
 #include "flutter/common/constants.h"
-#include "flutter/common/graphics/persistent_cache.h"
+//#include "flutter/common/graphics/persistent_cache.h"
 #include "flutter/fml/base32.h"
 #include "flutter/fml/file.h"
 #include "flutter/fml/icu_util.h"
@@ -139,7 +139,7 @@ void PerformInitializationTasks(Settings& settings) {
     }
   });
 
-  PersistentCache::SetCacheSkSL(settings.cache_sksl);
+  //PersistentCache::SetCacheSkSL(settings.cache_sksl);
 }
 
 }  // namespace
@@ -494,8 +494,10 @@ Shell::Shell(DartVMRef vm,
 }
 
 Shell::~Shell() {
+  /*
   PersistentCache::GetCacheForProcess()->RemoveWorkerTaskRunner(
       task_runners_.GetIOTaskRunner());
+  */
 
   vm_->GetServiceProtocol()->RemoveHandler(this);
 
@@ -734,6 +736,7 @@ bool Shell::Setup(std::unique_ptr<PlatformView> platform_view,
 
   is_set_up_ = true;
 
+  /*
   PersistentCache::GetCacheForProcess()->AddWorkerTaskRunner(
       task_runners_.GetIOTaskRunner());
 
@@ -743,6 +746,7 @@ bool Shell::Setup(std::unique_ptr<PlatformView> platform_view,
   if (settings_.purge_persistent_cache) {
     PersistentCache::GetCacheForProcess()->Purge();
   }
+  */
 
   return true;
 }
@@ -1840,6 +1844,7 @@ bool Shell::OnServiceProtocolGetSkSLs(
   response->SetObject();
   response->AddMember("type", "GetSkSLs", response->GetAllocator());
 
+  /*
   rapidjson::Value shaders_json(rapidjson::kObjectType);
   PersistentCache* persistent_cache = PersistentCache::GetCacheForProcess();
   std::vector<PersistentCache::SkSLCache> sksls = persistent_cache->LoadSkSLs();
@@ -1860,6 +1865,7 @@ bool Shell::OnServiceProtocolGetSkSLs(
     shaders_json.AddMember(shader_key, shader_value, response->GetAllocator());
   }
   response->AddMember("SkSLs", shaders_json, response->GetAllocator());
+  */
   return true;
 }
 
