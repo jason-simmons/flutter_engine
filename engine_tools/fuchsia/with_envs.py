@@ -22,7 +22,7 @@ def Main():
   # Ensures the signals can be correctly forwarded to the subprocesses.
   catch_sigterm()
 
-  os.environ['SRC_ROOT'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../'))
+  os.environ['SRC_ROOT'] = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
   # Flutter uses a different repo structure and fuchsia sdk is not in the
   # third_party/, so images root and sdk root need to be explicitly set.
   os.environ['FUCHSIA_IMAGES_ROOT'] = os.path.join(os.environ['SRC_ROOT'], 'fuchsia/images/')
