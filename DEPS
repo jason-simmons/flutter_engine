@@ -827,7 +827,7 @@ deps = {
 
   # Clang on mac and linux are expected to typically be the same revision.
   # They are separated out so that the autoroller can more easily manage them.
-  'src/buildtools/mac-x64/clang': {
+  'src/engine_buildtools/mac-x64/clang': {
     'packages': [
       {
         'package': 'fuchsia/third_party/clang/mac-amd64',
@@ -838,7 +838,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/mac-arm64/clang': {
+  'src/engine_buildtools/mac-arm64/clang': {
     'packages': [
       {
         'package': 'fuchsia/third_party/clang/mac-arm64',
@@ -849,7 +849,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/linux-x64/clang': {
+  'src/engine_buildtools/linux-x64/clang': {
     'packages': [
       {
         'package': 'fuchsia/third_party/clang/linux-amd64',
@@ -860,7 +860,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/linux-arm64/clang': {
+  'src/engine_buildtools/linux-arm64/clang': {
     'packages': [
       {
         'package': 'fuchsia/third_party/clang/linux-arm64',
@@ -871,7 +871,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/windows-x64/clang': {
+  'src/engine_buildtools/windows-x64/clang': {
     'packages': [
       {
         'package': 'fuchsia/third_party/clang/windows-amd64',
@@ -883,7 +883,7 @@ deps = {
   },
 
   # RBE binaries and configs.
-  'src/buildtools/linux-x64/reclient': {
+  'src/engine_buildtools/linux-x64/reclient': {
     'packages': [
       {
         'package': 'infra/rbe/client/${{platform}}',
@@ -894,7 +894,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/mac-arm64/reclient': {
+  'src/engine_buildtools/mac-arm64/reclient': {
     'packages': [
       {
         'package': 'infra/rbe/client/${{platform}}',
@@ -905,7 +905,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/mac-x64/reclient': {
+  'src/engine_buildtools/mac-x64/reclient': {
     'packages': [
       {
         'package': 'infra/rbe/client/${{platform}}',
@@ -916,7 +916,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/windows-x64/reclient': {
+  'src/engine_buildtools/windows-x64/reclient': {
     'packages': [
       {
         'package': 'infra/rbe/client/${{platform}}',
@@ -927,7 +927,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/build/rbe': {
+  'src/engine_build/rbe': {
     'packages': [
       {
         'package': 'flutter_internal/rbe/reclient_cfgs',
@@ -939,7 +939,7 @@ deps = {
   },
 
   # gcloud
-  'src/buildtools/linux-x64/gcloud': {
+  'src/engine_buildtools/linux-x64/gcloud': {
     'packages': [
       {
         'package': 'infra/3pp/tools/gcloud/${{platform}}',
@@ -950,7 +950,7 @@ deps = {
     'dep_type': 'cipd',
   },
 
-  'src/buildtools/mac-arm64/gcloud': {
+  'src/engine_buildtools/mac-arm64/gcloud': {
     'packages': [
       {
         'package': 'infra/3pp/tools/gcloud/${{platform}}',
@@ -974,7 +974,7 @@ deps = {
      'dep_type': 'cipd',
    },
 
-  'src/tools/fuchsia/test_scripts': {
+  'src/engine_tools/fuchsia/test_scripts': {
      'packages': [
        {
         'package': 'chromium/fuchsia/test-scripts',
@@ -985,7 +985,7 @@ deps = {
      'dep_type': 'cipd',
    },
 
-  'src/tools/fuchsia/gn-sdk': {
+  'src/engine_tools/fuchsia/gn-sdk': {
      'packages': [
        {
         'package': 'chromium/fuchsia/gn-sdk',
@@ -1002,7 +1002,7 @@ deps = {
   },
 
   # cmake is only used by impeller-cmake-example.
-  'src/buildtools/mac-x64/cmake': {
+  'src/engine_buildtools/mac-x64/cmake': {
     'packages': [
       {
         'package': 'infra/3pp/tools/cmake/mac-amd64',
@@ -1054,7 +1054,7 @@ hooks = [
     'condition': 'download_windows_deps',
     'action': [
       'python3',
-      'src/tools/dia_dll.py',
+      'src/engine_tools/dia_dll.py',
     ],
   },
   {
@@ -1080,7 +1080,7 @@ hooks = [
     'pattern': '.',
     'action': [
       'python3',
-      'src/tools/pub_get_offline.py',
+      'src/engine_tools/pub_get_offline.py',
     ]
   },
   {
@@ -1089,7 +1089,7 @@ hooks = [
     'condition': 'download_fuchsia_deps and download_fuchsia_sdk',
     'action': [
       'python3',
-      'src/tools/download_fuchsia_sdk.py',
+      'src/engine_tools/download_fuchsia_sdk.py',
       '--fail-loudly',
       '--verbose',
       '--host-os',
@@ -1104,7 +1104,7 @@ hooks = [
     'condition': 'download_emsdk',
     'action': [
       'python3',
-      'src/tools/activate_emsdk.py',
+      'src/engine_tools/activate_emsdk.py',
     ]
   },
   {
@@ -1113,7 +1113,7 @@ hooks = [
     'condition': 'setup_githooks',
     'action': [
       'python3',
-      'src/tools/githooks/setup.py',
+      'src/engine_tools/githooks/setup.py',
     ]
   },
   {
@@ -1137,8 +1137,8 @@ hooks = [
       'DOWNLOAD_FUCHSIA_SDK={download_fuchsia_sdk}',
       'FUCHSIA_SDK_PATH={fuchsia_sdk_path}',
       'python3',
-      'src/tools/fuchsia/with_envs.py',
-      'src/tools/fuchsia/test_scripts/update_product_bundles.py',
+      'src/engine_tools/fuchsia/with_envs.py',
+      'src/engine_tools/fuchsia/test_scripts/update_product_bundles.py',
       'terminal.x64,terminal.qemu-arm64',
     ]
   },
@@ -1174,8 +1174,8 @@ hooks = [
     'condition': 'download_fuchsia_deps',
     'action': [
       'python3',
-      'src/tools/fuchsia/with_envs.py',
-      'src/tools/fuchsia/test_scripts/gen_build_defs.py',
+      'src/engine_tools/fuchsia/with_envs.py',
+      'src/engine_tools/fuchsia/test_scripts/gen_build_defs.py',
     ],
   },
 ]
