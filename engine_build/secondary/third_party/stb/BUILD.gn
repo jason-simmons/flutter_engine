@@ -12,6 +12,6 @@ source_set("stb_truetype") {
   include_dirs = [ "$source_root" ]
 
   sources = [
-    "//engine_build/secondary/flutter/third_party/stb/stb_truetype_stub.cc",
+    "//engine_build/secondary/third_party/stb/stb_truetype_stub.cc",
   ]
 }
