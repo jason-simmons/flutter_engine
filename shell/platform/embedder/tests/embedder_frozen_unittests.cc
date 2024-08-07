@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/tests/embedder_frozen.h"
-#include "flutter/testing/testing.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/tests/embedder_frozen.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

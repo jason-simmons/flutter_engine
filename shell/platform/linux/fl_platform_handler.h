@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_FL_PLATFORM_HANDLER_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_FL_PLATFORM_HANDLER_H_
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
 
 G_BEGIN_DECLS
 

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/platform_view_layer.h"
+#include "flow/layers/platform_view_layer.h"
 
-#include "flutter/display_list/skia/dl_sk_canvas.h"
+#include "display_list/skia/dl_sk_canvas.h"
 
 namespace flutter {
 

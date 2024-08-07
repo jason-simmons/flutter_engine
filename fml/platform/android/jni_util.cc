@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/android/jni_util.h"
+#include "fml/platform/android/jni_util.h"
 
 #include <sys/prctl.h>
 
 #include <memory>
 #include <string>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/string_conversion.h"
+#include "fml/logging.h"
+#include "fml/string_conversion.h"
 
 namespace fml {
 namespace jni {

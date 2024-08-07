@@ -9,7 +9,7 @@
 #include <vector>
 
 #import "flutter/fml/mapping.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
+#include "lib/ui/semantics/semantics_node.h"
 
 @class UIView;
 

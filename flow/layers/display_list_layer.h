@@ -7,11 +7,11 @@
 
 #include <memory>
 
-#include "flutter/common/macros.h"
-#include "flutter/display_list/display_list.h"
-#include "flutter/flow/layers/display_list_raster_cache_item.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/raster_cache_item.h"
+#include "common/macros.h"
+#include "display_list/display_list.h"
+#include "flow/layers/display_list_raster_cache_item.h"
+#include "flow/layers/layer.h"
+#include "flow/raster_cache_item.h"
 
 namespace flutter {
 

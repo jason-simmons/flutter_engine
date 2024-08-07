@@ -5,10 +5,10 @@
 #include <filesystem>
 #include <system_error>
 
-#include "flutter/fml/backtrace.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/mapping.h"
+#include "fml/backtrace.h"
+#include "fml/command_line.h"
+#include "fml/file.h"
+#include "fml/mapping.h"
 #include "impeller/compiler/compiler.h"
 #include "impeller/compiler/runtime_stage_data.h"
 #include "impeller/compiler/shader_bundle.h"

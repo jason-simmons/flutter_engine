@@ -8,11 +8,11 @@
 
 #include <lib/async/default.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/make_copyable.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/time/time_delta.h"
+#include "fml/trace_event.h"
 
 #include "flutter_runner_product_configuration.h"
 

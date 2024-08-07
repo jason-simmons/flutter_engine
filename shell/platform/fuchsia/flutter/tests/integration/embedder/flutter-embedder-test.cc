@@ -25,11 +25,11 @@
 #include <optional>
 #include <vector>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/fuchsia/flutter/tests/integration/utils/check_view.h"
-#include "flutter/shell/platform/fuchsia/flutter/tests/integration/utils/screenshot.h"
+#include "shell/platform/fuchsia/flutter/tests/integration/utils/check_view.h"
+#include "shell/platform/fuchsia/flutter/tests/integration/utils/screenshot.h"
 
 namespace flutter_embedder_test {
 namespace {

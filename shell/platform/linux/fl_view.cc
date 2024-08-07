@@ -2,35 +2,35 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_view.h"
+#include "shell/platform/linux/public/flutter_linux/fl_view.h"
 
-#include "flutter/shell/platform/linux/fl_view_private.h"
+#include "shell/platform/linux/fl_view_private.h"
 
 #include <atk/atk.h>
 #include <gtk/gtk-a11y.h>
 
 #include <cstring>
 
-#include "flutter/common/constants.h"
-#include "flutter/shell/platform/linux/fl_accessible_node.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/fl_framebuffer.h"
-#include "flutter/shell/platform/linux/fl_key_event.h"
-#include "flutter/shell/platform/linux/fl_keyboard_handler.h"
-#include "flutter/shell/platform/linux/fl_keyboard_view_delegate.h"
-#include "flutter/shell/platform/linux/fl_mouse_cursor_handler.h"
-#include "flutter/shell/platform/linux/fl_platform_handler.h"
-#include "flutter/shell/platform/linux/fl_plugin_registrar_private.h"
-#include "flutter/shell/platform/linux/fl_renderer_gdk.h"
-#include "flutter/shell/platform/linux/fl_scrolling_manager.h"
-#include "flutter/shell/platform/linux/fl_scrolling_view_delegate.h"
-#include "flutter/shell/platform/linux/fl_socket_accessible.h"
-#include "flutter/shell/platform/linux/fl_text_input_handler.h"
-#include "flutter/shell/platform/linux/fl_text_input_view_delegate.h"
-#include "flutter/shell/platform/linux/fl_view_accessible.h"
-#include "flutter/shell/platform/linux/fl_window_state_monitor.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_plugin_registry.h"
+#include "common/constants.h"
+#include "shell/platform/linux/fl_accessible_node.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_framebuffer.h"
+#include "shell/platform/linux/fl_key_event.h"
+#include "shell/platform/linux/fl_keyboard_handler.h"
+#include "shell/platform/linux/fl_keyboard_view_delegate.h"
+#include "shell/platform/linux/fl_mouse_cursor_handler.h"
+#include "shell/platform/linux/fl_platform_handler.h"
+#include "shell/platform/linux/fl_plugin_registrar_private.h"
+#include "shell/platform/linux/fl_renderer_gdk.h"
+#include "shell/platform/linux/fl_scrolling_manager.h"
+#include "shell/platform/linux/fl_scrolling_view_delegate.h"
+#include "shell/platform/linux/fl_socket_accessible.h"
+#include "shell/platform/linux/fl_text_input_handler.h"
+#include "shell/platform/linux/fl_text_input_view_delegate.h"
+#include "shell/platform/linux/fl_view_accessible.h"
+#include "shell/platform/linux/fl_window_state_monitor.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/linux/public/flutter_linux/fl_plugin_registry.h"
 
 static constexpr int kMicrosecondsPerMillisecond = 1000;
 

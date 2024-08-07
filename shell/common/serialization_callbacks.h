@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_COMMON_SERIALIZATION_CALLBACKS_H_
 #define FLUTTER_SHELL_COMMON_SERIALIZATION_CALLBACKS_H_
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkTypeface.h"
 

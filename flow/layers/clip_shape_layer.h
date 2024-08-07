@@ -5,9 +5,9 @@
 #ifndef FLUTTER_FLOW_LAYERS_CLIP_SHAPE_LAYER_H_
 #define FLUTTER_FLOW_LAYERS_CLIP_SHAPE_LAYER_H_
 
-#include "flutter/flow/layers/cacheable_layer.h"
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/flow/paint_utils.h"
+#include "flow/layers/cacheable_layer.h"
+#include "flow/layers/container_layer.h"
+#include "flow/paint_utils.h"
 
 namespace flutter {
 

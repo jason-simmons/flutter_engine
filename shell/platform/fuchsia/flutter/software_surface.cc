@@ -11,8 +11,8 @@
 
 #include <cmath>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 #include "fuchsia/sysmem/cpp/fidl.h"
 #include "include/core/SkImageInfo.h"
 

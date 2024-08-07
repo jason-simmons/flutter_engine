@@ -7,15 +7,15 @@
 
 #import "flutter/shell/platform/darwin/ios/framework/Headers/FlutterEngine.h"
 
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/window/pointer_data_packet.h"
-#include "flutter/lib/ui/window/viewport_metrics.h"
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/common/rasterizer.h"
-#include "flutter/shell/common/shell.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/task_runner.h"
+#include "lib/ui/window/pointer_data_packet.h"
+#include "lib/ui/window/viewport_metrics.h"
+#include "shell/common/platform_view.h"
+#include "shell/common/rasterizer.h"
+#include "shell/common/shell.h"
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 #import "flutter/shell/platform/darwin/ios/framework/Headers/FlutterEngine.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterDartProject_Internal.h"

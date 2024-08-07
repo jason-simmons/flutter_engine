@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/surface_texture_external_texture.h"
+#include "shell/platform/android/surface_texture_external_texture.h"
 
 #include <GLES/glext.h>
 
 #include <utility>
 
-#include "flutter/display_list/effects/dl_color_source.h"
+#include "display_list/effects/dl_color_source.h"
 #include "third_party/skia/include/core/SkAlphaType.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkColorType.h"

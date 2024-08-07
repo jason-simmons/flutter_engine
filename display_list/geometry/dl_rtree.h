@@ -9,8 +9,8 @@
 #include <optional>
 #include <vector>
 
-#include "flutter/display_list/geometry/dl_region.h"
-#include "flutter/fml/logging.h"
+#include "display_list/geometry/dl_region.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkRect.h"
 #include "third_party/skia/include/core/SkRefCnt.h"

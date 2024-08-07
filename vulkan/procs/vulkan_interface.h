@@ -7,8 +7,8 @@
 
 #include <string>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 
 #if FML_OS_ANDROID
 #ifndef VK_USE_PLATFORM_ANDROID_KHR

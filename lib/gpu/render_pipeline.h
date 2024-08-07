@@ -5,10 +5,10 @@
 #ifndef FLUTTER_LIB_GPU_RENDER_PIPELINE_H_
 #define FLUTTER_LIB_GPU_RENDER_PIPELINE_H_
 
-#include "flutter/lib/gpu/context.h"
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/gpu/shader.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/context.h"
+#include "lib/gpu/export.h"
+#include "lib/gpu/shader.h"
+#include "lib/ui/dart_wrapper.h"
 #include "impeller/renderer/pipeline_descriptor.h"
 
 namespace flutter {

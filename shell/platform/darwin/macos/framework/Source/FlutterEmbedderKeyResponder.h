@@ -8,7 +8,7 @@
 #import <Cocoa/Cocoa.h>
 
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterKeyPrimaryResponder.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 typedef void (^FlutterSendEmbedderKeyEvent)(const FlutterKeyEvent& /* event */,
                                             _Nullable FlutterKeyEventCallback /* callback */,

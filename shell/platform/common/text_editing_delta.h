@@ -7,8 +7,8 @@
 
 #include <string>
 
-#include "flutter/fml/string_conversion.h"
-#include "flutter/shell/platform/common/text_range.h"
+#include "fml/string_conversion.h"
+#include "shell/platform/common/text_range.h"
 
 namespace flutter {
 

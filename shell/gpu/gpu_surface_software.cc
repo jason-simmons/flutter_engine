@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/gpu/gpu_surface_software.h"
+#include "shell/gpu/gpu_surface_software.h"
 
 #include <memory>
 
 #include "flow/surface_frame.h"
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 

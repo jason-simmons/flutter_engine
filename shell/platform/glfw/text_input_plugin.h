@@ -8,11 +8,11 @@
 #include <map>
 #include <memory>
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_channel.h"
-#include "flutter/shell/platform/common/text_input_model.h"
-#include "flutter/shell/platform/glfw/keyboard_hook_handler.h"
-#include "flutter/shell/platform/glfw/public/flutter_glfw.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_channel.h"
+#include "shell/platform/common/text_input_model.h"
+#include "shell/platform/glfw/keyboard_hook_handler.h"
+#include "shell/platform/glfw/public/flutter_glfw.h"
 
 #include "rapidjson/document.h"
 

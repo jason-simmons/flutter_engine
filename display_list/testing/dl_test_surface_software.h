@@ -5,7 +5,7 @@
 #ifndef FLUTTER_DISPLAY_LIST_TESTING_DL_TEST_SURFACE_SOFTWARE_H_
 #define FLUTTER_DISPLAY_LIST_TESTING_DL_TEST_SURFACE_SOFTWARE_H_
 
-#include "flutter/display_list/testing/dl_test_surface_provider.h"
+#include "display_list/testing/dl_test_surface_provider.h"
 
 namespace flutter {
 namespace testing {

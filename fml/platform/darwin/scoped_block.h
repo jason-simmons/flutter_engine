@@ -7,7 +7,7 @@
 
 #include <Block.h>
 
-#include "flutter/fml/platform/darwin/scoped_typeref.h"
+#include "fml/platform/darwin/scoped_typeref.h"
 
 #if defined(__has_feature) && __has_feature(objc_arc)
 #define BASE_MAC_BRIDGE_CAST(TYPE, VALUE) (__bridge TYPE)(VALUE)

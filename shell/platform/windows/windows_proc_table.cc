@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/windows_proc_table.h"
+#include "shell/platform/windows/windows_proc_table.h"
 
 #include <WinUser.h>
 #include <dwmapi.h>

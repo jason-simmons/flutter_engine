@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 
-#include "flutter/shell/platform/windows/windows_proc_table.h"
+#include "shell/platform/windows/windows_proc_table.h"
 
 namespace flutter {
 

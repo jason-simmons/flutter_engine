@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/shell_test_platform_view_vulkan.h"
+#include "shell/common/shell_test_platform_view_vulkan.h"
 
 #include <utility>
 
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/flutter_vma/flutter_skia_vma.h"
-#include "flutter/shell/common/context_options.h"
-#include "flutter/vulkan/vulkan_skia_proc_table.h"
-#include "flutter/vulkan/vulkan_utilities.h"
+#include "common/graphics/persistent_cache.h"
+#include "flutter_vma/flutter_skia_vma.h"
+#include "shell/common/context_options.h"
+#include "vulkan/vulkan_skia_proc_table.h"
+#include "vulkan/vulkan_utilities.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/ganesh/SkSurfaceGanesh.h"
@@ -20,7 +20,7 @@
 #if OS_FUCHSIA
 #define VULKAN_SO_PATH "libvulkan.so"
 #else
-#include "flutter/vulkan/swiftshader_path.h"
+#include "vulkan/swiftshader_path.h"
 #endif
 
 namespace flutter {

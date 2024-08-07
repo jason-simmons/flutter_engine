@@ -8,10 +8,10 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/thread.h"
+#include "fml/macros.h"
+#include "fml/message_loop.h"
+#include "fml/task_runner.h"
+#include "fml/thread.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

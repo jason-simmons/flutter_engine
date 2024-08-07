@@ -7,11 +7,11 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/keyboard_key_embedder_handler.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
-#include "flutter/shell/platform/windows/testing/windows_test_context.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/keyboard_key_embedder_handler.h"
+#include "shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/testing/windows_test_context.h"
 
 namespace flutter {
 namespace testing {

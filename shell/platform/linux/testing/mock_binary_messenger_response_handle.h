@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_BINARY_MESSENGER_RESPONSE_HANDLE_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_BINARY_MESSENGER_RESPONSE_HANDLE_H_
 
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
 
 G_BEGIN_DECLS
 

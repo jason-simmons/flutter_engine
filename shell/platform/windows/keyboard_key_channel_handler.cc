@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/keyboard_key_channel_handler.h"
+#include "shell/platform/windows/keyboard_key_channel_handler.h"
 
 #include <windows.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/common/json_message_codec.h"
-#include "flutter/shell/platform/windows/keyboard_utils.h"
+#include "fml/logging.h"
+#include "shell/platform/common/json_message_codec.h"
+#include "shell/platform/windows/keyboard_utils.h"
 
 namespace flutter {
 

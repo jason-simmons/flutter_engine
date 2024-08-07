@@ -5,8 +5,8 @@
 #ifndef FLUTTER_RUNTIME_SKIA_CONCURRENT_EXECUTOR_H_
 #define FLUTTER_RUNTIME_SKIA_CONCURRENT_EXECUTOR_H_
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/core/SkExecutor.h"
 
 namespace flutter {

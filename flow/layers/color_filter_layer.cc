@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/color_filter_layer.h"
+#include "flow/layers/color_filter_layer.h"
 
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/display_list/utils/dl_comparable.h"
-#include "flutter/flow/raster_cache_item.h"
-#include "flutter/flow/raster_cache_util.h"
+#include "display_list/dl_paint.h"
+#include "display_list/utils/dl_comparable.h"
+#include "flow/raster_cache_item.h"
+#include "flow/raster_cache_util.h"
 
 namespace flutter {
 

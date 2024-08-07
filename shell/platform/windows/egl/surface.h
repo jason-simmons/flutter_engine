@@ -7,7 +7,7 @@
 
 #include <EGL/egl.h>
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 
 namespace flutter {
 namespace egl {

@@ -7,7 +7,7 @@
 
 #include <gdk/gdk.h>
 
-#include "flutter/shell/platform/linux/fl_text_input_handler.h"
+#include "shell/platform/linux/fl_text_input_handler.h"
 
 G_BEGIN_DECLS
 

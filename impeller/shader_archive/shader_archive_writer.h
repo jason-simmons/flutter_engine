@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/shader_archive/shader_archive_types.h"
 
 namespace impeller {

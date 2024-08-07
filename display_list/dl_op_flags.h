@@ -5,8 +5,8 @@
 #ifndef FLUTTER_DISPLAY_LIST_DL_OP_FLAGS_H_
 #define FLUTTER_DISPLAY_LIST_DL_OP_FLAGS_H_
 
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_paint.h"
+#include "fml/logging.h"
 
 namespace flutter {
 

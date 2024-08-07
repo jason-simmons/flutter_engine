@@ -5,8 +5,8 @@
 #ifndef FLUTTER_RUNTIME_PTRACE_CHECK_H_
 #define FLUTTER_RUNTIME_PTRACE_CHECK_H_
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/build_config.h"
+#include "common/settings.h"
+#include "fml/build_config.h"
 
 namespace flutter {
 

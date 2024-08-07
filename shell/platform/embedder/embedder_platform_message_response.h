@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_PLATFORM_MESSAGE_RESPONSE_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_PLATFORM_MESSAGE_RESPONSE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/window/platform_message_response.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
+#include "lib/ui/window/platform_message_response.h"
 
 namespace flutter {
 

@@ -7,12 +7,12 @@
 
 #include <memory>
 
-#include "flutter/common/settings.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/testing/elf_loader.h"
-#include "flutter/testing/test_dart_native_resolver.h"
-#include "flutter/testing/testing.h"
-#include "flutter/testing/thread_test.h"
+#include "common/settings.h"
+#include "runtime/dart_vm.h"
+#include "testing/elf_loader.h"
+#include "testing/test_dart_native_resolver.h"
+#include "testing/testing.h"
+#include "testing/thread_test.h"
 
 namespace flutter::testing {
 

@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/image_descriptor.h"
+#include "lib/ui/painting/image_descriptor.h"
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/ui/painting/multi_frame_codec.h"
-#include "flutter/lib/ui/painting/single_frame_codec.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
+#include "lib/ui/painting/multi_frame_codec.h"
+#include "lib/ui/painting/single_frame_codec.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/tonic/dart_binding_macros.h"
 #include "third_party/tonic/logging/dart_invoke.h"
 

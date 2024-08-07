@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_WINDOW_PLATFORM_MESSAGE_RESPONSE_DART_H_
 #define FLUTTER_LIB_UI_WINDOW_PLATFORM_MESSAGE_RESPONSE_DART_H_
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/lib/ui/window/platform_message_response.h"
+#include "fml/message_loop.h"
+#include "lib/ui/window/platform_message_response.h"
 #include "third_party/tonic/dart_persistent_value.h"
 
 namespace flutter {

@@ -9,10 +9,10 @@
 #include <mutex>
 #include <string>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/closure.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "common/settings.h"
+#include "fml/closure.h"
+#include "fml/memory/ref_ptr.h"
+#include "lib/ui/window/platform_configuration.h"
 
 namespace flutter {
 

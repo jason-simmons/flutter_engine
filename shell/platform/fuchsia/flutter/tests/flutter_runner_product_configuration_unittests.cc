@@ -4,7 +4,7 @@
 
 #include <gtest/gtest.h>
 
-#include "flutter/shell/platform/fuchsia/flutter/flutter_runner_product_configuration.h"
+#include "shell/platform/fuchsia/flutter/flutter_runner_product_configuration.h"
 
 using namespace flutter_runner;
 

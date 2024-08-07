@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/assets/asset_manager.h"
+#include "assets/asset_manager.h"
 
-#include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/fml/trace_event.h"
+#include "assets/directory_asset_bundle.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

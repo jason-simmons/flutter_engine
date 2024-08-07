@@ -6,7 +6,7 @@
 
 #include <cstdlib>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 namespace impeller {
 

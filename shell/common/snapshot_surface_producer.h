@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/flow/surface.h"
+#include "flow/surface.h"
 
 namespace flutter {
 

@@ -5,7 +5,7 @@
 #ifndef UI_ACCESSIBILITY_PLATFORM_AX_FRAGMENT_ROOT_DELEGATE_WIN_H_
 #define UI_ACCESSIBILITY_PLATFORM_AX_FRAGMENT_ROOT_DELEGATE_WIN_H_
 
-#include "flutter/third_party/accessibility/gfx/native_widget_types.h"
+#include "third_party/accessibility/gfx/native_widget_types.h"
 
 namespace ui {
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/public/flutter_windows.h"
 
 #include <io.h>
 
@@ -13,18 +13,18 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
-#include "flutter/shell/platform/common/incoming_message_dispatcher.h"
-#include "flutter/shell/platform/common/path_utils.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/dpi_utils.h"
-#include "flutter/shell/platform/windows/flutter_project_bundle.h"
-#include "flutter/shell/platform/windows/flutter_window.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/shell/platform/windows/flutter_windows_view_controller.h"
-#include "flutter/shell/platform/windows/window_binding_handler.h"
-#include "flutter/shell/platform/windows/window_state.h"
+#include "shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
+#include "shell/platform/common/incoming_message_dispatcher.h"
+#include "shell/platform/common/path_utils.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/dpi_utils.h"
+#include "shell/platform/windows/flutter_project_bundle.h"
+#include "shell/platform/windows/flutter_window.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/flutter_windows_view_controller.h"
+#include "shell/platform/windows/window_binding_handler.h"
+#include "shell/platform/windows/window_state.h"
 
 static_assert(FLUTTER_ENGINE_VERSION == 1, "");
 

@@ -9,7 +9,7 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "fml/logging.h"
 #include "impeller/compiler/compiler_backend.h"
 #include "impeller/compiler/runtime_stage_data.h"

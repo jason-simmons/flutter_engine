@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_isolate.h"
+#include "runtime/dart_isolate.h"
 
-#include "flutter/fml/paths.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/runtime/dart_vm_lifecycle.h"
-#include "flutter/testing/dart_isolate_runner.h"
-#include "flutter/testing/fixture_test.h"
-#include "flutter/testing/testing.h"
+#include "fml/paths.h"
+#include "runtime/dart_vm.h"
+#include "runtime/dart_vm_lifecycle.h"
+#include "testing/dart_isolate_runner.h"
+#include "testing/fixture_test.h"
+#include "testing/testing.h"
 
 // CREATE_NATIVE_ENTRY is leaky by design
 // NOLINTBEGIN(clang-analyzer-core.StackAddressEscape)

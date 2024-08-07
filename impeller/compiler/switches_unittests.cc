@@ -5,9 +5,9 @@
 #include <initializer_list>
 #include <vector>
 
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/file.h"
-#include "flutter/testing/testing.h"
+#include "fml/command_line.h"
+#include "fml/file.h"
+#include "testing/testing.h"
 #include "impeller/compiler/switches.h"
 #include "impeller/compiler/utilities.h"
 

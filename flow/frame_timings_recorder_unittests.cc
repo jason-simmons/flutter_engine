@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 #include <thread>
-#include "flutter/flow/frame_timings.h"
-#include "flutter/flow/testing/layer_test.h"
-#include "flutter/flow/testing/mock_layer.h"
-#include "flutter/flow/testing/mock_raster_cache.h"
+#include "flow/frame_timings.h"
+#include "flow/testing/layer_test.h"
+#include "flow/testing/mock_layer.h"
+#include "flow/testing/mock_raster_cache.h"
 
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 
 #include "gtest/gtest.h"
 

@@ -8,7 +8,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "flutter/fml/hash_combine.h"
+#include "fml/hash_combine.h"
 #include "impeller/base/thread.h"
 #include "impeller/renderer/backend/gles/reactor_gles.h"
 #include "impeller/renderer/backend/gles/unique_handle_gles.h"

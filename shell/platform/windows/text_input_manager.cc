@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/text_input_manager.h"
+#include "shell/platform/windows/text_input_manager.h"
 
 #include <imm.h>
 
 #include <memory>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

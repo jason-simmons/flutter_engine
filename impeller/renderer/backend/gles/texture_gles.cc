@@ -7,9 +7,9 @@
 #include <optional>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
+#include "fml/trace_event.h"
 #include "impeller/base/allocation.h"
 #include "impeller/base/validation.h"
 #include "impeller/core/formats.h"

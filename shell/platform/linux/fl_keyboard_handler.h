@@ -7,7 +7,7 @@
 
 #include <gdk/gdk.h>
 
-#include "flutter/shell/platform/linux/fl_keyboard_view_delegate.h"
+#include "shell/platform/linux/fl_keyboard_view_delegate.h"
 
 G_BEGIN_DECLS
 

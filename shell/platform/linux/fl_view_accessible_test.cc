@@ -5,10 +5,10 @@
 // Included first as it collides with the X11 headers.
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/linux/fl_view_accessible.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_signal_handler.h"
+#include "shell/platform/linux/fl_view_accessible.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_signal_handler.h"
 
 TEST(FlViewAccessibleTest, BuildTree) {
   g_autoptr(FlEngine) engine = make_mock_engine();

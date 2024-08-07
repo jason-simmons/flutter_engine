@@ -7,10 +7,10 @@
 
 #include <memory>
 
-#include "flutter/flow/skia_gpu_object.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/lib/ui/io_manager.h"
+#include "flow/skia_gpu_object.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "lib/ui/io_manager.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 #include "third_party/skia/include/gpu/GrTypes.h"
 

@@ -5,12 +5,12 @@
 #ifndef FLUTTER_TESTING_TEST_VULKAN_CONTEXT_H_
 #define FLUTTER_TESTING_TEST_VULKAN_CONTEXT_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/testing/test_vulkan_image.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
-#include "flutter/vulkan/vulkan_application.h"
-#include "flutter/vulkan/vulkan_device.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_ptr.h"
+#include "testing/test_vulkan_image.h"
+#include "vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/vulkan_application.h"
+#include "vulkan/vulkan_device.h"
 
 #include "third_party/skia/include/core/SkSize.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

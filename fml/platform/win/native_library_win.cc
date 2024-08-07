@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/native_library.h"
+#include "fml/native_library.h"
 
 #include <windows.h>
 
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/platform/win/wstring_conversion.h"
 
 namespace fml {
 

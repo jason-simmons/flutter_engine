@@ -10,8 +10,8 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/hash_combine.h"
-#include "flutter/fml/logging.h"
+#include "fml/hash_combine.h"
+#include "fml/logging.h"
 #include "impeller/base/mask.h"
 #include "impeller/geometry/color.h"
 #include "impeller/geometry/rect.h"

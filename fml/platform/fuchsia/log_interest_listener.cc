@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/fuchsia/log_interest_listener.h"
+#include "fml/platform/fuchsia/log_interest_listener.h"
 
 #include <fidl/fuchsia.diagnostics/cpp/fidl.h>
 #include <fidl/fuchsia.logger/cpp/fidl.h>
 #include <zircon/assert.h>
 
-#include "flutter/fml/log_level.h"
-#include "flutter/fml/log_settings.h"
+#include "fml/log_level.h"
+#include "fml/log_settings.h"
 
 namespace fml {
 

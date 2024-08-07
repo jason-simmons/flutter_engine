@@ -9,14 +9,14 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_attributes.h"
-#include "flutter/display_list/dl_color.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/dl_tile_mode.h"
-#include "flutter/display_list/effects/dl_runtime_effect.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/fml/logging.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_attributes.h"
+#include "display_list/dl_color.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/dl_tile_mode.h"
+#include "display_list/effects/dl_runtime_effect.h"
+#include "display_list/image/dl_image.h"
+#include "fml/logging.h"
 
 #include "third_party/skia/include/core/SkShader.h"
 

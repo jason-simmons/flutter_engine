@@ -8,8 +8,8 @@
 #include <cstring>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/window/pointer_data.h"
+#include "fml/macros.h"
+#include "lib/ui/window/pointer_data.h"
 
 namespace flutter {
 

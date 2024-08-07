@@ -5,8 +5,8 @@
 #ifndef FLUTTER_TESTING_TEST_METAL_SURFACE_H_
 #define FLUTTER_TESTING_TEST_METAL_SURFACE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/testing/test_metal_context.h"
+#include "fml/macros.h"
+#include "testing/test_metal_context.h"
 #include "third_party/skia/include/core/SkSize.h"
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

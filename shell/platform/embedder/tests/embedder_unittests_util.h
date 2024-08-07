@@ -10,12 +10,12 @@
 #include <future>
 #include <utility>
 
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/paths.h"
-#include "flutter/shell/platform/embedder/tests/embedder_assertions.h"
-#include "flutter/shell/platform/embedder/tests/embedder_config_builder.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test.h"
+#include "fml/mapping.h"
+#include "fml/message_loop.h"
+#include "fml/paths.h"
+#include "shell/platform/embedder/tests/embedder_assertions.h"
+#include "shell/platform/embedder/tests/embedder_config_builder.h"
+#include "shell/platform/embedder/tests/embedder_test.h"
 #include "third_party/skia/include/core/SkSurface.h"
 
 namespace flutter {

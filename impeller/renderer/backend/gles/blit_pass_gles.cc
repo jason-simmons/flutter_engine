@@ -6,7 +6,7 @@
 
 #include <memory>
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 #include "fml/closure.h"
 #include "impeller/core/formats.h"
 #include "impeller/renderer/backend/gles/blit_command_gles.h"

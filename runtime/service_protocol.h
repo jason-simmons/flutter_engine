@@ -10,10 +10,10 @@
 #include <string>
 #include <string_view>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/synchronization/atomic_object.h"
-#include "flutter/fml/synchronization/shared_mutex.h"
-#include "flutter/fml/task_runner.h"
+#include "fml/macros.h"
+#include "fml/synchronization/atomic_object.h"
+#include "fml/synchronization/shared_mutex.h"
+#include "fml/task_runner.h"
 #include "rapidjson/document.h"
 
 namespace flutter {

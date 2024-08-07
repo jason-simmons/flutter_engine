@@ -9,16 +9,16 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/lib/ui/compositing/scene.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/color_filter.h"
-#include "flutter/lib/ui/painting/engine_layer.h"
-#include "flutter/lib/ui/painting/image_filter.h"
-#include "flutter/lib/ui/painting/path.h"
-#include "flutter/lib/ui/painting/picture.h"
-#include "flutter/lib/ui/painting/rrect.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "flow/layers/container_layer.h"
+#include "lib/ui/compositing/scene.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/color_filter.h"
+#include "lib/ui/painting/engine_layer.h"
+#include "lib/ui/painting/image_filter.h"
+#include "lib/ui/painting/path.h"
+#include "lib/ui/painting/picture.h"
+#include "lib/ui/painting/rrect.h"
+#include "lib/ui/painting/shader.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 
 namespace flutter {

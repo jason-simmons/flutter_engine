@@ -9,11 +9,11 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/skia/dl_sk_canvas.h"
-#include "flutter/flow/surface_frame.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/raster_thread_merger.h"
+#include "display_list/dl_builder.h"
+#include "display_list/skia/dl_sk_canvas.h"
+#include "flow/surface_frame.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/raster_thread_merger.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkPath.h"
 #include "third_party/skia/include/core/SkRRect.h"
@@ -21,8 +21,8 @@
 #include "third_party/skia/include/core/SkSize.h"
 
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/impeller/aiks/aiks_context.h"  // nogncheck
-#include "flutter/impeller/renderer/context.h"   // nogncheck
+#include "impeller/aiks/aiks_context.h"  // nogncheck
+#include "impeller/renderer/context.h"   // nogncheck
 #else                                            // IMPELLER_SUPPORTS_RENDERING
 namespace impeller {
 class Context;

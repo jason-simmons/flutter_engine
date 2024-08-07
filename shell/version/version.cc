@@ -4,7 +4,7 @@
 
 // FLUTTER_NOLINT: https://github.com/flutter/flutter/issues/68332
 
-#include "flutter/shell/version/version.h"
+#include "shell/version/version.h"
 
 namespace flutter {
 

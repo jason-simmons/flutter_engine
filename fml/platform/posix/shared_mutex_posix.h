@@ -7,7 +7,7 @@
 
 #include <shared_mutex>
 
-#include "flutter/fml/synchronization/shared_mutex.h"
+#include "fml/synchronization/shared_mutex.h"
 
 namespace fml {
 

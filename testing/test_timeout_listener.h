@@ -7,10 +7,10 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/thread.h"
-#include "flutter/testing/testing.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
+#include "fml/thread.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

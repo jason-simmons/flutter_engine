@@ -5,10 +5,10 @@
 #ifndef FLUTTER_DISPLAY_LIST_TESTING_DL_TEST_SURFACE_METAL_H_
 #define FLUTTER_DISPLAY_LIST_TESTING_DL_TEST_SURFACE_METAL_H_
 
-#include "flutter/display_list/testing/dl_test_surface_provider.h"
-#include "flutter/fml/platform/darwin/scoped_nsautorelease_pool.h"
-#include "flutter/impeller/golden_tests/metal_screenshotter.h"
-#include "flutter/testing/test_metal_surface.h"
+#include "display_list/testing/dl_test_surface_provider.h"
+#include "fml/platform/darwin/scoped_nsautorelease_pool.h"
+#include "impeller/golden_tests/metal_screenshotter.h"
+#include "testing/test_metal_surface.h"
 
 namespace flutter {
 namespace testing {

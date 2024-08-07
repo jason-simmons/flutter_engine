@@ -7,7 +7,7 @@
 
 #include <GLFW/glfw3.h>
 
-#include "flutter/shell/platform/glfw/public/flutter_glfw.h"
+#include "shell/platform/glfw/public/flutter_glfw.h"
 
 namespace flutter {
 

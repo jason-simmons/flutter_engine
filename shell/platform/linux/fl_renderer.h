@@ -7,10 +7,10 @@
 
 #include <gtk/gtk.h>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_dart_project.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_view.h"
+#include "shell/platform/linux/public/flutter_linux/fl_dart_project.h"
+#include "shell/platform/linux/public/flutter_linux/fl_view.h"
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 G_BEGIN_DECLS
 

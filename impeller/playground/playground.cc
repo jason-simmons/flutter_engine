@@ -18,7 +18,7 @@
 #define GLFW_INCLUDE_NONE
 #include "third_party/glfw/include/GLFW/glfw3.h"
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 #include "impeller/base/validation.h"
 #include "impeller/core/allocator.h"
 #include "impeller/core/formats.h"

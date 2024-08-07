@@ -9,9 +9,9 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "fml/memory/ref_ptr.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/shader.h"
 
 #include "third_party/tonic/dart_library_natives.h"
 

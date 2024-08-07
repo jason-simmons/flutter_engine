@@ -9,10 +9,10 @@
 #include <lib/trace/event.h>
 
 #include "dart_runner.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/platform/fuchsia/log_interest_listener.h"
-#include "flutter/fml/platform/fuchsia/log_state.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/platform/fuchsia/log_interest_listener.h"
+#include "fml/platform/fuchsia/log_state.h"
+#include "fml/trace_event.h"
 #include "logging.h"
 #include "platform/utils.h"
 #include "runtime/dart/utils/build_info.h"

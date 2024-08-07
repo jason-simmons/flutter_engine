@@ -7,9 +7,9 @@
 
 #include <cstdint>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/display.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "fml/macros.h"
+#include "shell/common/display.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 namespace flutter {
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/android/cpu_affinity.h"
+#include "fml/platform/android/cpu_affinity.h"
 
 #include <pthread.h>
 #include <sys/resource.h>
@@ -11,7 +11,7 @@
 #include <mutex>
 #include <optional>
 #include <thread>
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace fml {
 

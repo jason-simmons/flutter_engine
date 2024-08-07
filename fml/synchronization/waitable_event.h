@@ -13,8 +13,8 @@
 #include <condition_variable>
 #include <mutex>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_delta.h"
+#include "fml/macros.h"
+#include "fml/time/time_delta.h"
 
 namespace fml {
 

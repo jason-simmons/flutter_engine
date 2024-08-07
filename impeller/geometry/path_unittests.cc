@@ -4,7 +4,7 @@
 
 #include "gtest/gtest.h"
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 #include "impeller/geometry/geometry_asserts.h"
 #include "impeller/geometry/path.h"
 #include "impeller/geometry/path_builder.h"

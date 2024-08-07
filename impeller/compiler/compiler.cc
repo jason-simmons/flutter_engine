@@ -12,7 +12,7 @@
 #include <string>
 #include <utility>
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 #include "impeller/base/allocation.h"
 #include "impeller/compiler/compiler_backend.h"
 #include "impeller/compiler/constants.h"

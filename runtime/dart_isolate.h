@@ -11,15 +11,15 @@
 #include <string>
 #include <unordered_set>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/lib/ui/io_manager.h"
-#include "flutter/lib/ui/snapshot_delegate.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
-#include "flutter/runtime/dart_snapshot.h"
-#include "flutter/runtime/isolate_configuration.h"
+#include "common/task_runners.h"
+#include "fml/macros.h"
+#include "fml/mapping.h"
+#include "lib/ui/io_manager.h"
+#include "lib/ui/snapshot_delegate.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
+#include "runtime/dart_snapshot.h"
+#include "runtime/isolate_configuration.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/tonic/dart_state.h"
 

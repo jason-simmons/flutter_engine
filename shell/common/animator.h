@@ -7,15 +7,15 @@
 
 #include <deque>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/flow/frame_timings.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/synchronization/semaphore.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/shell/common/pipeline.h"
-#include "flutter/shell/common/rasterizer.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "common/task_runners.h"
+#include "flow/frame_timings.h"
+#include "fml/memory/ref_ptr.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/synchronization/semaphore.h"
+#include "fml/time/time_point.h"
+#include "shell/common/pipeline.h"
+#include "shell/common/rasterizer.h"
+#include "shell/common/vsync_waiter.h"
 
 namespace flutter {
 

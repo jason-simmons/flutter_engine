@@ -4,21 +4,21 @@
 
 #include "png.h"
 
-#include "flutter/lib/ui/painting/image_encoding.h"
-#include "flutter/lib/ui/painting/image_encoding_impl.h"
+#include "lib/ui/painting/image_encoding.h"
+#include "lib/ui/painting/image_encoding_impl.h"
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/lib/ui/painting/image.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/testing.h"
+#include "common/task_runners.h"
+#include "fml/synchronization/waitable_event.h"
+#include "lib/ui/painting/image.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/thread_host.h"
+#include "testing/testing.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/painting/image_encoding_impeller.h"
+#include "lib/ui/painting/image_encoding_impeller.h"
 #include "impeller/renderer/testing/mocks.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
 

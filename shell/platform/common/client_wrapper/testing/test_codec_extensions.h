@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_COMMON_CLIENT_WRAPPER_TESTING_TEST_CODEC_EXTENSIONS_H_
 #define FLUTTER_SHELL_PLATFORM_COMMON_CLIENT_WRAPPER_TESTING_TEST_CODEC_EXTENSIONS_H_
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_codec_serializer.h"
+#include "shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_codec_serializer.h"
 
 namespace flutter {
 

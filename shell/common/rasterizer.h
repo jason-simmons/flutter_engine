@@ -9,31 +9,31 @@
 #include <optional>
 #include <unordered_map>
 
-#include "flutter/common/settings.h"
-#include "flutter/common/task_runners.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/flow/compositor_context.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/frame_timings.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/closure.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/raster_thread_merger.h"
-#include "flutter/fml/synchronization/sync_switch.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "common/settings.h"
+#include "common/task_runners.h"
+#include "display_list/image/dl_image.h"
+#include "flow/compositor_context.h"
+#include "flow/embedded_views.h"
+#include "flow/frame_timings.h"
+#include "flow/layers/layer_tree.h"
+#include "flow/surface.h"
+#include "fml/closure.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/raster_thread_merger.h"
+#include "fml/synchronization/sync_switch.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 #if IMPELLER_SUPPORTS_RENDERING
 #include "impeller/aiks/aiks_context.h"  // nogncheck
 #include "impeller/core/formats.h"       // nogncheck
 #include "impeller/renderer/context.h"   // nogncheck
 #include "impeller/typographer/backends/skia/typographer_context_skia.h"  // nogncheck
 #endif  // IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/snapshot_delegate.h"
-#include "flutter/shell/common/pipeline.h"
-#include "flutter/shell/common/snapshot_controller.h"
-#include "flutter/shell/common/snapshot_surface_producer.h"
+#include "lib/ui/snapshot_delegate.h"
+#include "shell/common/pipeline.h"
+#include "shell/common/snapshot_controller.h"
+#include "shell/common/snapshot_surface_producer.h"
 #include "third_party/skia/include/core/SkData.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkRect.h"

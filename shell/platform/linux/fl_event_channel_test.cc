@@ -5,14 +5,14 @@
 // Included first as it collides with the X11 headers.
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/fl_method_codec_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_event_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
-#include "flutter/shell/platform/linux/testing/mock_renderer.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_method_codec_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_event_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
+#include "shell/platform/linux/testing/mock_renderer.h"
 
 // Data passed in tests.
 typedef struct {

@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_GL_H_
 #define FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_GL_H_
 
-#include "flutter/shell/common/shell_test_external_view_embedder.h"
-#include "flutter/shell/common/shell_test_platform_view.h"
-#include "flutter/shell/gpu/gpu_surface_gl_delegate.h"
-#include "flutter/testing/test_gl_surface.h"
+#include "shell/common/shell_test_external_view_embedder.h"
+#include "shell/common/shell_test_platform_view.h"
+#include "shell/gpu/gpu_surface_gl_delegate.h"
+#include "testing/test_gl_surface.h"
 #include "impeller/renderer/backend/gles/context_gles.h"
 
 namespace flutter {

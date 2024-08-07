@@ -7,8 +7,8 @@
 
 #include <atomic>
 
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/unique_fd.h"
 #include "impeller/base/backend_cast.h"
 #include "impeller/base/thread.h"
 #include "impeller/renderer/backend/vulkan/compute_pipeline_vk.h"

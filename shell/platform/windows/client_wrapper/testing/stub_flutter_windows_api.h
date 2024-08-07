@@ -7,8 +7,8 @@
 
 #include <memory>
 
-#include "flutter/shell/platform/windows/flutter_windows_internal.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/flutter_windows_internal.h"
+#include "shell/platform/windows/public/flutter_windows.h"
 
 namespace flutter {
 namespace testing {

@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/scene/scene_shader.h"
+#include "lib/ui/painting/scene/scene_shader.h"
 
 #include <memory>
 #include <utility>
 
-#include "flutter/display_list/dl_tile_mode.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/scene/scene_node.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "display_list/dl_tile_mode.h"
+#include "display_list/effects/dl_color_source.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/scene/scene_node.h"
+#include "lib/ui/ui_dart_state.h"
 #include "impeller/geometry/scalar.h"
 #include "impeller/geometry/size.h"
 

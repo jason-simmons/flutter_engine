@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_SURFACE_ANDROID_NATIVE_WINDOW_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_SURFACE_ANDROID_NATIVE_WINDOW_H_
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
 #include "third_party/skia/include/core/SkSize.h"
 
 #if FML_OS_ANDROID

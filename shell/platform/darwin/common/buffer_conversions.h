@@ -9,7 +9,7 @@
 
 #include <vector>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
 namespace flutter {
 

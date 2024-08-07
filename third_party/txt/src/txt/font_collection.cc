@@ -24,8 +24,8 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 #include "txt/platform.h"
 #include "txt/text_style.h"
 

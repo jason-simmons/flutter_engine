@@ -11,7 +11,7 @@
 #include "intrin.h"
 #endif
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 // Compiler intrinsics for flipping endianness.
 #if defined(_MSC_VER)

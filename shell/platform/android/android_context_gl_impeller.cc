@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_context_gl_impeller.h"
+#include "shell/platform/android/android_context_gl_impeller.h"
 
-#include "flutter/impeller/renderer/backend/gles/context_gles.h"
-#include "flutter/impeller/renderer/backend/gles/proc_table_gles.h"
-#include "flutter/impeller/renderer/backend/gles/reactor_gles.h"
-#include "flutter/impeller/toolkit/egl/context.h"
-#include "flutter/impeller/toolkit/egl/surface.h"
+#include "impeller/renderer/backend/gles/context_gles.h"
+#include "impeller/renderer/backend/gles/proc_table_gles.h"
+#include "impeller/renderer/backend/gles/reactor_gles.h"
+#include "impeller/toolkit/egl/context.h"
+#include "impeller/toolkit/egl/surface.h"
 #include "impeller/entity/gles/entity_shaders_gles.h"
 #include "impeller/entity/gles/framebuffer_blend_shaders_gles.h"
 

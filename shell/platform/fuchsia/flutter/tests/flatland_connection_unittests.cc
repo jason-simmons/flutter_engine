@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/fuchsia/flutter/flatland_connection.h"
+#include "shell/platform/fuchsia/flutter/flatland_connection.h"
 
 #include <fuchsia/scenic/scheduling/cpp/fidl.h>
 #include <fuchsia/ui/composition/cpp/fidl.h>
@@ -14,9 +14,9 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/logging.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 #include "gtest/gtest.h"
 
 #include "fakes/scenic/fake_flatland.h"

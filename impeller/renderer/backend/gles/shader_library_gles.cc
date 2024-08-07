@@ -6,7 +6,7 @@
 
 #include <sstream>
 
-#include "flutter/fml/closure.h"
+#include "fml/closure.h"
 #include "impeller/base/config.h"
 #include "impeller/base/validation.h"
 #include "impeller/renderer/backend/gles/shader_function_gles.h"

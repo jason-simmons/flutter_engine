@@ -7,9 +7,9 @@
 
 #import <Foundation/Foundation.h>
 
-#include "flutter/fml/command_line.h"
+#include "fml/command_line.h"
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

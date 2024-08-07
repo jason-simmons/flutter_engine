@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_window.h"
+#include "shell/platform/windows/flutter_window.h"
 
 #include <WinUser.h>
 #include <dwmapi.h>
@@ -10,12 +10,12 @@
 #include <chrono>
 #include <map>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/dpi_utils.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/shell/platform/windows/keyboard_utils.h"
+#include "fml/logging.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/dpi_utils.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/keyboard_utils.h"
 
 namespace flutter {
 

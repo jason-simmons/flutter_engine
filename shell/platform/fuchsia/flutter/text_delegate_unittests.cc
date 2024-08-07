@@ -16,7 +16,7 @@
 
 #include "tests/fakes/platform_message.h"
 
-#include "flutter/lib/ui/window/platform_message.h"
+#include "lib/ui/window/platform_message.h"
 
 #include <memory>
 

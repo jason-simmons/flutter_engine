@@ -8,8 +8,8 @@
 #include <cstdint>
 #include <memory>
 
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "flow/layers/layer_tree.h"
+#include "lib/ui/dart_wrapper.h"
 
 namespace flutter {
 

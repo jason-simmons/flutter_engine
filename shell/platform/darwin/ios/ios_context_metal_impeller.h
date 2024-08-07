@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_DARWIN_IOS_IOS_CONTEXT_METAL_IMPELLER_H_
 #define FLUTTER_SHELL_PLATFORM_DARWIN_IOS_IOS_CONTEXT_METAL_IMPELLER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.h"
-#include "flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h"
-#include "flutter/shell/platform/darwin/ios/ios_context.h"
+#include "fml/macros.h"
+#include "shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.h"
+#include "shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h"
+#include "shell/platform/darwin/ios/ios_context.h"
 
 namespace impeller {
 

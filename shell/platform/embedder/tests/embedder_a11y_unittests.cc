@@ -8,13 +8,13 @@
 
 #include <functional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/tests/embedder_config_builder.h"
-#include "flutter/testing/testing.h"
+#include "fml/macros.h"
+#include "fml/message_loop.h"
+#include "fml/synchronization/waitable_event.h"
+#include "lib/ui/semantics/semantics_node.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/tests/embedder_config_builder.h"
+#include "testing/testing.h"
 #include "third_party/tonic/converter/dart_converter.h"
 
 #include "gmock/gmock.h"  // For EXPECT_THAT and matchers

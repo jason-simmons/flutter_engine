@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/skia_gpu_object.h"
+#include "flow/skia_gpu_object.h"
 
 #include <future>
 #include <utility>
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/testing/thread_test.h"
+#include "fml/message_loop.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/task_runner.h"
+#include "testing/thread_test.h"
 #include "gtest/gtest.h"
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/gpu/GrTypes.h"

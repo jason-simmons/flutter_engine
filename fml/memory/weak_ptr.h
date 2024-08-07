@@ -10,11 +10,11 @@
 
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/task_runner_checker.h"
-#include "flutter/fml/memory/thread_checker.h"
-#include "flutter/fml/memory/weak_ptr_internal.h"
+#include "fml/logging.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/task_runner_checker.h"
+#include "fml/memory/thread_checker.h"
+#include "fml/memory/weak_ptr_internal.h"
 
 namespace fml {
 

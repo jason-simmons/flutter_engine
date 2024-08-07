@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/test_vulkan_surface.h"
+#include "testing/test_vulkan_surface.h"
 #include <memory>
-#include "flutter/fml/logging.h"
-#include "flutter/testing/test_vulkan_context.h"
+#include "fml/logging.h"
+#include "testing/test_vulkan_context.h"
 
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkColorType.h"

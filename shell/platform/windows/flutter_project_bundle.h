@@ -9,8 +9,8 @@
 #include <string>
 #include <vector>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/public/flutter_windows.h"
 
 namespace flutter {
 

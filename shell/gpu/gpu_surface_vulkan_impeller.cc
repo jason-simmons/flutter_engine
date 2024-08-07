@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/gpu/gpu_surface_vulkan_impeller.h"
+#include "shell/gpu/gpu_surface_vulkan_impeller.h"
 
 #include "flow/surface_frame.h"
-#include "flutter/fml/make_copyable.h"
+#include "fml/make_copyable.h"
 #include "impeller/display_list/dl_dispatcher.h"
 #include "impeller/renderer/backend/vulkan/surface_context_vk.h"
 #include "impeller/renderer/surface.h"

@@ -8,7 +8,7 @@
 #include <sstream>
 #include <string>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace impeller {
 namespace compiler {

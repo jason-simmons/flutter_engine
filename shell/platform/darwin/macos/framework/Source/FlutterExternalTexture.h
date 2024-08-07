@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 #import "flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 /**
  * Embedding side texture wrappers for Metal external textures.

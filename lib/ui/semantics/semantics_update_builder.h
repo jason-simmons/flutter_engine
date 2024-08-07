@@ -8,9 +8,9 @@
 #include <any>
 #include <list>
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/semantics/semantics_update.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/semantics/semantics_update.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 
 namespace flutter {

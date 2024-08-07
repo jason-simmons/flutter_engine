@@ -4,12 +4,12 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/shell/platform/embedder/embedder_thread_host.h"
+#include "shell/platform/embedder/embedder_thread_host.h"
 
 #include <algorithm>
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/shell/platform/embedder/embedder_struct_macros.h"
+#include "fml/message_loop.h"
+#include "shell/platform/embedder/embedder_struct_macros.h"
 
 namespace flutter {
 

@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_keyboard_handler.h"
+#include "shell/platform/linux/fl_keyboard_handler.h"
 
 #include <array>
 #include <cinttypes>
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/linux/fl_key_channel_responder.h"
-#include "flutter/shell/platform/linux/fl_key_embedder_responder.h"
-#include "flutter/shell/platform/linux/key_mapping.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
+#include "shell/platform/linux/fl_key_channel_responder.h"
+#include "shell/platform/linux/fl_key_embedder_responder.h"
+#include "shell/platform/linux/key_mapping.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
 
 // Turn on this flag to print complete layout data when switching IMEs. The data
 // is used in unit tests.

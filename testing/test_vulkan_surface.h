@@ -6,7 +6,7 @@
 #define FLUTTER_TESTING_TEST_VULKAN_SURFACE_H_
 
 #include <memory>
-#include "flutter/testing/test_vulkan_context.h"
+#include "testing/test_vulkan_context.h"
 
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/core/SkSize.h"

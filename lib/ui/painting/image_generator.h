@@ -6,7 +6,7 @@
 #define FLUTTER_LIB_UI_PAINTING_IMAGE_GENERATOR_H_
 
 #include <optional>
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/codec/SkCodec.h"
 #include "third_party/skia/include/codec/SkCodecAnimation.h"
 #include "third_party/skia/include/core/SkData.h"

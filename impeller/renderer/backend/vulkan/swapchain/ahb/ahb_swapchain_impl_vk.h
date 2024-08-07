@@ -7,8 +7,8 @@
 
 #include <memory>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/synchronization/semaphore.h"
+#include "fml/closure.h"
+#include "fml/synchronization/semaphore.h"
 #include "impeller/base/thread.h"
 #include "impeller/renderer/backend/vulkan/android/ahb_texture_source_vk.h"
 #include "impeller/renderer/backend/vulkan/swapchain/ahb/ahb_texture_pool_vk.h"

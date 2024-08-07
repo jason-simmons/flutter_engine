@@ -5,8 +5,8 @@
 #ifndef FLUTTER_TESTING_LOGGER_LISTENER_H_
 #define FLUTTER_TESTING_LOGGER_LISTENER_H_
 
-#include "flutter/fml/logging.h"
-#include "flutter/testing/testing.h"
+#include "fml/logging.h"
+#include "testing/testing.h"
 
 namespace flutter::testing {
 

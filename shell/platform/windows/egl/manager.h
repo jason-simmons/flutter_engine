@@ -18,10 +18,10 @@
 #include <wrl/client.h>
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/egl/context.h"
-#include "flutter/shell/platform/windows/egl/surface.h"
-#include "flutter/shell/platform/windows/egl/window_surface.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/egl/context.h"
+#include "shell/platform/windows/egl/surface.h"
+#include "shell/platform/windows/egl/window_surface.h"
 
 namespace flutter {
 namespace egl {

@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/flutter_window.h"
-#include "flutter/shell/platform/windows/testing/flutter_windows_engine_builder.h"
-#include "flutter/shell/platform/windows/testing/mock_window_binding_handler.h"
-#include "flutter/shell/platform/windows/testing/mock_window_binding_handler_delegate.h"
-#include "flutter/shell/platform/windows/testing/windows_test.h"
-#include "flutter/shell/platform/windows/testing/wm_builders.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/flutter_window.h"
+#include "shell/platform/windows/testing/flutter_windows_engine_builder.h"
+#include "shell/platform/windows/testing/mock_window_binding_handler.h"
+#include "shell/platform/windows/testing/mock_window_binding_handler_delegate.h"
+#include "shell/platform/windows/testing/windows_test.h"
+#include "shell/platform/windows/testing/wm_builders.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

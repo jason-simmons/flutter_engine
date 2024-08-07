@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/mock_canvas.h"
+#include "testing/mock_canvas.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/testing/display_list_testing.h"
+#include "fml/logging.h"
+#include "testing/display_list_testing.h"
 #include "third_party/skia/include/core/SkImageInfo.h"
 #include "third_party/skia/include/core/SkSerialProcs.h"
 #include "third_party/skia/include/core/SkSize.h"

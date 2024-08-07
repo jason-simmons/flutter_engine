@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/semantics/custom_accessibility_action.h"
+#include "lib/ui/semantics/custom_accessibility_action.h"
 
 namespace flutter {
 

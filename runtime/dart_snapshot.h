@@ -8,9 +8,9 @@
 #include <memory>
 #include <string>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
+#include "common/settings.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
 
 namespace flutter {
 

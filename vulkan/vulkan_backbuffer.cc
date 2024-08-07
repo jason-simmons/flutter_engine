@@ -6,7 +6,7 @@
 
 #include <limits>
 
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 #include "third_party/skia/include/gpu/vk/GrVkTypes.h"
 #include "vulkan/vulkan.h"
 

@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_COMMON_POINTER_DATA_DISPATCHER_H_
 #define FLUTTER_SHELL_COMMON_POINTER_DATA_DISPATCHER_H_
 
-#include "flutter/runtime/runtime_controller.h"
-#include "flutter/shell/common/animator.h"
+#include "runtime/runtime_controller.h"
+#include "shell/common/animator.h"
 
 namespace flutter {
 

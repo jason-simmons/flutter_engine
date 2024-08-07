@@ -7,7 +7,7 @@
 
 #include <cstdint>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 #include "impeller/geometry/color.h"
 #include "impeller/geometry/point.h"

@@ -4,17 +4,17 @@
 
 #include <utility>
 
-#include "flutter/shell/platform/linux/fl_method_codec_private.h"
-#include "flutter/shell/platform/linux/fl_text_input_handler.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_value.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_binary_messenger.h"
-#include "flutter/shell/platform/linux/testing/mock_binary_messenger_response_handle.h"
-#include "flutter/shell/platform/linux/testing/mock_im_context.h"
-#include "flutter/shell/platform/linux/testing/mock_text_input_view_delegate.h"
-#include "flutter/testing/testing.h"
+#include "shell/platform/linux/fl_method_codec_private.h"
+#include "shell/platform/linux/fl_text_input_handler.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_value.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_binary_messenger.h"
+#include "shell/platform/linux/testing/mock_binary_messenger_response_handle.h"
+#include "shell/platform/linux/testing/mock_im_context.h"
+#include "shell/platform/linux/testing/mock_text_input_view_delegate.h"
+#include "testing/testing.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

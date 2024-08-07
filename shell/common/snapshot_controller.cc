@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/snapshot_controller.h"
+#include "shell/common/snapshot_controller.h"
 
-#include "flutter/shell/common/snapshot_controller_skia.h"
+#include "shell/common/snapshot_controller_skia.h"
 
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/shell/common/snapshot_controller_impeller.h"
+#include "shell/common/snapshot_controller_impeller.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
 
 namespace flutter {

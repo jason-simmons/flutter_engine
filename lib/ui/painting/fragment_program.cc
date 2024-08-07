@@ -6,13 +6,13 @@
 #include <sstream>
 
 #include "display_list/effects/dl_runtime_effect.h"
-#include "flutter/lib/ui/painting/fragment_program.h"
+#include "lib/ui/painting/fragment_program.h"
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/impeller/runtime_stage/runtime_stage.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "assets/asset_manager.h"
+#include "fml/trace_event.h"
+#include "impeller/runtime_stage/runtime_stage.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 
 #include "impeller/core/runtime_types.h"
 #include "third_party/skia/include/core/SkString.h"

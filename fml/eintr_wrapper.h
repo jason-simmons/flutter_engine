@@ -7,7 +7,7 @@
 
 #include <errno.h>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 #if defined(FML_OS_WIN)
 

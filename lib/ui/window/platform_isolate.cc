@@ -5,10 +5,10 @@
 #include <iostream>
 #include <thread>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_isolate.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_isolate.h"
 #include "third_party/tonic/converter/dart_converter.h"
 
 namespace flutter {

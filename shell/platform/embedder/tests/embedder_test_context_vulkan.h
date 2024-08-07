@@ -6,9 +6,9 @@
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_TEST_CONTEXT_VULKAN_H_
 
 #include <memory>
-#include "flutter/shell/platform/embedder/tests/embedder_test_context.h"
-#include "flutter/testing/test_vulkan_context.h"
-#include "flutter/vulkan/vulkan_application.h"
+#include "shell/platform/embedder/tests/embedder_test_context.h"
+#include "testing/test_vulkan_context.h"
+#include "vulkan/vulkan_application.h"
 #include "testing/test_vulkan_surface.h"
 
 namespace flutter {

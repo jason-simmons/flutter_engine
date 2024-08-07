@@ -9,14 +9,14 @@
 #include <map>
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_channel.h"
-#include "flutter/shell/platform/common/geometry.h"
-#include "flutter/shell/platform/common/json_method_codec.h"
-#include "flutter/shell/platform/common/text_editing_delta.h"
-#include "flutter/shell/platform/common/text_input_model.h"
-#include "flutter/shell/platform/windows/keyboard_handler_base.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_channel.h"
+#include "shell/platform/common/geometry.h"
+#include "shell/platform/common/json_method_codec.h"
+#include "shell/platform/common/text_editing_delta.h"
+#include "shell/platform/common/text_input_model.h"
+#include "shell/platform/windows/keyboard_handler_base.h"
 
 namespace flutter {
 

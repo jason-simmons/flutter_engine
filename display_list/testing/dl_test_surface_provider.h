@@ -7,10 +7,10 @@
 
 #include <utility>
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/testing/testing.h"
+#include "display_list/display_list.h"
+#include "display_list/image/dl_image.h"
+#include "fml/mapping.h"
+#include "testing/testing.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 

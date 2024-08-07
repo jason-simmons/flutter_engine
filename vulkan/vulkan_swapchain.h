@@ -9,8 +9,8 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
+#include "fml/macros.h"
+#include "vulkan/procs/vulkan_handle.h"
 #include "third_party/skia/include/core/SkSize.h"
 #include "third_party/skia/include/core/SkSurface.h"
 

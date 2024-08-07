@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_H_
 #define FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_H_
 
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/common/shell_test_external_view_embedder.h"
-#include "flutter/shell/common/vsync_waiters_test.h"
+#include "shell/common/platform_view.h"
+#include "shell/common/shell_test_external_view_embedder.h"
+#include "shell/common/vsync_waiters_test.h"
 
 namespace flutter {
 namespace testing {

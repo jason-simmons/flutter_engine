@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/benchmarking/benchmarking.h"
-#include "flutter/display_list/testing/dl_test_snippets.h"
-#include "flutter/display_list/utils/dl_receiver_utils.h"
+#include "benchmarking/benchmarking.h"
+#include "display_list/testing/dl_test_snippets.h"
+#include "display_list/utils/dl_receiver_utils.h"
 
 namespace flutter {
 

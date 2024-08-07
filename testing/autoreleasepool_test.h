@@ -5,7 +5,7 @@
 #ifndef FLUTTER_TESTING_AUTORELEASEPOOL_TEST_H_
 #define FLUTTER_TESTING_AUTORELEASEPOOL_TEST_H_
 
-#include "flutter/fml/platform/darwin/scoped_nsautorelease_pool.h"
+#include "fml/platform/darwin/scoped_nsautorelease_pool.h"
 
 #include "gtest/gtest.h"
 

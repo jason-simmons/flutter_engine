@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_COMMON_VSYNC_WAITER_FALLBACK_H_
 #define FLUTTER_SHELL_COMMON_VSYNC_WAITER_FALLBACK_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/time/time_point.h"
+#include "shell/common/vsync_waiter.h"
 
 namespace flutter {
 

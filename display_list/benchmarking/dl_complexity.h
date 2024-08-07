@@ -5,7 +5,7 @@
 #ifndef FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_COMPLEXITY_H_
 #define FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_COMPLEXITY_H_
 
-#include "flutter/display_list/display_list.h"
+#include "display_list/display_list.h"
 
 #include "third_party/skia/include/gpu/GrTypes.h"
 

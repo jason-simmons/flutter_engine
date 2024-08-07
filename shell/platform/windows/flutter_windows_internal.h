@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_FLUTTER_WINDOWS_INTERNAL_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_FLUTTER_WINDOWS_INTERNAL_H_
 
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/public/flutter_windows.h"
 
 #if defined(__cplusplus)
 extern "C" {

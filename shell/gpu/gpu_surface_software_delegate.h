@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_GPU_GPU_SURFACE_SOFTWARE_DELEGATE_H_
 #define FLUTTER_SHELL_GPU_GPU_SURFACE_SOFTWARE_DELEGATE_H_
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/macros.h"
+#include "flow/embedded_views.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/core/SkSurface.h"
 
 namespace flutter {

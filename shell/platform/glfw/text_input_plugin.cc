@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/glfw/text_input_plugin.h"
+#include "shell/platform/glfw/text_input_plugin.h"
 
 #include <cstdint>
 #include <iostream>
 
-#include "flutter/shell/platform/common/json_method_codec.h"
+#include "shell/platform/common/json_method_codec.h"
 
 static constexpr char kSetEditingStateMethod[] = "TextInput.setEditingState";
 static constexpr char kClearClientMethod[] = "TextInput.clearClient";

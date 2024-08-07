@@ -18,7 +18,7 @@
 #include "base/win/scoped_bstr.h"
 #include "base/win/scoped_safearray.h"
 #include "base/win/scoped_variant.h"
-#include "flutter/fml/icu_util.h"
+#include "fml/icu_util.h"
 #include "third_party/icu/source/common/unicode/putil.h"
 
 using Microsoft::WRL::ComPtr;

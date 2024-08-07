@@ -5,11 +5,11 @@
 #include <atomic>
 #include <thread>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_source.h"
-#include "flutter/fml/time/chrono_timestamp_provider.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/macros.h"
+#include "fml/task_source.h"
+#include "fml/time/chrono_timestamp_provider.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 #include "gtest/gtest.h"
 
 namespace fml {

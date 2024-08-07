@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/image_encoding_impeller.h"
+#include "lib/ui/painting/image_encoding_impeller.h"
 
-#include "flutter/lib/ui/painting/image.h"
+#include "lib/ui/painting/image.h"
 #include "impeller/core/device_buffer.h"
 #include "impeller/core/formats.h"
 #include "impeller/renderer/command_buffer.h"

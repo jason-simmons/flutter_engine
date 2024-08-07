@@ -4,12 +4,12 @@
 
 #include <memory>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/testing.h"
+#include "common/task_runners.h"
+#include "fml/synchronization/waitable_event.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/thread_host.h"
+#include "testing/testing.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 
 // CREATE_NATIVE_ENTRY is leaky by design

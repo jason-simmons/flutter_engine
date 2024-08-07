@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/hash_combine.h"
+#include "fml/hash_combine.h"
 #include "impeller/base/timing.h"
 #include "impeller/scene/animation/property_resolver.h"
 #include "impeller/scene/importer/scene_flatbuffers.h"

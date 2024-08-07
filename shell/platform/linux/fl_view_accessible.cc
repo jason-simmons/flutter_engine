@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_view_accessible.h"
-#include "flutter/shell/platform/linux/fl_accessible_node.h"
-#include "flutter/shell/platform/linux/fl_accessible_text_field.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_value.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_view.h"
+#include "shell/platform/linux/fl_view_accessible.h"
+#include "shell/platform/linux/fl_accessible_node.h"
+#include "shell/platform/linux/fl_accessible_text_field.h"
+#include "shell/platform/linux/public/flutter_linux/fl_value.h"
+#include "shell/platform/linux/public/flutter_linux/fl_view.h"
 
 static constexpr int32_t kRootSemanticsNodeId = 0;
 

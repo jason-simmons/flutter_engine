@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/file.h"
-#include "flutter/fml/paths.h"
+#include "fml/file.h"
+#include "fml/paths.h"
 
 namespace fml {
 namespace paths {

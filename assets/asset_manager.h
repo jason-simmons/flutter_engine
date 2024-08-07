@@ -10,9 +10,9 @@
 #include <string>
 
 #include <optional>
-#include "flutter/assets/asset_resolver.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
+#include "assets/asset_resolver.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
 
 namespace flutter {
 

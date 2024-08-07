@@ -5,11 +5,11 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_FRAGMENT_SHADER_H_
 #define FLUTTER_LIB_UI_PAINTING_FRAGMENT_SHADER_H_
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/fragment_program.h"
-#include "flutter/lib/ui/painting/image.h"
-#include "flutter/lib/ui/painting/image_shader.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/fragment_program.h"
+#include "lib/ui/painting/image.h"
+#include "lib/ui/painting/image_shader.h"
+#include "lib/ui/painting/shader.h"
 #include "third_party/skia/include/core/SkShader.h"
 #include "third_party/skia/include/effects/SkRuntimeEffect.h"
 #include "third_party/tonic/dart_library_natives.h"

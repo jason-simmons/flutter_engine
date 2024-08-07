@@ -10,8 +10,8 @@
 #include <optional>
 #include <vector>
 #include "display_list/utils/dl_matrix_clip_tracker.h"
-#include "flutter/flow/paint_region.h"
-#include "flutter/fml/macros.h"
+#include "flow/paint_region.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/core/SkM44.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkRect.h"

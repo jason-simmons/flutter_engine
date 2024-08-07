@@ -12,10 +12,10 @@
 
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/fml/memory/thread_checker.h"
+#include "fml/logging.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
+#include "fml/memory/thread_checker.h"
 
 namespace debug {
 struct DebugThreadChecker {

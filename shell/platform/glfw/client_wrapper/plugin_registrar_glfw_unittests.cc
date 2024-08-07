@@ -5,8 +5,8 @@
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/glfw/client_wrapper/include/flutter/plugin_registrar_glfw.h"
-#include "flutter/shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
+#include "shell/platform/glfw/client_wrapper/include/flutter/plugin_registrar_glfw.h"
+#include "shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

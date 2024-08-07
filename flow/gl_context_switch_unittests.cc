@@ -4,13 +4,13 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/common/graphics/gl_context_switch.h"
+#include "common/graphics/gl_context_switch.h"
 
 #include <functional>
 #include <future>
 #include <memory>
 
-#include "flutter/flow/testing/gl_context_switch_test.h"
+#include "flow/testing/gl_context_switch_test.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_CODEC_H_
 #define FLUTTER_LIB_UI_PAINTING_CODEC_H_
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/skia/include/codec/SkCodec.h"
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "third_party/skia/include/core/SkImage.h"

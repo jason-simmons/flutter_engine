@@ -8,8 +8,8 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/shell/platform/android/android_context_gl_skia.h"
-#include "flutter/shell/platform/android/image_external_texture_gl.h"
+#include "shell/platform/android/android_context_gl_skia.h"
+#include "shell/platform/android/image_external_texture_gl.h"
 
 namespace flutter {
 

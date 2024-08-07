@@ -12,11 +12,11 @@
 #include <unordered_set>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
-#include "flutter/lib/ui/semantics/custom_accessibility_action.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
+#include "lib/ui/semantics/custom_accessibility_action.h"
+#include "lib/ui/semantics/semantics_node.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterChannels.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterTextInputPlugin.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterView.h"

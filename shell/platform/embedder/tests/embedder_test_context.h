@@ -12,13 +12,13 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_compositor.h"
-#include "flutter/testing/elf_loader.h"
-#include "flutter/testing/test_dart_native_resolver.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
+#include "fml/mapping.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/tests/embedder_test_compositor.h"
+#include "testing/elf_loader.h"
+#include "testing/test_dart_native_resolver.h"
 #include "third_party/skia/include/core/SkImage.h"
 
 namespace flutter {

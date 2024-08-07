@@ -7,8 +7,8 @@
 
 #if !SLIMPELLER
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/display_list/skia/dl_sk_types.h"
+#include "display_list/dl_canvas.h"
+#include "display_list/skia/dl_sk_types.h"
 #include "impeller/typographer/text_frame.h"
 
 namespace flutter {

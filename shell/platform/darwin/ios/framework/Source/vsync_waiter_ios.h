@@ -7,9 +7,9 @@
 
 #include <QuartzCore/CADisplayLink.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/variable_refresh_rate_reporter.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "fml/macros.h"
+#include "shell/common/variable_refresh_rate_reporter.h"
+#include "shell/common/vsync_waiter.h"
 
 @interface DisplayLinkManager : NSObject
 

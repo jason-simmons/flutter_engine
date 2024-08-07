@@ -8,11 +8,11 @@
 #include <mutex>
 #include <queue>
 
-#include "flutter/common/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/trace_event.h"
+#include "common/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/task_runner.h"
+#include "fml/trace_event.h"
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/gpu/GrBackendSurface.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

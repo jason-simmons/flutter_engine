@@ -4,7 +4,7 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/shell/common/pipeline.h"
+#include "shell/common/pipeline.h"
 
 #include <functional>
 #include <future>

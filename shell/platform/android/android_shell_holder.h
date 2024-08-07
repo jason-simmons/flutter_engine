@@ -7,18 +7,18 @@
 
 #include <memory>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/unique_fd.h"
-#include "flutter/lib/ui/window/viewport_metrics.h"
-#include "flutter/runtime/platform_data.h"
-#include "flutter/shell/common/run_configuration.h"
-#include "flutter/shell/common/shell.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/platform/android/apk_asset_provider.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
-#include "flutter/shell/platform/android/platform_message_handler_android.h"
-#include "flutter/shell/platform/android/platform_view_android.h"
+#include "assets/asset_manager.h"
+#include "fml/macros.h"
+#include "fml/unique_fd.h"
+#include "lib/ui/window/viewport_metrics.h"
+#include "runtime/platform_data.h"
+#include "shell/common/run_configuration.h"
+#include "shell/common/shell.h"
+#include "shell/common/thread_host.h"
+#include "shell/platform/android/apk_asset_provider.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/platform_message_handler_android.h"
+#include "shell/platform/android/platform_view_android.h"
 
 namespace flutter {
 

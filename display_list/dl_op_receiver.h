@@ -5,19 +5,19 @@
 #ifndef FLUTTER_DISPLAY_LIST_DL_OP_RECEIVER_H_
 #define FLUTTER_DISPLAY_LIST_DL_OP_RECEIVER_H_
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/dl_vertices.h"
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/display_list/effects/dl_image_filter.h"
-#include "flutter/display_list/effects/dl_mask_filter.h"
-#include "flutter/display_list/image/dl_image.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_canvas.h"
+#include "display_list/dl_paint.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/dl_vertices.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "display_list/effects/dl_color_source.h"
+#include "display_list/effects/dl_image_filter.h"
+#include "display_list/effects/dl_mask_filter.h"
+#include "display_list/image/dl_image.h"
 
-#include "flutter/impeller/geometry/path.h"
+#include "impeller/geometry/path.h"
 
 namespace flutter {
 

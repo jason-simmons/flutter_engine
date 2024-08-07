@@ -9,11 +9,11 @@
 #include <memory>
 #include <unordered_map>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/hash_combine.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder_external_view.h"
-#include "flutter/shell/platform/embedder/embedder_render_target_cache.h"
+#include "flow/embedded_views.h"
+#include "fml/hash_combine.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder_external_view.h"
+#include "shell/platform/embedder/embedder_render_target_cache.h"
 
 namespace flutter {
 

@@ -9,7 +9,7 @@
 
 #include <cstdint>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace dart_utils {
 

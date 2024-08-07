@@ -5,7 +5,7 @@
 #ifndef FLUTTER_LIB_UI_DART_WRAPPER_H_
 #define FLUTTER_LIB_UI_DART_WRAPPER_H_
 
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/memory/ref_counted.h"
 #include "third_party/tonic/dart_wrappable.h"
 
 namespace flutter {

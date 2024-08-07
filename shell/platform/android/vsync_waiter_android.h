@@ -9,8 +9,8 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "fml/macros.h"
+#include "shell/common/vsync_waiter.h"
 
 namespace flutter {
 

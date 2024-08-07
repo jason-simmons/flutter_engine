@@ -10,8 +10,8 @@
 #include <unordered_map>
 #include <vector>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/macros.h"
+#include "assets/asset_manager.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/core/SkFontMgr.h"
 #include "third_party/skia/include/core/SkTypeface.h"
 #include "txt/font_asset_provider.h"

@@ -5,12 +5,12 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/shell/platform/windows/compositor_software.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/flutter_windows_engine_builder.h"
-#include "flutter/shell/platform/windows/testing/mock_window_binding_handler.h"
-#include "flutter/shell/platform/windows/testing/windows_test.h"
+#include "shell/platform/windows/compositor_software.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/flutter_windows_engine_builder.h"
+#include "shell/platform/windows/testing/mock_window_binding_handler.h"
+#include "shell/platform/windows/testing/windows_test.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

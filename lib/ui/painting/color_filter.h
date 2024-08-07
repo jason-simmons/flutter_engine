@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_COLOR_FILTER_H_
 #define FLUTTER_LIB_UI_PAINTING_COLOR_FILTER_H_
 
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "lib/ui/dart_wrapper.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 
 namespace flutter {

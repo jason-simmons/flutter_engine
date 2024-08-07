@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_key_embedder_responder.h"
+#include "shell/platform/linux/fl_key_embedder_responder.h"
 
 #include <gtk/gtk.h>
 #include <cinttypes>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_key_embedder_responder_private.h"
-#include "flutter/shell/platform/linux/key_mapping.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_key_embedder_responder_private.h"
+#include "shell/platform/linux/key_mapping.h"
 
 constexpr uint64_t kMicrosecondsPerMillisecond = 1000;
 

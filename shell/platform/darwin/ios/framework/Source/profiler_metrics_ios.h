@@ -10,8 +10,8 @@
 #include <cassert>
 #include <optional>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/profiling/sampling_profiler.h"
+#include "fml/logging.h"
+#include "shell/profiling/sampling_profiler.h"
 
 namespace flutter {
 

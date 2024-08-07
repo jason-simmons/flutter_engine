@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/text_input_plugin.h"
+#include "shell/platform/windows/text_input_plugin.h"
 
 #include <windows.h>
 
 #include <cstdint>
 
-#include "flutter/fml/string_conversion.h"
-#include "flutter/shell/platform/common/json_method_codec.h"
-#include "flutter/shell/platform/common/text_editing_delta.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "fml/string_conversion.h"
+#include "shell/platform/common/json_method_codec.h"
+#include "shell/platform/common/text_editing_delta.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 static constexpr char kSetEditingStateMethod[] = "TextInput.setEditingState";
 static constexpr char kClearClientMethod[] = "TextInput.clearClient";

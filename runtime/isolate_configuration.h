@@ -9,13 +9,13 @@
 #include <memory>
 #include <string>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/assets/asset_resolver.h"
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/runtime/dart_isolate.h"
+#include "assets/asset_manager.h"
+#include "assets/asset_resolver.h"
+#include "common/settings.h"
+#include "fml/macros.h"
+#include "fml/mapping.h"
+#include "fml/memory/weak_ptr.h"
+#include "runtime/dart_isolate.h"
 
 namespace flutter {
 

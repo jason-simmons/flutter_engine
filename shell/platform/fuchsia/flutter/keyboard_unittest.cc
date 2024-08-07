@@ -9,7 +9,7 @@
 // term.  Pragmatically, this should be enough to ensure no specific bug
 // happens twice.
 
-#include "flutter/shell/platform/fuchsia/flutter/keyboard.h"
+#include "shell/platform/fuchsia/flutter/keyboard.h"
 
 #include <fuchsia/input/cpp/fidl.h>
 #include <fuchsia/ui/input/cpp/fidl.h>

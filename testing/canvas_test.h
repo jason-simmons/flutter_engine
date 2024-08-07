@@ -5,8 +5,8 @@
 #ifndef FLUTTER_TESTING_CANVAS_TEST_H_
 #define FLUTTER_TESTING_CANVAS_TEST_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/testing/mock_canvas.h"
+#include "fml/macros.h"
+#include "testing/mock_canvas.h"
 #include "gtest/gtest.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 

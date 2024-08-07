@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/shell_test_platform_view_gl.h"
+#include "shell/common/shell_test_platform_view_gl.h"
 
 #include <utility>
 
 #include <EGL/egl.h>
 
-#include "flutter/shell/gpu/gpu_surface_gl_skia.h"
+#include "shell/gpu/gpu_surface_gl_skia.h"
 #include "impeller/entity/gles/entity_shaders_gles.h"
 
 #if IMPELLER_ENABLE_3D

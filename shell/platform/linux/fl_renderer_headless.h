@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_FL_RENDERER_HEADLESS_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_FL_RENDERER_HEADLESS_H_
 
-#include "flutter/shell/platform/linux/fl_renderer.h"
+#include "shell/platform/linux/fl_renderer.h"
 
 G_BEGIN_DECLS
 

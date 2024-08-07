@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_gnome_settings.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_settings.h"
-#include "flutter/shell/platform/linux/testing/mock_signal_handler.h"
-#include "flutter/testing/testing.h"
+#include "shell/platform/linux/fl_gnome_settings.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_settings.h"
+#include "shell/platform/linux/testing/mock_signal_handler.h"
+#include "testing/testing.h"
 
 #include <gio/gio.h>
 #define G_SETTINGS_ENABLE_BACKEND

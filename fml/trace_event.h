@@ -7,7 +7,7 @@
 
 #include <functional>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 #if defined(OS_FUCHSIA)
 
@@ -59,8 +59,8 @@
 #include <type_traits>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/macros.h"
+#include "fml/time/time_point.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"
 
 #if (FLUTTER_RELEASE && !defined(OS_FUCHSIA) && !defined(FML_OS_ANDROID))

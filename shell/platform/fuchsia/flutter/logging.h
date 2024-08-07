@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_LOGGING_H_
 #define FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_LOGGING_H_
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace flutter_runner {
 

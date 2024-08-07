@@ -7,10 +7,10 @@
 
 #include <memory>
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/paint.h"
-#include "flutter/lib/ui/text/paragraph.h"
-#include "flutter/third_party/txt/src/txt/paragraph_builder.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/paint.h"
+#include "lib/ui/text/paragraph.h"
+#include "third_party/txt/src/txt/paragraph_builder.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 
 namespace flutter {

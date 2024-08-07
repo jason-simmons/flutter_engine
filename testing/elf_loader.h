@@ -7,8 +7,8 @@
 
 #include <memory>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
+#include "common/settings.h"
+#include "fml/macros.h"
 #include "third_party/dart/runtime/bin/elf_loader.h"
 
 namespace flutter {

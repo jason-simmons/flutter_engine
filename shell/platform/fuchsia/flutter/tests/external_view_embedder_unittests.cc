@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/fuchsia/flutter/external_view_embedder.h"
+#include "shell/platform/fuchsia/flutter/external_view_embedder.h"
 
 #include <fuchsia/math/cpp/fidl.h>
 #include <fuchsia/sysmem/cpp/fidl.h>
@@ -19,17 +19,17 @@
 #include <string>
 #include <vector>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "flow/embedded_views.h"
+#include "fml/logging.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 #include "third_party/skia/include/core/SkColor.h"
 #include "third_party/skia/include/core/SkSize.h"
 #include "third_party/skia/include/core/SkSurface.h"
 
 #include "fakes/scenic/fake_flatland.h"
 #include "fakes/scenic/fake_flatland_types.h"
-#include "flutter/shell/platform/fuchsia/flutter/surface_producer.h"
+#include "shell/platform/fuchsia/flutter/surface_producer.h"
 
 #include "gmock/gmock.h"  // For EXPECT_THAT and matchers
 #include "gtest/gtest.h"

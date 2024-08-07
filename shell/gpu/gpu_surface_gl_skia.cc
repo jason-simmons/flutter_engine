@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/gpu/gpu_surface_gl_skia.h"
+#include "shell/gpu/gpu_surface_gl_skia.h"
 
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/fml/base32.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/size.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/common/context_options.h"
-#include "flutter/shell/gpu/gpu_surface_gl_delegate.h"
+#include "common/graphics/persistent_cache.h"
+#include "fml/base32.h"
+#include "fml/logging.h"
+#include "fml/size.h"
+#include "fml/trace_event.h"
+#include "shell/common/context_options.h"
+#include "shell/gpu/gpu_surface_gl_delegate.h"
 #include "third_party/skia/include/core/SkAlphaType.h"
 #include "third_party/skia/include/core/SkColorFilter.h"
 #include "third_party/skia/include/core/SkColorSpace.h"

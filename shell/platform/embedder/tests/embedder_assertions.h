@@ -7,10 +7,10 @@
 
 #include <sstream>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/embedder_engine.h"
-#include "flutter/testing/assertions.h"
+#include "fml/logging.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder_engine.h"
+#include "testing/assertions.h"
 #include "gtest/gtest.h"
 #include "third_party/skia/include/core/SkPoint.h"
 #include "third_party/skia/include/core/SkSize.h"

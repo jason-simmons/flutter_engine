@@ -6,7 +6,7 @@
 #define FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_FUCHSIA_INTL_H_
 
 #include <fuchsia/intl/cpp/fidl.h>
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
 namespace flutter_runner {
 

@@ -2,20 +2,20 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_color.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/flow/compositor_context.h"
-#include "flutter/flow/layers/color_filter_layer.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_color.h"
+#include "display_list/dl_paint.h"
+#include "flow/compositor_context.h"
+#include "flow/layers/color_filter_layer.h"
 
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/flow/layers/opacity_layer.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/raster_cache_key.h"
-#include "flutter/flow/testing/layer_test.h"
-#include "flutter/flow/testing/mock_layer.h"
-#include "flutter/fml/macros.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "flow/layers/layer_tree.h"
+#include "flow/layers/opacity_layer.h"
+#include "flow/raster_cache.h"
+#include "flow/raster_cache_key.h"
+#include "flow/testing/layer_test.h"
+#include "flow/testing/mock_layer.h"
+#include "fml/macros.h"
 
 // TODO(zanderso): https://github.com/flutter/flutter/issues/127701
 // NOLINTBEGIN(bugprone-unchecked-optional-access)

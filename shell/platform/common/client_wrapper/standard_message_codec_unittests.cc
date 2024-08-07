@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
 
 #include <map>
 #include <vector>
 
-#include "flutter/shell/platform/common/client_wrapper/testing/test_codec_extensions.h"
+#include "shell/platform/common/client_wrapper/testing/test_codec_extensions.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

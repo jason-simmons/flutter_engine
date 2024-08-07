@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/dl_color.h"
-#include "flutter/testing/testing.h"
+#include "display_list/dl_color.h"
+#include "testing/testing.h"
 
 #include "third_party/skia/include/core/SkColor.h"
 

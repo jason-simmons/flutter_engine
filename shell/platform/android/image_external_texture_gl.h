@@ -9,9 +9,9 @@
 #include <optional>
 #include <unordered_map>
 
-#include "flutter/impeller/toolkit/egl/image.h"
-#include "flutter/impeller/toolkit/gles/texture.h"
-#include "flutter/shell/platform/android/image_external_texture.h"
+#include "impeller/toolkit/egl/image.h"
+#include "impeller/toolkit/gles/texture.h"
+#include "shell/platform/android/image_external_texture.h"
 
 namespace flutter {
 

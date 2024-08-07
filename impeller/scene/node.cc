@@ -9,7 +9,7 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "impeller/base/strings.h"
 #include "impeller/base/thread.h"
 #include "impeller/base/validation.h"

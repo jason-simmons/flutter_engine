@@ -11,10 +11,10 @@
 #include <fuchsia/ui/composition/cpp/fidl.h>
 #include <lib/async/default.h>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 
 #include "vsync_waiter.h"
 

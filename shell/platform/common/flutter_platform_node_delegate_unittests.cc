@@ -4,7 +4,7 @@
 
 #include "flutter_platform_node_delegate.h"
 
-#include "flutter/third_party/accessibility/ax/ax_action_data.h"
+#include "third_party/accessibility/ax/ax_action_data.h"
 #include "gtest/gtest.h"
 
 #include "test_accessibility_bridge.h"

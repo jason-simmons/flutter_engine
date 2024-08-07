@@ -4,11 +4,11 @@
 
 #if !SLIMPELLER
 
-#include "flutter/display_list/skia/dl_sk_canvas.h"
+#include "display_list/skia/dl_sk_canvas.h"
 
-#include "flutter/display_list/skia/dl_sk_conversions.h"
-#include "flutter/display_list/skia/dl_sk_dispatcher.h"
-#include "flutter/fml/trace_event.h"
+#include "display_list/skia/dl_sk_conversions.h"
+#include "display_list/skia/dl_sk_dispatcher.h"
+#include "fml/trace_event.h"
 
 #include "third_party/skia/include/core/SkColorFilter.h"
 #include "third_party/skia/include/effects/SkDashPathEffect.h"

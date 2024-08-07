@@ -7,12 +7,12 @@
 
 #include <cstdint>
 #include <utility>
-#include "flutter/shell/platform/android/image_external_texture.h"
+#include "shell/platform/android/image_external_texture.h"
 
-#include "flutter/impeller/renderer/backend/vulkan/android/ahb_texture_source_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/context_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/vk.h"
-#include "flutter/shell/platform/android/android_context_vk_impeller.h"
+#include "impeller/renderer/backend/vulkan/android/ahb_texture_source_vk.h"
+#include "impeller/renderer/backend/vulkan/context_vk.h"
+#include "impeller/renderer/backend/vulkan/vk.h"
+#include "shell/platform/android/android_context_vk_impeller.h"
 
 namespace flutter {
 

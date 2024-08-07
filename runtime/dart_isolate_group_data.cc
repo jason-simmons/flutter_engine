@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_isolate_group_data.h"
+#include "runtime/dart_isolate_group_data.h"
 
 #include <utility>
 
-#include "flutter/runtime/dart_snapshot.h"
+#include "runtime/dart_snapshot.h"
 
 namespace flutter {
 

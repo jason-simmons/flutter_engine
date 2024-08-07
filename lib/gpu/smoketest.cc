@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/smoketest.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/gpu/smoketest.h"
+#include "fml/memory/ref_ptr.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_state.h"

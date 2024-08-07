@@ -12,9 +12,9 @@
 #include <unordered_map>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/lib/ui/window/platform_message.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "lib/ui/window/platform_message.h"
 #include "third_party/rapidjson/include/rapidjson/document.h"
 
 namespace flutter_runner {

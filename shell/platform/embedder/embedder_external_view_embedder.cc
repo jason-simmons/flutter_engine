@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder_external_view_embedder.h"
+#include "shell/platform/embedder/embedder_external_view_embedder.h"
 
 #include <cassert>
 #include <utility>
 
-#include "flutter/common/constants.h"
-#include "flutter/shell/platform/embedder/embedder_layers.h"
-#include "flutter/shell/platform/embedder/embedder_render_target.h"
+#include "common/constants.h"
+#include "shell/platform/embedder/embedder_layers.h"
+#include "shell/platform/embedder/embedder_render_target.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 
 namespace flutter {

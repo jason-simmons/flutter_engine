@@ -7,7 +7,7 @@
 
 #include <unordered_map>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 #include "impeller/base/comparable.h"
 #include "impeller/base/thread.h"
 #include "impeller/core/sampler.h"

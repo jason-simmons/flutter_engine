@@ -7,9 +7,9 @@
 #include <functional>
 #include <utility>
 
-#include "flutter/third_party/accessibility/ax/ax_tree_manager_map.h"
-#include "flutter/third_party/accessibility/ax/ax_tree_update.h"
-#include "flutter/third_party/accessibility/base/logging.h"
+#include "third_party/accessibility/ax/ax_tree_manager_map.h"
+#include "third_party/accessibility/ax/ax_tree_update.h"
+#include "third_party/accessibility/base/logging.h"
 
 namespace flutter {  // namespace
 

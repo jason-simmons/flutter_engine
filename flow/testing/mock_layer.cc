@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/testing/mock_layer.h"
+#include "flow/testing/mock_layer.h"
 
 #include <utility>
 
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/testing/mock_raster_cache.h"
+#include "flow/layers/container_layer.h"
+#include "flow/layers/layer.h"
+#include "flow/testing/mock_raster_cache.h"
 namespace flutter {
 namespace testing {
 

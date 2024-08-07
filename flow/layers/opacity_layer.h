@@ -5,8 +5,8 @@
 #ifndef FLUTTER_FLOW_LAYERS_OPACITY_LAYER_H_
 #define FLUTTER_FLOW_LAYERS_OPACITY_LAYER_H_
 
-#include "flutter/flow/layers/cacheable_layer.h"
-#include "flutter/flow/layers/layer.h"
+#include "flow/layers/cacheable_layer.h"
+#include "flow/layers/layer.h"
 #include "include/core/SkMatrix.h"
 
 namespace flutter {

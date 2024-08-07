@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/test_font_data.h"
+#include "runtime/test_font_data.h"
 
 // License for the Ahem font embedded below is from:
 // https://www.w3.org/Style/CSS/Test/Fonts/Ahem/COPYING

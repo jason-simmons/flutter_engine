@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_TYPOGRAPHER_RECTANGLE_PACKER_H_
 #define FLUTTER_IMPELLER_TYPOGRAPHER_RECTANGLE_PACKER_H_
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "impeller/geometry/scalar.h"
 
 #include <cstdint>

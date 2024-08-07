@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_settings_handler.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_value.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_binary_messenger.h"
-#include "flutter/shell/platform/linux/testing/mock_settings.h"
-#include "flutter/testing/testing.h"
+#include "shell/platform/linux/fl_settings_handler.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_value.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_binary_messenger.h"
+#include "shell/platform/linux/testing/mock_settings.h"
+#include "testing/testing.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

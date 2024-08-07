@@ -5,15 +5,15 @@
 #ifndef FLUTTER_DISPLAY_LIST_DL_OP_RECORDS_H_
 #define FLUTTER_DISPLAY_LIST_DL_OP_RECORDS_H_
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/fml/macros.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/effects/dl_color_source.h"
+#include "fml/macros.h"
 
-#include "flutter/impeller/geometry/path.h"
-#include "flutter/impeller/typographer/text_frame.h"
+#include "impeller/geometry/path.h"
+#include "impeller/typographer/text_frame.h"
 #include "third_party/skia/include/core/SkRSXform.h"
 
 namespace flutter {

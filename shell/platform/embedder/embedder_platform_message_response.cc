@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder_platform_message_response.h"
+#include "shell/platform/embedder/embedder_platform_message_response.h"
 
-#include "flutter/fml/make_copyable.h"
+#include "fml/make_copyable.h"
 
 namespace flutter {
 

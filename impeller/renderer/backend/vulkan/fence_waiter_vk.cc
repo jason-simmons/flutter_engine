@@ -8,9 +8,9 @@
 #include <chrono>
 #include <utility>
 
-#include "flutter/fml/cpu_affinity.h"
-#include "flutter/fml/thread.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/cpu_affinity.h"
+#include "fml/thread.h"
+#include "fml/trace_event.h"
 #include "impeller/base/validation.h"
 
 namespace impeller {

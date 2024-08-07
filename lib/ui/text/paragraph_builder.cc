@@ -2,23 +2,23 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/text/paragraph_builder.h"
+#include "lib/ui/text/paragraph_builder.h"
 
 #include <cstring>
 
-#include "flutter/common/settings.h"
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/text/font_collection.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
-#include "flutter/third_party/txt/src/txt/font_style.h"
-#include "flutter/third_party/txt/src/txt/font_weight.h"
-#include "flutter/third_party/txt/src/txt/paragraph_style.h"
-#include "flutter/third_party/txt/src/txt/text_baseline.h"
-#include "flutter/third_party/txt/src/txt/text_decoration.h"
-#include "flutter/third_party/txt/src/txt/text_style.h"
+#include "common/settings.h"
+#include "common/task_runners.h"
+#include "fml/logging.h"
+#include "fml/task_runner.h"
+#include "lib/ui/text/font_collection.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
+#include "third_party/txt/src/txt/font_style.h"
+#include "third_party/txt/src/txt/font_weight.h"
+#include "third_party/txt/src/txt/paragraph_style.h"
+#include "third_party/txt/src/txt/text_baseline.h"
+#include "third_party/txt/src/txt/text_decoration.h"
+#include "third_party/txt/src/txt/text_style.h"
 #include "third_party/icu/source/common/unicode/ustring.h"
 #include "third_party/skia/include/core/SkColor.h"
 #include "third_party/tonic/converter/dart_converter.h"

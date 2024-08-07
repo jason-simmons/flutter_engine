@@ -6,11 +6,11 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/build_config.h"
+#include "fml/file.h"
+#include "fml/mapping.h"
+#include "fml/paths.h"
+#include "fml/unique_fd.h"
 #include "gtest/gtest.h"
 
 static bool WriteStringToFile(const fml::UniqueFD& fd,

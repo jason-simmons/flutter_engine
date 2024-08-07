@@ -5,7 +5,7 @@
 #ifndef FLUTTER_TESTING_DEBUGGER_DETECTION_H_
 #define FLUTTER_TESTING_DEBUGGER_DETECTION_H_
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 
 namespace flutter {
 namespace testing {

@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/benchmarking/benchmarking.h"
-#include "flutter/common/settings.h"
-#include "flutter/lib/ui/volatile_path_tracker.h"
-#include "flutter/lib/ui/window/platform_message_response_dart.h"
-#include "flutter/runtime/dart_vm_lifecycle.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/dart_isolate_runner.h"
-#include "flutter/testing/fixture_test.h"
+#include "benchmarking/benchmarking.h"
+#include "common/settings.h"
+#include "lib/ui/volatile_path_tracker.h"
+#include "lib/ui/window/platform_message_response_dart.h"
+#include "runtime/dart_vm_lifecycle.h"
+#include "shell/common/thread_host.h"
+#include "testing/dart_isolate_runner.h"
+#include "testing/fixture_test.h"
 
 #include <future>
 

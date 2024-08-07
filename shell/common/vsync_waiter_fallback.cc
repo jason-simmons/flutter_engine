@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/vsync_waiter_fallback.h"
+#include "shell/common/vsync_waiter_fallback.h"
 
 #include <memory>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/message_loop.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 namespace {

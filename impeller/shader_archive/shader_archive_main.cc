@@ -5,7 +5,7 @@
 #include <filesystem>
 #include <iostream>
 
-#include "flutter/fml/command_line.h"
+#include "fml/command_line.h"
 #include "impeller/shader_archive/shader_archive_writer.h"
 
 namespace impeller {

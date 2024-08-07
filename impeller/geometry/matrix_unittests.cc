@@ -4,9 +4,9 @@
 
 #include "gtest/gtest.h"
 
-#include "flutter/impeller/geometry/matrix.h"
+#include "impeller/geometry/matrix.h"
 
-#include "flutter/impeller/geometry/geometry_asserts.h"
+#include "impeller/geometry/geometry_asserts.h"
 
 namespace impeller {
 namespace testing {

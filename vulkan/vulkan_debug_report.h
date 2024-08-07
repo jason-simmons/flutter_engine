@@ -5,10 +5,10 @@
 #ifndef FLUTTER_VULKAN_VULKAN_DEBUG_REPORT_H_
 #define FLUTTER_VULKAN_VULKAN_DEBUG_REPORT_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
-#include "flutter/vulkan/procs/vulkan_interface.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "fml/macros.h"
+#include "vulkan/procs/vulkan_handle.h"
+#include "vulkan/procs/vulkan_interface.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 
 namespace vulkan {
 

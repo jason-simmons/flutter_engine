@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_view.h"
-#include "flutter/shell/platform/linux/testing/fl_test_gtk_logs.h"
+#include "shell/platform/linux/public/flutter_linux/fl_view.h"
+#include "shell/platform/linux/testing/fl_test_gtk_logs.h"
 
 #include "gtest/gtest.h"
 

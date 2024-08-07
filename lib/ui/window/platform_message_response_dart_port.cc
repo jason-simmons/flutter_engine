@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/window/platform_message_response_dart_port.h"
+#include "lib/ui/window/platform_message_response_dart_port.h"
 
 #include <array>
 #include <utility>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/trace_event.h"
+#include "common/task_runners.h"
+#include "fml/make_copyable.h"
+#include "fml/trace_event.h"
 #include "third_party/dart/runtime/include/dart_native_api.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_state.h"

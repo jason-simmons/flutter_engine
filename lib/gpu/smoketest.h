@@ -7,8 +7,8 @@
 
 #include <cstdint>
 
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/export.h"
+#include "lib/ui/dart_wrapper.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/tonic/dart_state.h"
 #include "third_party/tonic/dart_wrapper_info.h"

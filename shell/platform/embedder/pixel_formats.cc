@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/pixel_formats.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/pixel_formats.h"
+#include "shell/platform/embedder/embedder.h"
 
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkColorType.h"

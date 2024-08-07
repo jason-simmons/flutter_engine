@@ -4,15 +4,15 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/message_loop_task_queues.h"
+#include "fml/message_loop_task_queues.h"
 
 #include <algorithm>
 #include <iostream>
 #include <memory>
 #include <optional>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/task_source.h"
+#include "fml/make_copyable.h"
+#include "fml/task_source.h"
 
 namespace fml {
 

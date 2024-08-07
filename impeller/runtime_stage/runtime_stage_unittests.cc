@@ -4,8 +4,8 @@
 
 #include <future>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/testing/testing.h"
+#include "fml/make_copyable.h"
+#include "testing/testing.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "impeller/base/allocation.h"

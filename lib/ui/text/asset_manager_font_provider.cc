@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/text/asset_manager_font_provider.h"
+#include "lib/ui/text/asset_manager_font_provider.h"
 
 #include <utility>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkData.h"
 #include "third_party/skia/include/core/SkFontMgr.h"
 #include "third_party/skia/include/core/SkStream.h"

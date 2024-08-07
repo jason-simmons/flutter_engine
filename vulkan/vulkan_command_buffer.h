@@ -5,8 +5,8 @@
 #ifndef FLUTTER_VULKAN_VULKAN_COMMAND_BUFFER_H_
 #define FLUTTER_VULKAN_VULKAN_COMMAND_BUFFER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
+#include "fml/macros.h"
+#include "vulkan/procs/vulkan_handle.h"
 
 namespace vulkan {
 

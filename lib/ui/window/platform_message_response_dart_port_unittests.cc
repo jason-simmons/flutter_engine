@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/lib/ui/window/platform_message_response_dart_port.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/testing.h"
+#include "common/task_runners.h"
+#include "fml/mapping.h"
+#include "fml/synchronization/waitable_event.h"
+#include "lib/ui/window/platform_message_response_dart_port.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/thread_host.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

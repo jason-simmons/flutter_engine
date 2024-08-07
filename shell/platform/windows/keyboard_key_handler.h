@@ -11,11 +11,11 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_channel.h"
-#include "flutter/shell/platform/windows/keyboard_handler_base.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_channel.h"
+#include "shell/platform/windows/keyboard_handler_base.h"
 
 namespace flutter {
 

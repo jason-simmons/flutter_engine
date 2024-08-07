@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_GRADIENT_H_
 #define FLUTTER_LIB_UI_PAINTING_GRADIENT_H_
 
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/lib/ui/painting/matrix.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "display_list/effects/dl_color_source.h"
+#include "lib/ui/painting/matrix.h"
+#include "lib/ui/painting/shader.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 
 namespace flutter {

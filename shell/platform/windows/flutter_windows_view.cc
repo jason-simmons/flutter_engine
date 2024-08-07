@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 #include <chrono>
 
-#include "flutter/common/constants.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/platform/common/accessibility_bridge.h"
-#include "flutter/shell/platform/windows/keyboard_key_channel_handler.h"
-#include "flutter/shell/platform/windows/text_input_plugin.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node_win.h"
+#include "common/constants.h"
+#include "fml/make_copyable.h"
+#include "fml/platform/win/wstring_conversion.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/platform/common/accessibility_bridge.h"
+#include "shell/platform/windows/keyboard_key_channel_handler.h"
+#include "shell/platform/windows/text_input_plugin.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node_win.h"
 
 namespace flutter {
 

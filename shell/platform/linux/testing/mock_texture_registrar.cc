@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/testing/mock_texture_registrar.h"
+#include "shell/platform/linux/testing/mock_texture_registrar.h"
 
 struct _FlMockTextureRegistrar {
   GObject parent_instance;

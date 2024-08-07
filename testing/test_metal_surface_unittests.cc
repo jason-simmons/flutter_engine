@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/test_metal_context.h"
-#include "flutter/testing/test_metal_surface.h"
-#include "flutter/testing/testing.h"
+#include "testing/test_metal_context.h"
+#include "testing/test_metal_surface.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

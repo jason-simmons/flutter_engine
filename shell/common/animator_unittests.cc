@@ -4,16 +4,16 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/shell/common/animator.h"
+#include "shell/common/animator.h"
 
 #include <functional>
 #include <future>
 #include <memory>
 
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/shell_test_platform_view.h"
-#include "flutter/testing/post_task_sync.h"
-#include "flutter/testing/testing.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/shell_test_platform_view.h"
+#include "testing/post_task_sync.h"
+#include "testing/testing.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

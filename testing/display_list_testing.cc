@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/display_list_testing.h"
+#include "testing/display_list_testing.h"
 
 #include <iomanip>
 
-#include "flutter/display_list/display_list.h"
+#include "display_list/display_list.h"
 
 namespace flutter {
 namespace testing {

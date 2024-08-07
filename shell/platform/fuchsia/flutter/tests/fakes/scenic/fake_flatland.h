@@ -21,8 +21,8 @@
 #include <unordered_map>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
 
 #include "fake_flatland_types.h"
 

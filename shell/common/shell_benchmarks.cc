@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/shell.h"
+#include "shell/common/shell.h"
 
-#include "flutter/benchmarking/benchmarking.h"
-#include "flutter/fml/logging.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/elf_loader.h"
-#include "flutter/testing/testing.h"
+#include "benchmarking/benchmarking.h"
+#include "fml/logging.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/thread_host.h"
+#include "testing/elf_loader.h"
+#include "testing/testing.h"
 
 namespace flutter {
 

@@ -6,19 +6,19 @@
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_TEST_BACKINGSTORE_PRODUCER_H_
 
 #include <memory>
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_ptr_internal.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_ptr_internal.h"
+#include "shell/platform/embedder/embedder.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/testing/test_metal_context.h"
+#include "testing/test_metal_context.h"
 #endif
 
 #ifdef SHELL_ENABLE_VULKAN
-#include "flutter/testing/test_vulkan_context.h"  // nogncheck
+#include "testing/test_vulkan_context.h"  // nogncheck
 #endif
 
 namespace flutter {

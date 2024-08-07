@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/elf_loader.h"
+#include "testing/elf_loader.h"
 
 #include <utility>
 
-#include "flutter/fml/file.h"
-#include "flutter/fml/paths.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/testing/testing.h"
+#include "fml/file.h"
+#include "fml/paths.h"
+#include "runtime/dart_vm.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

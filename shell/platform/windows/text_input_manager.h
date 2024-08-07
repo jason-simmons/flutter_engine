@@ -11,8 +11,8 @@
 #include <optional>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/geometry.h"
+#include "fml/macros.h"
+#include "shell/platform/common/geometry.h"
 
 namespace flutter {
 

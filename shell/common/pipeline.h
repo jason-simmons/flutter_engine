@@ -9,12 +9,12 @@
 #include <memory>
 #include <mutex>
 
-#include "flutter/flow/frame_timings.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/synchronization/semaphore.h"
-#include "flutter/fml/trace_event.h"
+#include "flow/frame_timings.h"
+#include "flow/layers/layer_tree.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/synchronization/semaphore.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

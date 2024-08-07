@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/keyboard_key_embedder_handler.h"
+#include "shell/platform/windows/keyboard_key_embedder_handler.h"
 
 #include <string>
 #include <vector>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/test_utils/key_codes.g.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/windows/keyboard_utils.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/test_utils/key_codes.g.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/windows/keyboard_utils.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

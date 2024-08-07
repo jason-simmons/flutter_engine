@@ -41,8 +41,8 @@
 
 #include <gtest/gtest.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/fuchsia/flutter/tests/integration/utils/portable_ui_test.h"
+#include "fml/logging.h"
+#include "shell/platform/fuchsia/flutter/tests/integration/utils/portable_ui_test.h"
 
 // This test exercises the touch input dispatch path from Input Pipeline to a
 // Scenic client. It is a multi-component test, and carefully avoids sleeping or

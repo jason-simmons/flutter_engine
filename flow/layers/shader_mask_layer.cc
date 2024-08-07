@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/shader_mask_layer.h"
-#include "flutter/flow/raster_cache_util.h"
+#include "flow/layers/shader_mask_layer.h"
+#include "flow/raster_cache_util.h"
 
 namespace flutter {
 

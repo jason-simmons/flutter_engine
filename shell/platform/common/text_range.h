@@ -7,7 +7,7 @@
 
 #include <algorithm>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace flutter {
 

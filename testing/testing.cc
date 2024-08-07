@@ -6,8 +6,8 @@
 
 #include <utility>
 
-#include "flutter/fml/file.h"
-#include "flutter/fml/paths.h"
+#include "fml/file.h"
+#include "fml/paths.h"
 
 namespace flutter {
 namespace testing {

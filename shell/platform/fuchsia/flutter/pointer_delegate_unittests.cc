@@ -12,8 +12,8 @@
 #include <optional>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
 #include "pointer_delegate.h"
 #include "tests/fakes/mouse_source.h"
 #include "tests/fakes/touch_source.h"

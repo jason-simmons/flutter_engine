@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/egl/context.h"
+#include "shell/platform/windows/egl/context.h"
 
-#include "flutter/shell/platform/windows/egl/egl.h"
+#include "shell/platform/windows/egl/egl.h"
 
 namespace flutter {
 namespace egl {

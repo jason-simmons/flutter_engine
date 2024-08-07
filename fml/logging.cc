@@ -6,10 +6,10 @@
 #include <cstring>
 #include <iostream>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/log_level.h"
-#include "flutter/fml/log_settings.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/log_level.h"
+#include "fml/log_settings.h"
+#include "fml/logging.h"
 
 #if defined(FML_OS_ANDROID)
 #include <android/log.h>
@@ -19,7 +19,7 @@
 #include <lib/syslog/structured_backend/cpp/fuchsia_syslog.h>
 #include <lib/syslog/structured_backend/fuchsia_syslog.h>
 #include <zircon/process.h>
-#include "flutter/fml/platform/fuchsia/log_state.h"
+#include "fml/platform/fuchsia/log_state.h"
 #endif
 
 namespace fml {

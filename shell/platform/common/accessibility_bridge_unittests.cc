@@ -7,7 +7,7 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
-#include "flutter/third_party/accessibility/ax/ax_tree_manager_map.h"
+#include "third_party/accessibility/ax/ax_tree_manager_map.h"
 #include "test_accessibility_bridge.h"
 
 namespace flutter {

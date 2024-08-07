@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/unique_fd.h"
+#include "fml/unique_fd.h"
 
-#include "flutter/fml/eintr_wrapper.h"
+#include "fml/eintr_wrapper.h"
 
 namespace fml {
 namespace internal {

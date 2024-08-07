@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_WINDOW_STATE_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_WINDOW_STATE_H_
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
-#include "flutter/shell/platform/common/incoming_message_dispatcher.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
+#include "shell/platform/common/incoming_message_dispatcher.h"
+#include "shell/platform/embedder/embedder.h"
 
 // Structs backing the opaque references used in the C API.
 //

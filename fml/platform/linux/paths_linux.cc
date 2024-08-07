@@ -4,7 +4,7 @@
 
 #include <unistd.h>
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 
 namespace fml {
 namespace paths {

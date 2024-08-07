@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_surface_vk_impeller.h"
+#include "shell/platform/android/android_surface_vk_impeller.h"
 
 #include <memory>
 #include <utility>
 
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/impeller/renderer/backend/vulkan/context_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/swapchain/swapchain_vk.h"
-#include "flutter/shell/gpu/gpu_surface_vulkan_impeller.h"
-#include "flutter/vulkan/vulkan_native_surface_android.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/logging.h"
+#include "fml/memory/ref_ptr.h"
+#include "impeller/renderer/backend/vulkan/context_vk.h"
+#include "impeller/renderer/backend/vulkan/swapchain/swapchain_vk.h"
+#include "shell/gpu/gpu_surface_vulkan_impeller.h"
+#include "vulkan/vulkan_native_surface_android.h"
 
 namespace flutter {
 

@@ -10,8 +10,8 @@
 #include <deque>
 #include <string>
 
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/synchronization/sync_switch.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/synchronization/sync_switch.h"
 #include "impeller/base/backend_cast.h"
 #include "impeller/core/sampler.h"
 #include "impeller/renderer/backend/metal/allocator_mtl.h"

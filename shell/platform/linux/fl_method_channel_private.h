@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_FL_METHOD_CHANNEL_PRIVATE_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_FL_METHOD_CHANNEL_PRIVATE_H_
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_channel.h"
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_response.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_response.h"
 
 G_BEGIN_DECLS
 

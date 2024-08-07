@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_project_bundle.h"
+#include "shell/platform/windows/flutter_project_bundle.h"
 
 #include <filesystem>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/common/engine_switches.h"  // nogncheck
-#include "flutter/shell/platform/common/path_utils.h"
+#include "fml/logging.h"
+#include "shell/platform/common/engine_switches.h"  // nogncheck
+#include "shell/platform/common/path_utils.h"
 
 namespace flutter {
 

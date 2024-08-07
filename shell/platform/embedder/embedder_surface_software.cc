@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder_surface_software.h"
+#include "shell/platform/embedder/embedder_surface_software.h"
 
 #include <utility>
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkImageInfo.h"

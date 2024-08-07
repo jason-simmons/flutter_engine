@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_DISPLAY_LIST_IMAGE_GPU_H_
 #define FLUTTER_LIB_UI_PAINTING_DISPLAY_LIST_IMAGE_GPU_H_
 
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/flow/skia_gpu_object.h"
-#include "flutter/fml/macros.h"
+#include "display_list/image/dl_image.h"
+#include "flow/skia_gpu_object.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

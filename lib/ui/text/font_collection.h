@@ -8,9 +8,9 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_ptr.h"
+#include "assets/asset_manager.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_ptr.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 #include "txt/font_collection.h"
 

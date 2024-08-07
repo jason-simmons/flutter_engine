@@ -9,10 +9,10 @@
 #include <string_view>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/unique_object.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
-#include "flutter/shell/platform/windows/testing/windows_test_context.h"
+#include "fml/macros.h"
+#include "fml/unique_object.h"
+#include "shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/testing/windows_test_context.h"
 
 namespace flutter {
 namespace testing {

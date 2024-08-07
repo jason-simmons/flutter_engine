@@ -7,8 +7,8 @@
 
 #include <vector>
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/path.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/path.h"
 #include "third_party/skia/include/core/SkContourMeasure.h"
 #include "third_party/skia/include/core/SkPath.h"
 #include "third_party/tonic/typed_data/typed_list.h"

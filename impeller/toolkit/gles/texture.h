@@ -5,8 +5,8 @@
 #ifndef FLUTTER_IMPELLER_TOOLKIT_GLES_TEXTURE_H_
 #define FLUTTER_IMPELLER_TOOLKIT_GLES_TEXTURE_H_
 
-#include "flutter/fml/unique_object.h"
-#include "flutter/impeller/toolkit/gles/gles.h"
+#include "fml/unique_object.h"
+#include "impeller/toolkit/gles/gles.h"
 
 namespace impeller {
 

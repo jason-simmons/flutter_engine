@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/image_decoder_impeller.h"
+#include "lib/ui/painting/image_decoder_impeller.h"
 
 #include <memory>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/impeller/core/allocator.h"
-#include "flutter/impeller/display_list/dl_image_impeller.h"
-#include "flutter/impeller/renderer/command_buffer.h"
-#include "flutter/impeller/renderer/context.h"
+#include "fml/closure.h"
+#include "fml/make_copyable.h"
+#include "fml/trace_event.h"
+#include "impeller/core/allocator.h"
+#include "impeller/display_list/dl_image_impeller.h"
+#include "impeller/renderer/command_buffer.h"
+#include "impeller/renderer/context.h"
 #include "impeller/base/strings.h"
 #include "impeller/core/device_buffer.h"
 #include "impeller/display_list/skia_conversions.h"

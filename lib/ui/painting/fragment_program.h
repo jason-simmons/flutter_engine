@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_FRAGMENT_PROGRAM_H_
 #define FLUTTER_LIB_UI_PAINTING_FRAGMENT_PROGRAM_H_
 
-#include "flutter/display_list/effects/dl_runtime_effect.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "display_list/effects/dl_runtime_effect.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/shader.h"
 
 #include "third_party/tonic/dart_library_natives.h"
 #include "third_party/tonic/typed_data/typed_list.h"

@@ -2,21 +2,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/runtime_controller.h"
+#include "runtime/runtime_controller.h"
 
 #include <utility>
 
-#include "flutter/common/constants.h"
-#include "flutter/common/settings.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/ui/compositing/scene.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
-#include "flutter/lib/ui/window/viewport_metrics.h"
-#include "flutter/runtime/dart_isolate_group_data.h"
-#include "flutter/runtime/isolate_configuration.h"
-#include "flutter/runtime/runtime_delegate.h"
+#include "common/constants.h"
+#include "common/settings.h"
+#include "fml/message_loop.h"
+#include "fml/trace_event.h"
+#include "lib/ui/compositing/scene.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
+#include "lib/ui/window/viewport_metrics.h"
+#include "runtime/dart_isolate_group_data.h"
+#include "runtime/isolate_configuration.h"
+#include "runtime/runtime_delegate.h"
 #include "third_party/tonic/dart_message_handler.h"
 
 namespace flutter {

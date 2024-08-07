@@ -7,8 +7,8 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/impeller/runtime_stage/runtime_stage.h"
+#include "fml/macros.h"
+#include "impeller/runtime_stage/runtime_stage.h"
 
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/effects/SkRuntimeEffect.h"

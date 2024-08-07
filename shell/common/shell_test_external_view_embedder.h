@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_COMMON_SHELL_TEST_EXTERNAL_VIEW_EMBEDDER_H_
 #define FLUTTER_SHELL_COMMON_SHELL_TEST_EXTERNAL_VIEW_EMBEDDER_H_
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/raster_thread_merger.h"
+#include "flow/embedded_views.h"
+#include "fml/raster_thread_merger.h"
 
 namespace flutter {
 

@@ -9,9 +9,9 @@
 #include <cinttypes>
 #include <memory>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_key_event.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_key_event.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
 
 G_BEGIN_DECLS
 

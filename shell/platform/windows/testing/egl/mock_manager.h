@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_EGL_MOCK_MANAGER_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_EGL_MOCK_MANAGER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/egl/manager.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/egl/manager.h"
 #include "gmock/gmock.h"
 
 namespace flutter {

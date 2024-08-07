@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_FROZEN_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_FROZEN_H_
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 // NO CHANGES ARE PERMITTED TO THE STRUCTS IN THIS FILE.
 //

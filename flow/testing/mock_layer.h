@@ -8,13 +8,13 @@
 #include <functional>
 #include <memory>
 #include <utility>
-#include "flutter/flow/diff_context.h"
-#include "flutter/flow/layers/cacheable_layer.h"
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/layers/layer_raster_cache_item.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/raster_cache_item.h"
+#include "flow/diff_context.h"
+#include "flow/layers/cacheable_layer.h"
+#include "flow/layers/container_layer.h"
+#include "flow/layers/layer.h"
+#include "flow/layers/layer_raster_cache_item.h"
+#include "flow/raster_cache.h"
+#include "flow/raster_cache_item.h"
 
 namespace flutter {
 namespace testing {

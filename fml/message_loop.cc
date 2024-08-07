@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/message_loop.h"
+#include "fml/message_loop.h"
 
 #include <memory>
 #include <utility>
 
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/fml/message_loop_impl.h"
-#include "flutter/fml/task_runner.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
+#include "fml/message_loop_impl.h"
+#include "fml/task_runner.h"
 
 namespace fml {
 

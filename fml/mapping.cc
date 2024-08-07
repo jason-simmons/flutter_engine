@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
 #include <algorithm>
 #include <cstring>

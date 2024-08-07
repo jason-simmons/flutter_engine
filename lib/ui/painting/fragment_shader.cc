@@ -5,13 +5,13 @@
 #include <memory>
 #include <utility>
 
-#include "flutter/lib/ui/painting/fragment_shader.h"
+#include "lib/ui/painting/fragment_shader.h"
 
-#include "flutter/display_list/dl_tile_mode.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/fragment_program.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "display_list/dl_tile_mode.h"
+#include "display_list/effects/dl_color_source.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/fragment_program.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/skia/include/core/SkString.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_args.h"

@@ -5,8 +5,8 @@
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/windows/client_wrapper/include/flutter/plugin_registrar_windows.h"
-#include "flutter/shell/platform/windows/client_wrapper/testing/stub_flutter_windows_api.h"
+#include "shell/platform/windows/client_wrapper/include/flutter/plugin_registrar_windows.h"
+#include "shell/platform/windows/client_wrapper/testing/stub_flutter_windows_api.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

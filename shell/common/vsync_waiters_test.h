@@ -9,7 +9,7 @@
 
 #include <utility>
 
-#include "flutter/shell/common/shell.h"
+#include "shell/common/shell.h"
 
 namespace flutter {
 namespace testing {

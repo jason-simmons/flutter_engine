@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_metal.h"
+#include "shell/platform/embedder/tests/embedder_test_context_metal.h"
 
 #include <memory>
 #include <utility>
 
 #include "embedder.h"
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_compositor_metal.h"
+#include "fml/logging.h"
+#include "shell/platform/embedder/tests/embedder_test_compositor_metal.h"
 
 namespace flutter {
 namespace testing {

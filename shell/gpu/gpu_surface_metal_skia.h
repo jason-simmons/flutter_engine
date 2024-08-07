@@ -7,9 +7,9 @@
 
 #if !SLIMPELLER
 
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/gpu/gpu_surface_metal_delegate.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "shell/gpu/gpu_surface_metal_delegate.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 
 namespace flutter {

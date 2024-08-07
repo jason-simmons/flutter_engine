@@ -7,14 +7,14 @@
 
 #include <unordered_map>
 
-#include "flutter/fml/mapping.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "fml/mapping.h"
+#include "shell/platform/embedder/embedder.h"
 
-#include "flutter/third_party/accessibility/ax/ax_event_generator.h"
-#include "flutter/third_party/accessibility/ax/ax_tree.h"
-#include "flutter/third_party/accessibility/ax/ax_tree_observer.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node_delegate.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_tree_manager.h"
+#include "third_party/accessibility/ax/ax_event_generator.h"
+#include "third_party/accessibility/ax/ax_tree.h"
+#include "third_party/accessibility/ax/ax_tree_observer.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node_delegate.h"
+#include "third_party/accessibility/ax/platform/ax_platform_tree_manager.h"
 
 #include "flutter_platform_node_delegate.h"
 

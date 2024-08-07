@@ -4,10 +4,10 @@
 
 #include <array>
 
-#include "flutter/shell/platform/windows/testing/mock_direct_manipulation.h"
-#include "flutter/shell/platform/windows/testing/mock_text_input_manager.h"
-#include "flutter/shell/platform/windows/testing/mock_window.h"
-#include "flutter/shell/platform/windows/testing/mock_windows_proc_table.h"
+#include "shell/platform/windows/testing/mock_direct_manipulation.h"
+#include "shell/platform/windows/testing/mock_text_input_manager.h"
+#include "shell/platform/windows/testing/mock_window.h"
+#include "shell/platform/windows/testing/mock_windows_proc_table.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

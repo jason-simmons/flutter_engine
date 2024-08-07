@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/isolate_name_server/isolate_name_server.h"
+#include "lib/ui/isolate_name_server/isolate_name_server.h"
 
 namespace flutter {
 

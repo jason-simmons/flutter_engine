@@ -4,7 +4,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_FILE_IN_NAMESPACE_BUFFER_H_
 #define FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_FILE_IN_NAMESPACE_BUFFER_H_
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
 namespace flutter_runner {
 

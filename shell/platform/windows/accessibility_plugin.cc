@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/accessibility_plugin.h"
+#include "shell/platform/windows/accessibility_plugin.h"
 
 #include <variant>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "fml/logging.h"
+#include "fml/platform/win/wstring_conversion.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 namespace flutter {
 

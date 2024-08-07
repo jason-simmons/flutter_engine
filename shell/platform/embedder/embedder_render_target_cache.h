@@ -10,8 +10,8 @@
 #include <tuple>
 #include <unordered_map>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder_external_view.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder_external_view.h"
 
 namespace flutter {
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/command_buffer.h"
+#include "lib/gpu/command_buffer.h"
 
 #include "dart_api.h"
 #include "fml/make_copyable.h"

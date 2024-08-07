@@ -16,7 +16,7 @@
 
 #include "txt/typeface_font_asset_provider.h"
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkString.h"
 #include "third_party/skia/include/core/SkTypeface.h"
 

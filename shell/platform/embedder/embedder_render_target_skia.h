@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_RENDER_TARGET_SKIA_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_RENDER_TARGET_SKIA_H_
 
-#include "flutter/shell/platform/embedder/embedder_render_target.h"
+#include "shell/platform/embedder/embedder_render_target.h"
 
 namespace flutter {
 

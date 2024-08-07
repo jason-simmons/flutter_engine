@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_DISPLAY_LIST_DL_VERTICES_GEOMETRY_H_
 #define FLUTTER_IMPELLER_DISPLAY_LIST_DL_VERTICES_GEOMETRY_H_
 
-#include "flutter/display_list/dl_vertices.h"
+#include "display_list/dl_vertices.h"
 
 #include "impeller/entity/geometry/vertices_geometry.h"
 

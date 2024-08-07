@@ -7,8 +7,8 @@
 #include <numeric>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 #include "fml/closure.h"
 #include "fml/mapping.h"
 #include "impeller/base/allocation.h"

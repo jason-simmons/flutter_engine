@@ -12,14 +12,14 @@
 #include <queue>
 #include <utility>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/delayed_task.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/message_loop_task_queues.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/fml/wakeable.h"
+#include "fml/closure.h"
+#include "fml/delayed_task.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/message_loop.h"
+#include "fml/message_loop_task_queues.h"
+#include "fml/time/time_point.h"
+#include "fml/wakeable.h"
 
 namespace fml {
 

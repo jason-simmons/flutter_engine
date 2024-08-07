@@ -5,7 +5,7 @@
 #ifndef FLUTTER_FLOW_TESTING_MOCK_EMBEDDER_H_
 #define FLUTTER_FLOW_TESTING_MOCK_EMBEDDER_H_
 
-#include "flutter/flow/embedded_views.h"
+#include "flow/embedded_views.h"
 
 namespace flutter {
 namespace testing {

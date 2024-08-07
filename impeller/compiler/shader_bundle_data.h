@@ -8,7 +8,7 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/compiler/types.h"
 #include "impeller/shader_bundle/shader_bundle_flatbuffers.h"
 

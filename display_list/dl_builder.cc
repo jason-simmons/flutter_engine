@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/dl_builder.h"
+#include "display_list/dl_builder.h"
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_op_flags.h"
-#include "flutter/display_list/dl_op_records.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/display_list/utils/dl_accumulation_rect.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_op_flags.h"
+#include "display_list/dl_op_records.h"
+#include "display_list/effects/dl_color_source.h"
+#include "display_list/utils/dl_accumulation_rect.h"
 #include "fml/logging.h"
 #include "third_party/skia/include/core/SkScalar.h"
 

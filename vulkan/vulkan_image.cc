@@ -4,7 +4,7 @@
 
 #include "vulkan_image.h"
 
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 #include "vulkan_command_buffer.h"
 
 namespace vulkan {

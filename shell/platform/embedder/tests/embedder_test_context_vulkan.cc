@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_vulkan.h"
+#include "shell/platform/embedder/tests/embedder_test_context_vulkan.h"
 
 #include <memory>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_compositor_vulkan.h"
-#include "flutter/testing/test_vulkan_context.h"
-#include "flutter/testing/test_vulkan_surface.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
-#include "flutter/vulkan/vulkan_device.h"
+#include "fml/logging.h"
+#include "shell/platform/embedder/tests/embedder_test_compositor_vulkan.h"
+#include "testing/test_vulkan_context.h"
+#include "testing/test_vulkan_surface.h"
+#include "vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/vulkan_device.h"
 #include "third_party/skia/include/core/SkSurface.h"
 
 namespace flutter {

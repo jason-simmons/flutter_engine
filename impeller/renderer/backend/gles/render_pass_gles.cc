@@ -7,7 +7,7 @@
 #include <cstdint>
 
 #include "GLES3/gl3.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 #include "fml/closure.h"
 #include "fml/logging.h"
 #include "impeller/base/validation.h"

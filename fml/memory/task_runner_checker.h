@@ -5,8 +5,8 @@
 #ifndef FLUTTER_FML_MEMORY_TASK_RUNNER_CHECKER_H_
 #define FLUTTER_FML_MEMORY_TASK_RUNNER_CHECKER_H_
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/task_runner.h"
+#include "fml/message_loop.h"
+#include "fml/task_runner.h"
 
 namespace fml {
 

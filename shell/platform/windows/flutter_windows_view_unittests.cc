@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 #include <UIAutomation.h>
 #include <comdef.h>
@@ -12,21 +12,21 @@
 #include <future>
 #include <vector>
 
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/platform/common/json_message_codec.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/windows/flutter_window.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_texture_registrar.h"
-#include "flutter/shell/platform/windows/flutter_windows_view_controller.h"
-#include "flutter/shell/platform/windows/testing/egl/mock_context.h"
-#include "flutter/shell/platform/windows/testing/egl/mock_manager.h"
-#include "flutter/shell/platform/windows/testing/egl/mock_window_surface.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/mock_window_binding_handler.h"
-#include "flutter/shell/platform/windows/testing/mock_windows_proc_table.h"
-#include "flutter/shell/platform/windows/testing/test_keyboard.h"
-#include "flutter/shell/platform/windows/testing/view_modifier.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/platform/common/json_message_codec.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/windows/flutter_window.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_texture_registrar.h"
+#include "shell/platform/windows/flutter_windows_view_controller.h"
+#include "shell/platform/windows/testing/egl/mock_context.h"
+#include "shell/platform/windows/testing/egl/mock_manager.h"
+#include "shell/platform/windows/testing/egl/mock_window_surface.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/mock_window_binding_handler.h"
+#include "shell/platform/windows/testing/mock_windows_proc_table.h"
+#include "shell/platform/windows/testing/test_keyboard.h"
+#include "shell/platform/windows/testing/view_modifier.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

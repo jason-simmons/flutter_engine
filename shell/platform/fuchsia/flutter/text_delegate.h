@@ -15,9 +15,9 @@
 #include <fuchsia/ui/views/cpp/fidl.h>
 #include <lib/fidl/cpp/binding.h>
 
-#include "flutter/lib/ui/window/platform_message.h"
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/platform/fuchsia/flutter/keyboard.h"
+#include "lib/ui/window/platform_message.h"
+#include "shell/common/platform_view.h"
+#include "shell/platform/fuchsia/flutter/keyboard.h"
 
 #include "logging.h"
 

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/vsync_waiter.h"
+#include "shell/common/vsync_waiter.h"
 
 #include "flow/frame_timings.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/task_runner.h"
+#include "fml/trace_event.h"
 #include "fml/logging.h"
 #include "fml/message_loop_task_queues.h"
 #include "fml/task_queue_id.h"

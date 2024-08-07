@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/multi_frame_codec.h"
+#include "lib/ui/painting/multi_frame_codec.h"
 
 #include <utility>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/lib/ui/painting/display_list_image_gpu.h"
-#include "flutter/lib/ui/painting/image.h"
+#include "fml/make_copyable.h"
+#include "lib/ui/painting/display_list_image_gpu.h"
+#include "lib/ui/painting/image.h"
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/painting/image_decoder_impeller.h"
+#include "lib/ui/painting/image_decoder_impeller.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/skia/include/codec/SkCodecAnimation.h"

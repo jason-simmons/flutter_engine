@@ -7,9 +7,9 @@
 
 #include <jni.h>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
-#include "flutter/runtime/dart_service_isolate.h"
+#include "common/settings.h"
+#include "fml/macros.h"
+#include "runtime/dart_service_isolate.h"
 
 namespace flutter {
 

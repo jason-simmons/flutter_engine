@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/vsync_waiter_android.h"
+#include "shell/platform/android/vsync_waiter_android.h"
 
 #include <cmath>
 #include <utility>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/platform/android/jni_util.h"
-#include "flutter/fml/platform/android/scoped_java_ref.h"
-#include "flutter/fml/size.h"
-#include "flutter/fml/trace_event.h"
+#include "common/task_runners.h"
+#include "fml/logging.h"
+#include "fml/platform/android/jni_util.h"
+#include "fml/platform/android/scoped_java_ref.h"
+#include "fml/size.h"
+#include "fml/trace_event.h"
 #include "impeller/toolkit/android/choreographer.h"
 
 namespace flutter {

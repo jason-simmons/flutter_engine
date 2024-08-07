@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_TESTING_FL_TEST_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_TESTING_FL_TEST_H_
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_value.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/linux/public/flutter_linux/fl_value.h"
 
 #include <glib.h>
 #include <stdint.h>

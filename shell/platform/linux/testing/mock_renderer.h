@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_RENDERER_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_RENDERER_H_
 
-#include "flutter/shell/platform/linux/fl_renderer.h"
+#include "shell/platform/linux/fl_renderer.h"
 
 G_BEGIN_DECLS
 

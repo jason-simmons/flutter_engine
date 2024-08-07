@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/immutable_buffer.h"
+#include "lib/ui/painting/immutable_buffer.h"
 
 #include <cstring>
 
-#include "flutter/fml/file.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "fml/file.h"
+#include "fml/make_copyable.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_args.h"
 #include "third_party/tonic/dart_binding_macros.h"

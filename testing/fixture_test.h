@@ -5,7 +5,7 @@
 #ifndef FLUTTER_TESTING_FIXTURE_TEST_H_
 #define FLUTTER_TESTING_FIXTURE_TEST_H_
 
-#include "flutter/testing/dart_fixture.h"
+#include "testing/dart_fixture.h"
 
 namespace flutter {
 namespace testing {

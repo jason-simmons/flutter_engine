@@ -6,9 +6,9 @@
 #define FLUTTER_SHELL_PLATFORM_ANDROID_CONTEXT_ANDROID_CONTEXT_H_
 
 #include "common/settings.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/impeller/renderer/context.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
+#include "impeller/renderer/context.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 
 namespace flutter {

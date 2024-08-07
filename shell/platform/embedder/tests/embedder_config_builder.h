@@ -5,11 +5,11 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_CONFIG_BUILDER_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_CONFIG_BUILDER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/unique_object.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_software.h"
+#include "fml/macros.h"
+#include "fml/unique_object.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/tests/embedder_test.h"
+#include "shell/platform/embedder/tests/embedder_test_context_software.h"
 
 namespace flutter {
 namespace testing {

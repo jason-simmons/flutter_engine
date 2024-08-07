@@ -5,7 +5,7 @@
 #ifndef FLUTTER_FML_PLATFORM_DARWIN_SCOPED_TYPEREF_H_
 #define FLUTTER_FML_PLATFORM_DARWIN_SCOPED_TYPEREF_H_
 
-#include "flutter/fml/platform/darwin/scoped_policy.h"
+#include "fml/platform/darwin/scoped_policy.h"
 
 namespace fml {
 

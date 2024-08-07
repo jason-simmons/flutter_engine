@@ -7,8 +7,8 @@
 
 #include <memory>
 
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/synchronization/sync_switch.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/synchronization/sync_switch.h"
 #include "impeller/playground/playground_impl.h"
 
 namespace impeller {

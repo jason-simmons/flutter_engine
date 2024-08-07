@@ -10,9 +10,9 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/raster_cache_item.h"
+#include "display_list/display_list.h"
+#include "flow/embedded_views.h"
+#include "flow/raster_cache_item.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkPoint.h"
 

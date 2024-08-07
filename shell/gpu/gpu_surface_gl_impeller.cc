@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/gpu/gpu_surface_gl_impeller.h"
+#include "shell/gpu/gpu_surface_gl_impeller.h"
 
 #include "flow/surface_frame.h"
-#include "flutter/fml/make_copyable.h"
+#include "fml/make_copyable.h"
 #include "impeller/display_list/dl_dispatcher.h"
 #include "impeller/renderer/backend/gles/surface_gles.h"
 #include "impeller/typographer/backends/skia/typographer_context_skia.h"

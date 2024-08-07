@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/platform_view_embedder.h"
+#include "shell/platform/embedder/platform_view_embedder.h"
 
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/testing.h"
+#include "shell/common/thread_host.h"
+#include "testing/testing.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

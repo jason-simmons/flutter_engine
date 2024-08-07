@@ -6,12 +6,12 @@
 #include <optional>
 #include <string>
 
-#include "flutter/fml/backtrace.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/testing/debugger_detection.h"
-#include "flutter/testing/test_args.h"
-#include "flutter/testing/test_timeout_listener.h"
+#include "fml/backtrace.h"
+#include "fml/build_config.h"
+#include "fml/command_line.h"
+#include "testing/debugger_detection.h"
+#include "testing/test_args.h"
+#include "testing/test_timeout_listener.h"
 #include "gtest/gtest.h"
 
 #ifdef FML_OS_IOS

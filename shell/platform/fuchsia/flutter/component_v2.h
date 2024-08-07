@@ -21,8 +21,8 @@
 #include <lib/vfs/cpp/pseudo_dir.h>
 #include <lib/zx/eventpair.h>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
+#include "common/settings.h"
+#include "fml/macros.h"
 
 #include "engine.h"
 #include "flutter_runner_product_configuration.h"

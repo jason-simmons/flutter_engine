@@ -8,8 +8,8 @@
 #include <future>
 #include <memory>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/make_copyable.h"
+#include "fml/logging.h"
+#include "fml/make_copyable.h"
 #include "impeller/base/validation.h"
 #include "impeller/core/formats.h"
 #include "impeller/core/runtime_types.h"

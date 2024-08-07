@@ -7,13 +7,13 @@
 #include <memory>
 
 #include "display_list/display_list.h"
-#include "flutter/impeller/golden_tests/golden_playground_test.h"
+#include "impeller/golden_tests/golden_playground_test.h"
 
-#include "flutter/impeller/aiks/picture.h"
-#include "flutter/impeller/golden_tests/golden_digest.h"
-#include "flutter/impeller/golden_tests/metal_screenshotter.h"
-#include "flutter/impeller/golden_tests/vulkan_screenshotter.h"
-#include "flutter/third_party/abseil-cpp/absl/base/no_destructor.h"
+#include "impeller/aiks/picture.h"
+#include "impeller/golden_tests/golden_digest.h"
+#include "impeller/golden_tests/metal_screenshotter.h"
+#include "impeller/golden_tests/vulkan_screenshotter.h"
+#include "third_party/abseil-cpp/absl/base/no_destructor.h"
 #include "fml/closure.h"
 #include "impeller/aiks/aiks_context.h"
 #include "impeller/display_list/dl_dispatcher.h"

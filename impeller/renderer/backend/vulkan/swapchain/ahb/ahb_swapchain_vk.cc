@@ -4,7 +4,7 @@
 
 #include "impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_vk.h"
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 #include "impeller/renderer/backend/vulkan/context_vk.h"
 #include "impeller/renderer/backend/vulkan/formats_vk.h"
 #include "impeller/renderer/backend/vulkan/swapchain/ahb/ahb_formats.h"

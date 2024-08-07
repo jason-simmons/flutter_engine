@@ -9,8 +9,8 @@
 #include <memory>
 #include <string>
 
-#include "flutter/lib/gpu/context.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/context.h"
+#include "lib/ui/dart_wrapper.h"
 #include "fml/memory/ref_ptr.h"
 #include "impeller/core/shader_types.h"
 #include "impeller/renderer/shader_function.h"

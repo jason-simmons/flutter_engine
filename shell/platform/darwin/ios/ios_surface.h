@@ -9,10 +9,10 @@
 
 #include <memory>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
+#include "flow/embedded_views.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
 
 @class CALayer;
 

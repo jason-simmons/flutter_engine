@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_UI_SEMANTICS_SEMANTICS_UPDATE_H_
 #define FLUTTER_LIB_UI_SEMANTICS_SEMANTICS_UPDATE_H_
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/semantics/custom_accessibility_action.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/semantics/custom_accessibility_action.h"
+#include "lib/ui/semantics/semantics_node.h"
 
 namespace flutter {
 

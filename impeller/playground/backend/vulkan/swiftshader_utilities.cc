@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/playground/backend/vulkan/swiftshader_utilities.h"
+#include "impeller/playground/backend/vulkan/swiftshader_utilities.h"
 
 #include <cstdlib>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/paths.h"
+#include "fml/build_config.h"
+#include "fml/file.h"
+#include "fml/logging.h"
+#include "fml/paths.h"
 
 #if FML_OS_WIN
 #include <Windows.h>

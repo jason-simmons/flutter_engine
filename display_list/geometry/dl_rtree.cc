@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/geometry/dl_rtree.h"
-#include "flutter/display_list/geometry/dl_region.h"
+#include "display_list/geometry/dl_rtree.h"
+#include "display_list/geometry/dl_region.h"
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace flutter {
 

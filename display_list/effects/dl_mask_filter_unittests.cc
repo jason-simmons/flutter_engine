@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/effects/dl_mask_filter.h"
-#include "flutter/display_list/testing/dl_test_equality.h"
-#include "flutter/display_list/utils/dl_comparable.h"
+#include "display_list/effects/dl_mask_filter.h"
+#include "display_list/testing/dl_test_equality.h"
+#include "display_list/utils/dl_comparable.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

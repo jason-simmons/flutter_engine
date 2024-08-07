@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 #include <set>
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 
 #ifdef _WIN32
 // winbase.h defines GetCurrentTime as a macro.

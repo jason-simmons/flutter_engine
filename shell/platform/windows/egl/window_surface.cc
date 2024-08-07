@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/egl/window_surface.h"
+#include "shell/platform/windows/egl/window_surface.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/windows/egl/egl.h"
+#include "fml/logging.h"
+#include "shell/platform/windows/egl/egl.h"
 
 namespace flutter {
 namespace egl {

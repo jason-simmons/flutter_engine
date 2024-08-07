@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/isolate_configuration.h"
+#include "runtime/isolate_configuration.h"
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/runtime/dart_vm.h"
+#include "fml/make_copyable.h"
+#include "runtime/dart_vm.h"
 
 namespace flutter {
 

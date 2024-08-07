@@ -10,14 +10,14 @@
 #include <memory>
 #include <mutex>
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/lib/ui/io_manager.h"
-#include "flutter/lib/ui/snapshot_delegate.h"
+#include "common/graphics/texture.h"
+#include "display_list/display_list.h"
+#include "display_list/image/dl_image.h"
+#include "flow/layers/layer_tree.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "lib/ui/io_manager.h"
+#include "lib/ui/snapshot_delegate.h"
 
 #include "third_party/skia/include/gpu/GrBackendSurface.h"
 

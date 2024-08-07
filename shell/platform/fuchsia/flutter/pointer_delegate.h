@@ -14,7 +14,7 @@
 #include <unordered_set>
 #include <vector>
 
-#include "flutter/lib/ui/window/pointer_data.h"
+#include "lib/ui/window/pointer_data.h"
 
 namespace flutter_runner {
 

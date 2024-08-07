@@ -1,21 +1,21 @@
 // Copyright 2013 The Flutter Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-#include "flutter/shell/platform/windows/keyboard_key_handler.h"
+#include "shell/platform/windows/keyboard_key_handler.h"
 
 #include <rapidjson/document.h>
 #include <map>
 #include <memory>
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_result_functions.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_method_codec.h"
-#include "flutter/shell/platform/embedder/test_utils/key_codes.g.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/windows/keyboard_utils.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/test_binary_messenger.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_result_functions.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_method_codec.h"
+#include "shell/platform/embedder/test_utils/key_codes.g.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/windows/keyboard_utils.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/test_binary_messenger.h"
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

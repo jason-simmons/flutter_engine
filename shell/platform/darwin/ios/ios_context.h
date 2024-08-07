@@ -7,12 +7,12 @@
 
 #include <memory>
 
-#include "flutter/common/graphics/gl_context_switch.h"
-#include "flutter/common/graphics/texture.h"
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
-#include "flutter/fml/synchronization/sync_switch.h"
+#include "common/graphics/gl_context_switch.h"
+#include "common/graphics/texture.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
+#include "fml/synchronization/sync_switch.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterTexture.h"
 #import "flutter/shell/platform/darwin/ios/rendering_api_selection.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/darwin/common/availability_version_check.h"
+#include "shell/platform/darwin/common/availability_version_check.h"
 
 #include <cstdint>
 #include <optional>
@@ -12,11 +12,11 @@
 #include <dispatch/dispatch.h>
 #include <dlfcn.h>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/platform/darwin/cf_utils.h"
+#include "fml/build_config.h"
+#include "fml/file.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
+#include "fml/platform/darwin/cf_utils.h"
 
 // The implementation of _availability_version_check defined in this file is
 // based on the code in the clang-rt library at:

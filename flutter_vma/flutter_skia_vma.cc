@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flutter_vma/flutter_skia_vma.h"
+#include "flutter_vma/flutter_skia_vma.h"
 
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "fml/memory/ref_ptr.h"
+#include "vulkan/procs/vulkan_handle.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 
 namespace flutter {
 

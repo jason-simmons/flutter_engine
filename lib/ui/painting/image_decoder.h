@@ -7,12 +7,12 @@
 
 #include <memory>
 
-#include "flutter/common/settings.h"
-#include "flutter/common/task_runners.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/lib/ui/io_manager.h"
-#include "flutter/lib/ui/painting/image_descriptor.h"
+#include "common/settings.h"
+#include "common/task_runners.h"
+#include "display_list/image/dl_image.h"
+#include "fml/concurrent_message_loop.h"
+#include "lib/ui/io_manager.h"
+#include "lib/ui/painting/image_descriptor.h"
 
 namespace flutter {
 

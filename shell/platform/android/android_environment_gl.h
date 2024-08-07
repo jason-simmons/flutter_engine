@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_ENVIRONMENT_GL_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_ENVIRONMENT_GL_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
 
 #include <EGL/egl.h>
 

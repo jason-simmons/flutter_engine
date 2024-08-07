@@ -6,12 +6,12 @@
 #define FLUTTER_SHELL_PLATFORM_ANDROID_SURFACE_ANDROID_SURFACE_H_
 
 #include <memory>
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/android/context/android_context.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
-#include "flutter/shell/platform/android/surface/android_native_window.h"
+#include "flow/embedded_views.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "shell/platform/android/context/android_context.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/surface/android_native_window.h"
 #include "third_party/skia/include/core/SkSize.h"
 
 namespace impeller {

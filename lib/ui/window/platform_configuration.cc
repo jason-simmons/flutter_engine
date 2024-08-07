@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "lib/ui/window/platform_configuration.h"
 
 #include <cstring>
 
-#include "flutter/common/constants.h"
-#include "flutter/lib/ui/compositing/scene.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_message.h"
-#include "flutter/lib/ui/window/platform_message_response_dart.h"
-#include "flutter/lib/ui/window/platform_message_response_dart_port.h"
-#include "flutter/lib/ui/window/viewport_metrics.h"
+#include "common/constants.h"
+#include "lib/ui/compositing/scene.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_message.h"
+#include "lib/ui/window/platform_message_response_dart.h"
+#include "lib/ui/window/platform_message_response_dart_port.h"
+#include "lib/ui/window/viewport_metrics.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_args.h"
 #include "third_party/tonic/dart_library_natives.h"

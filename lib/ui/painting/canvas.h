@@ -5,14 +5,14 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_CANVAS_H_
 #define FLUTTER_LIB_UI_PAINTING_CANVAS_H_
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_op_flags.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/path.h"
-#include "flutter/lib/ui/painting/picture.h"
-#include "flutter/lib/ui/painting/picture_recorder.h"
-#include "flutter/lib/ui/painting/rrect.h"
-#include "flutter/lib/ui/painting/vertices.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_op_flags.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/path.h"
+#include "lib/ui/painting/picture.h"
+#include "lib/ui/painting/picture_recorder.h"
+#include "lib/ui/painting/rrect.h"
+#include "lib/ui/painting/vertices.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 
 namespace flutter {

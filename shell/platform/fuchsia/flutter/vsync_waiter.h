@@ -7,11 +7,11 @@
 
 #include <lib/async/cpp/wait.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
+#include "shell/common/vsync_waiter.h"
 #include "flutter_runner_product_configuration.h"
 
 namespace flutter_runner {

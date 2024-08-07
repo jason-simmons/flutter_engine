@@ -10,11 +10,11 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/build_config.h"
+#include "fml/file.h"
+#include "fml/macros.h"
+#include "fml/native_library.h"
+#include "fml/unique_fd.h"
 
 namespace fml {
 

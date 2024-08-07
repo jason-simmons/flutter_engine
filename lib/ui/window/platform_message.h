@@ -8,9 +8,9 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/lib/ui/window/platform_message_response.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
+#include "lib/ui/window/platform_message_response.h"
 
 namespace flutter {
 

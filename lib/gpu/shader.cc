@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/shader.h"
+#include "lib/gpu/shader.h"
 
 #include <utility>
 
-#include "flutter/lib/gpu/formats.h"
+#include "lib/gpu/formats.h"
 #include "fml/make_copyable.h"
 #include "impeller/core/runtime_types.h"
 #include "impeller/renderer/shader_function.h"

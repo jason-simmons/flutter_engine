@@ -7,9 +7,9 @@
 
 #include <functional>
 
-#include "flutter/display_list/geometry/dl_geometry_types.h"
-#include "flutter/display_list/geometry/dl_rtree.h"
-#include "flutter/fml/logging.h"
+#include "display_list/geometry/dl_geometry_types.h"
+#include "display_list/geometry/dl_rtree.h"
+#include "fml/logging.h"
 
 namespace flutter {
 

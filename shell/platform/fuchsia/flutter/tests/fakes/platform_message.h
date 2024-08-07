@@ -8,7 +8,7 @@
 #include <gtest/gtest.h>
 #include <optional>
 
-#include "flutter/lib/ui/window/platform_message.h"
+#include "lib/ui/window/platform_message.h"
 #include "third_party/rapidjson/include/rapidjson/document.h"
 
 using PlatformMessageResponse = flutter::PlatformMessageResponse;

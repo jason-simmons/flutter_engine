@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/runtime_stage/runtime_stage_playground.h"
+#include "impeller/runtime_stage/runtime_stage_playground.h"
 
 #include <future>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/testing/testing.h"
+#include "fml/make_copyable.h"
+#include "testing/testing.h"
 #include "impeller/core/shader_types.h"
 #include "impeller/renderer/shader_library.h"
 

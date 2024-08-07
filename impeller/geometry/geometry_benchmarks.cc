@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/benchmarking/benchmarking.h"
+#include "benchmarking/benchmarking.h"
 
-#include "flutter/impeller/entity/solid_fill.vert.h"
+#include "impeller/entity/solid_fill.vert.h"
 
 #include "impeller/entity/geometry/stroke_path_geometry.h"
 #include "impeller/geometry/path.h"

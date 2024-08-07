@@ -5,10 +5,10 @@
 #include <filesystem>
 #include <memory>
 
-#include "flutter/fml/backtrace.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/mapping.h"
+#include "fml/backtrace.h"
+#include "fml/command_line.h"
+#include "fml/file.h"
+#include "fml/mapping.h"
 #include "impeller/base/strings.h"
 #include "impeller/compiler/utilities.h"
 #include "impeller/scene/importer/importer.h"

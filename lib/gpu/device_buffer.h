@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_GPU_DEVICE_BUFFER_H_
 #define FLUTTER_LIB_GPU_DEVICE_BUFFER_H_
 
-#include "flutter/lib/gpu/context.h"
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/context.h"
+#include "lib/gpu/export.h"
+#include "lib/ui/dart_wrapper.h"
 
 #include "third_party/tonic/typed_data/dart_byte_data.h"
 

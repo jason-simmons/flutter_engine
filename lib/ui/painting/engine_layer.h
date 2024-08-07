@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_ENGINE_LAYER_H_
 #define FLUTTER_LIB_UI_PAINTING_ENGINE_LAYER_H_
 
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "flow/layers/container_layer.h"
+#include "lib/ui/dart_wrapper.h"
 
 namespace flutter {
 

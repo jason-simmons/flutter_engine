@@ -7,12 +7,12 @@
 
 #include <memory>
 #include <utility>
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_color.h"
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/display_list/effects/dl_image_filter.h"
-#include "flutter/display_list/effects/dl_mask_filter.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_color.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "display_list/effects/dl_color_source.h"
+#include "display_list/effects/dl_image_filter.h"
+#include "display_list/effects/dl_mask_filter.h"
 
 namespace flutter {
 

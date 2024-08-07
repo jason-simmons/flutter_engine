@@ -1,6 +1,6 @@
 #include "dart_dl.h"
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "include/dart_api_dl.h"
 
 int zircon_dart_dl_initialize(void* initialize_api_dl_data) {

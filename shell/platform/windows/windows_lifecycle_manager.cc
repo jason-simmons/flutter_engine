@@ -9,7 +9,7 @@
 #include <Windows.h>
 #include <tchar.h>
 
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 
 namespace flutter {
 

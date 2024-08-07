@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/testing/dl_test_surface_metal.h"
-#include "flutter/impeller/display_list/dl_dispatcher.h"
-#include "flutter/impeller/display_list/dl_image_impeller.h"
-#include "flutter/impeller/typographer/backends/skia/typographer_context_skia.h"
+#include "display_list/testing/dl_test_surface_metal.h"
+#include "impeller/display_list/dl_dispatcher.h"
+#include "impeller/display_list/dl_image_impeller.h"
+#include "impeller/typographer/backends/skia/typographer_context_skia.h"
 
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkSurface.h"

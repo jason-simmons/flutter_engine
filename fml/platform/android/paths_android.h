@@ -5,8 +5,8 @@
 #ifndef FLUTTER_FML_PLATFORM_ANDROID_PATHS_ANDROID_H_
 #define FLUTTER_FML_PLATFORM_ANDROID_PATHS_ANDROID_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/paths.h"
+#include "fml/macros.h"
+#include "fml/paths.h"
 
 namespace fml {
 namespace paths {

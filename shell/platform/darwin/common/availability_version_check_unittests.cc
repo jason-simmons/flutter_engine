@@ -4,7 +4,7 @@
 
 #include <tuple>
 
-#include "flutter/shell/platform/darwin/common/availability_version_check.h"
+#include "shell/platform/darwin/common/availability_version_check.h"
 
 #include "gtest/gtest.h"
 

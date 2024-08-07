@@ -8,8 +8,8 @@
 #include <ostream>
 #include <vector>
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/testing/assertions_skia.h"
+#include "common/graphics/texture.h"
+#include "testing/assertions_skia.h"
 
 namespace flutter {
 namespace testing {

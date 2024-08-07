@@ -6,7 +6,7 @@
 
 #include <limits>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/base/allocation.h"
 
 namespace impeller {

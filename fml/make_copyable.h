@@ -7,8 +7,8 @@
 
 #include <utility>
 
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
 
 namespace fml {
 namespace internal {

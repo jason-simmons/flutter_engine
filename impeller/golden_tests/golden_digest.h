@@ -9,7 +9,7 @@
 #include <string>
 #include <vector>
 
-#include "flutter/impeller/golden_tests/working_directory.h"
+#include "impeller/golden_tests/working_directory.h"
 
 namespace impeller {
 namespace testing {

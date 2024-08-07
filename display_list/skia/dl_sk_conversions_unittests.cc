@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/dl_tile_mode.h"
-#include "flutter/display_list/dl_vertices.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/display_list/skia/dl_sk_conversions.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_paint.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/dl_tile_mode.h"
+#include "display_list/dl_vertices.h"
+#include "display_list/effects/dl_color_source.h"
+#include "display_list/skia/dl_sk_conversions.h"
 #include "gtest/gtest.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkSamplingOptions.h"

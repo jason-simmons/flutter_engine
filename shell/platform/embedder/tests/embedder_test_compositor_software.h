@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_TEST_COMPOSITOR_SOFTWARE_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_TEST_COMPOSITOR_SOFTWARE_H_
 
-#include "flutter/shell/platform/embedder/tests/embedder_test_compositor.h"
+#include "shell/platform/embedder/tests/embedder_test_compositor.h"
 
 namespace flutter {
 namespace testing {

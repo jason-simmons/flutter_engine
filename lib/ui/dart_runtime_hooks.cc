@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/dart_runtime_hooks.h"
+#include "lib/ui/dart_runtime_hooks.h"
 
 #include <cstdio>
 #include <cstdlib>
@@ -10,12 +10,12 @@
 #include <iostream>
 #include <sstream>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
-#include "flutter/lib/ui/plugins/callback_cache.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/runtime/dart_plugin_registrant.h"
+#include "common/settings.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
+#include "lib/ui/plugins/callback_cache.h"
+#include "lib/ui/ui_dart_state.h"
+#include "runtime/dart_plugin_registrant.h"
 #include "third_party/dart/runtime/include/bin/dart_io_api.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"

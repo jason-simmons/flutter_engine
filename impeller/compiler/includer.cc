@@ -6,7 +6,7 @@
 
 #include <cstring>
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 
 namespace impeller {
 namespace compiler {

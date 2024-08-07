@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_TEST_UTILS_PROC_TABLE_REPLACEMENT_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TEST_UTILS_PROC_TABLE_REPLACEMENT_H_
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 // Wraps capturing lambas with non-capturing version that can be assigned to
 // FlutterEngineProcTable entries (by using statics) to facilitate mocking in

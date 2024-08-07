@@ -11,8 +11,8 @@
 #include <optional>
 #include <utility>
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/flow/raster_cache_key.h"
+#include "display_list/dl_canvas.h"
+#include "flow/raster_cache_key.h"
 
 namespace flutter {
 

@@ -8,7 +8,7 @@
 #include <lib/async/default.h>
 #include <lib/zx/time.h>
 
-#include "flutter/fml/message_loop_impl.h"
+#include "fml/message_loop_impl.h"
 
 namespace flutter_runner {
 

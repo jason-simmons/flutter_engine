@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/android/paths_android.h"
+#include "fml/platform/android/paths_android.h"
 
-#include "flutter/fml/file.h"
+#include "fml/file.h"
 
 namespace fml {
 namespace paths {

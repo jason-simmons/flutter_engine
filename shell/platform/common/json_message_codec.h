@@ -7,7 +7,7 @@
 
 #include <rapidjson/document.h>
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/message_codec.h"
+#include "shell/platform/common/client_wrapper/include/flutter/message_codec.h"
 
 namespace flutter {
 

@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_GOLDEN_TESTS_METAL_SCREENSHOT_H_
 #define FLUTTER_IMPELLER_GOLDEN_TESTS_METAL_SCREENSHOT_H_
 
-#include "flutter/impeller/golden_tests/screenshot.h"
+#include "impeller/golden_tests/screenshot.h"
 
 #include <CoreFoundation/CoreFoundation.h>
 #include <CoreImage/CoreImage.h>

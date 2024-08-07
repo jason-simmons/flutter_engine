@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_GL_IMPELLER_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_GL_IMPELLER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/impeller/toolkit/egl/display.h"
-#include "flutter/shell/platform/android/context/android_context.h"
+#include "fml/macros.h"
+#include "impeller/toolkit/egl/display.h"
+#include "shell/platform/android/context/android_context.h"
 
 namespace flutter {
 

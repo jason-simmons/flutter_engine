@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/tests/embedder_test_compositor_vulkan.h"
+#include "shell/platform/embedder/tests/embedder_test_compositor_vulkan.h"
 
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/embedder/tests/embedder_assertions.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_backingstore_producer.h"
+#include "fml/logging.h"
+#include "shell/platform/embedder/tests/embedder_assertions.h"
+#include "shell/platform/embedder/tests/embedder_test_backingstore_producer.h"
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/ganesh/SkSurfaceGanesh.h"
 

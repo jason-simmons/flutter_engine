@@ -5,11 +5,11 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_IMAGE_SHADER_H_
 #define FLUTTER_LIB_UI_PAINTING_IMAGE_SHADER_H_
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/gradient.h"
-#include "flutter/lib/ui/painting/image.h"
-#include "flutter/lib/ui/painting/matrix.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/gradient.h"
+#include "lib/ui/painting/image.h"
+#include "lib/ui/painting/matrix.h"
+#include "lib/ui/painting/shader.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkShader.h"
 #include "third_party/tonic/typed_data/typed_list.h"

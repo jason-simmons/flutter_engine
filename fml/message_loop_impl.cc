@@ -4,24 +4,24 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/message_loop_impl.h"
+#include "fml/message_loop_impl.h"
 
 #include <algorithm>
 #include <vector>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 
 #if FML_OS_MACOSX
-#include "flutter/fml/platform/darwin/message_loop_darwin.h"
+#include "fml/platform/darwin/message_loop_darwin.h"
 #elif FML_OS_ANDROID
-#include "flutter/fml/platform/android/message_loop_android.h"
+#include "fml/platform/android/message_loop_android.h"
 #elif OS_FUCHSIA
-#include "flutter/fml/platform/fuchsia/message_loop_fuchsia.h"
+#include "fml/platform/fuchsia/message_loop_fuchsia.h"
 #elif FML_OS_LINUX
-#include "flutter/fml/platform/linux/message_loop_linux.h"
+#include "fml/platform/linux/message_loop_linux.h"
 #elif FML_OS_WIN
-#include "flutter/fml/platform/win/message_loop_win.h"
+#include "fml/platform/win/message_loop_win.h"
 #endif
 
 namespace fml {

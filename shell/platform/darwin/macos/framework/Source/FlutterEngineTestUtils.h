@@ -9,8 +9,8 @@
 
 #import <OCMock/OCMock.h>
 
-#include "flutter/testing/autoreleasepool_test.h"
-#include "flutter/testing/test_dart_native_resolver.h"
+#include "testing/autoreleasepool_test.h"
+#include "testing/test_dart_native_resolver.h"
 #include "gtest/gtest.h"
 
 namespace flutter::testing {

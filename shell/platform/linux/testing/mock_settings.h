@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_SETTINGS_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_SETTINGS_H_
 
-#include "flutter/shell/platform/linux/fl_settings.h"
+#include "shell/platform/linux/fl_settings.h"
 
 #include "gmock/gmock.h"
 

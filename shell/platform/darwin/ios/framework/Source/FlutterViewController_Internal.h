@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_DARWIN_IOS_FRAMEWORK_SOURCE_FLUTTERVIEWCONTROLLER_INTERNAL_H_
 #define FLUTTER_SHELL_PLATFORM_DARWIN_IOS_FRAMEWORK_SOURCE_FLUTTERVIEWCONTROLLER_INTERNAL_H_
 
-#include "flutter/fml/platform/darwin/weak_nsobject.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/platform/darwin/weak_nsobject.h"
+#include "fml/time/time_point.h"
 
 #import "flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterKeySecondaryResponder.h"

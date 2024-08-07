@@ -6,8 +6,8 @@
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_PIXEL_FORMATS_H_
 
 #include <optional>
-#include "flutter/shell/common/rasterizer.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/common/rasterizer.h"
+#include "shell/platform/embedder/embedder.h"
 
 std::optional<SkColorType> getSkColorType(FlutterSoftwarePixelFormat pixfmt);
 

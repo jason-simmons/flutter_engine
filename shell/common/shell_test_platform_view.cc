@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/shell_test_platform_view.h"
+#include "shell/common/shell_test_platform_view.h"
 
 #ifdef SHELL_ENABLE_GL
-#include "flutter/shell/common/shell_test_platform_view_gl.h"
+#include "shell/common/shell_test_platform_view_gl.h"
 #endif  // SHELL_ENABLE_GL
 #ifdef SHELL_ENABLE_VULKAN
-#include "flutter/shell/common/shell_test_platform_view_vulkan.h"
+#include "shell/common/shell_test_platform_view_vulkan.h"
 #endif  // SHELL_ENABLE_VULKAN
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/shell/common/shell_test_platform_view_metal.h"
+#include "shell/common/shell_test_platform_view_metal.h"
 #endif  // SHELL_ENABLE_METAL
 
-#include "flutter/shell/common/vsync_waiter_fallback.h"
+#include "shell/common/vsync_waiter_fallback.h"
 
 namespace flutter {
 namespace testing {

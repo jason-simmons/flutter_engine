@@ -4,14 +4,14 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/memory/weak_ptr.h"
+#include "fml/memory/weak_ptr.h"
 
 #include <thread>
 #include <utility>
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/raster_thread_merger.h"
-#include "flutter/fml/synchronization/count_down_latch.h"
+#include "fml/message_loop.h"
+#include "fml/raster_thread_merger.h"
+#include "fml/synchronization/count_down_latch.h"
 #include "gtest/gtest.h"
 
 namespace fml {

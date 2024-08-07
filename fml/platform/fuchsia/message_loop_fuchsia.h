@@ -9,8 +9,8 @@
 #include <lib/async/cpp/wait.h>
 #include <lib/zx/timer.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/message_loop_impl.h"
+#include "fml/macros.h"
+#include "fml/message_loop_impl.h"
 
 namespace fml {
 

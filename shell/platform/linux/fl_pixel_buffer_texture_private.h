@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_FL_PIXEL_BUFFER_TEXTURE_PRIVATE_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_FL_PIXEL_BUFFER_TEXTURE_PRIVATE_H_
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_pixel_buffer_texture.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_texture_registrar.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/public/flutter_linux/fl_pixel_buffer_texture.h"
+#include "shell/platform/linux/public/flutter_linux/fl_texture_registrar.h"
 
 G_BEGIN_DECLS
 

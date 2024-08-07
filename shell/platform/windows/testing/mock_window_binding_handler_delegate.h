@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_MOCK_WINDOW_BINDING_HANDLER_DELEGATE_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_MOCK_WINDOW_BINDING_HANDLER_DELEGATE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/window_binding_handler_delegate.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/window_binding_handler_delegate.h"
 #include "gmock/gmock.h"
 
 namespace flutter {

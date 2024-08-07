@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/surface_texture_external_texture_gl_skia.h"
+#include "shell/platform/android/surface_texture_external_texture_gl_skia.h"
 
 #include <GLES2/gl2.h>
 #define GL_GLEXT_PROTOTYPES
 #include <GLES2/gl2ext.h>
 
-#include "flutter/third_party/skia/include/gpu/GrBackendSurface.h"
-#include "flutter/third_party/skia/include/gpu/GrDirectContext.h"
-#include "flutter/third_party/skia/include/gpu/ganesh/SkImageGanesh.h"
-#include "flutter/third_party/skia/include/gpu/ganesh/gl/GrGLBackendSurface.h"
-#include "flutter/third_party/skia/include/gpu/gl/GrGLTypes.h"
+#include "third_party/skia/include/gpu/GrBackendSurface.h"
+#include "third_party/skia/include/gpu/GrDirectContext.h"
+#include "third_party/skia/include/gpu/ganesh/SkImageGanesh.h"
+#include "third_party/skia/include/gpu/ganesh/gl/GrGLBackendSurface.h"
+#include "third_party/skia/include/gpu/gl/GrGLTypes.h"
 
 namespace flutter {
 

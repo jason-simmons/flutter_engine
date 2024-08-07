@@ -10,12 +10,12 @@
 #include <memory>
 #include <unordered_map>
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/flow/raster_cache_key.h"
-#include "flutter/flow/raster_cache_util.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/trace_event.h"
+#include "display_list/dl_canvas.h"
+#include "flow/raster_cache_key.h"
+#include "flow/raster_cache_util.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/trace_event.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkRect.h"
 

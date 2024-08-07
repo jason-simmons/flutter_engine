@@ -7,9 +7,9 @@
 
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/testing/windows_test_context.h"
-#include "flutter/testing/thread_test.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/testing/windows_test_context.h"
+#include "testing/thread_test.h"
 
 namespace flutter {
 namespace testing {

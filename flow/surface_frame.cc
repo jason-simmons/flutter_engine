@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/surface_frame.h"
+#include "flow/surface_frame.h"
 
 #include <limits>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/utils/SkNWayCanvas.h"

@@ -8,10 +8,10 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/geometry/dl_rtree.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/geometry/dl_rtree.h"
+#include "fml/logging.h"
 
 // The Flutter DisplayList mechanism encapsulates a persistent sequence of
 // rendering operations.

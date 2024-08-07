@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/base/comparable.h"
 #include "impeller/base/thread.h"
 #include "impeller/renderer/shader_key.h"

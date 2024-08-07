@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/platform_view.h"
+#include "shell/common/platform_view.h"
 
 #include <utility>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/common/vsync_waiter_fallback.h"
+#include "fml/make_copyable.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/common/vsync_waiter_fallback.h"
 #include "third_party/skia/include/gpu/gl/GrGLInterface.h"
 
 namespace flutter {

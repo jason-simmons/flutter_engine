@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_key_channel_responder.h"
+#include "shell/platform/linux/fl_key_channel_responder.h"
 
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/testing/fl_test.h"
 
 static const char* expected_value = nullptr;
 static gboolean expected_handled = FALSE;

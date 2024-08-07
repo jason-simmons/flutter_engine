@@ -5,11 +5,11 @@
 #ifndef FLUTTER_SHELL_GPU_GPU_SURFACE_VULKAN_DELEGATE_H_
 #define FLUTTER_SHELL_GPU_GPU_SURFACE_VULKAN_DELEGATE_H_
 
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
-#include "flutter/vulkan/vulkan_device.h"
-#include "flutter/vulkan/vulkan_image.h"
+#include "fml/memory/ref_ptr.h"
+#include "shell/platform/embedder/embedder.h"
+#include "vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/vulkan_device.h"
+#include "vulkan/vulkan_image.h"
 #include "third_party/skia/include/core/SkSize.h"
 
 namespace flutter {

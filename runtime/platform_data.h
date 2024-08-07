@@ -9,8 +9,8 @@
 #include <string>
 #include <vector>
 
-#include "flutter/lib/ui/window/viewport_metrics.h"
-#include "flutter/shell/common/display.h"
+#include "lib/ui/window/viewport_metrics.h"
+#include "shell/common/display.h"
 
 namespace flutter {
 

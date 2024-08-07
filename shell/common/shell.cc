@@ -3,31 +3,31 @@
 // found in the LICENSE file.
 
 #define RAPIDJSON_HAS_STDSTRING 1
-#include "flutter/shell/common/shell.h"
+#include "shell/common/shell.h"
 
 #include <memory>
 #include <sstream>
 #include <utility>
 #include <vector>
 
-#include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/common/constants.h"
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/fml/base32.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/icu_util.h"
-#include "flutter/fml/log_settings.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/base64.h"
-#include "flutter/shell/common/engine.h"
-#include "flutter/shell/common/skia_event_tracer_impl.h"
-#include "flutter/shell/common/switches.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "assets/directory_asset_bundle.h"
+#include "common/constants.h"
+#include "common/graphics/persistent_cache.h"
+#include "fml/base32.h"
+#include "fml/file.h"
+#include "fml/icu_util.h"
+#include "fml/log_settings.h"
+#include "fml/logging.h"
+#include "fml/make_copyable.h"
+#include "fml/message_loop.h"
+#include "fml/paths.h"
+#include "fml/trace_event.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/base64.h"
+#include "shell/common/engine.h"
+#include "shell/common/skia_event_tracer_impl.h"
+#include "shell/common/switches.h"
+#include "shell/common/vsync_waiter.h"
 #include "impeller/runtime_stage/runtime_stage.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/writer.h"

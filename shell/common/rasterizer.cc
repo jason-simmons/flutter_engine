@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/rasterizer.h"
+#include "shell/common/rasterizer.h"
 
 #include <algorithm>
 #include <memory>
@@ -10,13 +10,13 @@
 
 #include "display_list/dl_builder.h"
 #include "flow/frame_timings.h"
-#include "flutter/common/constants.h"
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/flow/layers/offscreen_surface.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/shell/common/base64.h"
-#include "flutter/shell/common/serialization_callbacks.h"
+#include "common/constants.h"
+#include "common/graphics/persistent_cache.h"
+#include "flow/layers/offscreen_surface.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
+#include "shell/common/base64.h"
+#include "shell/common/serialization_callbacks.h"
 #include "fml/closure.h"
 #include "fml/make_copyable.h"
 #include "fml/synchronization/waitable_event.h"

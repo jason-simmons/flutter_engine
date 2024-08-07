@@ -7,8 +7,8 @@
 
 #include <EGL/egl.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/egl/surface.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/egl/surface.h"
 
 namespace flutter {
 namespace egl {

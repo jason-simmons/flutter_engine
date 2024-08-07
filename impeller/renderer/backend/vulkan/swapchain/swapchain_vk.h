@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 #include "impeller/geometry/size.h"
 #include "impeller/renderer/backend/vulkan/vk.h"
 #include "impeller/renderer/context.h"

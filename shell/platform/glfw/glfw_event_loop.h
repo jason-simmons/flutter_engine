@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_GLFW_GLFW_EVENT_LOOP_H_
 #define FLUTTER_SHELL_PLATFORM_GLFW_GLFW_EVENT_LOOP_H_
 
-#include "flutter/shell/platform/glfw/event_loop.h"
+#include "shell/platform/glfw/event_loop.h"
 
 namespace flutter {
 

@@ -2,39 +2,39 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/platform_view_android.h"
+#include "shell/platform/android/platform_view_android.h"
 
 #include <android/api-level.h>
 #include <memory>
 #include <utility>
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/common/shell_io_manager.h"
-#include "flutter/shell/gpu/gpu_surface_gl_delegate.h"
-#include "flutter/shell/platform/android/android_context_gl_impeller.h"
-#include "flutter/shell/platform/android/android_context_gl_skia.h"
-#include "flutter/shell/platform/android/android_context_vk_impeller.h"
-#include "flutter/shell/platform/android/android_surface_gl_impeller.h"
-#include "flutter/shell/platform/android/android_surface_gl_skia.h"
-#include "flutter/shell/platform/android/android_surface_software.h"
-#include "flutter/shell/platform/android/image_external_texture_gl_impeller.h"
-#include "flutter/shell/platform/android/image_external_texture_gl_skia.h"
-#include "flutter/shell/platform/android/surface_texture_external_texture_gl_impeller.h"
-#include "flutter/shell/platform/android/surface_texture_external_texture_gl_skia.h"
-#include "flutter/shell/platform/android/surface_texture_external_texture_vk_impeller.h"
+#include "common/graphics/texture.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/common/shell_io_manager.h"
+#include "shell/gpu/gpu_surface_gl_delegate.h"
+#include "shell/platform/android/android_context_gl_impeller.h"
+#include "shell/platform/android/android_context_gl_skia.h"
+#include "shell/platform/android/android_context_vk_impeller.h"
+#include "shell/platform/android/android_surface_gl_impeller.h"
+#include "shell/platform/android/android_surface_gl_skia.h"
+#include "shell/platform/android/android_surface_software.h"
+#include "shell/platform/android/image_external_texture_gl_impeller.h"
+#include "shell/platform/android/image_external_texture_gl_skia.h"
+#include "shell/platform/android/surface_texture_external_texture_gl_impeller.h"
+#include "shell/platform/android/surface_texture_external_texture_gl_skia.h"
+#include "shell/platform/android/surface_texture_external_texture_vk_impeller.h"
 #include "fml/logging.h"
 #if IMPELLER_ENABLE_VULKAN  // b/258506856 for why this is behind an if
-#include "flutter/shell/platform/android/android_surface_vk_impeller.h"
-#include "flutter/shell/platform/android/image_external_texture_vk_impeller.h"
+#include "shell/platform/android/android_surface_vk_impeller.h"
+#include "shell/platform/android/image_external_texture_vk_impeller.h"
 #endif
-#include "flutter/shell/platform/android/context/android_context.h"
-#include "flutter/shell/platform/android/external_view_embedder/external_view_embedder.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
-#include "flutter/shell/platform/android/platform_message_response_android.h"
-#include "flutter/shell/platform/android/surface/android_surface.h"
-#include "flutter/shell/platform/android/surface/snapshot_surface_producer.h"
-#include "flutter/shell/platform/android/vsync_waiter_android.h"
+#include "shell/platform/android/context/android_context.h"
+#include "shell/platform/android/external_view_embedder/external_view_embedder.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/platform_message_response_android.h"
+#include "shell/platform/android/surface/android_surface.h"
+#include "shell/platform/android/surface/snapshot_surface_producer.h"
+#include "shell/platform/android/vsync_waiter_android.h"
 
 namespace flutter {
 

@@ -5,11 +5,11 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_PICTURE_H_
 #define FLUTTER_LIB_UI_PAINTING_PICTURE_H_
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/image.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "display_list/display_list.h"
+#include "flow/layers/layer_tree.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/image.h"
+#include "lib/ui/ui_dart_state.h"
 
 namespace flutter {
 class Canvas;

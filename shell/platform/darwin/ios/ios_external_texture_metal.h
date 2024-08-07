@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_DARWIN_IOS_IOS_EXTERNAL_TEXTURE_METAL_H_
 #define FLUTTER_SHELL_PLATFORM_DARWIN_IOS_IOS_EXTERNAL_TEXTURE_METAL_H_
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
+#include "common/graphics/texture.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
 #import "flutter/shell/platform/darwin/graphics/FlutterDarwinExternalTextureMetal.h"
 
 namespace flutter {

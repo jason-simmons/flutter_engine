@@ -4,10 +4,10 @@
 
 #include <functional>
 
-#include "flutter/benchmarking/benchmarking.h"
+#include "benchmarking/benchmarking.h"
 
-#include "flutter/impeller/geometry/matrix.h"
-#include "flutter/impeller/geometry/rect.h"
+#include "impeller/geometry/matrix.h"
+#include "impeller/geometry/rect.h"
 #include "third_party/skia/include/core/SkM44.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkPoint3.h"

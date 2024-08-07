@@ -7,11 +7,11 @@
 
 #if !SLIMPELLER
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/display_list/skia/dl_sk_canvas.h"
+#include "display_list/dl_canvas.h"
+#include "display_list/skia/dl_sk_canvas.h"
 #include "third_party/skia/include/core/SkData.h"
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/core/SkSize.h"

@@ -5,9 +5,9 @@
 #ifndef FLUTTER_FLOW_LAYERS_LAYER_STATE_STACK_H_
 #define FLUTTER_FLOW_LAYERS_LAYER_STATE_STACK_H_
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/paint_utils.h"
+#include "display_list/dl_canvas.h"
+#include "flow/embedded_views.h"
+#include "flow/paint_utils.h"
 
 namespace flutter {
 

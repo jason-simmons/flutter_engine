@@ -5,10 +5,10 @@
 #include <memory>
 
 #include "display_list/effects/dl_color_source.h"
-#include "flutter/impeller/aiks/aiks_unittests.h"
+#include "impeller/aiks/aiks_unittests.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/dl_paint.h"
+#include "display_list/dl_builder.h"
+#include "display_list/dl_paint.h"
 
 #include "include/core/SkPath.h"
 #include "include/core/SkRRect.h"

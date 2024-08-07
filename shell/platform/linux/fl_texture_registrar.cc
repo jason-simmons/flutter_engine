@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_texture_registrar.h"
+#include "shell/platform/linux/public/flutter_linux/fl_texture_registrar.h"
 
 #include <gmodule.h>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h"
-#include "flutter/shell/platform/linux/fl_texture_gl_private.h"
-#include "flutter/shell/platform/linux/fl_texture_private.h"
-#include "flutter/shell/platform/linux/fl_texture_registrar_private.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_pixel_buffer_texture_private.h"
+#include "shell/platform/linux/fl_texture_gl_private.h"
+#include "shell/platform/linux/fl_texture_private.h"
+#include "shell/platform/linux/fl_texture_registrar_private.h"
 
 G_DECLARE_FINAL_TYPE(FlTextureRegistrarImpl,
                      fl_texture_registrar_impl,

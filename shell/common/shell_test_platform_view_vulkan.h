@@ -5,12 +5,12 @@
 #ifndef FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_VULKAN_H_
 #define FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_VULKAN_H_
 
-#include "flutter/shell/common/shell_test_external_view_embedder.h"
-#include "flutter/shell/common/shell_test_platform_view.h"
-#include "flutter/shell/gpu/gpu_surface_vulkan_delegate.h"
-#include "flutter/vulkan/vulkan_application.h"
-#include "flutter/vulkan/vulkan_device.h"
-#include "flutter/vulkan/vulkan_skia_proc_table.h"
+#include "shell/common/shell_test_external_view_embedder.h"
+#include "shell/common/shell_test_platform_view.h"
+#include "shell/gpu/gpu_surface_vulkan_delegate.h"
+#include "vulkan/vulkan_application.h"
+#include "vulkan/vulkan_device.h"
+#include "vulkan/vulkan_skia_proc_table.h"
 #include "third_party/skia/include/gpu/vk/VulkanBackendContext.h"
 #include "third_party/skia/include/gpu/vk/VulkanMemoryAllocator.h"
 #include "third_party/skia/include/gpu/vk/VulkanTypes.h"

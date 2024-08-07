@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#include "flutter/fml/backtrace.h"
-#include "flutter/testing/testing.h"
+#include "fml/backtrace.h"
+#include "testing/testing.h"
 
 int main(int argc, char** argv) {
   fml::InstallCrashHandler();

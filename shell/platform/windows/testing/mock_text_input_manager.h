@@ -8,8 +8,8 @@
 #include <cstring>
 #include <optional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/text_input_manager.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/text_input_manager.h"
 #include "gmock/gmock.h"
 
 namespace flutter {

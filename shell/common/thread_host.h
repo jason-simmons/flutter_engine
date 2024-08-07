@@ -9,8 +9,8 @@
 #include <optional>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/thread.h"
+#include "fml/macros.h"
+#include "fml/thread.h"
 
 namespace flutter {
 

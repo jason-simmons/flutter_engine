@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_context_vk_impeller.h"
+#include "shell/platform/android/android_context_vk_impeller.h"
 
-#include "flutter/fml/paths.h"
-#include "flutter/impeller/entity/vk/entity_shaders_vk.h"
-#include "flutter/impeller/entity/vk/framebuffer_blend_shaders_vk.h"
-#include "flutter/impeller/entity/vk/modern_shaders_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/context_vk.h"
+#include "fml/paths.h"
+#include "impeller/entity/vk/entity_shaders_vk.h"
+#include "impeller/entity/vk/framebuffer_blend_shaders_vk.h"
+#include "impeller/entity/vk/modern_shaders_vk.h"
+#include "impeller/renderer/backend/vulkan/context_vk.h"
 
 #if IMPELLER_ENABLE_3D
-#include "flutter/impeller/scene/shaders/vk/scene_shaders_vk.h"  // nogncheck
+#include "impeller/scene/shaders/vk/scene_shaders_vk.h"  // nogncheck
 #endif  // IMPELLER_ENABLE_3D
 
 namespace flutter {

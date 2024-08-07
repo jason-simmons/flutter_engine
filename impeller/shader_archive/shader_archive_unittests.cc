@@ -4,8 +4,8 @@
 
 #include <string>
 
-#include "flutter/fml/mapping.h"
-#include "flutter/testing/testing.h"
+#include "fml/mapping.h"
+#include "testing/testing.h"
 #include "impeller/shader_archive/shader_archive.h"
 #include "impeller/shader_archive/shader_archive_writer.h"
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/paint_utils.h"
+#include "flow/paint_utils.h"
 
 #include <stdlib.h>
 

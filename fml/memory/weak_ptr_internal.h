@@ -5,8 +5,8 @@
 #ifndef FLUTTER_FML_MEMORY_WEAK_PTR_INTERNAL_H_
 #define FLUTTER_FML_MEMORY_WEAK_PTR_INTERNAL_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
 
 namespace fml {
 namespace internal {

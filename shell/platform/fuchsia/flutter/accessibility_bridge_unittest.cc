@@ -20,7 +20,7 @@
 
 #include <memory>
 
-#include "flutter/lib/ui/semantics/semantics_node.h"
+#include "lib/ui/semantics/semantics_node.h"
 #include "gtest/gtest.h"
 
 #include "flutter_runner_fakes.h"

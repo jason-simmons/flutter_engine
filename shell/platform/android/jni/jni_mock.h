@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_JNI_JNI_MOCK_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_JNI_JNI_MOCK_H_
 
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 #include "gmock/gmock.h"
 
 namespace flutter {

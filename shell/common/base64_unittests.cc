@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/base64.h"
+#include "shell/common/base64.h"
 
 #include "fml/logging.h"
 #include "gtest/gtest.h"

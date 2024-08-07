@@ -7,11 +7,11 @@
 
 #if !SLIMPELLER
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/gpu/gpu_surface_metal_delegate.h"
-#include "flutter/shell/gpu/gpu_surface_metal_skia.h"
-#include "flutter/shell/platform/embedder/embedder_external_view_embedder.h"
-#include "flutter/shell/platform/embedder/embedder_surface.h"
+#include "fml/macros.h"
+#include "shell/gpu/gpu_surface_metal_delegate.h"
+#include "shell/gpu/gpu_surface_metal_skia.h"
+#include "shell/platform/embedder/embedder_external_view_embedder.h"
+#include "shell/platform/embedder/embedder_surface.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 

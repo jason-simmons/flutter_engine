@@ -5,8 +5,8 @@
 // Included first as it collides with the X11 headers.
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/linux/fl_accessible_node.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/fl_accessible_node.h"
+#include "shell/platform/linux/testing/fl_test.h"
 
 // Checks can build a tree of nodes.
 TEST(FlAccessibleNodeTest, BuildTree) {

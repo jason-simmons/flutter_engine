@@ -4,7 +4,7 @@
 
 #include "impeller/renderer/backend/gles/blit_command_gles.h"
 
-#include "flutter/fml/closure.h"
+#include "fml/closure.h"
 #include "fml/trace_event.h"
 #include "impeller/base/validation.h"
 #include "impeller/geometry/point.h"

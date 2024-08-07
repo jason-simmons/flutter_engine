@@ -4,10 +4,10 @@
 
 #include <thread>
 
-#include "flutter/fml/message_loop_impl.h"
-#include "flutter/fml/thread.h"
-#include "flutter/shell/profiling/sampling_profiler.h"
-#include "flutter/testing/testing.h"
+#include "fml/message_loop_impl.h"
+#include "fml/thread.h"
+#include "shell/profiling/sampling_profiler.h"
+#include "testing/testing.h"
 #include "gmock/gmock.h"
 
 using testing::_;

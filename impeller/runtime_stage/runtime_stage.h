@@ -9,9 +9,9 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
-#include "flutter/impeller/core/runtime_types.h"
+#include "impeller/core/runtime_types.h"
 #include "impeller/core/shader_types.h"
 #include "runtime_stage_types_flatbuffers.h"
 

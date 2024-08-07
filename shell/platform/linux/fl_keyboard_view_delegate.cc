@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_keyboard_view_delegate.h"
+#include "shell/platform/linux/fl_keyboard_view_delegate.h"
 
 G_DEFINE_INTERFACE(FlKeyboardViewDelegate,
                    fl_keyboard_view_delegate,

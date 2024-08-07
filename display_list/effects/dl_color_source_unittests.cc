@@ -6,11 +6,11 @@
 #include <vector>
 
 #include "display_list/dl_color.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/display_list/effects/dl_runtime_effect.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/display_list/testing/dl_test_equality.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/effects/dl_color_source.h"
+#include "display_list/effects/dl_runtime_effect.h"
+#include "display_list/image/dl_image.h"
+#include "display_list/testing/dl_test_equality.h"
 
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkSurface.h"

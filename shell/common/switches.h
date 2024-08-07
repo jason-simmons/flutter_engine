@@ -4,8 +4,8 @@
 
 #include <string_view>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/command_line.h"
+#include "common/settings.h"
+#include "fml/command_line.h"
 
 #ifndef FLUTTER_SHELL_COMMON_SWITCHES_H_
 #define FLUTTER_SHELL_COMMON_SWITCHES_H_

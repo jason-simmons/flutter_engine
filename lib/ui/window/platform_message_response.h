@@ -7,9 +7,9 @@
 
 #include <vector>
 
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
+#include "fml/mapping.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
 
 namespace flutter {
 

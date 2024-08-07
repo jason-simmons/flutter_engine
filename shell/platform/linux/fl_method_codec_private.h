@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_FL_METHOD_CODEC_PRIVATE_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_FL_METHOD_CODEC_PRIVATE_H_
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_response.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_response.h"
 
 G_BEGIN_DECLS
 

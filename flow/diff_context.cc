@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/diff_context.h"
+#include "flow/diff_context.h"
 
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/raster_cache_util.h"
+#include "flow/layers/layer.h"
+#include "flow/raster_cache_util.h"
 
 namespace flutter {
 

@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_windows_texture_registrar.h"
+#include "shell/platform/windows/flutter_windows_texture_registrar.h"
 
 #include <mutex>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/embedder/embedder_struct_macros.h"
-#include "flutter/shell/platform/windows/external_texture_d3d.h"
-#include "flutter/shell/platform/windows/external_texture_pixelbuffer.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "fml/logging.h"
+#include "shell/platform/embedder/embedder_struct_macros.h"
+#include "shell/platform/windows/external_texture_d3d.h"
+#include "shell/platform/windows/external_texture_pixelbuffer.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 
 namespace {
 static constexpr int64_t kInvalidTexture = -1;

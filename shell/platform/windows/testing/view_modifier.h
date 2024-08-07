@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_VIEW_MODIFIER_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_VIEW_MODIFIER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/egl/window_surface.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/egl/window_surface.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 namespace flutter {
 

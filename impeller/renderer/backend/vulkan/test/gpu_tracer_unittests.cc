@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 #include <memory>
-#include "flutter/testing/testing.h"  // IWYU pragma: keep
+#include "testing/testing.h"  // IWYU pragma: keep
 #include "fml/synchronization/count_down_latch.h"
 #include "gtest/gtest.h"
 #include "impeller/renderer//backend/vulkan/command_encoder_vk.h"

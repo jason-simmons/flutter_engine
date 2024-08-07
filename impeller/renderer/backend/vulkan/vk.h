@@ -5,8 +5,8 @@
 #ifndef FLUTTER_IMPELLER_RENDERER_BACKEND_VULKAN_VK_H_
 #define FLUTTER_IMPELLER_RENDERER_BACKEND_VULKAN_VK_H_
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 
 #define VK_NO_PROTOTYPES
 

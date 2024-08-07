@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/image_decoder_no_gl_unittests.h"
+#include "lib/ui/painting/image_decoder_no_gl_unittests.h"
 
-#include "flutter/fml/endianness.h"
+#include "fml/endianness.h"
 #include "include/core/SkColorType.h"
 
 namespace flutter {

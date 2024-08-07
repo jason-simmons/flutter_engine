@@ -8,10 +8,10 @@
 #include <string>
 #include <string_view>
 
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
+#include "fml/command_line.h"
+#include "fml/file.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
 #include "inja/inja.hpp"
 
 namespace flutter {

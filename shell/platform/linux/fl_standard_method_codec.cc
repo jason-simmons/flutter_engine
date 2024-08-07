@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
 
 #include <gmodule.h>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
 
 // See lib/src/services/message_codecs.dart in Flutter source for description of
 // encoding.

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/platform_isolate_manager.h"
+#include "runtime/platform_isolate_manager.h"
 
-#include "flutter/runtime/dart_isolate.h"
+#include "runtime/dart_isolate.h"
 
 namespace flutter {
 

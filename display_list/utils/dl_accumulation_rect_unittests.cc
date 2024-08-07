@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/utils/dl_accumulation_rect.h"
-#include "flutter/testing/assertions_skia.h"
+#include "display_list/utils/dl_accumulation_rect.h"
+#include "testing/assertions_skia.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

@@ -9,10 +9,10 @@
 
 #import "flutter/shell/platform/darwin/macos/framework/Headers/FlutterViewController.h"
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/accessibility_bridge.h"
-#include "flutter/shell/platform/common/flutter_platform_node_delegate.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "fml/macros.h"
+#include "shell/platform/common/accessibility_bridge.h"
+#include "shell/platform/common/flutter_platform_node_delegate.h"
+#include "shell/platform/embedder/embedder.h"
 
 namespace flutter {
 

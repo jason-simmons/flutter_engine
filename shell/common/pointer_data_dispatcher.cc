@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/pointer_data_dispatcher.h"
+#include "shell/common/pointer_data_dispatcher.h"
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

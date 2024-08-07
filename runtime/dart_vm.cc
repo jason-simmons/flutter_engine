@@ -2,24 +2,24 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_vm.h"
+#include "runtime/dart_vm.h"
 
 #include <sys/stat.h>
 
 #include <sstream>
 #include <vector>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/cpu_affinity.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/size.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/ui/dart_ui.h"
-#include "flutter/runtime/dart_isolate.h"
-#include "flutter/runtime/dart_vm_initializer.h"
-#include "flutter/runtime/ptrace_check.h"
+#include "common/settings.h"
+#include "fml/cpu_affinity.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
+#include "fml/size.h"
+#include "fml/time/time_delta.h"
+#include "fml/trace_event.h"
+#include "lib/ui/dart_ui.h"
+#include "runtime/dart_isolate.h"
+#include "runtime/dart_vm_initializer.h"
+#include "runtime/ptrace_check.h"
 #include "third_party/dart/runtime/include/bin/dart_io_api.h"
 #include "third_party/skia/include/core/SkExecutor.h"
 #include "third_party/tonic/converter/dart_converter.h"

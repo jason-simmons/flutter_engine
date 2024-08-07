@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <Metal/Metal.h>
 
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/platform/darwin/cf_utils.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/platform/darwin/cf_utils.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterTexture.h"
 #import "flutter/shell/platform/darwin/graphics/FlutterDarwinExternalTextureMetal.h"
 #include "impeller/renderer/backend/metal/context_mtl.h"

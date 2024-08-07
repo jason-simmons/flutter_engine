@@ -7,10 +7,10 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/isolate_name_server/isolate_name_server.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/runtime/service_protocol.h"
+#include "fml/macros.h"
+#include "lib/ui/isolate_name_server/isolate_name_server.h"
+#include "runtime/dart_vm.h"
+#include "runtime/service_protocol.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"
 
 namespace flutter {

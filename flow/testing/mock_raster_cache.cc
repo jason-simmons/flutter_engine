@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/testing/mock_raster_cache.h"
+#include "flow/testing/mock_raster_cache.h"
 
-#include "flutter/flow/layers/display_list_raster_cache_item.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/raster_cache_item.h"
+#include "flow/layers/display_list_raster_cache_item.h"
+#include "flow/layers/layer.h"
+#include "flow/raster_cache.h"
+#include "flow/raster_cache_item.h"
 #include "include/core/SkMatrix.h"
 
 namespace flutter {

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/icu_util.h"
-#include "flutter/fml/logging.h"
-#include "flutter/testing/testing.h"
-#include "flutter/third_party/txt/tests/txt_test_utils.h"
+#include "fml/command_line.h"
+#include "fml/icu_util.h"
+#include "fml/logging.h"
+#include "testing/testing.h"
+#include "third_party/txt/tests/txt_test_utils.h"
 #include "third_party/benchmark/include/benchmark/benchmark.h"
 
 // We will use a custom main to allow custom font directories for consistency.

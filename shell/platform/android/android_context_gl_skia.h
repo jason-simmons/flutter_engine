@@ -5,13 +5,13 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_GL_SKIA_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_GL_SKIA_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/platform/android/android_environment_gl.h"
-#include "flutter/shell/platform/android/context/android_context.h"
-#include "flutter/shell/platform/android/surface/android_native_window.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
+#include "shell/common/platform_view.h"
+#include "shell/platform/android/android_environment_gl.h"
+#include "shell/platform/android/context/android_context.h"
+#include "shell/platform/android/surface/android_native_window.h"
 #include "third_party/skia/include/core/SkSize.h"
 
 namespace flutter {

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/accessibility_bridge_windows.h"
+#include "shell/platform/windows/accessibility_bridge_windows.h"
 
 #include <comdef.h>
 #include <comutil.h>
@@ -10,15 +10,15 @@
 
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/windows/flutter_platform_node_delegate_windows.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/mock_window_binding_handler.h"
-#include "flutter/shell/platform/windows/testing/test_keyboard.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/windows/flutter_platform_node_delegate_windows.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/mock_window_binding_handler.h"
+#include "shell/platform/windows/testing/test_keyboard.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

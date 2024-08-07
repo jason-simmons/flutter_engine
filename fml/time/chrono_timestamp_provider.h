@@ -5,10 +5,10 @@
 #ifndef FLUTTER_FML_TIME_CHRONO_TIMESTAMP_PROVIDER_H_
 #define FLUTTER_FML_TIME_CHRONO_TIMESTAMP_PROVIDER_H_
 
-#include "flutter/fml/time/timestamp_provider.h"
+#include "fml/time/timestamp_provider.h"
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/macros.h"
+#include "fml/time/time_point.h"
 
 namespace fml {
 

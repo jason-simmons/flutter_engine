@@ -8,13 +8,13 @@
 #include <memory>
 #include <string>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/assets/asset_resolver.h"
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/unique_fd.h"
-#include "flutter/runtime/isolate_configuration.h"
+#include "assets/asset_manager.h"
+#include "assets/asset_resolver.h"
+#include "common/settings.h"
+#include "fml/macros.h"
+#include "fml/mapping.h"
+#include "fml/unique_fd.h"
+#include "runtime/isolate_configuration.h"
 
 namespace flutter {
 

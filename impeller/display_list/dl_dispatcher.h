@@ -5,9 +5,9 @@
 #ifndef FLUTTER_IMPELLER_DISPLAY_LIST_DL_DISPATCHER_H_
 #define FLUTTER_IMPELLER_DISPLAY_LIST_DL_DISPATCHER_H_
 
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/geometry/dl_geometry_types.h"
-#include "flutter/display_list/utils/dl_receiver_utils.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/geometry/dl_geometry_types.h"
+#include "display_list/utils/dl_receiver_utils.h"
 #include "fml/logging.h"
 #include "impeller/aiks/canvas.h"
 #include "impeller/aiks/experimental_canvas.h"

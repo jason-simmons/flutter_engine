@@ -4,7 +4,7 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/shared_thread_merger.h"
+#include "fml/shared_thread_merger.h"
 
 #include <algorithm>
 #include <set>

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/fuchsia/flutter/accessibility_bridge.h"
+#include "shell/platform/fuchsia/flutter/accessibility_bridge.h"
 
 #include <lib/inspect/cpp/inspector.h>
 #include <lib/zx/process.h>
@@ -12,8 +12,8 @@
 #include <algorithm>
 #include <deque>
 
-#include "flutter/fml/logging.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
+#include "fml/logging.h"
+#include "lib/ui/semantics/semantics_node.h"
 
 #include "../runtime/dart/utils/root_inspect_node.h"
 

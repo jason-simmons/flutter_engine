@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_VSYNC_WAITER_EMBEDDER_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_VSYNC_WAITER_EMBEDDER_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/vsync_waiter.h"
+#include "fml/macros.h"
+#include "shell/common/vsync_waiter.h"
 
 namespace flutter {
 

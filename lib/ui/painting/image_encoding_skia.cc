@@ -4,10 +4,10 @@
 
 #if !SLIMPELLER
 
-#include "flutter/lib/ui/painting/image_encoding.h"
-#include "flutter/lib/ui/painting/image_encoding_impl.h"
+#include "lib/ui/painting/image_encoding.h"
+#include "lib/ui/painting/image_encoding_impl.h"
 
-#include "flutter/lib/ui/painting/image.h"
+#include "lib/ui/painting/image.h"
 
 namespace flutter {
 

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/semantics/string_attribute.h"
+#include "lib/ui/semantics/string_attribute.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "fml/logging.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/tonic/dart_args.h"
 #include "third_party/tonic/dart_binding_macros.h"
 

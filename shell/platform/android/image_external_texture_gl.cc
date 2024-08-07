@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/image_external_texture_gl.h"
+#include "shell/platform/android/image_external_texture_gl.h"
 
 #include <android/hardware_buffer_jni.h>
 #include <android/sensor.h>
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/impeller/core/formats.h"
-#include "flutter/impeller/display_list/dl_image_impeller.h"
-#include "flutter/impeller/toolkit/android/hardware_buffer.h"
-#include "flutter/impeller/toolkit/egl/image.h"
-#include "flutter/impeller/toolkit/gles/texture.h"
+#include "common/graphics/texture.h"
+#include "impeller/core/formats.h"
+#include "impeller/display_list/dl_image_impeller.h"
+#include "impeller/toolkit/android/hardware_buffer.h"
+#include "impeller/toolkit/egl/image.h"
+#include "impeller/toolkit/gles/texture.h"
 #include "third_party/skia/include/core/SkAlphaType.h"
 #include "third_party/skia/include/core/SkColorType.h"
 #include "third_party/skia/include/gpu/ganesh/SkImageGanesh.h"

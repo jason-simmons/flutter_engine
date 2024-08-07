@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_EGL_MOCK_PROC_TABLE_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_EGL_MOCK_PROC_TABLE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/egl/proc_table.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/egl/proc_table.h"
 #include "gmock/gmock.h"
 
 namespace flutter {

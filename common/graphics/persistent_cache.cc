@@ -4,7 +4,7 @@
 
 #if !SLIMPELLER
 
-#include "flutter/common/graphics/persistent_cache.h"
+#include "common/graphics/persistent_cache.h"
 
 #include <future>
 #include <memory>
@@ -12,16 +12,16 @@
 #include <string_view>
 #include <utility>
 
-#include "flutter/fml/base32.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/hex_codec.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/common/base64.h"
-#include "flutter/shell/version/version.h"
+#include "fml/base32.h"
+#include "fml/file.h"
+#include "fml/hex_codec.h"
+#include "fml/logging.h"
+#include "fml/make_copyable.h"
+#include "fml/mapping.h"
+#include "fml/paths.h"
+#include "fml/trace_event.h"
+#include "shell/common/base64.h"
+#include "shell/version/version.h"
 #include "openssl/sha.h"
 #include "rapidjson/document.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

@@ -5,16 +5,16 @@
 #define FML_USED_ON_EMBEDDER
 
 #include "flow/surface_frame.h"
-#include "flutter/shell/common/rasterizer.h"
+#include "shell/common/rasterizer.h"
 
 #include <memory>
 #include <optional>
 
-#include "flutter/flow/frame_timings.h"
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/testing.h"
+#include "flow/frame_timings.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "fml/time/time_point.h"
+#include "shell/common/thread_host.h"
+#include "testing/testing.h"
 
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkSurface.h"

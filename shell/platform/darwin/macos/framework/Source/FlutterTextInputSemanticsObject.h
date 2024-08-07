@@ -9,8 +9,8 @@
 
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterPlatformNodeDelegateMac.h"
 
-#include "flutter/fml/macros.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node_base.h"
+#include "fml/macros.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node_base.h"
 
 @class FlutterTextField;
 @class FlutterTextInputPlugin;

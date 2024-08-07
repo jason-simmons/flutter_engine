@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/time/time_point.h"
+#include "fml/time/time_point.h"
 
 #include <atomic>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 
 #if defined(OS_FUCHSIA)
 #include <zircon/syscalls.h>

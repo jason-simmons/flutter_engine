@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_DARWIN_IOS_IOS_SURFACE_SOFTWARE_H_
 #define FLUTTER_SHELL_PLATFORM_DARWIN_IOS_IOS_SURFACE_SOFTWARE_H_
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
-#include "flutter/shell/gpu/gpu_surface_software.h"
+#include "flow/embedded_views.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
+#include "shell/gpu/gpu_surface_software.h"
 #import "flutter/shell/platform/darwin/ios/ios_context.h"
 #import "flutter/shell/platform/darwin/ios/ios_surface.h"
 

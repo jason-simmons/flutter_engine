@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_EXTERNAL_TEXTURE_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_EXTERNAL_TEXTURE_H_
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 #include <GLES2/gl2.h>
 #include <GLES2/gl2ext.h>

@@ -7,8 +7,8 @@
 
 #import <Cocoa/Cocoa.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/accessibility_bridge.h"
+#include "fml/macros.h"
+#include "shell/platform/common/accessibility_bridge.h"
 
 @class FlutterEngine;
 @class FlutterViewController;

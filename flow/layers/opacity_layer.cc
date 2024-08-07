@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/opacity_layer.h"
+#include "flow/layers/opacity_layer.h"
 
-#include "flutter/flow/layers/cacheable_layer.h"
-#include "flutter/flow/raster_cache_util.h"
+#include "flow/layers/cacheable_layer.h"
+#include "flow/raster_cache_util.h"
 #include "third_party/skia/include/core/SkPaint.h"
 
 namespace flutter {

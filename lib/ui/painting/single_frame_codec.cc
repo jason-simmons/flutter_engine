@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/single_frame_codec.h"
+#include "lib/ui/painting/single_frame_codec.h"
 
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/tonic/logging/dart_invoke.h"
 
 namespace flutter {

@@ -4,10 +4,10 @@
 
 #include "impeller/display_list/dl_golden_unittests.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/effects/dl_mask_filter.h"
-#include "flutter/impeller/golden_tests/screenshot.h"
-#include "flutter/testing/testing.h"
+#include "display_list/dl_builder.h"
+#include "display_list/effects/dl_mask_filter.h"
+#include "impeller/golden_tests/screenshot.h"
+#include "testing/testing.h"
 #include "gtest/gtest.h"
 #include "impeller/typographer/backends/skia/text_frame_skia.h"
 #include "txt/platform.h"

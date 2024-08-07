@@ -2,23 +2,23 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/public/flutter_windows.h"
 
 #include <dxgi.h>
 #include <wrl/client.h>
 #include <thread>
 
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/platform/common/app_lifecycle_state.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/windows/egl/manager.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/windows_test.h"
-#include "flutter/shell/platform/windows/testing/windows_test_config_builder.h"
-#include "flutter/shell/platform/windows/testing/windows_test_context.h"
-#include "flutter/shell/platform/windows/windows_lifecycle_manager.h"
-#include "flutter/testing/stream_capture.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/platform/common/app_lifecycle_state.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/windows/egl/manager.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/windows_test.h"
+#include "shell/platform/windows/testing/windows_test_config_builder.h"
+#include "shell/platform/windows/testing/windows_test_context.h"
+#include "shell/platform/windows/windows_lifecycle_manager.h"
+#include "testing/stream_capture.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "third_party/tonic/converter/dart_converter.h"

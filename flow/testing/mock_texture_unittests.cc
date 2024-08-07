@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/testing/mock_texture.h"
+#include "flow/testing/mock_texture.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/testing/display_list_testing.h"
+#include "display_list/dl_builder.h"
+#include "testing/display_list_testing.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

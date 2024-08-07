@@ -4,7 +4,7 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/shell/platform/android/android_shell_holder.h"
+#include "shell/platform/android/android_shell_holder.h"
 
 #include <pthread.h>
 #include <sys/resource.h>
@@ -16,20 +16,20 @@
 #include <string>
 #include <utility>
 
-#include "flutter/fml/cpu_affinity.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/platform/android/jni_util.h"
-#include "flutter/lib/ui/painting/image_generator_registry.h"
-#include "flutter/shell/common/rasterizer.h"
-#include "flutter/shell/common/run_configuration.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/platform/android/android_display.h"
-#include "flutter/shell/platform/android/android_image_generator.h"
-#include "flutter/shell/platform/android/context/android_context.h"
-#include "flutter/shell/platform/android/platform_view_android.h"
+#include "fml/cpu_affinity.h"
+#include "fml/logging.h"
+#include "fml/make_copyable.h"
+#include "fml/message_loop.h"
+#include "fml/native_library.h"
+#include "fml/platform/android/jni_util.h"
+#include "lib/ui/painting/image_generator_registry.h"
+#include "shell/common/rasterizer.h"
+#include "shell/common/run_configuration.h"
+#include "shell/common/thread_host.h"
+#include "shell/platform/android/android_display.h"
+#include "shell/platform/android/android_image_generator.h"
+#include "shell/platform/android/context/android_context.h"
+#include "shell/platform/android/platform_view_android.h"
 
 namespace flutter {
 

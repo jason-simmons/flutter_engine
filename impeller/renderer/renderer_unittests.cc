@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/logging.h"
+#include "fml/time/time_point.h"
 #include "impeller/core/device_buffer_descriptor.h"
 #include "impeller/core/formats.h"
 #include "impeller/core/host_buffer.h"

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder_external_view.h"
+#include "shell/platform/embedder/embedder_external_view.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/common/dl_op_spy.h"
+#include "display_list/dl_builder.h"
+#include "fml/trace_event.h"
+#include "shell/common/dl_op_spy.h"
 
 #ifdef IMPELLER_SUPPORTS_RENDERING
 #include "impeller/display_list/dl_dispatcher.h"  // nogncheck

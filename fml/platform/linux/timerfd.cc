@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/linux/timerfd.h"
+#include "fml/platform/linux/timerfd.h"
 
 #include <sys/types.h>
 #include <unistd.h>
 #include <cstring>
 
-#include "flutter/fml/eintr_wrapper.h"
-#include "flutter/fml/logging.h"
+#include "fml/eintr_wrapper.h"
+#include "fml/logging.h"
 
 #if FML_TIMERFD_AVAILABLE == 0
 

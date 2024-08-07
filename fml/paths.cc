@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 
 #include <sstream>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 namespace fml {
 namespace paths {

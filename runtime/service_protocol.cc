@@ -4,7 +4,7 @@
 
 #define RAPIDJSON_HAS_STDSTRING 1
 
-#include "flutter/runtime/service_protocol.h"
+#include "runtime/service_protocol.h"
 
 #include <cstring>
 #include <sstream>
@@ -12,8 +12,8 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/fml/posix_wrappers.h"
-#include "flutter/fml/synchronization/waitable_event.h"
+#include "fml/posix_wrappers.h"
+#include "fml/synchronization/waitable_event.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/writer.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"

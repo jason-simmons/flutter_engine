@@ -10,9 +10,9 @@
 #include <mutex>
 #include <unordered_map>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/flow/frame_timings.h"
-#include "flutter/fml/time/time_point.h"
+#include "common/task_runners.h"
+#include "flow/frame_timings.h"
+#include "fml/time/time_point.h"
 
 namespace flutter {
 

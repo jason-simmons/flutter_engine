@@ -10,8 +10,8 @@
 #include <optional>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/public/flutter_windows.h"
 
 namespace flutter {
 

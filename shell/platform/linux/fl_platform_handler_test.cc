@@ -4,14 +4,14 @@
 
 #include <gtk/gtk.h>
 
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_method_codec_private.h"
-#include "flutter/shell/platform/linux/fl_platform_handler.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_codec.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_binary_messenger.h"
-#include "flutter/testing/testing.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_method_codec_private.h"
+#include "shell/platform/linux/fl_platform_handler.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_codec.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_binary_messenger.h"
+#include "testing/testing.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

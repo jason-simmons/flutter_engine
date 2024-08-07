@@ -10,9 +10,9 @@
 #include <KHR/khrplatform.h>
 #include <optional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/shell/platform/android/android_environment_gl.h"
+#include "fml/macros.h"
+#include "fml/time/time_point.h"
+#include "shell/platform/android/android_environment_gl.h"
 #include "third_party/skia/include/core/SkRect.h"
 
 namespace flutter {

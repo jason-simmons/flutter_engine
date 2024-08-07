@@ -9,9 +9,9 @@
 #include <map>
 #include <string>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
 
 namespace flutter {
 

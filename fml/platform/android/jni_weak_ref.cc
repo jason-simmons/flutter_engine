@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/android/jni_weak_ref.h"
+#include "fml/platform/android/jni_weak_ref.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/platform/android/jni_util.h"
+#include "fml/logging.h"
+#include "fml/platform/android/jni_util.h"
 
 namespace fml {
 namespace jni {

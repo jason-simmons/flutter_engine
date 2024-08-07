@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/platform_handler.h"
+#include "shell/platform/windows/platform_handler.h"
 
 #include <windows.h>
 
 #include <cstring>
 #include <optional>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_result_functions.h"
-#include "flutter/shell/platform/common/json_method_codec.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
+#include "fml/platform/win/wstring_conversion.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_result_functions.h"
+#include "shell/platform/common/json_method_codec.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 static constexpr char kChannelName[] = "flutter/platform";
 

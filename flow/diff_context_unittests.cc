@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/testing/diff_context_test.h"
+#include "flow/testing/diff_context_test.h"
 
 namespace flutter {
 namespace testing {

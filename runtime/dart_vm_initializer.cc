@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_vm_initializer.h"
+#include "runtime/dart_vm_initializer.h"
 
 #include <atomic>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/synchronization/shared_mutex.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "fml/logging.h"
+#include "fml/synchronization/shared_mutex.h"
+#include "fml/trace_event.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/logging/dart_error.h"
 

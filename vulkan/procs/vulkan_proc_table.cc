@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 
 #include <utility>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 #define ACQUIRE_PROC(name, context)                 \
   if (!(name = AcquireProc("vk" #name, context))) { \

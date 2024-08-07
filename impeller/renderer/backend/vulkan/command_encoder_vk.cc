@@ -5,7 +5,7 @@
 #include "impeller/renderer/backend/vulkan/command_encoder_vk.h"
 #include <string>
 
-#include "flutter/fml/closure.h"
+#include "fml/closure.h"
 #include "fml/status.h"
 #include "fml/status_or.h"
 #include "impeller/renderer/backend/vulkan/context_vk.h"

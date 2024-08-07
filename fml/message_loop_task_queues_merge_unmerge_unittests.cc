@@ -7,10 +7,10 @@
 #include <thread>
 #include <utility>
 
-#include "flutter/fml/message_loop_task_queues.h"
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/time/chrono_timestamp_provider.h"
+#include "fml/message_loop_task_queues.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/time/chrono_timestamp_provider.h"
 #include "gtest/gtest.h"
 
 namespace fml {

@@ -9,8 +9,8 @@
 
 #include <unordered_map>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/window/platform_message.h"
+#include "fml/macros.h"
+#include "lib/ui/window/platform_message.h"
 #include "third_party/rapidjson/include/rapidjson/document.h"
 
 namespace flutter_runner {

@@ -6,9 +6,9 @@
 // TODO(vtl): Possibly we could separate these tests out better, since a lot of
 // it is actually testing |RefPtr|.
 
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/memory/ref_counted.h"
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #include "gtest/gtest.h"
 
 #if defined(__clang__)

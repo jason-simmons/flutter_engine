@@ -9,12 +9,12 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/gpu/gpu_surface_gl_skia.h"
-#include "flutter/shell/platform/android/android_context_gl_skia.h"
-#include "flutter/shell/platform/android/android_environment_gl.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
-#include "flutter/shell/platform/android/surface/android_surface.h"
+#include "fml/macros.h"
+#include "shell/gpu/gpu_surface_gl_skia.h"
+#include "shell/platform/android/android_context_gl_skia.h"
+#include "shell/platform/android/android_environment_gl.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/surface/android_surface.h"
 
 namespace flutter {
 

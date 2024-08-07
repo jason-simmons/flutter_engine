@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/aiks/aiks_unittests.h"
+#include "impeller/aiks/aiks_unittests.h"
 
 #include <array>
 #include <cmath>
@@ -12,7 +12,7 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 #include "gtest/gtest.h"
 #include "impeller/aiks/canvas.h"
 #include "impeller/aiks/color_filter.h"

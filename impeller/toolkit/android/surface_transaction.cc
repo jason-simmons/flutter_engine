@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/toolkit/android/surface_transaction.h"
+#include "impeller/toolkit/android/surface_transaction.h"
 
-#include "flutter/impeller/toolkit/android/hardware_buffer.h"
-#include "flutter/impeller/toolkit/android/surface_control.h"
+#include "impeller/toolkit/android/hardware_buffer.h"
+#include "impeller/toolkit/android/surface_control.h"
 #include "impeller/base/validation.h"
 
 namespace impeller::android {

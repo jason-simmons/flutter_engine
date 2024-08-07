@@ -6,8 +6,8 @@
 #define FLUTTER_LIB_GPU_CONTEXT_H_
 
 #include "dart_api.h"
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/export.h"
+#include "lib/ui/dart_wrapper.h"
 #include "impeller/renderer/context.h"
 
 namespace flutter {

@@ -7,7 +7,7 @@
 
 #include <cstdint>
 
-#include "flutter/fml/time/time_point.h"
+#include "fml/time/time_point.h"
 
 namespace fml {
 

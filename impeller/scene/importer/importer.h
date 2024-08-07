@@ -8,7 +8,7 @@
 #include <array>
 #include <memory>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/scene/importer/scene_flatbuffers.h"
 
 namespace impeller {

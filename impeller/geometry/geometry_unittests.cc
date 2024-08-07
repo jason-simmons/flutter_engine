@@ -10,8 +10,8 @@
 #include <sstream>
 #include <type_traits>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/testing/testing.h"
+#include "fml/build_config.h"
+#include "testing/testing.h"
 #include "impeller/geometry/color.h"
 #include "impeller/geometry/constants.h"
 #include "impeller/geometry/gradient.h"

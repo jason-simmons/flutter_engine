@@ -10,10 +10,10 @@
 #include <functional>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/wm_builders.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/wm_builders.h"
 
 #include "gtest/gtest.h"
 

@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 #include <stddef.h>
-#include "flutter/flow/layers/layer_tree.h"
+#include "flow/layers/layer_tree.h"
 
-#include "flutter/flow/compositor_context.h"
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/testing/mock_layer.h"
-#include "flutter/fml/macros.h"
-#include "flutter/testing/canvas_test.h"
-#include "flutter/testing/mock_canvas.h"
+#include "flow/compositor_context.h"
+#include "flow/layers/container_layer.h"
+#include "flow/raster_cache.h"
+#include "flow/testing/mock_layer.h"
+#include "fml/macros.h"
+#include "testing/canvas_test.h"
+#include "testing/mock_canvas.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

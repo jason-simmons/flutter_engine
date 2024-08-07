@@ -7,12 +7,12 @@
 
 #include <utility>
 
-#include "flutter/display_list/dl_attributes.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/dl_tile_mode.h"
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/display_list/utils/dl_comparable.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_attributes.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/dl_tile_mode.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "display_list/utils/dl_comparable.h"
+#include "fml/logging.h"
 
 #include "third_party/skia/include/core/SkMatrix.h"
 

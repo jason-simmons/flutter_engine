@@ -39,8 +39,8 @@
 
 #include <gtest/gtest.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/fuchsia/flutter/tests/integration/utils/portable_ui_test.h"
+#include "fml/logging.h"
+#include "shell/platform/fuchsia/flutter/tests/integration/utils/portable_ui_test.h"
 #include "lib/fidl/cpp/interface_ptr.h"
 
 namespace mouse_input_test::testing {

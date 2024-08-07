@@ -4,12 +4,12 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/flow/layers/display_list_layer.h"
+#include "flow/layers/display_list_layer.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/flow/testing/diff_context_test.h"
-#include "flutter/fml/macros.h"
+#include "display_list/dl_builder.h"
+#include "flow/layers/layer_tree.h"
+#include "flow/testing/diff_context_test.h"
+#include "fml/macros.h"
 
 // TODO(zanderso): https://github.com/flutter/flutter/issues/127701
 // NOLINTBEGIN(bugprone-unchecked-optional-access)

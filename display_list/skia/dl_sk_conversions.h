@@ -5,8 +5,8 @@
 #ifndef FLUTTER_DISPLAY_LIST_SKIA_DL_SK_CONVERSIONS_H_
 #define FLUTTER_DISPLAY_LIST_SKIA_DL_SK_CONVERSIONS_H_
 
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/skia/dl_sk_types.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/skia/dl_sk_types.h"
 
 namespace flutter {
 

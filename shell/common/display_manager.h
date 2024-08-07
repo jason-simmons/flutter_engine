@@ -8,7 +8,7 @@
 #include <mutex>
 #include <vector>
 
-#include "flutter/shell/common/display.h"
+#include "shell/common/display.h"
 
 namespace flutter {
 

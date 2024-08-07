@@ -2,26 +2,26 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_isolate.h"
+#include "runtime/dart_isolate.h"
 
 #include <cstdlib>
 #include <tuple>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/posix_wrappers.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/io/dart_io.h"
-#include "flutter/lib/ui/dart_runtime_hooks.h"
-#include "flutter/lib/ui/dart_ui.h"
-#include "flutter/lib/ui/window/platform_isolate.h"
-#include "flutter/runtime/dart_isolate_group_data.h"
-#include "flutter/runtime/dart_plugin_registrant.h"
-#include "flutter/runtime/dart_service_isolate.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/runtime/dart_vm_lifecycle.h"
-#include "flutter/runtime/isolate_configuration.h"
-#include "flutter/runtime/runtime_controller.h"
+#include "fml/logging.h"
+#include "fml/posix_wrappers.h"
+#include "fml/trace_event.h"
+#include "lib/io/dart_io.h"
+#include "lib/ui/dart_runtime_hooks.h"
+#include "lib/ui/dart_ui.h"
+#include "lib/ui/window/platform_isolate.h"
+#include "runtime/dart_isolate_group_data.h"
+#include "runtime/dart_plugin_registrant.h"
+#include "runtime/dart_service_isolate.h"
+#include "runtime/dart_vm.h"
+#include "runtime/dart_vm_lifecycle.h"
+#include "runtime/isolate_configuration.h"
+#include "runtime/runtime_controller.h"
 #include "fml/message_loop_task_queues.h"
 #include "fml/task_source.h"
 #include "fml/time/time_point.h"

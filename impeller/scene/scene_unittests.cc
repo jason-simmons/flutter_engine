@@ -6,8 +6,8 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/fml/mapping.h"
-#include "flutter/testing/testing.h"
+#include "fml/mapping.h"
+#include "testing/testing.h"
 #include "impeller/core/formats.h"
 #include "impeller/geometry/color.h"
 #include "impeller/geometry/constants.h"

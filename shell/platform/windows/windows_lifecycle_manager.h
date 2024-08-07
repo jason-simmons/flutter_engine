@@ -13,7 +13,7 @@
 #include <optional>
 #include <set>
 
-#include "flutter/shell/platform/common/app_lifecycle_state.h"
+#include "shell/platform/common/app_lifecycle_state.h"
 
 namespace flutter {
 

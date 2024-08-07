@@ -22,8 +22,8 @@
 #include <unordered_set>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
+#include "fml/macros.h"
+#include "lib/ui/semantics/semantics_node.h"
 
 namespace flutter_runner {
 

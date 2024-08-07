@@ -5,12 +5,12 @@
 #ifndef FLUTTER_VULKAN_PROCS_VULKAN_PROC_TABLE_H_
 #define FLUTTER_VULKAN_PROCS_VULKAN_PROC_TABLE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
-#include "flutter/vulkan/procs/vulkan_interface.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/memory/ref_ptr.h"
+#include "fml/native_library.h"
+#include "vulkan/procs/vulkan_handle.h"
+#include "vulkan/procs/vulkan_interface.h"
 
 namespace vulkan {
 

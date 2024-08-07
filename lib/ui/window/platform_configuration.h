@@ -11,13 +11,13 @@
 #include <unordered_map>
 #include <vector>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/lib/ui/semantics/semantics_update.h"
-#include "flutter/lib/ui/window/platform_message_response.h"
-#include "flutter/lib/ui/window/pointer_data_packet.h"
-#include "flutter/lib/ui/window/viewport_metrics.h"
-#include "flutter/shell/common/display.h"
+#include "assets/asset_manager.h"
+#include "fml/time/time_point.h"
+#include "lib/ui/semantics/semantics_update.h"
+#include "lib/ui/window/platform_message_response.h"
+#include "lib/ui/window/pointer_data_packet.h"
+#include "lib/ui/window/viewport_metrics.h"
+#include "shell/common/display.h"
 #include "third_party/tonic/dart_persistent_value.h"
 #include "third_party/tonic/typed_data/dart_byte_data.h"
 

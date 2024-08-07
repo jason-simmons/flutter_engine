@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_task_runner.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_task_runner.h"
+#include "shell/platform/linux/fl_engine_private.h"
 
 static constexpr int kMicrosecondsPerNanosecond = 1000;
 static constexpr int kMillisecondsPerMicrosecond = 1000;

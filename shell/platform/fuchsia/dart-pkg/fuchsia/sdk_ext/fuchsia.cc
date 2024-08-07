@@ -14,7 +14,7 @@
 #include "dart-pkg/zircon/sdk_ext/handle.h"
 #include "dart-pkg/zircon/sdk_ext/natives.h"
 #include "dart-pkg/zircon/sdk_ext/system.h"
-#include "flutter/fml/size.h"
+#include "fml/size.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/tonic/dart_binding_macros.h"
 #include "third_party/tonic/dart_class_library.h"

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_pixel_buffer_texture.h"
-#include "flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h"
-#include "flutter/shell/platform/linux/fl_texture_private.h"
-#include "flutter/shell/platform/linux/fl_texture_registrar_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_texture_registrar.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/public/flutter_linux/fl_pixel_buffer_texture.h"
+#include "shell/platform/linux/fl_pixel_buffer_texture_private.h"
+#include "shell/platform/linux/fl_texture_private.h"
+#include "shell/platform/linux/fl_texture_registrar_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_texture_registrar.h"
+#include "shell/platform/linux/testing/fl_test.h"
 #include "gtest/gtest.h"
 
 #include <epoxy/gl.h>

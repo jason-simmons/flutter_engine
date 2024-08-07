@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_settings_portal.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/testing/testing.h"
+#include "shell/platform/linux/fl_settings_portal.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "testing/testing.h"
 
 #include <glib.h>
 

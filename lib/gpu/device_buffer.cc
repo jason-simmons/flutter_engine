@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/device_buffer.h"
+#include "lib/gpu/device_buffer.h"
 
 #include "dart_api.h"
-#include "flutter/lib/gpu/formats.h"
+#include "lib/gpu/formats.h"
 #include "fml/mapping.h"
 #include "impeller/core/device_buffer.h"
 #include "impeller/core/device_buffer_descriptor.h"

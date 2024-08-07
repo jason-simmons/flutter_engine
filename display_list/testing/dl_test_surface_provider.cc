@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/testing/dl_test_surface_provider.h"
+#include "display_list/testing/dl_test_surface_provider.h"
 
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkData.h"
@@ -11,13 +11,13 @@
 #include "third_party/skia/include/encode/SkPngEncoder.h"
 
 #ifdef ENABLE_SOFTWARE_BENCHMARKS
-#include "flutter/display_list/testing/dl_test_surface_software.h"
+#include "display_list/testing/dl_test_surface_software.h"
 #endif
 #ifdef ENABLE_OPENGL_BENCHMARKS
-#include "flutter/display_list/testing/dl_test_surface_gl.h"
+#include "display_list/testing/dl_test_surface_gl.h"
 #endif
 #ifdef ENABLE_METAL_BENCHMARKS
-#include "flutter/display_list/testing/dl_test_surface_metal.h"
+#include "display_list/testing/dl_test_surface_metal.h"
 #endif
 
 namespace flutter {

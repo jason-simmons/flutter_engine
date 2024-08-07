@@ -6,7 +6,7 @@
 #include <cstddef>
 #include <cstring>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/codec/SkCodec.h"
 #include "third_party/skia/include/codec/SkCodecAnimation.h"
 #include "third_party/skia/include/core/SkAlphaType.h"

@@ -15,11 +15,11 @@
 #include <unordered_map>
 #include <vector>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/fuchsia/flutter/canvas_spy.h"
-#include "flutter/shell/platform/fuchsia/flutter/rtree.h"
+#include "flow/embedded_views.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
+#include "shell/platform/fuchsia/flutter/canvas_spy.h"
+#include "shell/platform/fuchsia/flutter/rtree.h"
 #include "third_party/skia/include/core/SkPictureRecorder.h"
 #include "third_party/skia/include/core/SkPoint.h"
 #include "third_party/skia/include/core/SkRect.h"

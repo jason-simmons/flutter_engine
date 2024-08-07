@@ -5,8 +5,8 @@
 #ifndef FLUTTER_RUNTIME_DART_VM_DATA_H_
 #define FLUTTER_RUNTIME_DART_VM_DATA_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/runtime/dart_snapshot.h"
+#include "fml/macros.h"
+#include "runtime/dart_snapshot.h"
 
 namespace flutter {
 

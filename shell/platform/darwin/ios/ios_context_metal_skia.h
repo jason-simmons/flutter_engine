@@ -9,9 +9,9 @@
 
 #include <Metal/Metal.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/cf_utils.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/cf_utils.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
 #import "flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h"
 #import "flutter/shell/platform/darwin/ios/ios_context.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

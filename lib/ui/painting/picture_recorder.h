@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_PICTURE_RECORDER_H_
 #define FLUTTER_LIB_UI_PAINTING_PICTURE_RECORDER_H_
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "display_list/dl_builder.h"
+#include "lib/ui/dart_wrapper.h"
 
 namespace flutter {
 class Canvas;

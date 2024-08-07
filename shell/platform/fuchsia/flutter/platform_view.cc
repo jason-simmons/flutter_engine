@@ -14,16 +14,16 @@
 #include <limits>
 #include <sstream>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/lib/ui/window/pointer_data.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
+#include "fml/logging.h"
+#include "fml/make_copyable.h"
+#include "lib/ui/window/pointer_data.h"
+#include "shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
 #include "third_party/rapidjson/include/rapidjson/document.h"
 #include "third_party/rapidjson/include/rapidjson/stringbuffer.h"
 #include "third_party/rapidjson/include/rapidjson/writer.h"
 
-#include "flutter/fml/make_copyable.h"
+#include "fml/make_copyable.h"
 #include "logging.h"
 #include "pointer_injector_delegate.h"
 #include "runtime/dart/utils/inlines.h"

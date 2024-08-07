@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/assets/directory_asset_bundle.h"
+#include "assets/directory_asset_bundle.h"
 
 #include <regex>
 #include <utility>
 
-#include "flutter/fml/eintr_wrapper.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/eintr_wrapper.h"
+#include "fml/file.h"
+#include "fml/mapping.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

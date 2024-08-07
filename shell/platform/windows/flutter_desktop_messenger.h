@@ -8,8 +8,8 @@
 #include <atomic>
 #include <mutex>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/public/flutter_messenger.h"
+#include "fml/macros.h"
+#include "shell/platform/common/public/flutter_messenger.h"
 
 namespace flutter {
 

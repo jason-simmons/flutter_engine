@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/testing.h"  // IWYU pragma: keep
+#include "testing/testing.h"  // IWYU pragma: keep
 #include "gtest/gtest.h"
 #include "impeller/base/allocation_size.h"
 #include "impeller/core/device_buffer_descriptor.h"

@@ -8,8 +8,8 @@
 #include <cstdint>
 #include <unordered_map>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
 
 namespace flutter {
 class ResourceCacheLimitItem {

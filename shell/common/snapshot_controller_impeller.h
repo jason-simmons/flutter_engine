@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_COMMON_SNAPSHOT_CONTROLLER_IMPELLER_H_
 #define FLUTTER_SHELL_COMMON_SNAPSHOT_CONTROLLER_IMPELLER_H_
 
-#include "flutter/shell/common/snapshot_controller.h"
+#include "shell/common/snapshot_controller.h"
 #include "impeller/runtime_stage/runtime_stage.h"
 
 namespace flutter {

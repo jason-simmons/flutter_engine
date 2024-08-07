@@ -7,13 +7,13 @@
 
 #include <memory>
 
-#include "flutter/testing/test_args.h"
-#include "flutter/testing/testing.h"
+#include "testing/test_args.h"
+#include "testing/testing.h"
 #include "impeller/playground/playground.h"
 #include "impeller/playground/switches.h"
 
 #if FML_OS_MACOSX
-#include "flutter/fml/platform/darwin/scoped_nsautorelease_pool.h"
+#include "fml/platform/darwin/scoped_nsautorelease_pool.h"
 #endif
 
 namespace impeller {

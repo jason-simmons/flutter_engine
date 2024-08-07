@@ -5,10 +5,10 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_PATH_H_
 #define FLUTTER_LIB_UI_PAINTING_PATH_H_
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/rrect.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/volatile_path_tracker.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/rrect.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/volatile_path_tracker.h"
 #include "third_party/skia/include/core/SkPath.h"
 #include "third_party/skia/include/pathops/SkPathOps.h"
 #include "third_party/tonic/typed_data/typed_list.h"

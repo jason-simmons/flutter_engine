@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
 
 #include <gmodule.h>
 
@@ -10,21 +10,21 @@
 #include <string>
 #include <vector>
 
-#include "flutter/common/constants.h"
-#include "flutter/shell/platform/common/engine_switches.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_dart_project_private.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h"
-#include "flutter/shell/platform/linux/fl_plugin_registrar_private.h"
-#include "flutter/shell/platform/linux/fl_renderer.h"
-#include "flutter/shell/platform/linux/fl_renderer_gdk.h"
-#include "flutter/shell/platform/linux/fl_renderer_headless.h"
-#include "flutter/shell/platform/linux/fl_settings_handler.h"
-#include "flutter/shell/platform/linux/fl_texture_gl_private.h"
-#include "flutter/shell/platform/linux/fl_texture_registrar_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_plugin_registry.h"
+#include "common/constants.h"
+#include "shell/platform/common/engine_switches.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_dart_project_private.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_pixel_buffer_texture_private.h"
+#include "shell/platform/linux/fl_plugin_registrar_private.h"
+#include "shell/platform/linux/fl_renderer.h"
+#include "shell/platform/linux/fl_renderer_gdk.h"
+#include "shell/platform/linux/fl_renderer_headless.h"
+#include "shell/platform/linux/fl_settings_handler.h"
+#include "shell/platform/linux/fl_texture_gl_private.h"
+#include "shell/platform/linux/fl_texture_registrar_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_plugin_registry.h"
 
 // Unique number associated with platform tasks.
 static constexpr size_t kPlatformTaskRunnerIdentifier = 1;

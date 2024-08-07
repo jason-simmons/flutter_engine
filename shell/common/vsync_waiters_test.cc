@@ -4,14 +4,14 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/shell/common/shell_test.h"
+#include "shell/common/shell_test.h"
 
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/flow/layers/transform_layer.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/testing/testing.h"
+#include "flow/layers/layer_tree.h"
+#include "flow/layers/transform_layer.h"
+#include "fml/make_copyable.h"
+#include "fml/mapping.h"
+#include "runtime/dart_vm.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

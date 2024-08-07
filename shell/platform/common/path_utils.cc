@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/common/path_utils.h"
+#include "shell/platform/common/path_utils.h"
 
 #if defined(_WIN32)
 #include <windows.h>

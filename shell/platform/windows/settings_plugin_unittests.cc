@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/settings_plugin.h"
+#include "shell/platform/windows/settings_plugin.h"
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/task_runner.h"
-#include "flutter/shell/platform/windows/testing/test_binary_messenger.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/task_runner.h"
+#include "shell/platform/windows/testing/test_binary_messenger.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

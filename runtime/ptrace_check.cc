@@ -20,7 +20,7 @@
 //   - go/decommissioning-dbc-engine
 //   - go/decommissioning-dbc-tools
 
-#include "flutter/runtime/ptrace_check.h"
+#include "runtime/ptrace_check.h"
 
 #if TRACING_CHECKS_NECESSARY
 
@@ -29,7 +29,7 @@
 
 #include <mutex>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 // Being extra careful and adding additional landmines that will prevent
 // compilation of this TU in an incorrect runtime mode.

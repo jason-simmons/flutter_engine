@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/testing/testing.h"  // IWYU pragma: keep
+#include "fml/synchronization/waitable_event.h"
+#include "testing/testing.h"  // IWYU pragma: keep
 #include "impeller/base/validation.h"
 #include "impeller/core/formats.h"
 #include "impeller/renderer/backend/vulkan/command_pool_vk.h"

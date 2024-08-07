@@ -10,8 +10,8 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
 
 namespace fml {
 

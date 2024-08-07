@@ -8,12 +8,12 @@
 #include <cstdint>
 #include <memory>
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/flow/compositor_context.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_delta.h"
+#include "common/graphics/texture.h"
+#include "flow/compositor_context.h"
+#include "flow/layers/layer.h"
+#include "flow/raster_cache.h"
+#include "fml/macros.h"
+#include "fml/time/time_delta.h"
 
 class GrDirectContext;
 

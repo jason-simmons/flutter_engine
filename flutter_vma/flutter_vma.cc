@@ -19,7 +19,7 @@
 // Enable this to dump a list of all pending allocations to the log. This comes
 // in handy if you are tracking a leak of a resource after context shutdown.
 #if 0
-#include "flutter/fml/logging.h"  // nogncheck
+#include "fml/logging.h"  // nogncheck
 #define VMA_DEBUG_LOG VMADebugPrint
 void VMADebugPrint(const char* message, ...) {
   va_list args;
@@ -31,11 +31,11 @@ void VMADebugPrint(const char* message, ...) {
 }
 #endif
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 #define VMA_ASSERT(expr) \
   FML_DCHECK((expr)) << "Vulkan Memory Allocator Failure!"
 #define VMA_HEAVY_ASSERT(expr) \
   FML_DCHECK((expr)) << "Vulkan Memory Allocator Failure!"
 
-#include "flutter/flutter_vma/flutter_vma.h"
+#include "flutter_vma/flutter_vma.h"

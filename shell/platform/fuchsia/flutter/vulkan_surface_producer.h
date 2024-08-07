@@ -8,13 +8,13 @@
 #include <lib/async/cpp/time.h>
 #include <lib/async/default.h>
 
-#include "flutter/flutter_vma/flutter_skia_vma.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
-#include "flutter/vulkan/vulkan_application.h"
-#include "flutter/vulkan/vulkan_device.h"
-#include "flutter/vulkan/vulkan_provider.h"
+#include "flutter_vma/flutter_skia_vma.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/vulkan_application.h"
+#include "vulkan/vulkan_device.h"
+#include "vulkan/vulkan_provider.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 
 #include "logging.h"

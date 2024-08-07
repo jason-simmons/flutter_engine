@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/tests/embedder_test.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_software.h"
+#include "shell/platform/embedder/tests/embedder_test.h"
+#include "shell/platform/embedder/tests/embedder_test_context_software.h"
 
 #ifdef SHELL_ENABLE_GL
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_gl.h"
+#include "shell/platform/embedder/tests/embedder_test_context_gl.h"
 #endif
 
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_metal.h"
+#include "shell/platform/embedder/tests/embedder_test_context_metal.h"
 #endif
 
 #ifdef SHELL_ENABLE_VULKAN
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_vulkan.h"
+#include "shell/platform/embedder/tests/embedder_test_context_vulkan.h"
 #endif
 
 namespace flutter {

@@ -22,16 +22,16 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/shell/platform/fuchsia/flutter/external_view_embedder.h"
+#include "fml/memory/weak_ptr.h"
+#include "shell/platform/fuchsia/flutter/external_view_embedder.h"
 
 #include "flow/embedded_views.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/platform/fuchsia/flutter/keyboard.h"
-#include "flutter/shell/platform/fuchsia/flutter/vsync_waiter.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/time/time_delta.h"
+#include "shell/common/platform_view.h"
+#include "shell/platform/fuchsia/flutter/keyboard.h"
+#include "shell/platform/fuchsia/flutter/vsync_waiter.h"
 #include "focus_delegate.h"
 #include "pointer_delegate.h"
 #include "pointer_injector_delegate.h"

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/android/message_loop_android.h"
+#include "fml/platform/android/message_loop_android.h"
 
 #include <fcntl.h>
 #include <unistd.h>
 
-#include "flutter/fml/platform/linux/timerfd.h"
+#include "fml/platform/linux/timerfd.h"
 
 namespace fml {
 

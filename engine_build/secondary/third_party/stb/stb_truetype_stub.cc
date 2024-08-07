@@ -3,4 +3,4 @@
 // found in the LICENSE file.
 
 #define STB_TRUETYPE_IMPLEMENTATION
-#include "flutter/third_party/stb/stb_truetype.h"
+#include "third_party/stb/stb_truetype.h"

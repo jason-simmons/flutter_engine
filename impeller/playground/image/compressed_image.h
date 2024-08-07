@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/playground/image/decompressed_image.h"
 
 namespace impeller {

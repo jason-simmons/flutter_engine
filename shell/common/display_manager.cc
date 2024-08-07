@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/display_manager.h"
+#include "shell/common/display_manager.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

@@ -7,9 +7,9 @@
 
 #include <map>
 #include <memory>
-#include "flutter/lib/gpu/command_buffer.h"
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/command_buffer.h"
+#include "lib/gpu/export.h"
+#include "lib/ui/dart_wrapper.h"
 #include "fml/memory/ref_ptr.h"
 #include "impeller/core/formats.h"
 #include "impeller/core/vertex_buffer.h"

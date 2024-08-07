@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/testing/dl_test_snippets.h"
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/dl_op_receiver.h"
+#include "display_list/testing/dl_test_snippets.h"
+#include "display_list/dl_builder.h"
+#include "display_list/dl_op_receiver.h"
 #include "third_party/skia/include/core/SkFontMgr.h"
 #include "third_party/skia/include/core/SkTypeface.h"
 #include "txt/platform.h"

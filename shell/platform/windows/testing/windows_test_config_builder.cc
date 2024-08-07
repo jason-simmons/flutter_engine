@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/testing/windows_test_config_builder.h"
+#include "shell/platform/windows/testing/windows_test_config_builder.h"
 
 #include <combaseapi.h>
 
@@ -10,10 +10,10 @@
 #include <string_view>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
-#include "flutter/shell/platform/windows/testing/windows_test_context.h"
+#include "fml/logging.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/testing/windows_test_context.h"
 
 namespace flutter {
 namespace testing {

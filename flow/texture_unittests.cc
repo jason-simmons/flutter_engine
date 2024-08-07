@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/common/graphics/texture.h"
+#include "common/graphics/texture.h"
 
 #include <functional>
 
-#include "flutter/flow/testing/mock_texture.h"
+#include "flow/testing/mock_texture.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

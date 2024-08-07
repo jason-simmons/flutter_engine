@@ -2,21 +2,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/common/graphics/persistent_cache.h"
+#include "common/graphics/persistent_cache.h"
 
 #include <memory>
 
-#include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/log_settings.h"
-#include "flutter/fml/unique_fd.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/switches.h"
-#include "flutter/shell/version/version.h"
-#include "flutter/testing/testing.h"
+#include "assets/directory_asset_bundle.h"
+#include "flow/layers/container_layer.h"
+#include "flow/layers/layer.h"
+#include "fml/command_line.h"
+#include "fml/file.h"
+#include "fml/log_settings.h"
+#include "fml/unique_fd.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/switches.h"
+#include "shell/version/version.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

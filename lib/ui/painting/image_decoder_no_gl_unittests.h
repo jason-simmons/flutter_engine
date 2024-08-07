@@ -7,13 +7,13 @@
 
 #include <stdint.h>
 
-#include "flutter/impeller/core/allocator.h"
-#include "flutter/impeller/core/device_buffer.h"
-#include "flutter/impeller/core/formats.h"
-#include "flutter/impeller/geometry/size.h"
-#include "flutter/lib/ui/painting/image_decoder.h"
-#include "flutter/lib/ui/painting/image_decoder_impeller.h"
-#include "flutter/testing/testing.h"
+#include "impeller/core/allocator.h"
+#include "impeller/core/device_buffer.h"
+#include "impeller/core/formats.h"
+#include "impeller/geometry/size.h"
+#include "lib/ui/painting/image_decoder.h"
+#include "lib/ui/painting/image_decoder_impeller.h"
+#include "testing/testing.h"
 
 namespace impeller {
 

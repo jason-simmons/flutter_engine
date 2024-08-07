@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/window_proc_delegate_manager.h"
+#include "shell/platform/windows/window_proc_delegate_manager.h"
 
 #include <algorithm>
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 namespace flutter {
 

@@ -8,7 +8,7 @@
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/common/text_range.h"
+#include "shell/platform/common/text_range.h"
 
 namespace flutter {
 

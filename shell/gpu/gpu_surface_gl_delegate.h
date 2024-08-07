@@ -7,9 +7,9 @@
 
 #include <optional>
 
-#include "flutter/common/graphics/gl_context_switch.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/macros.h"
+#include "common/graphics/gl_context_switch.h"
+#include "flow/embedded_views.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/gpu/gl/GrGLInterface.h"
 

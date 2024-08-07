@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/backtrace.h"
+#include "fml/backtrace.h"
 
 #include <csignal>
 #include <sstream>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/paths.h"
-#include "flutter/third_party/abseil-cpp/absl/debugging/symbolize.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
+#include "fml/paths.h"
+#include "third_party/abseil-cpp/absl/debugging/symbolize.h"
 
 #ifdef FML_OS_WIN
 #include <Windows.h>

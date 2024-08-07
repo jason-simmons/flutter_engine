@@ -16,8 +16,8 @@
 
 #include <functional>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/native_library.h"
+#include "fml/logging.h"
+#include "fml/native_library.h"
 
 namespace impeller::android {
 

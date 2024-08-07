@@ -5,8 +5,8 @@
 #ifndef FLUTTER_DISPLAY_LIST_IMAGE_DL_IMAGE_SKIA_H_
 #define FLUTTER_DISPLAY_LIST_IMAGE_DL_IMAGE_SKIA_H_
 
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/fml/macros.h"
+#include "display_list/image/dl_image.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

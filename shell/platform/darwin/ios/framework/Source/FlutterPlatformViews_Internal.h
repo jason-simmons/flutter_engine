@@ -12,10 +12,10 @@
 
 #include <Metal/Metal.h>
 
-#include "flutter/flow/surface.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
-#include "flutter/fml/trace_event.h"
+#include "flow/surface.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
+#include "fml/trace_event.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterChannels.h"
 #import "flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterViewResponder.h"

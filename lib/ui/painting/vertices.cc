@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/vertices.h"
+#include "lib/ui/painting/vertices.h"
 
 #include <algorithm>
 
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/tonic/dart_binding_macros.h"
 #include "third_party/tonic/dart_library_natives.h"
 

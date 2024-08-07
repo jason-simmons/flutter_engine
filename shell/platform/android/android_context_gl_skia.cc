@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_context_gl_skia.h"
+#include "shell/platform/android/android_context_gl_skia.h"
 
 #include <utility>
 
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/platform/android/android_egl_surface.h"
+#include "fml/trace_event.h"
+#include "shell/platform/android/android_egl_surface.h"
 
 namespace flutter {
 

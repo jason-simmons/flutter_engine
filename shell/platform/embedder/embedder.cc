@@ -12,11 +12,11 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/closure.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/thread.h"
+#include "fml/build_config.h"
+#include "fml/closure.h"
+#include "fml/make_copyable.h"
+#include "fml/native_library.h"
+#include "fml/thread.h"
 #include "third_party/dart/runtime/bin/elf_loader.h"
 #include "third_party/dart/runtime/include/dart_native_api.h"
 #include "third_party/skia/include/core/SkSurface.h"
@@ -40,42 +40,42 @@ extern const intptr_t kPlatformStrongDillSize;
 #endif  // FLUTTER_RUNTIME_MODE == FLUTTER_RUNTIME_MODE_DEBUG
 }
 
-#include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/common/rasterizer.h"
-#include "flutter/shell/common/switches.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/embedder_engine.h"
-#include "flutter/shell/platform/embedder/embedder_external_texture_resolver.h"
-#include "flutter/shell/platform/embedder/embedder_platform_message_response.h"
-#include "flutter/shell/platform/embedder/embedder_render_target.h"
-#include "flutter/shell/platform/embedder/embedder_render_target_skia.h"
-#include "flutter/shell/platform/embedder/embedder_semantics_update.h"
-#include "flutter/shell/platform/embedder/embedder_struct_macros.h"
-#include "flutter/shell/platform/embedder/embedder_task_runner.h"
-#include "flutter/shell/platform/embedder/embedder_thread_host.h"
-#include "flutter/shell/platform/embedder/pixel_formats.h"
-#include "flutter/shell/platform/embedder/platform_view_embedder.h"
+#include "assets/directory_asset_bundle.h"
+#include "common/graphics/persistent_cache.h"
+#include "common/task_runners.h"
+#include "fml/command_line.h"
+#include "fml/file.h"
+#include "fml/make_copyable.h"
+#include "fml/message_loop.h"
+#include "fml/paths.h"
+#include "fml/trace_event.h"
+#include "shell/common/rasterizer.h"
+#include "shell/common/switches.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder_engine.h"
+#include "shell/platform/embedder/embedder_external_texture_resolver.h"
+#include "shell/platform/embedder/embedder_platform_message_response.h"
+#include "shell/platform/embedder/embedder_render_target.h"
+#include "shell/platform/embedder/embedder_render_target_skia.h"
+#include "shell/platform/embedder/embedder_semantics_update.h"
+#include "shell/platform/embedder/embedder_struct_macros.h"
+#include "shell/platform/embedder/embedder_task_runner.h"
+#include "shell/platform/embedder/embedder_thread_host.h"
+#include "shell/platform/embedder/pixel_formats.h"
+#include "shell/platform/embedder/platform_view_embedder.h"
 #include "rapidjson/rapidjson.h"
 #include "rapidjson/writer.h"
 
 // Note: the IMPELLER_SUPPORTS_RENDERING may be defined even when the
 // embedder/BUILD.gn variable impeller_supports_rendering is disabled.
 #ifdef SHELL_ENABLE_GL
-#include "flutter/shell/platform/embedder/embedder_external_texture_gl.h"
+#include "shell/platform/embedder/embedder_external_texture_gl.h"
 #include "third_party/skia/include/gpu/ganesh/gl/GrGLBackendSurface.h"
 #include "third_party/skia/include/gpu/gl/GrGLTypes.h"
 #ifdef IMPELLER_SUPPORTS_RENDERING
-#include "flutter/shell/platform/embedder/embedder_render_target_impeller.h"  // nogncheck
-#include "flutter/shell/platform/embedder/embedder_surface_gl_impeller.h"  // nogncheck
-#include "flutter/shell/platform/embedder/embedder_surface_gl_skia.h"  // nogncheck
+#include "shell/platform/embedder/embedder_render_target_impeller.h"  // nogncheck
+#include "shell/platform/embedder/embedder_surface_gl_impeller.h"  // nogncheck
+#include "shell/platform/embedder/embedder_surface_gl_skia.h"  // nogncheck
 #include "impeller/core/texture.h"                        // nogncheck
 #include "impeller/renderer/backend/gles/context_gles.h"  // nogncheck
 #include "impeller/renderer/backend/gles/texture_gles.h"  // nogncheck
@@ -85,13 +85,13 @@ extern const intptr_t kPlatformStrongDillSize;
 #endif  // SHELL_ENABLE_GL
 
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/shell/platform/embedder/embedder_surface_metal_skia.h"
+#include "shell/platform/embedder/embedder_surface_metal_skia.h"
 #include "third_party/skia/include/gpu/ganesh/mtl/GrMtlBackendSurface.h"
 #include "third_party/skia/include/gpu/ganesh/mtl/GrMtlTypes.h"
 #include "third_party/skia/include/ports/SkCFObject.h"
 #ifdef IMPELLER_SUPPORTS_RENDERING
-#include "flutter/shell/platform/embedder/embedder_render_target_impeller.h"  // nogncheck
-#include "flutter/shell/platform/embedder/embedder_surface_metal_impeller.h"  // nogncheck
+#include "shell/platform/embedder/embedder_render_target_impeller.h"  // nogncheck
+#include "shell/platform/embedder/embedder_surface_metal_impeller.h"  // nogncheck
 #include "impeller/core/texture.h"                                // nogncheck
 #include "impeller/renderer/backend/metal/texture_wrapper_mtl.h"  // nogncheck
 #include "impeller/renderer/render_target.h"                      // nogncheck

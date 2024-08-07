@@ -3,8 +3,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 //
-#include "flutter/display_list/skia/dl_sk_canvas.h"
-#include "flutter/fml/macros.h"
+#include "display_list/skia/dl_sk_canvas.h"
+#include "fml/macros.h"
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkCanvasVirtualEnforcer.h"
 #include "third_party/skia/include/utils/SkNWayCanvas.h"

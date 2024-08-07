@@ -17,7 +17,7 @@
 #include <zircon/dlfcn.h>
 #include <zircon/status.h>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 
 #include "inlines.h"

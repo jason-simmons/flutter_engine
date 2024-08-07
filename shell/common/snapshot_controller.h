@@ -5,12 +5,12 @@
 #ifndef FLUTTER_SHELL_COMMON_SNAPSHOT_CONTROLLER_H_
 #define FLUTTER_SHELL_COMMON_SNAPSHOT_CONTROLLER_H_
 
-#include "flutter/common/settings.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/synchronization/sync_switch.h"
-#include "flutter/lib/ui/snapshot_delegate.h"
-#include "flutter/shell/common/snapshot_surface_producer.h"
+#include "common/settings.h"
+#include "display_list/image/dl_image.h"
+#include "flow/surface.h"
+#include "fml/synchronization/sync_switch.h"
+#include "lib/ui/snapshot_delegate.h"
+#include "shell/common/snapshot_surface_producer.h"
 
 namespace impeller {
 class AiksContext;

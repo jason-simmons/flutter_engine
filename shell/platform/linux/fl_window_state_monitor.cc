@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_window_state_monitor.h"
+#include "shell/platform/linux/fl_window_state_monitor.h"
 
 #include <gtk/gtk.h>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_string_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_string_codec.h"
 
 static constexpr const char* kFlutterLifecycleChannel = "flutter/lifecycle";
 

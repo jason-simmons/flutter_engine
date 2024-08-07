@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/common/text_editing_delta.h"
+#include "shell/platform/common/text_editing_delta.h"
 
-#include "flutter/fml/string_conversion.h"
+#include "fml/string_conversion.h"
 
 namespace flutter {
 

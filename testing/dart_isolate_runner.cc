@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/dart_isolate_runner.h"
+#include "testing/dart_isolate_runner.h"
 
 #include <utility>
 
-#include "flutter/runtime/isolate_configuration.h"
+#include "runtime/isolate_configuration.h"
 
 namespace flutter {
 namespace testing {

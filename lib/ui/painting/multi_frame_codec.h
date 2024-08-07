@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_MULTI_FRAME_CODEC_H_
 #define FLUTTER_LIB_UI_PAINTING_MULTI_FRAME_CODEC_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/painting/codec.h"
-#include "flutter/lib/ui/painting/image_generator.h"
+#include "fml/macros.h"
+#include "lib/ui/painting/codec.h"
+#include "lib/ui/painting/image_generator.h"
 
 #include <utility>
 

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/test_vulkan_image.h"
+#include "testing/test_vulkan_image.h"
 
-#include "flutter/testing/test_vulkan_context.h"
+#include "testing/test_vulkan_context.h"
 
 namespace flutter {
 namespace testing {

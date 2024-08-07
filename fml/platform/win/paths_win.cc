@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 
 #include <windows.h>
 
 #include <algorithm>
 
-#include "flutter/fml/paths.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/paths.h"
+#include "fml/platform/win/wstring_conversion.h"
 
 namespace fml {
 namespace paths {

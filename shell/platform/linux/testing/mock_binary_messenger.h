@@ -7,7 +7,7 @@
 
 #include <unordered_map>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
 
 #include "gmock/gmock.h"
 

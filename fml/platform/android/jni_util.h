@@ -9,8 +9,8 @@
 
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/android/scoped_java_ref.h"
+#include "fml/macros.h"
+#include "fml/platform/android/scoped_java_ref.h"
 
 namespace fml {
 namespace jni {

@@ -9,11 +9,11 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/basic_message_channel.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/windows/event_watcher.h"
-#include "flutter/shell/platform/windows/task_runner.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/basic_message_channel.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/windows/event_watcher.h"
+#include "shell/platform/windows/task_runner.h"
 #include "rapidjson/document.h"
 
 namespace flutter {

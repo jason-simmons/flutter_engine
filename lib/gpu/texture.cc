@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/texture.h"
+#include "lib/gpu/texture.h"
 
-#include "flutter/lib/gpu/formats.h"
-#include "flutter/lib/ui/painting/image.h"
+#include "lib/gpu/formats.h"
+#include "lib/ui/painting/image.h"
 #include "fml/mapping.h"
 #include "impeller/core/allocator.h"
 #include "impeller/core/formats.h"

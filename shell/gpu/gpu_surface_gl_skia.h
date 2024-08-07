@@ -8,12 +8,12 @@
 #include <functional>
 #include <memory>
 
-#include "flutter/common/graphics/gl_context_switch.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/shell/gpu/gpu_surface_gl_delegate.h"
+#include "common/graphics/gl_context_switch.h"
+#include "flow/embedded_views.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "shell/gpu/gpu_surface_gl_delegate.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

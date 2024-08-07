@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 
 #include <unistd.h>
 
 #include <climits>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace fml {
 namespace paths {

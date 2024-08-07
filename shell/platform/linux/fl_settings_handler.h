@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_FL_SETTINGS_HANDLER_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_FL_SETTINGS_HANDLER_H_
 
-#include "flutter/shell/platform/linux/fl_settings.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/linux/fl_settings.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
 
 G_BEGIN_DECLS
 

@@ -4,7 +4,7 @@
 
 #include <fuchsia/intl/cpp/fidl.h>
 
-#include "flutter/fml/icu_util.h"
+#include "fml/icu_util.h"
 #include "gtest/gtest.h"
 
 #include "fuchsia_intl.h"

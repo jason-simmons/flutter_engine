@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
 
 #include <gmodule.h>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
 
 static constexpr char kMethodKey[] = "method";
 static constexpr char kArgsKey[] = "args";

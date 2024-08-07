@@ -6,7 +6,7 @@
 #define FLUTTER_FLOW_LAYERS_IMAGE_FILTER_LAYER_H_
 
 #include <memory>
-#include "flutter/flow/layers/cacheable_layer.h"
+#include "flow/layers/cacheable_layer.h"
 
 namespace flutter {
 

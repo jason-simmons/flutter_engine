@@ -7,8 +7,8 @@
 #include <sstream>
 #include <string>
 
-#include "flutter/fml/container.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/container.h"
+#include "fml/trace_event.h"
 #include "fml/closure.h"
 #include "impeller/base/promise.h"
 #include "impeller/renderer/backend/gles/pipeline_gles.h"

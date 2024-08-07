@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_texture_gl.h"
-#include "flutter/shell/platform/linux/fl_texture_gl_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_texture_gl.h"
+#include "shell/platform/linux/fl_texture_gl_private.h"
 
 #include <epoxy/gl.h>
 #include <gmodule.h>

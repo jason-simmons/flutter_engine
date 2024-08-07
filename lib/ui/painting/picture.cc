@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/picture.h"
+#include "lib/ui/painting/picture.h"
 
 #include <memory>
 #include <utility>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/lib/ui/painting/canvas.h"
-#include "flutter/lib/ui/painting/display_list_deferred_image_gpu_skia.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "fml/make_copyable.h"
+#include "lib/ui/painting/canvas.h"
+#include "lib/ui/painting/display_list_deferred_image_gpu_skia.h"
+#include "lib/ui/ui_dart_state.h"
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/painting/display_list_deferred_image_gpu_impeller.h"
+#include "lib/ui/painting/display_list_deferred_image_gpu_impeller.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/painting/display_list_image_gpu.h"
+#include "lib/ui/painting/display_list_image_gpu.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_args.h"
 #include "third_party/tonic/dart_binding_macros.h"

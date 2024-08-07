@@ -5,7 +5,7 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_IMAGE_ENCODING_IMPL_H_
 #define FLUTTER_LIB_UI_PAINTING_IMAGE_ENCODING_IMPL_H_
 
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkSurface.h"

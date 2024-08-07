@@ -5,7 +5,7 @@
 #include <unordered_map>
 #include "display_list/dl_builder.h"
 #include "flow/embedded_views.h"
-#include "flutter/flow/view_slicer.h"
+#include "flow/view_slicer.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

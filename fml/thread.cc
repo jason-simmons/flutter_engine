@@ -4,15 +4,15 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/thread.h"
+#include "fml/thread.h"
 
 #include <memory>
 #include <string>
 #include <utility>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/synchronization/waitable_event.h"
+#include "fml/build_config.h"
+#include "fml/message_loop.h"
+#include "fml/synchronization/waitable_event.h"
 
 #if defined(FML_OS_WIN)
 #include <windows.h>

@@ -32,9 +32,9 @@
 
 #include <gtest/gtest.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/fuchsia/flutter/tests/integration/utils/check_view.h"
-#include "flutter/shell/platform/fuchsia/flutter/tests/integration/utils/portable_ui_test.h"
+#include "fml/logging.h"
+#include "shell/platform/fuchsia/flutter/tests/integration/utils/check_view.h"
+#include "shell/platform/fuchsia/flutter/tests/integration/utils/portable_ui_test.h"
 
 namespace {
 

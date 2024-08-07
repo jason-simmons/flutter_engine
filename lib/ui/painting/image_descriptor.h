@@ -9,10 +9,10 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/image_generator_registry.h"
-#include "flutter/lib/ui/painting/immutable_buffer.h"
+#include "fml/macros.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/image_generator_registry.h"
+#include "lib/ui/painting/immutable_buffer.h"
 #include "third_party/skia/include/core/SkData.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkImageInfo.h"

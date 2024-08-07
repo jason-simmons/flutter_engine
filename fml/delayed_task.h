@@ -7,9 +7,9 @@
 
 #include <queue>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/task_source_grade.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/closure.h"
+#include "fml/task_source_grade.h"
+#include "fml/time/time_point.h"
 
 namespace fml {
 

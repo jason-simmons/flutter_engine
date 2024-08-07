@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_accessible_text_field.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_value.h"
+#include "shell/platform/linux/fl_accessible_text_field.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_value.h"
 
 G_DEFINE_AUTOPTR_CLEANUP_FUNC(PangoContext, g_object_unref)
 // PangoLayout g_autoptr macro weren't added until 1.49.4. Add them manually.

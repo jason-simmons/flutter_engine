@@ -5,11 +5,11 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_PLATFORM_MESSAGE_RESPONSE_ANDROID_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_PLATFORM_MESSAGE_RESPONSE_ANDROID_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/android/jni_weak_ref.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/window/platform_message_response.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "fml/macros.h"
+#include "fml/platform/android/jni_weak_ref.h"
+#include "fml/task_runner.h"
+#include "lib/ui/window/platform_message_response.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 namespace flutter {
 

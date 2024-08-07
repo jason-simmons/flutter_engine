@@ -10,10 +10,10 @@
 #include <string>
 #include <variant>
 
-#include "flutter/shell/platform/common/alert_platform_node_delegate.h"
-#include "flutter/shell/platform/common/geometry.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
-#include "flutter/shell/platform/windows/window_binding_handler_delegate.h"
+#include "shell/platform/common/alert_platform_node_delegate.h"
+#include "shell/platform/common/geometry.h"
+#include "shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/window_binding_handler_delegate.h"
 
 namespace ui {
 class AXPlatformNodeWin;

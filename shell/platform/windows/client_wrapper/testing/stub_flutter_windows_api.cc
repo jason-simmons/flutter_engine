@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/client_wrapper/testing/stub_flutter_windows_api.h"
+#include "shell/platform/windows/client_wrapper/testing/stub_flutter_windows_api.h"
 
 static flutter::testing::StubFlutterWindowsApi* s_stub_implementation;
 

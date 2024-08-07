@@ -10,12 +10,12 @@
 #include <unordered_map>
 #include <variant>
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterMutatorView.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterPlatformViewController.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterTimeConverter.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterViewProvider.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 @class FlutterMutatorView;
 @class FlutterCursorCoordinator;

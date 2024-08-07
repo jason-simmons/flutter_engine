@@ -6,8 +6,8 @@
 
 #include <string>
 
-#include "flutter/fml/task_runner.h"
-#include "flutter/shell/common/thread_host.h"
+#include "fml/task_runner.h"
+#include "shell/common/thread_host.h"
 #include "fml/make_copyable.h"
 #include "fml/message_loop.h"
 #include "fml/synchronization/waitable_event.h"

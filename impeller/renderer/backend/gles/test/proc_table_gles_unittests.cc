@@ -4,7 +4,7 @@
 
 #include <optional>
 
-#include "flutter/testing/testing.h"  // IWYU pragma: keep
+#include "testing/testing.h"  // IWYU pragma: keep
 #include "gtest/gtest.h"
 #include "impeller/renderer/backend/gles/proc_table_gles.h"
 #include "impeller/renderer/backend/gles/test/mock_gles.h"

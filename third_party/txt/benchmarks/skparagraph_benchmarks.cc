@@ -16,9 +16,9 @@
 
 #include <sstream>
 
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/logging.h"
-#include "flutter/third_party/txt/tests/txt_test_utils.h"
+#include "fml/command_line.h"
+#include "fml/logging.h"
+#include "third_party/txt/tests/txt_test_utils.h"
 #include "third_party/benchmark/include/benchmark/benchmark.h"
 #include "third_party/icu/source/common/unicode/unistr.h"
 #include "third_party/skia/include/core/SkBitmap.h"

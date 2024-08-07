@@ -7,9 +7,9 @@
 
 #include <GLFW/glfw3.h>
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_channel.h"
-#include "flutter/shell/platform/glfw/public/flutter_glfw.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_channel.h"
+#include "shell/platform/glfw/public/flutter_glfw.h"
 #include "rapidjson/document.h"
 
 namespace flutter {

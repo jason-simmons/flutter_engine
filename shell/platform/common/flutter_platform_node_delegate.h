@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_COMMON_FLUTTER_PLATFORM_NODE_DELEGATE_H_
 #define FLUTTER_SHELL_PLATFORM_COMMON_FLUTTER_PLATFORM_NODE_DELEGATE_H_
 
-#include "flutter/fml/mapping.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/third_party/accessibility/ax/ax_event_generator.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node_delegate_base.h"
+#include "fml/mapping.h"
+#include "shell/platform/embedder/embedder.h"
+#include "third_party/accessibility/ax/ax_event_generator.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node_delegate_base.h"
 
 namespace flutter {
 

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/render_pipeline.h"
+#include "lib/gpu/render_pipeline.h"
 
-#include "flutter/lib/gpu/shader.h"
+#include "lib/gpu/shader.h"
 #include "impeller/renderer/pipeline_descriptor.h"
 
 namespace flutter {

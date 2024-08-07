@@ -7,8 +7,8 @@
 
 #include <optional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/variable_refresh_rate_reporter.h"
+#include "fml/macros.h"
+#include "shell/common/variable_refresh_rate_reporter.h"
 
 namespace flutter {
 

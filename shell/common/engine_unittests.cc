@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/engine.h"
+#include "shell/common/engine.h"
 
 #include <cstring>
 
-#include "flutter/runtime/dart_vm_lifecycle.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/fixture_test.h"
-#include "flutter/testing/testing.h"
+#include "runtime/dart_vm_lifecycle.h"
+#include "shell/common/thread_host.h"
+#include "testing/fixture_test.h"
+#include "testing/testing.h"
 #include "fml/mapping.h"
 #include "gmock/gmock.h"
 #include "lib/ui/text/font_collection.h"

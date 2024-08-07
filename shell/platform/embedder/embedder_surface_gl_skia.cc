@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder_surface_gl_skia.h"
+#include "shell/platform/embedder/embedder_surface_gl_skia.h"
 
 #include <utility>
 
-#include "flutter/shell/common/shell_io_manager.h"
+#include "shell/common/shell_io_manager.h"
 
 namespace flutter {
 

@@ -7,8 +7,8 @@
 
 #include <memory>
 
-#include "flutter/shell/platform/common/public/flutter_messenger.h"
-#include "flutter/shell/platform/common/public/flutter_plugin_registrar.h"
+#include "shell/platform/common/public/flutter_messenger.h"
+#include "shell/platform/common/public/flutter_plugin_registrar.h"
 
 namespace flutter {
 namespace testing {

@@ -5,13 +5,13 @@
 #ifndef FLUTTER_SHELL_GPU_GPU_SURFACE_GL_IMPELLER_H_
 #define FLUTTER_SHELL_GPU_GPU_SURFACE_GL_IMPELLER_H_
 
-#include "flutter/common/graphics/gl_context_switch.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/impeller/aiks/aiks_context.h"
-#include "flutter/impeller/renderer/context.h"
-#include "flutter/shell/gpu/gpu_surface_gl_delegate.h"
+#include "common/graphics/gl_context_switch.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "impeller/aiks/aiks_context.h"
+#include "impeller/renderer/context.h"
+#include "shell/gpu/gpu_surface_gl_delegate.h"
 
 namespace flutter {
 

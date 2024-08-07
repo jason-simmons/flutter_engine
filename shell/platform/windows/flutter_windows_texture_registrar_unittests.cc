@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/windows/egl/proc_table.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_texture_registrar.h"
-#include "flutter/shell/platform/windows/testing/egl/mock_proc_table.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/windows/egl/proc_table.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_texture_registrar.h"
+#include "shell/platform/windows/testing/egl/mock_proc_table.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

@@ -7,8 +7,8 @@
 
 #include "image_generator.h"
 
-#include "flutter/fml/endianness.h"
-#include "flutter/fml/logging.h"
+#include "fml/endianness.h"
+#include "fml/logging.h"
 
 #define PNG_FIELD(T, name)                \
  private:                                 \

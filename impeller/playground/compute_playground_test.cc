@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/time/time_point.h"
+#include "fml/time/time_point.h"
 
-#include "flutter/testing/test_args.h"
+#include "testing/test_args.h"
 #include "impeller/playground/compute_playground_test.h"
 
 namespace impeller {

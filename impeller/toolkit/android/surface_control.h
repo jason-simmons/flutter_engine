@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_TOOLKIT_ANDROID_SURFACE_CONTROL_H_
 #define FLUTTER_IMPELLER_TOOLKIT_ANDROID_SURFACE_CONTROL_H_
 
-#include "flutter/fml/unique_object.h"
+#include "fml/unique_object.h"
 #include "impeller/toolkit/android/proc_table.h"
 
 namespace impeller::android {

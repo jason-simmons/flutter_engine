@@ -4,7 +4,7 @@
 
 #include <cmath>
 
-#include "flutter/fml/math.h"
+#include "fml/math.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

@@ -8,11 +8,11 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/common/graphics/gl_context_switch.h"
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/skia/dl_sk_canvas.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_point.h"
+#include "common/graphics/gl_context_switch.h"
+#include "display_list/dl_builder.h"
+#include "display_list/skia/dl_sk_canvas.h"
+#include "fml/macros.h"
+#include "fml/time/time_point.h"
 
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkSurface.h"

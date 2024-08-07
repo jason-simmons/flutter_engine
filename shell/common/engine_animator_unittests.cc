@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/engine.h"
+#include "shell/common/engine.h"
 
 // #include <cstring>
 
-#include "flutter/common/constants.h"
-#include "flutter/lib/ui/compositing/scene_builder.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/testing/fixture_test.h"
+#include "common/constants.h"
+#include "lib/ui/compositing/scene_builder.h"
+#include "shell/common/shell_test.h"
+#include "testing/fixture_test.h"
 #include "gmock/gmock.h"
 
 // CREATE_NATIVE_ENTRY is leaky by design

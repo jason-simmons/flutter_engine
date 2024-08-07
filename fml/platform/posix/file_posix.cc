@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/file.h"
+#include "fml/file.h"
 
 #include <dirent.h>
 #include <fcntl.h>
@@ -14,11 +14,11 @@
 #include <memory>
 #include <sstream>
 
-#include "flutter/fml/eintr_wrapper.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/eintr_wrapper.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
+#include "fml/trace_event.h"
+#include "fml/unique_fd.h"
 
 namespace fml {
 

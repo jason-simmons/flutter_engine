@@ -8,7 +8,7 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/impeller/core/texture.h"
+#include "impeller/core/texture.h"
 #include "impeller/core/shader_types.h"
 #include "impeller/geometry/color.h"
 #include "impeller/geometry/gradient.h"

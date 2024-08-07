@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_DARWIN_IOS_FRAMEWORK_SOURCE_FLUTTERDARTPROJECT_INTERNAL_H_
 #define FLUTTER_SHELL_PLATFORM_DARWIN_IOS_FRAMEWORK_SOURCE_FLUTTERDARTPROJECT_INTERNAL_H_
 
-#include "flutter/common/settings.h"
-#include "flutter/runtime/platform_data.h"
-#include "flutter/shell/common/engine.h"
+#include "common/settings.h"
+#include "runtime/platform_data.h"
+#include "shell/common/engine.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterDartProject.h"
 #import "flutter/shell/platform/darwin/common/framework/Source/FlutterNSBundleUtils.h"
 

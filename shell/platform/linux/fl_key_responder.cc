@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_key_responder.h"
+#include "shell/platform/linux/fl_key_responder.h"
 
 G_DEFINE_INTERFACE(FlKeyResponder, fl_key_responder, G_TYPE_OBJECT)
 

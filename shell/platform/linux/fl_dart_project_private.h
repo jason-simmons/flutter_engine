@@ -7,7 +7,7 @@
 
 #include <glib-object.h>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_dart_project.h"
+#include "shell/platform/linux/public/flutter_linux/fl_dart_project.h"
 
 G_BEGIN_DECLS
 

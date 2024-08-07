@@ -5,16 +5,16 @@
 // Included first as it collides with the X11 headers.
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_message_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_renderer.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_renderer.h"
 
 // Checks sending a message without a response works.
 // MOCK_ENGINE_PROC is leaky by design

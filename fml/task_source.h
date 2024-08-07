@@ -5,9 +5,9 @@
 #ifndef FLUTTER_FML_TASK_SOURCE_H_
 #define FLUTTER_FML_TASK_SOURCE_H_
 
-#include "flutter/fml/delayed_task.h"
-#include "flutter/fml/task_queue_id.h"
-#include "flutter/fml/task_source_grade.h"
+#include "fml/delayed_task.h"
+#include "fml/task_queue_id.h"
+#include "fml/task_source_grade.h"
 
 namespace fml {
 

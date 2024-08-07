@@ -5,12 +5,12 @@
 // Included first as it collides with the X11 headers.
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/linux/fl_accessible_text_field.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_signal_handler.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/linux/fl_accessible_text_field.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_signal_handler.h"
 
 // MOCK_ENGINE_PROC is leaky by design
 // NOLINTBEGIN(clang-analyzer-core.StackAddressEscape)

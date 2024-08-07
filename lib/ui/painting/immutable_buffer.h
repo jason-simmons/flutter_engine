@@ -7,8 +7,8 @@
 
 #include <cstdint>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "fml/macros.h"
+#include "lib/ui/dart_wrapper.h"
 #include "third_party/skia/include/core/SkData.h"
 #include "third_party/tonic/dart_library_natives.h"
 #include "third_party/tonic/logging/dart_invoke.h"

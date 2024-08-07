@@ -7,8 +7,8 @@
 
 #include <atomic>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/synchronization/waitable_event.h"
+#include "fml/macros.h"
+#include "fml/synchronization/waitable_event.h"
 
 namespace fml {
 

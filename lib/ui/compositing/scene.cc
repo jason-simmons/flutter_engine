@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/compositing/scene.h"
+#include "lib/ui/compositing/scene.h"
 
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/ui/painting/display_list_deferred_image_gpu_skia.h"
-#include "flutter/lib/ui/painting/image.h"
-#include "flutter/lib/ui/painting/picture.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "fml/trace_event.h"
+#include "lib/ui/painting/display_list_deferred_image_gpu_skia.h"
+#include "lib/ui/painting/image.h"
+#include "lib/ui/painting/picture.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/painting/display_list_deferred_image_gpu_impeller.h"
+#include "lib/ui/painting/display_list_deferred_image_gpu_impeller.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
 #include "third_party/skia/include/core/SkImageInfo.h"
 #include "third_party/skia/include/core/SkSurface.h"

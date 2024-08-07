@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/geometry/size.h"
 
 namespace impeller {

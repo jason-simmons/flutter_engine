@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/fl_method_codec_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
+#include "fml/logging.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_method_codec_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
 
 #include <gmodule.h>
 

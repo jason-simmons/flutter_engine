@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_snapshot.h"
+#include "runtime/dart_snapshot.h"
 
 #include <sstream>
 
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/snapshot/snapshot.h"
-#include "flutter/runtime/dart_vm.h"
+#include "fml/native_library.h"
+#include "fml/paths.h"
+#include "fml/trace_event.h"
+#include "lib/snapshot/snapshot.h"
+#include "runtime/dart_vm.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 
 namespace flutter {

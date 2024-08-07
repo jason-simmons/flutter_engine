@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/run_configuration.h"
+#include "shell/common/run_configuration.h"
 
 #include <sstream>
 #include <utility>
 
-#include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/unique_fd.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/runtime/isolate_configuration.h"
+#include "assets/directory_asset_bundle.h"
+#include "common/graphics/persistent_cache.h"
+#include "fml/file.h"
+#include "fml/unique_fd.h"
+#include "runtime/dart_vm.h"
+#include "runtime/isolate_configuration.h"
 
 namespace flutter {
 

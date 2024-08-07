@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/paint.h"
+#include "lib/ui/painting/paint.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/fml/logging.h"
-#include "flutter/lib/ui/floating_point.h"
-#include "flutter/lib/ui/painting/color_filter.h"
-#include "flutter/lib/ui/painting/image_filter.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "display_list/dl_builder.h"
+#include "fml/logging.h"
+#include "lib/ui/floating_point.h"
+#include "lib/ui/painting/color_filter.h"
+#include "lib/ui/painting/image_filter.h"
+#include "lib/ui/painting/shader.h"
 #include "third_party/skia/include/core/SkColorFilter.h"
 #include "third_party/skia/include/core/SkImageFilter.h"
 #include "third_party/skia/include/core/SkMaskFilter.h"

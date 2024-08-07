@@ -6,11 +6,11 @@
 #define FLUTTER_FLOW_TESTING_MOCK_RASTER_CACHE_H_
 
 #include <vector>
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/raster_cache_item.h"
-#include "flutter/flow/testing/mock_layer.h"
-#include "flutter/testing/mock_canvas.h"
+#include "flow/layers/layer.h"
+#include "flow/raster_cache.h"
+#include "flow/raster_cache_item.h"
+#include "flow/testing/mock_layer.h"
+#include "testing/mock_canvas.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/core/SkSize.h"

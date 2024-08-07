@@ -7,10 +7,10 @@
 #include <epoxy/egl.h>
 #include <epoxy/gl.h>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/fl_framebuffer.h"
-#include "flutter/shell/platform/linux/fl_view_private.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/fl_framebuffer.h"
+#include "shell/platform/linux/fl_view_private.h"
 
 // Vertex shader to draw Flutter window contents.
 static const char* vertex_shader_src =

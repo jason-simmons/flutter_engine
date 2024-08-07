@@ -9,7 +9,7 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/display_list/testing/dl_test_snippets.h"
+#include "display_list/testing/dl_test_snippets.h"
 #include "fml/logging.h"
 #include "gtest/gtest.h"
 #include "impeller/core/device_buffer.h"

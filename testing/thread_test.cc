@@ -4,7 +4,7 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/testing/thread_test.h"
+#include "testing/thread_test.h"
 
 namespace flutter {
 namespace testing {

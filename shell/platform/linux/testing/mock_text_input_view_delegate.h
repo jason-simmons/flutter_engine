@@ -7,7 +7,7 @@
 
 #include <unordered_map>
 
-#include "flutter/shell/platform/linux/fl_text_input_view_delegate.h"
+#include "shell/platform/linux/fl_text_input_view_delegate.h"
 
 #include "gmock/gmock.h"
 

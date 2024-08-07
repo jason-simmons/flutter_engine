@@ -2,29 +2,29 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 
 #include <dwmapi.h>
 
 #include <filesystem>
 #include <sstream>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/shell/platform/common/client_wrapper/binary_messenger_impl.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
-#include "flutter/shell/platform/common/path_utils.h"
-#include "flutter/shell/platform/embedder/embedder_struct_macros.h"
-#include "flutter/shell/platform/windows/accessibility_bridge_windows.h"
-#include "flutter/shell/platform/windows/compositor_opengl.h"
-#include "flutter/shell/platform/windows/compositor_software.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/shell/platform/windows/keyboard_key_channel_handler.h"
-#include "flutter/shell/platform/windows/system_utils.h"
-#include "flutter/shell/platform/windows/task_runner.h"
-#include "flutter/third_party/accessibility/ax/ax_node.h"
+#include "fml/logging.h"
+#include "fml/paths.h"
+#include "fml/platform/win/wstring_conversion.h"
+#include "fml/synchronization/waitable_event.h"
+#include "shell/platform/common/client_wrapper/binary_messenger_impl.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_message_codec.h"
+#include "shell/platform/common/path_utils.h"
+#include "shell/platform/embedder/embedder_struct_macros.h"
+#include "shell/platform/windows/accessibility_bridge_windows.h"
+#include "shell/platform/windows/compositor_opengl.h"
+#include "shell/platform/windows/compositor_software.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/keyboard_key_channel_handler.h"
+#include "shell/platform/windows/system_utils.h"
+#include "shell/platform/windows/task_runner.h"
+#include "third_party/accessibility/ax/ax_node.h"
 
 // winbase.h defines GetCurrentTime as a macro.
 #undef GetCurrentTime

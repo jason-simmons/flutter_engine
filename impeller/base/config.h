@@ -7,7 +7,7 @@
 
 #include <cstdlib>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 #if defined(__GNUC__) || defined(__clang__)
 #define IMPELLER_COMPILER_CLANG 1

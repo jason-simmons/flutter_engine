@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/platform_view_manager.h"
+#include "shell/platform/windows/platform_view_manager.h"
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/standard_method_codec.h"
+#include "shell/platform/common/client_wrapper/include/flutter/standard_method_codec.h"
 
 namespace flutter {
 

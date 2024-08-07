@@ -9,7 +9,7 @@
 
 #include <optional>
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 #include "impeller/base/validation.h"
 #include "impeller/core/formats.h"
 #include "impeller/core/texture_descriptor.h"

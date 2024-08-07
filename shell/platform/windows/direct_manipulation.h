@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_DIRECT_MANIPULATION_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_DIRECT_MANIPULATION_H_
 
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/memory/ref_counted.h"
 
 #include <wrl/client.h>
 #include "directmanipulation.h"

@@ -5,10 +5,10 @@
 #ifndef FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_COMPLEXITY_HELPER_H_
 #define FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_COMPLEXITY_HELPER_H_
 
-#include "flutter/display_list/benchmarking/dl_complexity.h"
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/utils/dl_receiver_utils.h"
+#include "display_list/benchmarking/dl_complexity.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/utils/dl_receiver_utils.h"
 
 namespace flutter {
 

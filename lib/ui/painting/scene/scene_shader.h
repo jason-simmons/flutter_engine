@@ -8,9 +8,9 @@
 #include <string>
 #include <vector>
 
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/scene/scene_node.h"
-#include "flutter/lib/ui/painting/shader.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/scene/scene_node.h"
+#include "lib/ui/painting/shader.h"
 #include "impeller/geometry/matrix.h"
 
 #include "third_party/tonic/dart_library_natives.h"

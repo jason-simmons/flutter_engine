@@ -1,21 +1,21 @@
 // Copyright 2013 The Flutter Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-#include "flutter/shell/platform/windows/text_input_plugin.h"
+#include "shell/platform/windows/text_input_plugin.h"
 
 #include <rapidjson/document.h>
 #include <windows.h>
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/json_message_codec.h"
-#include "flutter/shell/platform/common/json_method_codec.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/shell/platform/windows/testing/engine_modifier.h"
-#include "flutter/shell/platform/windows/testing/flutter_windows_engine_builder.h"
-#include "flutter/shell/platform/windows/testing/mock_window_binding_handler.h"
-#include "flutter/shell/platform/windows/testing/test_binary_messenger.h"
-#include "flutter/shell/platform/windows/testing/windows_test.h"
+#include "fml/macros.h"
+#include "shell/platform/common/json_message_codec.h"
+#include "shell/platform/common/json_method_codec.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "shell/platform/windows/testing/engine_modifier.h"
+#include "shell/platform/windows/testing/flutter_windows_engine_builder.h"
+#include "shell/platform/windows/testing/mock_window_binding_handler.h"
+#include "shell/platform/windows/testing/test_binary_messenger.h"
+#include "shell/platform/windows/testing/windows_test.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

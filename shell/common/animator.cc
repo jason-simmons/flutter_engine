@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/animator.h"
+#include "shell/common/animator.h"
 
-#include "flutter/common/constants.h"
-#include "flutter/flow/frame_timings.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/fml/trace_event.h"
+#include "common/constants.h"
+#include "flow/frame_timings.h"
+#include "fml/time/time_point.h"
+#include "fml/trace_event.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"
 
 namespace flutter {

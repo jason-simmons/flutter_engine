@@ -7,11 +7,11 @@
 
 #include <Foundation/Foundation.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/platform/darwin/scoped_block.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/window/platform_message_response.h"
+#include "fml/macros.h"
+#include "fml/make_copyable.h"
+#include "fml/platform/darwin/scoped_block.h"
+#include "fml/task_runner.h"
+#include "lib/ui/window/platform_message_response.h"
 #import "flutter/shell/platform/darwin/common/buffer_conversions.h"
 
 typedef void (^PlatformMessageResponseCallback)(NSData*);

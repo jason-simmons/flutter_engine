@@ -25,7 +25,7 @@
 #include <regex>
 #include <utility>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "runtime/dart/utils/files.h"
 #include "runtime/dart/utils/handle_exception.h"
 #include "runtime/dart/utils/inlines.h"

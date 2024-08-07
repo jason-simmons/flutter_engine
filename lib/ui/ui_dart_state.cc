@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/ui_dart_state.h"
 
 #include <iostream>
 #include <utility>
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
-#include "flutter/lib/ui/window/platform_message.h"
+#include "fml/message_loop.h"
+#include "lib/ui/window/platform_configuration.h"
+#include "lib/ui/window/platform_message.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_message_handler.h"
 

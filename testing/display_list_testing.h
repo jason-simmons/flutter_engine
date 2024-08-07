@@ -7,8 +7,8 @@
 
 #include <ostream>
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_op_receiver.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_op_receiver.h"
 
 namespace flutter {
 namespace testing {

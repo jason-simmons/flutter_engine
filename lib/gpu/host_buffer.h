@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_GPU_HOST_BUFFER_H_
 #define FLUTTER_LIB_GPU_HOST_BUFFER_H_
 
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/export.h"
+#include "lib/ui/dart_wrapper.h"
 #include "impeller/core/buffer_view.h"
 #include "impeller/core/host_buffer.h"
 #include "lib/gpu/context.h"

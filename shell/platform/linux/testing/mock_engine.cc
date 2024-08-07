@@ -13,11 +13,11 @@
 #include <unordered_map>
 #include <utility>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_method_codec_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_response.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_method_codec_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_response.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
 #include "gtest/gtest.h"
 
 const int32_t kFlutterSemanticsNodeIdBatchEnd = -1;

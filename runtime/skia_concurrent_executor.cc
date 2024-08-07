@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/skia_concurrent_executor.h"
+#include "runtime/skia_concurrent_executor.h"
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

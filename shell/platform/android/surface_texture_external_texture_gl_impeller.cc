@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/surface_texture_external_texture_gl_impeller.h"
+#include "shell/platform/android/surface_texture_external_texture_gl_impeller.h"
 
-#include "flutter/impeller/display_list/dl_image_impeller.h"
+#include "impeller/display_list/dl_image_impeller.h"
 
 namespace flutter {
 

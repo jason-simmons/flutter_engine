@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_message_codec.h"
 #include "gtest/gtest.h"
 
 G_DECLARE_FINAL_TYPE(FlTestCodec, fl_test_codec, FL, TEST_CODEC, FlMessageCodec)

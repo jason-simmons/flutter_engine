@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/display_list/dl_color.h"
+#include "display_list/dl_color.h"
 
 #include "third_party/skia/include/core/SkRect.h"
 

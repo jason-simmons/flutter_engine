@@ -17,9 +17,9 @@
 #include <utility>
 
 #include "dart_component_controller.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/command_line.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 #include "runtime/dart/utils/inlines.h"
 #include "runtime/dart/utils/vmservice_object.h"
 #include "service_isolate.h"

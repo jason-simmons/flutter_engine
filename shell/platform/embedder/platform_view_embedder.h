@@ -8,24 +8,24 @@
 #include <functional>
 
 #include "flow/embedded_views.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/embedder_surface.h"
-#include "flutter/shell/platform/embedder/embedder_surface_software.h"
-#include "flutter/shell/platform/embedder/vsync_waiter_embedder.h"
+#include "fml/macros.h"
+#include "shell/common/platform_view.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder_surface.h"
+#include "shell/platform/embedder/embedder_surface_software.h"
+#include "shell/platform/embedder/vsync_waiter_embedder.h"
 
 #ifdef SHELL_ENABLE_GL
-#include "flutter/shell/platform/embedder/embedder_surface_gl_impeller.h"
-#include "flutter/shell/platform/embedder/embedder_surface_gl_skia.h"
+#include "shell/platform/embedder/embedder_surface_gl_impeller.h"
+#include "shell/platform/embedder/embedder_surface_gl_skia.h"
 #endif
 
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/shell/platform/embedder/embedder_surface_metal_skia.h"
+#include "shell/platform/embedder/embedder_surface_metal_skia.h"
 #endif
 
 #ifdef SHELL_ENABLE_VULKAN
-#include "flutter/shell/platform/embedder/embedder_surface_vulkan.h"
+#include "shell/platform/embedder/embedder_surface_vulkan.h"
 #endif
 
 namespace flutter {

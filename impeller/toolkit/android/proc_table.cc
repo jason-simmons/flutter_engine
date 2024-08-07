@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/toolkit/android/proc_table.h"
+#include "impeller/toolkit/android/proc_table.h"
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 #include "impeller/base/validation.h"
 
 namespace impeller::android {

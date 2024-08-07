@@ -7,7 +7,7 @@
 
 #include <string_view>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/core/formats.h"
 #include "impeller/core/texture_descriptor.h"
 #include "impeller/geometry/size.h"

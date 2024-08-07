@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/effects/dl_runtime_effect.h"
+#include "display_list/effects/dl_runtime_effect.h"
 
 #include "third_party/skia/include/core/SkRefCnt.h"
 

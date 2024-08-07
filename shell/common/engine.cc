@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/engine.h"
+#include "shell/common/engine.h"
 
 #include <cstring>
 #include <memory>
@@ -10,14 +10,14 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/snapshot/snapshot.h"
-#include "flutter/lib/ui/text/font_collection.h"
-#include "flutter/shell/common/animator.h"
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/common/shell.h"
+#include "common/settings.h"
+#include "fml/make_copyable.h"
+#include "fml/trace_event.h"
+#include "lib/snapshot/snapshot.h"
+#include "lib/ui/text/font_collection.h"
+#include "shell/common/animator.h"
+#include "shell/common/platform_view.h"
+#include "shell/common/shell.h"
 #include "impeller/runtime_stage/runtime_stage.h"
 #include "rapidjson/document.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"

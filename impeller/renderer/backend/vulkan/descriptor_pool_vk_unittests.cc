@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/testing.h"  // IWYU pragma: keep.
+#include "testing/testing.h"  // IWYU pragma: keep.
 #include "fml/closure.h"
 #include "fml/synchronization/waitable_event.h"
 #include "impeller/renderer/backend/vulkan/descriptor_pool_vk.h"

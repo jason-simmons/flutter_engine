@@ -14,7 +14,7 @@
 #include "ax/platform/ax_platform_node_win.h"
 #include "ax/platform/ax_platform_tree_manager.h"
 #include "base/win/variant_vector.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/platform/win/wstring_conversion.h"
 #include "third_party/icu/source/i18n/unicode/usearch.h"
 
 #define UIA_VALIDATE_TEXTRANGEPROVIDER_CALL()                  \

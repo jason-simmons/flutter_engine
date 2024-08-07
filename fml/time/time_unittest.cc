@@ -4,8 +4,8 @@
 
 #include <thread>
 
-#include "flutter/fml/time/chrono_timestamp_provider.h"
-#include "flutter/fml/time/time_delta.h"
+#include "fml/time/chrono_timestamp_provider.h"
+#include "fml/time/time_delta.h"
 #include "gtest/gtest.h"
 
 namespace fml {

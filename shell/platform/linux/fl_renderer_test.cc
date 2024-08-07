@@ -4,11 +4,11 @@
 
 #include "gtest/gtest.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/linux/fl_framebuffer.h"
-#include "flutter/shell/platform/linux/testing/fl_test_gtk_logs.h"
-#include "flutter/shell/platform/linux/testing/mock_epoxy.h"
-#include "flutter/shell/platform/linux/testing/mock_renderer.h"
+#include "fml/logging.h"
+#include "shell/platform/linux/fl_framebuffer.h"
+#include "shell/platform/linux/testing/fl_test_gtk_logs.h"
+#include "shell/platform/linux/testing/mock_epoxy.h"
+#include "shell/platform/linux/testing/mock_renderer.h"
 
 #include <epoxy/egl.h>
 

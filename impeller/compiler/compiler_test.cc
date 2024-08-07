@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 #include "impeller/compiler/compiler_test.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/process.h"
+#include "fml/paths.h"
+#include "fml/process.h"
 
 #include <algorithm>
 #include <filesystem>

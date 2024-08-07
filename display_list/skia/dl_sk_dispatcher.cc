@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/skia/dl_sk_dispatcher.h"
+#include "display_list/skia/dl_sk_dispatcher.h"
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/skia/dl_sk_conversions.h"
-#include "flutter/display_list/skia/dl_sk_types.h"
-#include "flutter/fml/trace_event.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/skia/dl_sk_conversions.h"
+#include "display_list/skia/dl_sk_types.h"
+#include "fml/trace_event.h"
 
 #include "third_party/skia/include/effects/SkDashPathEffect.h"
 #include "third_party/skia/include/utils/SkShadowUtils.h"

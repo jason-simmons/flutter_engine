@@ -9,9 +9,9 @@
 #include <utility>
 #include <variant>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/closure.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 #include "impeller/base/strings.h"
 #include "impeller/base/validation.h"
 #include "impeller/core/formats.h"

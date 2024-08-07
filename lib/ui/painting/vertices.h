@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_VERTICES_H_
 #define FLUTTER_LIB_UI_PAINTING_VERTICES_H_
 
-#include "flutter/display_list/dl_vertices.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "display_list/dl_vertices.h"
+#include "lib/ui/dart_wrapper.h"
 #include "third_party/skia/include/core/SkVertices.h"
 #include "third_party/tonic/typed_data/typed_list.h"
 

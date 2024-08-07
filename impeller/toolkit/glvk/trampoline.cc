@@ -6,8 +6,8 @@
 
 #include <array>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/closure.h"
+#include "fml/trace_event.h"
 #include "impeller/base/timing.h"
 #include "impeller/base/validation.h"
 #include "impeller/geometry/point.h"

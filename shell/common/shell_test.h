@@ -5,26 +5,26 @@
 #ifndef FLUTTER_SHELL_COMMON_SHELL_TEST_H_
 #define FLUTTER_SHELL_COMMON_SHELL_TEST_H_
 
-#include "flutter/shell/common/shell.h"
+#include "shell/common/shell.h"
 
 #include <memory>
 
-#include "flutter/common/graphics/persistent_cache.h"
-#include "flutter/common/settings.h"
-#include "flutter/flow/layers/container_layer.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/lib/ui/volatile_path_tracker.h"
-#include "flutter/lib/ui/window/platform_message.h"
-#include "flutter/shell/common/run_configuration.h"
-#include "flutter/shell/common/shell_test_external_view_embedder.h"
-#include "flutter/shell/common/shell_test_platform_view.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/common/vsync_waiters_test.h"
-#include "flutter/testing/elf_loader.h"
-#include "flutter/testing/fixture_test.h"
-#include "flutter/testing/test_dart_native_resolver.h"
+#include "common/graphics/persistent_cache.h"
+#include "common/settings.h"
+#include "flow/layers/container_layer.h"
+#include "fml/build_config.h"
+#include "fml/macros.h"
+#include "fml/time/time_point.h"
+#include "lib/ui/volatile_path_tracker.h"
+#include "lib/ui/window/platform_message.h"
+#include "shell/common/run_configuration.h"
+#include "shell/common/shell_test_external_view_embedder.h"
+#include "shell/common/shell_test_platform_view.h"
+#include "shell/common/thread_host.h"
+#include "shell/common/vsync_waiters_test.h"
+#include "testing/elf_loader.h"
+#include "testing/fixture_test.h"
+#include "testing/test_dart_native_resolver.h"
 
 namespace flutter {
 namespace testing {

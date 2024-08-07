@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/glfw/client_wrapper/include/flutter/flutter_window_controller.h"
+#include "shell/platform/glfw/client_wrapper/include/flutter/flutter_window_controller.h"
 
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
+#include "shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

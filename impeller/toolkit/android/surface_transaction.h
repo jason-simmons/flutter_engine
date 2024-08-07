@@ -8,8 +8,8 @@
 #include <functional>
 #include <map>
 
-#include "flutter/fml/unique_fd.h"
-#include "flutter/fml/unique_object.h"
+#include "fml/unique_fd.h"
+#include "fml/unique_object.h"
 #include "impeller/geometry/color.h"
 #include "impeller/toolkit/android/proc_table.h"
 

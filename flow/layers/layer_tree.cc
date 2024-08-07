@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/layer_tree.h"
+#include "flow/layers/layer_tree.h"
 
-#include "flutter/display_list/skia/dl_sk_canvas.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/frame_timings.h"
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/paint_utils.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/raster_cache_item.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/fml/trace_event.h"
+#include "display_list/skia/dl_sk_canvas.h"
+#include "flow/embedded_views.h"
+#include "flow/frame_timings.h"
+#include "flow/layers/layer.h"
+#include "flow/paint_utils.h"
+#include "flow/raster_cache.h"
+#include "flow/raster_cache_item.h"
+#include "fml/time/time_point.h"
+#include "fml/trace_event.h"
 #include "include/core/SkColorSpace.h"
 
 namespace flutter {

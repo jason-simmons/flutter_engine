@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/skia/dl_sk_paint_dispatcher.h"
+#include "display_list/skia/dl_sk_paint_dispatcher.h"
 
 #include <math.h>
 #include <optional>
 #include <type_traits>
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/skia/dl_sk_conversions.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/skia/dl_sk_conversions.h"
+#include "fml/logging.h"
 
 #include "third_party/skia/include/core/SkColorFilter.h"
 

@@ -5,11 +5,11 @@
 #ifndef FLUTTER_DISPLAY_LIST_SKIA_DL_SK_DISPATCHER_H_
 #define FLUTTER_DISPLAY_LIST_SKIA_DL_SK_DISPATCHER_H_
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/skia/dl_sk_paint_dispatcher.h"
-#include "flutter/display_list/skia/dl_sk_types.h"
-#include "flutter/fml/macros.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/skia/dl_sk_paint_dispatcher.h"
+#include "display_list/skia/dl_sk_types.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

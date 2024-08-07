@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_COMPOSITOR_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_COMPOSITOR_H_
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 namespace flutter {
 

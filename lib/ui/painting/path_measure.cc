@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/path_measure.h"
+#include "lib/ui/painting/path_measure.h"
 
 #include <cmath>
 
-#include "flutter/lib/ui/floating_point.h"
-#include "flutter/lib/ui/painting/matrix.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "lib/ui/floating_point.h"
+#include "lib/ui/painting/matrix.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_args.h"
 #include "third_party/tonic/dart_binding_macros.h"

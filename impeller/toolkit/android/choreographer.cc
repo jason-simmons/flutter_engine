@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/toolkit/android/choreographer.h"
+#include "impeller/toolkit/android/choreographer.h"
 
-#include "flutter/fml/message_loop.h"
+#include "fml/message_loop.h"
 
 namespace impeller::android {
 

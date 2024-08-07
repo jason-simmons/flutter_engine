@@ -18,10 +18,10 @@
 #include <fuchsia/settings/cpp/fidl.h>
 #include <lib/sys/cpp/component_context.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/shell_test.h"
+#include "fml/logging.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/shell_test.h"
 
 namespace flutter {
 namespace testing {

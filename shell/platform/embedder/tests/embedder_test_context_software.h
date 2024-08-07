@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_TEST_CONTEXT_SOFTWARE_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_TESTS_EMBEDDER_TEST_CONTEXT_SOFTWARE_H_
 
-#include "flutter/shell/platform/embedder/tests/embedder_test_context.h"
+#include "shell/platform/embedder/tests/embedder_test_context.h"
 
 #include "third_party/skia/include/core/SkSurface.h"
 

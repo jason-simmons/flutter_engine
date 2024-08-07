@@ -9,8 +9,8 @@
 
 #include <atomic>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
 
 namespace fml {
 namespace internal {

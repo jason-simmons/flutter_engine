@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/resource_cache_limit_calculator.h"
+#include "shell/common/resource_cache_limit_calculator.h"
 
 namespace flutter {
 

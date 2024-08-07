@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_event_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_event_channel.h"
 
 #include <gmodule.h>
 
-#include "flutter/shell/platform/linux/fl_method_codec_private.h"
+#include "shell/platform/linux/fl_method_codec_private.h"
 
 static constexpr char kListenMethod[] = "listen";
 static constexpr char kCancelMethod[] = "cancel";

@@ -7,9 +7,9 @@
 
 #include <map>
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/synchronization/waitable_event.h"
+#include "display_list/dl_canvas.h"
+#include "fml/macros.h"
+#include "fml/synchronization/waitable_event.h"
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkSamplingOptions.h"
 

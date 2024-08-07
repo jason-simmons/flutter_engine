@@ -7,10 +7,10 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/impeller/renderer/backend/gles/context_gles.h"
-#include "flutter/impeller/renderer/backend/gles/texture_gles.h"
-#include "flutter/shell/platform/android/surface_texture_external_texture.h"
+#include "fml/macros.h"
+#include "impeller/renderer/backend/gles/context_gles.h"
+#include "impeller/renderer/backend/gles/texture_gles.h"
+#include "shell/platform/android/surface_texture_external_texture.h"
 
 namespace flutter {
 

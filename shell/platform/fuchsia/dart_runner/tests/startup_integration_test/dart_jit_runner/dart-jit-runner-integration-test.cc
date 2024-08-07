@@ -8,7 +8,7 @@
 #include <lib/sys/component/cpp/testing/realm_builder.h>
 #include <lib/sys/component/cpp/testing/realm_builder_types.h>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "gtest/gtest.h"
 
 namespace dart_jit_runner_testing::testing {

@@ -5,9 +5,9 @@
 #include <cstring>
 #include <cwchar>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/system_utils.h"
-#include "flutter/shell/platform/windows/testing/mock_windows_proc_table.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/system_utils.h"
+#include "shell/platform/windows/testing/mock_windows_proc_table.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

@@ -4,18 +4,18 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/shell/common/shell_test.h"
+#include "shell/common/shell_test.h"
 
-#include "flutter/flow/frame_timings.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/flow/layers/transform_layer.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/shell_test_platform_view.h"
-#include "flutter/shell/common/vsync_waiter_fallback.h"
-#include "flutter/testing/testing.h"
+#include "flow/frame_timings.h"
+#include "flow/layers/layer_tree.h"
+#include "flow/layers/transform_layer.h"
+#include "fml/build_config.h"
+#include "fml/make_copyable.h"
+#include "fml/mapping.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/shell_test_platform_view.h"
+#include "shell/common/vsync_waiter_fallback.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

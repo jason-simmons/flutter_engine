@@ -8,7 +8,7 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/compiler/types.h"
 #include "impeller/core/runtime_types.h"
 #include "runtime_stage_types_flatbuffers.h"

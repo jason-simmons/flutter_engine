@@ -9,11 +9,11 @@
 #include <fuchsia/ui/views/cpp/fidl.h>
 #include <lib/fidl/cpp/binding.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/lib/ui/window/platform_message.h"
-#include "flutter/shell/platform/fuchsia/flutter/keyboard.h"
-#include "flutter/shell/platform/fuchsia/runtime/dart/utils/inlines.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
+#include "lib/ui/window/platform_message.h"
+#include "shell/platform/fuchsia/flutter/keyboard.h"
+#include "shell/platform/fuchsia/runtime/dart/utils/inlines.h"
 #include "third_party/rapidjson/include/rapidjson/document.h"
 #include "third_party/rapidjson/include/rapidjson/stringbuffer.h"
 #include "third_party/rapidjson/include/rapidjson/writer.h"

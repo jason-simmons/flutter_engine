@@ -8,7 +8,7 @@
 #include <lib/fdio/directory.h>
 #include <zircon/status.h>
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 #include "runtime/dart/utils/files.h"
 #include "runtime/dart/utils/handle_exception.h"
 #include "runtime/dart/utils/mapped_resource.h"

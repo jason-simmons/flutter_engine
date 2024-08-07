@@ -8,7 +8,7 @@
 #import <Metal/Metal.h>
 #import <UIKit/UIKit.h>
 
-#include "flutter/shell/common/rasterizer.h"
+#include "shell/common/rasterizer.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.h"
 
 @protocol FlutterViewEngineDelegate <NSObject>

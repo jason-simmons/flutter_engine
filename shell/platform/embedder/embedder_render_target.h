@@ -6,9 +6,9 @@
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_RENDER_TARGET_H_
 
 #include <memory>
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder.h"
 #include "third_party/skia/include/core/SkSize.h"
 #include "third_party/skia/include/core/SkSurface.h"
 

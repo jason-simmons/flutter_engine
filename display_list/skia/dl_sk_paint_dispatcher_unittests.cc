@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 #include "display_list/effects/dl_color_source.h"
-#include "flutter/display_list/skia/dl_sk_paint_dispatcher.h"
+#include "display_list/skia/dl_sk_paint_dispatcher.h"
 
-#include "flutter/display_list/skia/dl_sk_dispatcher.h"
-#include "flutter/display_list/testing/dl_test_snippets.h"
-#include "flutter/display_list/utils/dl_receiver_utils.h"
+#include "display_list/skia/dl_sk_dispatcher.h"
+#include "display_list/testing/dl_test_snippets.h"
+#include "display_list/utils/dl_receiver_utils.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

@@ -4,7 +4,7 @@
 
 #include <memory>
 
-#include "flutter/shell/platform/android/android_shell_holder.h"
+#include "shell/platform/android/android_shell_holder.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "shell/platform/android/jni/platform_view_android_jni.h"

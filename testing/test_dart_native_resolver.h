@@ -10,7 +10,7 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 
 #define CREATE_NATIVE_ENTRY(native_entry)                                   \

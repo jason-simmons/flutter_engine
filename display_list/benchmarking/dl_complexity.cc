@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/benchmarking/dl_complexity.h"
-#include "flutter/display_list/benchmarking/dl_complexity_gl.h"
+#include "display_list/benchmarking/dl_complexity.h"
+#include "display_list/benchmarking/dl_complexity_gl.h"
 #if !SLIMPELLER
-#include "flutter/display_list/benchmarking/dl_complexity_metal.h"
+#include "display_list/benchmarking/dl_complexity_metal.h"
 #endif  // !SLIMPELLER
-#include "flutter/display_list/display_list.h"
+#include "display_list/display_list.h"
 
 namespace flutter {
 

@@ -17,8 +17,8 @@
 #include "base/win/scoped_bstr.h"
 #include "base/win/scoped_safearray.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/logging.h"
+#include "fml/platform/win/wstring_conversion.h"
 
 using Microsoft::WRL::ComPtr;
 

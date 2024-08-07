@@ -5,7 +5,7 @@
 #ifndef FLUTTER_DISPLAY_LIST_DL_COLOR_H_
 #define FLUTTER_DISPLAY_LIST_DL_COLOR_H_
 
-#include "flutter/display_list/geometry/dl_geometry_types.h"
+#include "display_list/geometry/dl_geometry_types.h"
 
 namespace flutter {
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
 #include <fcntl.h>
 #include <sys/mman.h>
@@ -11,9 +11,9 @@
 
 #include <type_traits>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/eintr_wrapper.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/build_config.h"
+#include "fml/eintr_wrapper.h"
+#include "fml/unique_fd.h"
 
 namespace fml {
 

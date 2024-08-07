@@ -7,8 +7,8 @@
 
 #include <optional>
 
-#include "flutter/fml/unique_fd.h"
-#include "flutter/fml/unique_object.h"
+#include "fml/unique_fd.h"
+#include "fml/unique_object.h"
 #include "impeller/base/mask.h"
 #include "impeller/geometry/size.h"
 #include "impeller/toolkit/android/proc_table.h"

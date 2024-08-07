@@ -8,10 +8,10 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/impeller/renderer/backend/gles/context_gles.h"
-#include "flutter/shell/platform/android/image_external_texture_gl.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "fml/macros.h"
+#include "impeller/renderer/backend/gles/context_gles.h"
+#include "shell/platform/android/image_external_texture_gl.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 namespace flutter {
 

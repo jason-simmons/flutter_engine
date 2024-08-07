@@ -11,12 +11,12 @@
 
 #include "embedder.h"
 #include "embedder_engine.h"
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/shell/platform/embedder/tests/embedder_config_builder.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_vulkan.h"
-#include "flutter/shell/platform/embedder/tests/embedder_unittests_util.h"
-#include "flutter/testing/testing.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "shell/platform/embedder/tests/embedder_config_builder.h"
+#include "shell/platform/embedder/tests/embedder_test.h"
+#include "shell/platform/embedder/tests/embedder_test_context_vulkan.h"
+#include "shell/platform/embedder/tests/embedder_unittests_util.h"
+#include "testing/testing.h"
 
 // CREATE_NATIVE_ENTRY is leaky by design
 // NOLINTBEGIN(clang-analyzer-core.StackAddressEscape)

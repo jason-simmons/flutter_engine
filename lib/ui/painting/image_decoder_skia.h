@@ -7,8 +7,8 @@
 
 #if !SLIMPELLER
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/painting/image_decoder.h"
+#include "fml/macros.h"
+#include "lib/ui/painting/image_decoder.h"
 
 namespace flutter {
 

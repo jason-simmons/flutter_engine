@@ -7,18 +7,18 @@
 
 #include <memory>
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/impeller/aiks/aiks_context.h"
-#include "flutter/impeller/golden_tests/screenshot.h"
-#include "flutter/impeller/playground/playground.h"
-#include "flutter/impeller/renderer/render_target.h"
-#include "flutter/testing/testing.h"
+#include "display_list/display_list.h"
+#include "display_list/image/dl_image.h"
+#include "impeller/aiks/aiks_context.h"
+#include "impeller/golden_tests/screenshot.h"
+#include "impeller/playground/playground.h"
+#include "impeller/renderer/render_target.h"
+#include "testing/testing.h"
 #include "impeller/typographer/typographer_context.h"
 #include "third_party/imgui/imgui.h"
 
 #if FML_OS_MACOSX
-#include "flutter/fml/platform/darwin/scoped_nsautorelease_pool.h"
+#include "fml/platform/darwin/scoped_nsautorelease_pool.h"
 #endif
 
 namespace impeller {

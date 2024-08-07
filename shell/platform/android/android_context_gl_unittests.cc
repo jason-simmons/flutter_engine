@@ -5,11 +5,11 @@
 #define FML_USED_ON_EMBEDDER
 
 #include <memory>
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/platform/android/android_context_gl_skia.h"
-#include "flutter/shell/platform/android/android_egl_surface.h"
-#include "flutter/shell/platform/android/android_environment_gl.h"
-#include "flutter/shell/platform/android/android_surface_gl_skia.h"
+#include "shell/common/thread_host.h"
+#include "shell/platform/android/android_context_gl_skia.h"
+#include "shell/platform/android/android_egl_surface.h"
+#include "shell/platform/android/android_environment_gl.h"
+#include "shell/platform/android/android_surface_gl_skia.h"
 #include "fml/logging.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"

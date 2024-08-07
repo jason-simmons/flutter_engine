@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/win/message_loop_win.h"
+#include "fml/platform/win/message_loop_win.h"
 
 #include <VersionHelpers.h>
 #include <timeapi.h>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 constexpr uint32_t kHighResolutionTimer = 1;  // 1 ms
 constexpr uint32_t kLowResolutionTimer = 15;  // 15 ms

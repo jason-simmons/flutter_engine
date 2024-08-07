@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/concurrent_message_loop.h"
+#include "fml/concurrent_message_loop.h"
 
 namespace fml {
 

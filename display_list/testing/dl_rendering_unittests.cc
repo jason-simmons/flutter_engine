@@ -4,22 +4,22 @@
 
 #include <utility>
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/dl_op_flags.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/skia/dl_sk_canvas.h"
-#include "flutter/display_list/skia/dl_sk_conversions.h"
-#include "flutter/display_list/skia/dl_sk_dispatcher.h"
-#include "flutter/display_list/testing/dl_test_snippets.h"
-#include "flutter/display_list/testing/dl_test_surface_provider.h"
-#include "flutter/display_list/utils/dl_comparable.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/math.h"
-#include "flutter/testing/display_list_testing.h"
-#include "flutter/testing/testing.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_builder.h"
+#include "display_list/dl_op_flags.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/skia/dl_sk_canvas.h"
+#include "display_list/skia/dl_sk_conversions.h"
+#include "display_list/skia/dl_sk_dispatcher.h"
+#include "display_list/testing/dl_test_snippets.h"
+#include "display_list/testing/dl_test_surface_provider.h"
+#include "display_list/utils/dl_comparable.h"
+#include "fml/file.h"
+#include "fml/math.h"
+#include "testing/display_list_testing.h"
+#include "testing/testing.h"
 #ifdef IMPELLER_SUPPORTS_RENDERING
-#include "flutter/impeller/typographer/backends/skia/text_frame_skia.h"
+#include "impeller/typographer/backends/skia/text_frame_skia.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
 
 #include "third_party/skia/include/core/SkBBHFactory.h"

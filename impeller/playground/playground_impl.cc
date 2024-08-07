@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 #include "impeller/playground/playground_impl.h"
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 
 #define GLFW_INCLUDE_NONE
 #include "third_party/glfw/include/GLFW/glfw3.h"

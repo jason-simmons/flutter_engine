@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/file.h"
+#include "fml/file.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/logging.h"
+#include "fml/unique_fd.h"
 
 namespace fml {
 

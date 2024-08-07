@@ -5,7 +5,7 @@
 #ifndef FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_COMPLEXITY_METAL_H_
 #define FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_COMPLEXITY_METAL_H_
 
-#include "flutter/display_list/benchmarking/dl_complexity_helper.h"
+#include "display_list/benchmarking/dl_complexity_helper.h"
 
 namespace flutter {
 

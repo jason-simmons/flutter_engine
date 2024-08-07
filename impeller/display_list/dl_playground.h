@@ -5,9 +5,9 @@
 #ifndef FLUTTER_IMPELLER_DISPLAY_LIST_DL_PLAYGROUND_H_
 #define FLUTTER_IMPELLER_DISPLAY_LIST_DL_PLAYGROUND_H_
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/impeller/golden_tests/screenshot.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_builder.h"
+#include "impeller/golden_tests/screenshot.h"
 #include "impeller/playground/playground_test.h"
 #include "third_party/skia/include/core/SkFont.h"
 

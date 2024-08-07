@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/synchronization/semaphore.h"
+#include "fml/synchronization/semaphore.h"
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 
 #if FML_OS_MACOSX
 #include <dispatch/dispatch.h>
@@ -110,7 +110,7 @@ class PlatformSemaphore {
 
 #else
 #include <semaphore.h>
-#include "flutter/fml/eintr_wrapper.h"
+#include "fml/eintr_wrapper.h"
 
 namespace fml {
 

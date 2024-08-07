@@ -5,7 +5,7 @@
 #ifndef FLUTTER_VULKAN_VULKAN_SKIA_PROC_TABLE_H_
 #define FLUTTER_VULKAN_VULKAN_SKIA_PROC_TABLE_H_
 
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 
 #include "third_party/skia/include/gpu/vk/VulkanTypes.h"
 

@@ -11,9 +11,9 @@
 #include <functional>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_ptr_internal.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_ptr_internal.h"
 
 namespace fml {
 

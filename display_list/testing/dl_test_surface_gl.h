@@ -5,9 +5,9 @@
 #ifndef FLUTTER_DISPLAY_LIST_TESTING_DL_TEST_SURFACE_GL_H_
 #define FLUTTER_DISPLAY_LIST_TESTING_DL_TEST_SURFACE_GL_H_
 
-#include "flutter/display_list/testing/dl_test_surface_provider.h"
+#include "display_list/testing/dl_test_surface_provider.h"
 
-#include "flutter/testing/test_gl_surface.h"
+#include "testing/test_gl_surface.h"
 
 namespace flutter {
 namespace testing {

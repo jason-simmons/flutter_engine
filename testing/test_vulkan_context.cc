@@ -6,15 +6,15 @@
 #include <memory>
 #include <optional>
 
-#include "flutter/flutter_vma/flutter_skia_vma.h"
-#include "flutter/fml/logging.h"
-#include "flutter/shell/common/context_options.h"
-#include "flutter/testing/test_vulkan_context.h"
-#include "flutter/vulkan/vulkan_skia_proc_table.h"
+#include "flutter_vma/flutter_skia_vma.h"
+#include "fml/logging.h"
+#include "shell/common/context_options.h"
+#include "testing/test_vulkan_context.h"
+#include "vulkan/vulkan_skia_proc_table.h"
 
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/vulkan/swiftshader_path.h"
+#include "fml/memory/ref_ptr.h"
+#include "fml/native_library.h"
+#include "vulkan/swiftshader_path.h"
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 #include "third_party/skia/include/gpu/ganesh/vk/GrVkDirectContext.h"

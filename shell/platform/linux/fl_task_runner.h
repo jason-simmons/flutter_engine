@@ -7,8 +7,8 @@
 
 #include <glib-object.h>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_engine.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/public/flutter_linux/fl_engine.h"
 
 G_BEGIN_DECLS
 

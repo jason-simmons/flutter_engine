@@ -5,11 +5,11 @@
 #ifndef FLUTTER_DISPLAY_LIST_DL_CANVAS_H_
 #define FLUTTER_DISPLAY_LIST_DL_CANVAS_H_
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/display_list/dl_vertices.h"
-#include "flutter/display_list/geometry/dl_geometry_types.h"
-#include "flutter/display_list/image/dl_image.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_paint.h"
+#include "display_list/dl_vertices.h"
+#include "display_list/geometry/dl_geometry_types.h"
+#include "display_list/image/dl_image.h"
 
 #include "third_party/skia/include/core/SkM44.h"
 #include "third_party/skia/include/core/SkMatrix.h"

@@ -2,9 +2,9 @@
 
 #include <initializer_list>
 
-#include "flutter/common/settings.h"
-#include "flutter/common/task_runners.h"
-#include "flutter/shell/common/switches.h"
+#include "common/settings.h"
+#include "common/task_runners.h"
+#include "shell/common/switches.h"
 
 #include "gtest/gtest.h"
 #include "thread_host.h"

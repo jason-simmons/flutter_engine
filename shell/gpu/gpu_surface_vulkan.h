@@ -7,13 +7,13 @@
 
 #include <memory>
 
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/shell/gpu/gpu_surface_vulkan_delegate.h"
-#include "flutter/vulkan/vulkan_backbuffer.h"
-#include "flutter/vulkan/vulkan_native_surface.h"
-#include "flutter/vulkan/vulkan_window.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "shell/gpu/gpu_surface_vulkan_delegate.h"
+#include "vulkan/vulkan_backbuffer.h"
+#include "vulkan/vulkan_native_surface.h"
+#include "vulkan/vulkan_window.h"
 
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/core/SkSurface.h"

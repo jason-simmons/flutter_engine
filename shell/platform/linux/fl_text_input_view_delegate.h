@@ -7,7 +7,7 @@
 
 #include <gdk/gdk.h>
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 G_BEGIN_DECLS
 

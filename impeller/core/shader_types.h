@@ -11,8 +11,8 @@
 #include <string_view>
 #include <vector>
 
-#include "flutter/fml/hash_combine.h"
-#include "flutter/fml/logging.h"
+#include "fml/hash_combine.h"
+#include "fml/logging.h"
 #include "impeller/core/runtime_types.h"
 #include "impeller/geometry/half.h"
 #include "impeller/geometry/matrix.h"

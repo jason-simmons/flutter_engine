@@ -4,17 +4,17 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "lib/ui/window/platform_configuration.h"
 
 #include <memory>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/lib/ui/painting/vertices.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/testing.h"
+#include "common/task_runners.h"
+#include "fml/synchronization/waitable_event.h"
+#include "lib/ui/painting/vertices.h"
+#include "runtime/dart_vm.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/thread_host.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

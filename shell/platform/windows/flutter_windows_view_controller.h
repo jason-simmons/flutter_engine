@@ -7,9 +7,9 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_view.h"
 
 namespace flutter {
 

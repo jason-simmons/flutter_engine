@@ -7,9 +7,9 @@
 #ifndef FLUTTER_FML_MEMORY_REF_COUNTED_H_
 #define FLUTTER_FML_MEMORY_REF_COUNTED_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted_internal.h"
-#include "flutter/fml/memory/ref_ptr.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted_internal.h"
+#include "fml/memory/ref_ptr.h"
 
 namespace fml {
 

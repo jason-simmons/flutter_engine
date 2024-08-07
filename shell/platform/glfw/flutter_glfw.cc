@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/glfw/public/flutter_glfw.h"
+#include "shell/platform/glfw/public/flutter_glfw.h"
 
 #include <GLFW/glfw3.h>
 
@@ -14,18 +14,18 @@
 #include <iostream>
 #include <string>
 
-#include "flutter/common/constants.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
-#include "flutter/shell/platform/common/incoming_message_dispatcher.h"
-#include "flutter/shell/platform/common/path_utils.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/glfw/glfw_event_loop.h"
-#include "flutter/shell/platform/glfw/headless_event_loop.h"
-#include "flutter/shell/platform/glfw/key_event_handler.h"
-#include "flutter/shell/platform/glfw/keyboard_hook_handler.h"
-#include "flutter/shell/platform/glfw/platform_handler.h"
-#include "flutter/shell/platform/glfw/system_utils.h"
-#include "flutter/shell/platform/glfw/text_input_plugin.h"
+#include "common/constants.h"
+#include "shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
+#include "shell/platform/common/incoming_message_dispatcher.h"
+#include "shell/platform/common/path_utils.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/glfw/glfw_event_loop.h"
+#include "shell/platform/glfw/headless_event_loop.h"
+#include "shell/platform/glfw/key_event_handler.h"
+#include "shell/platform/glfw/keyboard_hook_handler.h"
+#include "shell/platform/glfw/platform_handler.h"
+#include "shell/platform/glfw/system_utils.h"
+#include "shell/platform/glfw/text_input_plugin.h"
 
 // GLFW_TRUE & GLFW_FALSE are introduced since libglfw-3.3,
 // add definitions here to compile under the old versions.

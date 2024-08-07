@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/platform_message_response_android.h"
+#include "shell/platform/android/platform_message_response_android.h"
 
 #include <utility>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "fml/make_copyable.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 namespace flutter {
 

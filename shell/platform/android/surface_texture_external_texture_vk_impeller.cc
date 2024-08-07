@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/surface_texture_external_texture_vk_impeller.h"
+#include "shell/platform/android/surface_texture_external_texture_vk_impeller.h"
 
 #include <chrono>
 
@@ -10,13 +10,13 @@
 #define GL_GLEXT_PROTOTYPES
 #include <GLES2/gl2ext.h>
 
-#include "flutter/fml/trace_event.h"
-#include "flutter/impeller/display_list/dl_image_impeller.h"
-#include "flutter/impeller/renderer/backend/vulkan/command_buffer_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/command_encoder_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/surface_context_vk.h"
-#include "flutter/impeller/renderer/backend/vulkan/texture_vk.h"
-#include "flutter/impeller/toolkit/android/hardware_buffer.h"
+#include "fml/trace_event.h"
+#include "impeller/display_list/dl_image_impeller.h"
+#include "impeller/renderer/backend/vulkan/command_buffer_vk.h"
+#include "impeller/renderer/backend/vulkan/command_encoder_vk.h"
+#include "impeller/renderer/backend/vulkan/surface_context_vk.h"
+#include "impeller/renderer/backend/vulkan/texture_vk.h"
+#include "impeller/toolkit/android/hardware_buffer.h"
 
 namespace flutter {
 

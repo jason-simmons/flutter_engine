@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_UNIQUE_FDIO_NS_H_
 #define FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_UNIQUE_FDIO_NS_H_
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/unique_object.h"
+#include "fml/logging.h"
+#include "fml/unique_object.h"
 #include "lib/fdio/namespace.h"
 
 namespace flutter_runner {

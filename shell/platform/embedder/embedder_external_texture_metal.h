@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_EXTERNAL_TEXTURE_METAL_H_
 #define FLUTTER_SHELL_PLATFORM_EMBEDDER_EMBEDDER_EXTERNAL_TEXTURE_METAL_H_
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "common/graphics/texture.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkSize.h"
 

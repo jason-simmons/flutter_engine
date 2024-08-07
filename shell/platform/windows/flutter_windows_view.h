@@ -12,17 +12,17 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
-#include "flutter/shell/platform/common/geometry.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/accessibility_bridge_windows.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
-#include "flutter/shell/platform/windows/window_binding_handler.h"
-#include "flutter/shell/platform/windows/window_binding_handler_delegate.h"
-#include "flutter/shell/platform/windows/window_state.h"
-#include "flutter/shell/platform/windows/windows_proc_table.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/plugin_registrar.h"
+#include "shell/platform/common/geometry.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/accessibility_bridge_windows.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/window_binding_handler.h"
+#include "shell/platform/windows/window_binding_handler_delegate.h"
+#include "shell/platform/windows/window_state.h"
+#include "shell/platform/windows/windows_proc_table.h"
 
 namespace flutter {
 

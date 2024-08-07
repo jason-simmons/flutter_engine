@@ -5,8 +5,8 @@
 #ifndef FLUTTER_DISPLAY_LIST_UTILS_DL_RECEIVER_UTILS_H_
 #define FLUTTER_DISPLAY_LIST_UTILS_DL_RECEIVER_UTILS_H_
 
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_op_receiver.h"
+#include "fml/logging.h"
 
 // This file contains various utility classes to ease implementing
 // a Flutter DisplayList DlOpReceiver, including:

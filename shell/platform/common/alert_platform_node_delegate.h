@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_COMMON_ALERT_PLATFORM_NODE_DELEGATE_H_
 #define FLUTTER_SHELL_PLATFORM_COMMON_ALERT_PLATFORM_NODE_DELEGATE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/third_party/accessibility/ax/ax_node_data.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node_delegate_base.h"
+#include "fml/macros.h"
+#include "third_party/accessibility/ax/ax_node_data.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node_delegate_base.h"
 
 namespace flutter {
 

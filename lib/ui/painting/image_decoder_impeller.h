@@ -7,8 +7,8 @@
 
 #include <future>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/painting/image_decoder.h"
+#include "fml/macros.h"
+#include "lib/ui/painting/image_decoder.h"
 #include "impeller/core/formats.h"
 #include "impeller/geometry/size.h"
 #include "third_party/skia/include/core/SkBitmap.h"

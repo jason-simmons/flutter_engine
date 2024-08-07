@@ -8,12 +8,12 @@
 #include <memory>
 #include <unordered_map>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/shell.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/embedder_external_texture_resolver.h"
-#include "flutter/shell/platform/embedder/embedder_thread_host.h"
+#include "fml/macros.h"
+#include "shell/common/shell.h"
+#include "shell/common/thread_host.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder_external_texture_resolver.h"
+#include "shell/platform/embedder/embedder_thread_host.h"
 namespace flutter {
 
 struct ShellArgs;

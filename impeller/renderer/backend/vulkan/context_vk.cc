@@ -21,8 +21,8 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/cpu_affinity.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/cpu_affinity.h"
+#include "fml/trace_event.h"
 #include "impeller/base/validation.h"
 #include "impeller/renderer/backend/vulkan/allocator_vk.h"
 #include "impeller/renderer/backend/vulkan/capabilities_vk.h"

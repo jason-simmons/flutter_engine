@@ -4,9 +4,9 @@
 
 #include <algorithm>
 
-#include "flutter/impeller/entity/geometry/ellipse_geometry.h"
+#include "impeller/entity/geometry/ellipse_geometry.h"
 
-#include "flutter/impeller/entity/geometry/line_geometry.h"
+#include "impeller/entity/geometry/line_geometry.h"
 
 namespace impeller {
 

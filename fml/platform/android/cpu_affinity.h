@@ -5,7 +5,7 @@
 #ifndef FLUTTER_FML_PLATFORM_ANDROID_CPU_AFFINITY_H_
 #define FLUTTER_FML_PLATFORM_ANDROID_CPU_AFFINITY_H_
 
-#include "flutter/fml/cpu_affinity.h"
+#include "fml/cpu_affinity.h"
 
 namespace fml {
 

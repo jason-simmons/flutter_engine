@@ -7,9 +7,9 @@
 
 #include <functional>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/macros.h"
-#include "flutter/vulkan/procs/vulkan_interface.h"
+#include "fml/logging.h"
+#include "fml/macros.h"
+#include "vulkan/procs/vulkan_interface.h"
 
 namespace vulkan {
 

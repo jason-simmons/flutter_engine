@@ -5,11 +5,11 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_FLUTTER_PLATFORM_NODE_DELEGATE_WINDOWS_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_FLUTTER_PLATFORM_NODE_DELEGATE_WINDOWS_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/flutter_platform_node_delegate.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_unique_id.h"
+#include "fml/macros.h"
+#include "shell/platform/common/flutter_platform_node_delegate.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node.h"
+#include "third_party/accessibility/ax/platform/ax_unique_id.h"
 
 namespace flutter {
 

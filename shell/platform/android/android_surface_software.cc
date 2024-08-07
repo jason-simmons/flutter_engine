@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_surface_software.h"
+#include "shell/platform/android/android_surface_software.h"
 
 #include <memory>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/platform/android/jni_weak_ref.h"
-#include "flutter/fml/platform/android/scoped_java_ref.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/platform/android/android_shell_holder.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "fml/logging.h"
+#include "fml/platform/android/jni_weak_ref.h"
+#include "fml/platform/android/scoped_java_ref.h"
+#include "fml/trace_event.h"
+#include "shell/platform/android/android_shell_holder.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkSurface.h"

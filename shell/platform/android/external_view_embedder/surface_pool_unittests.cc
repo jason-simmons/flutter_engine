@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 #include <memory>
-#include "flutter/shell/platform/android/external_view_embedder/surface_pool.h"
+#include "shell/platform/android/external_view_embedder/surface_pool.h"
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/shell/platform/android/jni/jni_mock.h"
-#include "flutter/shell/platform/android/surface/android_surface_mock.h"
+#include "fml/make_copyable.h"
+#include "shell/platform/android/jni/jni_mock.h"
+#include "shell/platform/android/surface/android_surface_mock.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"

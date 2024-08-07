@@ -15,7 +15,7 @@
 #include <lib/sys/component/cpp/testing/realm_builder_types.h>
 
 #include "check_view.h"
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace fuchsia_test_utils {
 namespace {

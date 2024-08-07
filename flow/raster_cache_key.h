@@ -12,8 +12,8 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/fml/hash_combine.h"
-#include "flutter/fml/logging.h"
+#include "fml/hash_combine.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 
 namespace flutter {

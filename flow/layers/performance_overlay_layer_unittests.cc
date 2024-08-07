@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/performance_overlay_layer.h"
+#include "flow/layers/performance_overlay_layer.h"
 
 #include <cstdint>
 #include <sstream>
 
-#include "flutter/flow/flow_test_utils.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/testing/layer_test.h"
-#include "flutter/shell/common/base64.h"
-#include "flutter/testing/mock_canvas.h"
+#include "flow/flow_test_utils.h"
+#include "flow/raster_cache.h"
+#include "flow/testing/layer_test.h"
+#include "shell/common/base64.h"
+#include "testing/mock_canvas.h"
 #include "third_party/skia/include/core/SkData.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkSerialProcs.h"

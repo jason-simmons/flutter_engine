@@ -7,7 +7,7 @@
 
 #include <utility>
 #include <vector>
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkRect.h"
 
 namespace flutter {

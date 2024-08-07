@@ -9,8 +9,8 @@
 #include <string>
 #include <vector>
 
-#include "flutter/shell/common/platform_view.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/common/platform_view.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 namespace flutter {
 

@@ -7,7 +7,7 @@
 
 #include <condition_variable>
 
-#include "flutter/shell/platform/glfw/event_loop.h"
+#include "shell/platform/glfw/event_loop.h"
 
 namespace flutter {
 

@@ -7,10 +7,10 @@
 
 #include <vector>
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "display_list/dl_canvas.h"
+#include "fml/macros.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 
 namespace flutter {
 

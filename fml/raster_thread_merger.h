@@ -8,10 +8,10 @@
 #include <condition_variable>
 #include <mutex>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/message_loop_task_queues.h"
-#include "flutter/fml/shared_thread_merger.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/message_loop_task_queues.h"
+#include "fml/shared_thread_merger.h"
 
 namespace fml {
 

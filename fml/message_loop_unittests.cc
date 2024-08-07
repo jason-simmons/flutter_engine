@@ -4,17 +4,17 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/message_loop.h"
+#include "fml/message_loop.h"
 
 #include <iostream>
 #include <thread>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/time/chrono_timestamp_provider.h"
+#include "fml/build_config.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/task_runner.h"
+#include "fml/time/chrono_timestamp_provider.h"
 #include "gtest/gtest.h"
 
 TEST(MessageLoop, GetCurrent) {

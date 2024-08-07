@@ -5,9 +5,9 @@
 #ifndef FLUTTER_FLOW_LAYERS_COLOR_FILTER_LAYER_H_
 #define FLUTTER_FLOW_LAYERS_COLOR_FILTER_LAYER_H_
 
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/flow/layers/cacheable_layer.h"
-#include "flutter/flow/layers/layer.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "flow/layers/cacheable_layer.h"
+#include "flow/layers/layer.h"
 
 namespace flutter {
 

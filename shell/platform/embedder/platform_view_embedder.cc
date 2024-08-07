@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/platform_view_embedder.h"
+#include "shell/platform/embedder/platform_view_embedder.h"
 
 #include <utility>
 
-#include "flutter/fml/make_copyable.h"
+#include "fml/make_copyable.h"
 
 namespace flutter {
 

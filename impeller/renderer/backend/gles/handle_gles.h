@@ -10,7 +10,7 @@
 #include <string>
 #include <type_traits>
 
-#include "flutter/fml/hash_combine.h"
+#include "fml/hash_combine.h"
 #include "impeller/base/comparable.h"
 
 namespace impeller {

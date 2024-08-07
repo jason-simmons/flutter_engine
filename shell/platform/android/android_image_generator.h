@@ -7,10 +7,10 @@
 
 #include <jni.h>
 
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/painting/image_generator.h"
+#include "fml/memory/ref_ptr.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/task_runner.h"
+#include "lib/ui/painting/image_generator.h"
 
 namespace flutter {
 

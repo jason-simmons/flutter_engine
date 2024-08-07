@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 
 #include <algorithm>
 #include <atomic>
 #include <utility>
 
-#include "flutter/fml/ascii_trie.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/ascii_trie.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 
 namespace fml {
 namespace tracing {

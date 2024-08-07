@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/canvas.h"
+#include "lib/ui/painting/canvas.h"
 
 #include <cmath>
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/lib/ui/floating_point.h"
-#include "flutter/lib/ui/painting/image.h"
-#include "flutter/lib/ui/painting/image_filter.h"
-#include "flutter/lib/ui/painting/paint.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "display_list/dl_builder.h"
+#include "lib/ui/floating_point.h"
+#include "lib/ui/painting/image.h"
+#include "lib/ui/painting/image_filter.h"
+#include "lib/ui/painting/paint.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 
 using tonic::ToDart;
 

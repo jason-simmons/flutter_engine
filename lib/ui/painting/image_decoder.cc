@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/image_decoder.h"
+#include "lib/ui/painting/image_decoder.h"
 
-#include "flutter/lib/ui/painting/image_decoder_skia.h"
+#include "lib/ui/painting/image_decoder_skia.h"
 
 #if IMPELLER_SUPPORTS_RENDERING
-#include "flutter/lib/ui/painting/image_decoder_impeller.h"
+#include "lib/ui/painting/image_decoder_impeller.h"
 #endif  // IMPELLER_SUPPORTS_RENDERING
 
 namespace flutter {

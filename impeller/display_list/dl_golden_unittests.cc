@@ -4,9 +4,9 @@
 
 #include "impeller/display_list/dl_golden_unittests.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/impeller/geometry/path_builder.h"
-#include "flutter/testing/testing.h"
+#include "display_list/dl_builder.h"
+#include "impeller/geometry/path_builder.h"
+#include "testing/testing.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

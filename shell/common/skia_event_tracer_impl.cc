@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/skia_event_tracer_impl.h"
+#include "shell/common/skia_event_tracer_impl.h"
 
 #define TRACE_EVENT_HIDE_MACROS
 #include <map>
 #include <set>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/posix_wrappers.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/posix_wrappers.h"
+#include "fml/trace_event.h"
 #include "third_party/dart/runtime/include/dart_tools_api.h"
 #include "third_party/skia/include/utils/SkEventTracer.h"
 #include "third_party/skia/include/utils/SkTraceEventPhase.h"

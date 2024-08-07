@@ -7,10 +7,10 @@
 
 #if !SLIMPELLER
 
-#include "flutter/common/task_runners.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/fml/synchronization/sync_switch.h"
-#include "flutter/lib/ui/snapshot_delegate.h"
+#include "common/task_runners.h"
+#include "display_list/image/dl_image.h"
+#include "fml/synchronization/sync_switch.h"
+#include "lib/ui/snapshot_delegate.h"
 
 namespace flutter {
 

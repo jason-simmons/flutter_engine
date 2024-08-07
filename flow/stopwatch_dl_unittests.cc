@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/stopwatch_dl.h"
+#include "flow/stopwatch_dl.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

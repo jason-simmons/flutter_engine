@@ -18,8 +18,8 @@
 #include <lib/sys/component/cpp/testing/realm_builder_types.h>
 #include <zircon/errors.h>
 
-#include "flutter/fml/log_settings.h"
-#include "flutter/fml/platform/fuchsia/log_interest_listener.h"
+#include "fml/log_settings.h"
+#include "fml/platform/fuchsia/log_interest_listener.h"
 #include "gtest/gtest.h"
 
 namespace fml {

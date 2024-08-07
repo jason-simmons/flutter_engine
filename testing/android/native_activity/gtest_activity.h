@@ -5,9 +5,9 @@
 #ifndef FLUTTER_TESTING_ANDROID_NATIVE_ACTIVITY_GTEST_ACTIVITY_H_
 #define FLUTTER_TESTING_ANDROID_NATIVE_ACTIVITY_GTEST_ACTIVITY_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/thread.h"
-#include "flutter/testing/android/native_activity/native_activity.h"
+#include "fml/macros.h"
+#include "fml/thread.h"
+#include "testing/android/native_activity/native_activity.h"
 
 namespace flutter {
 

@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_RENDERER_TEXTURE_MIPMAP_H_
 #define FLUTTER_IMPELLER_RENDERER_TEXTURE_MIPMAP_H_
 
-#include "flutter/fml/status.h"
+#include "fml/status.h"
 #include "impeller/core/texture.h"
 #include "impeller/renderer/command_buffer.h"
 #include "impeller/renderer/context.h"

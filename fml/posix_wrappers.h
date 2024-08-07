@@ -5,7 +5,7 @@
 #ifndef FLUTTER_FML_POSIX_WRAPPERS_H_
 #define FLUTTER_FML_POSIX_WRAPPERS_H_
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 // Provides wrappers for POSIX functions that have been renamed on Windows.
 // See

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/geometry/dl_geometry_types.h"
+#include "display_list/geometry/dl_geometry_types.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

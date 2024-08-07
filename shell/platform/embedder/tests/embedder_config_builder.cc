@@ -2,28 +2,28 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/tests/embedder_config_builder.h"
+#include "shell/platform/embedder/tests/embedder_config_builder.h"
 
-#include "flutter/common/constants.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "common/constants.h"
+#include "runtime/dart_vm.h"
+#include "shell/platform/embedder/embedder.h"
 #include "tests/embedder_test_context.h"
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "third_party/skia/include/core/SkImage.h"
 
 #ifdef SHELL_ENABLE_GL
-#include "flutter/shell/platform/embedder/tests/embedder_test_compositor_gl.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_gl.h"
+#include "shell/platform/embedder/tests/embedder_test_compositor_gl.h"
+#include "shell/platform/embedder/tests/embedder_test_context_gl.h"
 #endif
 
 #ifdef SHELL_ENABLE_VULKAN
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_vulkan.h"
-#include "flutter/vulkan/vulkan_device.h"  // nogncheck
+#include "shell/platform/embedder/tests/embedder_test_context_vulkan.h"
+#include "vulkan/vulkan_device.h"  // nogncheck
 #include "vulkan/vulkan_core.h"            // nogncheck
 #endif
 
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/shell/platform/embedder/tests/embedder_test_context_metal.h"
+#include "shell/platform/embedder/tests/embedder_test_context_metal.h"
 #endif
 
 namespace flutter {

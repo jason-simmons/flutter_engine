@@ -5,7 +5,7 @@
 #ifndef FLUTTER_FLOW_TESTING_GL_CONTEXT_SWITCH_TEST_H_
 #define FLUTTER_FLOW_TESTING_GL_CONTEXT_SWITCH_TEST_H_
 
-#include "flutter/common/graphics/gl_context_switch.h"
+#include "common/graphics/gl_context_switch.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

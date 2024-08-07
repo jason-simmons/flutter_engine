@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 #include "display_list/dl_blend_mode.h"
-#include "flutter/impeller/aiks/aiks_unittests.h"
+#include "impeller/aiks/aiks_unittests.h"
 
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/dl_color.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/testing/testing.h"
+#include "display_list/dl_builder.h"
+#include "display_list/dl_color.h"
+#include "display_list/dl_paint.h"
+#include "testing/testing.h"
 #include "include/core/SkRect.h"
 
 namespace impeller {

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/external_view_embedder/external_view_embedder.h"
+#include "shell/platform/android/external_view_embedder/external_view_embedder.h"
 #include "flow/view_slicer.h"
-#include "flutter/common/constants.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/trace_event.h"
+#include "common/constants.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

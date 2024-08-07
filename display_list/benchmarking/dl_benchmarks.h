@@ -5,10 +5,10 @@
 #ifndef FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_BENCHMARKS_H_
 #define FLUTTER_DISPLAY_LIST_BENCHMARKING_DL_BENCHMARKS_H_
 
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/dl_vertices.h"
-#include "flutter/display_list/testing/dl_test_surface_provider.h"
+#include "display_list/dl_canvas.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/dl_vertices.h"
+#include "display_list/testing/dl_test_surface_provider.h"
 
 #include "third_party/benchmark/include/benchmark/benchmark.h"
 #include "third_party/skia/include/core/SkCanvas.h"

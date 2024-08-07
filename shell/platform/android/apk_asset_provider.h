@@ -8,9 +8,9 @@
 #include <android/asset_manager_jni.h>
 #include <jni.h>
 
-#include "flutter/assets/asset_resolver.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/platform/android/scoped_java_ref.h"
+#include "assets/asset_resolver.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/platform/android/scoped_java_ref.h"
 
 namespace flutter {
 

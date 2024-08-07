@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_key_channel_responder.h"
+#include "shell/platform/linux/fl_key_channel_responder.h"
 
 #include <gtk/gtk.h>
 #include <cinttypes>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
 
 static constexpr char kChannelName[] = "flutter/keyevent";
 static constexpr char kTypeKey[] = "type";

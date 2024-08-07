@@ -5,7 +5,7 @@
 #ifndef FLUTTER_LIB_UI_SEMANTICS_STRING_ATTRIBUTE_H_
 #define FLUTTER_LIB_UI_SEMANTICS_STRING_ATTRIBUTE_H_
 
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/ui/dart_wrapper.h"
 #include "third_party/tonic/dart_library_natives.h"
 
 namespace flutter {

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/transform_layer.h"
+#include "flow/layers/transform_layer.h"
 
-#include "flutter/flow/testing/diff_context_test.h"
-#include "flutter/flow/testing/layer_test.h"
-#include "flutter/flow/testing/mock_layer.h"
-#include "flutter/fml/macros.h"
+#include "flow/testing/diff_context_test.h"
+#include "flow/testing/layer_test.h"
+#include "flow/testing/mock_layer.h"
+#include "fml/macros.h"
 
 namespace flutter {
 namespace testing {

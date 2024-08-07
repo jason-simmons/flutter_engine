@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/paint.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/shell/common/thread_host.h"
+#include "lib/ui/painting/paint.h"
+#include "shell/common/shell_test.h"
+#include "shell/common/thread_host.h"
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

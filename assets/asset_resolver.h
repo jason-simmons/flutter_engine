@@ -9,8 +9,8 @@
 #include <vector>
 
 #include <optional>
-#include "flutter/fml/macros.h"
-#include "flutter/fml/mapping.h"
+#include "fml/macros.h"
+#include "fml/mapping.h"
 
 namespace flutter {
 

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/gpu/gpu_surface_gl_delegate.h"
+#include "shell/gpu/gpu_surface_gl_delegate.h"
 
-#include "flutter/fml/build_config.h"
+#include "fml/build_config.h"
 
 #include <cstring>
 

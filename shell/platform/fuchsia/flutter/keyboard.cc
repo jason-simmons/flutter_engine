@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/fuchsia/flutter/keyboard.h"
+#include "shell/platform/fuchsia/flutter/keyboard.h"
 
 #include <fuchsia/input/cpp/fidl.h>
 #include <fuchsia/ui/input/cpp/fidl.h>

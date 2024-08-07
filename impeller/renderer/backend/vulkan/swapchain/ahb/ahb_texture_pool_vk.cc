@@ -4,7 +4,7 @@
 
 #include "impeller/renderer/backend/vulkan/swapchain/ahb/ahb_texture_pool_vk.h"
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 
 namespace impeller {
 

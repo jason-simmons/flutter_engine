@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/variable_refresh_rate_display.h"
-#include "flutter/fml/logging.h"
+#include "shell/common/variable_refresh_rate_display.h"
+#include "fml/logging.h"
 
 static double GetInitialRefreshRate(
     const std::weak_ptr<flutter::VariableRefreshRateReporter>&

@@ -4,14 +4,14 @@
 
 #include <oleacc.h>
 
-#include "flutter/shell/platform/windows/flutter_platform_node_delegate_windows.h"
+#include "shell/platform/windows/flutter_platform_node_delegate_windows.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/windows/accessibility_bridge_windows.h"
-#include "flutter/shell/platform/windows/flutter_windows_view.h"
-#include "flutter/third_party/accessibility/ax/ax_clipping_behavior.h"
-#include "flutter/third_party/accessibility/ax/ax_coordinate_system.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_fragment_root_win.h"
+#include "fml/logging.h"
+#include "shell/platform/windows/accessibility_bridge_windows.h"
+#include "shell/platform/windows/flutter_windows_view.h"
+#include "third_party/accessibility/ax/ax_clipping_behavior.h"
+#include "third_party/accessibility/ax/ax_coordinate_system.h"
+#include "third_party/accessibility/ax/platform/ax_fragment_root_win.h"
 
 namespace flutter {
 

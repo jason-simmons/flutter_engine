@@ -7,8 +7,8 @@
 
 #include <optional>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/native_library.h"
+#include "fml/macros.h"
+#include "fml/native_library.h"
 
 namespace flutter {
 

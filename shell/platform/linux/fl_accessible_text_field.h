@@ -7,7 +7,7 @@
 
 #include <gtk/gtk.h>
 
-#include "flutter/shell/platform/linux/fl_accessible_node.h"
+#include "shell/platform/linux/fl_accessible_node.h"
 
 G_BEGIN_DECLS
 

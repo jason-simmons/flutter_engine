@@ -7,8 +7,8 @@
 
 #include <string_view>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
 
 namespace flutter {
 

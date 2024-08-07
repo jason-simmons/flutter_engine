@@ -9,9 +9,9 @@
 
 #include <atomic>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/message_loop_impl.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/macros.h"
+#include "fml/message_loop_impl.h"
+#include "fml/unique_fd.h"
 
 namespace fml {
 

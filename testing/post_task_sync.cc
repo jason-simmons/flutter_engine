@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/post_task_sync.h"
+#include "testing/post_task_sync.h"
 
-#include "flutter/fml/synchronization/waitable_event.h"
+#include "fml/synchronization/waitable_event.h"
 
 namespace flutter {
 namespace testing {

@@ -5,13 +5,13 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_DISPLAY_LIST_DEFERRED_IMAGE_GPU_IMPELLER_H_
 #define FLUTTER_LIB_UI_PAINTING_DISPLAY_LIST_DEFERRED_IMAGE_GPU_IMPELLER_H_
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/lib/ui/snapshot_delegate.h"
+#include "common/graphics/texture.h"
+#include "display_list/image/dl_image.h"
+#include "flow/layers/layer_tree.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
+#include "fml/task_runner.h"
+#include "lib/ui/snapshot_delegate.h"
 #include "impeller/core/texture.h"
 
 namespace flutter {

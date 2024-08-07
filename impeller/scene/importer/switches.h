@@ -8,8 +8,8 @@
 #include <iostream>
 #include <memory>
 
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/command_line.h"
+#include "fml/unique_fd.h"
 #include "impeller/scene/importer/types.h"
 
 namespace impeller {

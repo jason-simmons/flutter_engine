@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_SHADER_H_
 #define FLUTTER_LIB_UI_PAINTING_SHADER_H_
 
-#include "flutter/display_list/effects/dl_color_source.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "display_list/effects/dl_color_source.h"
+#include "lib/ui/ui_dart_state.h"
 
 namespace flutter {
 

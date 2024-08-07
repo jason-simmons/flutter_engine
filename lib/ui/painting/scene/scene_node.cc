@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/scene/scene_node.h"
+#include "lib/ui/painting/scene/scene_node.h"
 
 #include <memory>
 #include <sstream>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/scene/scene_shader.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "assets/asset_manager.h"
+#include "fml/make_copyable.h"
+#include "fml/trace_event.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/scene/scene_shader.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 #include "impeller/geometry/matrix.h"
 #include "impeller/scene/animation/property_resolver.h"
 

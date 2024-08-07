@@ -7,9 +7,9 @@
 
 #include <mutex>
 
-#include "flutter/flow/surface.h"
-#include "flutter/shell/platform/android/context/android_context.h"
-#include "flutter/shell/platform/android/surface/android_surface.h"
+#include "flow/surface.h"
+#include "shell/platform/android/context/android_context.h"
+#include "shell/platform/android/surface/android_surface.h"
 
 namespace flutter {
 

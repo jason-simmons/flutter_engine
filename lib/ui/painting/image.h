@@ -5,9 +5,9 @@
 #ifndef FLUTTER_LIB_UI_PAINTING_IMAGE_H_
 #define FLUTTER_LIB_UI_PAINTING_IMAGE_H_
 
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/ui_dart_state.h"
+#include "display_list/image/dl_image.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/ui_dart_state.h"
 #include "third_party/skia/include/core/SkImage.h"
 
 namespace flutter {

@@ -7,9 +7,9 @@
 
 #include <memory>
 
-#include "flutter/impeller/base/config.h"
-#include "flutter/impeller/renderer/backend/gles/reactor_gles.h"
-#include "flutter/impeller/renderer/blit_pass.h"
+#include "impeller/base/config.h"
+#include "impeller/renderer/backend/gles/reactor_gles.h"
+#include "impeller/renderer/blit_pass.h"
 #include "impeller/renderer/backend/gles/blit_command_gles.h"
 
 namespace impeller {

@@ -7,14 +7,14 @@
 
 #include <memory>
 
-#include "flutter/common/graphics/texture.h"
+#include "common/graphics/texture.h"
 
 #ifdef SHELL_ENABLE_GL
-#include "flutter/shell/platform/embedder/embedder_external_texture_gl.h"
+#include "shell/platform/embedder/embedder_external_texture_gl.h"
 #endif
 
 #ifdef SHELL_ENABLE_METAL
-#include "flutter/shell/platform/embedder/embedder_external_texture_metal.h"
+#include "shell/platform/embedder/embedder_external_texture_metal.h"
 #endif
 
 namespace flutter {

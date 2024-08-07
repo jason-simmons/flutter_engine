@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_PLATFORM_VIEW_PLUGIN_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_PLATFORM_VIEW_PLUGIN_H_
 
-#include "flutter/shell/platform/windows/platform_view_manager.h"
+#include "shell/platform/windows/platform_view_manager.h"
 
 #include <functional>
 #include <map>

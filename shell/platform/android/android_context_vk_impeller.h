@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VK_IMPELLER_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VK_IMPELLER_H_
 
-#include "flutter/fml/concurrent_message_loop.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/shell/platform/android/context/android_context.h"
+#include "fml/concurrent_message_loop.h"
+#include "fml/macros.h"
+#include "fml/native_library.h"
+#include "shell/platform/android/context/android_context.h"
 
 namespace flutter {
 

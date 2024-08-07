@@ -9,10 +9,10 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/basic_message_channel.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/windows/keyboard_key_handler.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/basic_message_channel.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/windows/keyboard_key_handler.h"
 #include "rapidjson/document.h"
 
 namespace flutter {

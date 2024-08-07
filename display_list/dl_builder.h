@@ -5,19 +5,19 @@
 #ifndef FLUTTER_DISPLAY_LIST_DL_BUILDER_H_
 #define FLUTTER_DISPLAY_LIST_DL_BUILDER_H_
 
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_canvas.h"
-#include "flutter/display_list/dl_op_flags.h"
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/geometry/dl_geometry_types.h"
-#include "flutter/display_list/image/dl_image.h"
-#include "flutter/display_list/utils/dl_accumulation_rect.h"
-#include "flutter/display_list/utils/dl_comparable.h"
-#include "flutter/display_list/utils/dl_matrix_clip_tracker.h"
-#include "flutter/fml/macros.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_canvas.h"
+#include "display_list/dl_op_flags.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/dl_paint.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/geometry/dl_geometry_types.h"
+#include "display_list/image/dl_image.h"
+#include "display_list/utils/dl_accumulation_rect.h"
+#include "display_list/utils/dl_comparable.h"
+#include "display_list/utils/dl_matrix_clip_tracker.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

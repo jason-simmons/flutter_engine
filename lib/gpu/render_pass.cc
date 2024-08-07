@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/render_pass.h"
+#include "lib/gpu/render_pass.h"
 
-#include "flutter/lib/gpu/formats.h"
-#include "flutter/lib/gpu/render_pipeline.h"
-#include "flutter/lib/gpu/shader.h"
+#include "lib/gpu/formats.h"
+#include "lib/gpu/render_pipeline.h"
+#include "lib/gpu/shader.h"
 #include "fml/memory/ref_ptr.h"
 #include "impeller/core/buffer_view.h"
 #include "impeller/core/formats.h"

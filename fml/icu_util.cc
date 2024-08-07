@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/icu_util.h"
+#include "fml/icu_util.h"
 
 #include <memory>
 #include <mutex>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/paths.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
+#include "fml/native_library.h"
+#include "fml/paths.h"
 #include "third_party/icu/source/common/unicode/udata.h"
 
 namespace fml {

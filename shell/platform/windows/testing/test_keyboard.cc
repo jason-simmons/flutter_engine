@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/testing/test_keyboard.h"
+#include "shell/platform/windows/testing/test_keyboard.h"
 
 #include <rapidjson/document.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/common/json_message_codec.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "fml/logging.h"
+#include "shell/platform/common/json_message_codec.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
 
 namespace flutter {
 namespace testing {

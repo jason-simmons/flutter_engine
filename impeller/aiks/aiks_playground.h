@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_AIKS_AIKS_PLAYGROUND_H_
 #define FLUTTER_IMPELLER_AIKS_AIKS_PLAYGROUND_H_
 
-#include "flutter/display_list/display_list.h"
+#include "display_list/display_list.h"
 #include "impeller/aiks/aiks_context.h"
 #include "impeller/aiks/picture.h"
 #include "impeller/playground/playground_test.h"

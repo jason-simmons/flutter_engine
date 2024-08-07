@@ -6,8 +6,8 @@
 
 #include <cstdint>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 #include "impeller/renderer/backend/vulkan/context_vk.h"
 #include "impeller/renderer/backend/vulkan/shader_function_vk.h"
 #include "impeller/shader_archive/shader_archive.h"

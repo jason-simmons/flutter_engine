@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/fuchsia/log_state.h"
+#include "fml/platform/fuchsia/log_state.h"
 
 #include <fidl/fuchsia.logger/cpp/fidl.h>
 #include <lib/component/incoming/cpp/protocol.h>
@@ -20,7 +20,7 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/fml/platform/fuchsia/log_interest_listener.h"
+#include "fml/platform/fuchsia/log_interest_listener.h"
 
 namespace fml {
 

@@ -19,9 +19,9 @@
 #include <sstream>
 #include <utility>
 
-#include "flutter/fml/make_copyable.h"
-#include "flutter/lib/ui/text/font_collection.h"
-#include "flutter/runtime/dart_vm.h"
+#include "fml/make_copyable.h"
+#include "lib/ui/text/font_collection.h"
+#include "runtime/dart_vm.h"
 #include "runtime/dart/utils/files.h"
 #include "runtime/dart/utils/root_inspect_node.h"
 #include "runtime/dart/utils/vmo.h"

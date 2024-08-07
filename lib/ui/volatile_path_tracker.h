@@ -10,9 +10,9 @@
 #include <mutex>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
+#include "fml/trace_event.h"
 #include "third_party/skia/include/core/SkPath.h"
 
 namespace flutter {

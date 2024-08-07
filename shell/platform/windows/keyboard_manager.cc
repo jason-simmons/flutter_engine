@@ -5,9 +5,9 @@
 #include <memory>
 #include <string>
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/windows/keyboard_manager.h"
-#include "flutter/shell/platform/windows/keyboard_utils.h"
+#include "fml/logging.h"
+#include "shell/platform/windows/keyboard_manager.h"
+#include "shell/platform/windows/keyboard_utils.h"
 
 namespace flutter {
 

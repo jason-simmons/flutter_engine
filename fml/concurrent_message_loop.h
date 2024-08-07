@@ -10,9 +10,9 @@
 #include <queue>
 #include <thread>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
 
 namespace fml {
 

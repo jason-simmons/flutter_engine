@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/benchmarking/dl_complexity_metal.h"
+#include "display_list/benchmarking/dl_complexity_metal.h"
 
 // The numbers and weightings used in this file stem from taking the
 // data from the DisplayListBenchmarks suite run on an iPhone 12 and

@@ -12,7 +12,7 @@
 #include <queue>
 #include <thread>
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 namespace flutter {
 

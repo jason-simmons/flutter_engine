@@ -4,12 +4,12 @@
 
 #if !SLIMPELLER
 
-#include "flutter/shell/common/snapshot_controller_skia.h"
+#include "shell/common/snapshot_controller_skia.h"
 
 #include "display_list/image/dl_image.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/shell/common/snapshot_controller.h"
+#include "flow/surface.h"
+#include "fml/trace_event.h"
+#include "shell/common/snapshot_controller.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkSurface.h"
 #include "third_party/skia/include/gpu/ganesh/SkSurfaceGanesh.h"

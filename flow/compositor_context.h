@@ -8,14 +8,14 @@
 #include <memory>
 #include <string>
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/common/macros.h"
-#include "flutter/flow/diff_context.h"
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/stopwatch.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/raster_thread_merger.h"
+#include "common/graphics/texture.h"
+#include "common/macros.h"
+#include "flow/diff_context.h"
+#include "flow/embedded_views.h"
+#include "flow/raster_cache.h"
+#include "flow/stopwatch.h"
+#include "fml/macros.h"
+#include "fml/raster_thread_merger.h"
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/gpu/GrDirectContext.h"
 

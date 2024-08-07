@@ -14,11 +14,11 @@
 #include <cstdint>
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
-#include "flutter/vulkan/vulkan_command_buffer.h"
-#include "flutter/vulkan/vulkan_provider.h"
+#include "fml/macros.h"
+#include "vulkan/procs/vulkan_handle.h"
+#include "vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/vulkan_command_buffer.h"
+#include "vulkan/vulkan_provider.h"
 #include "third_party/skia/include/core/SkColorType.h"
 #include "third_party/skia/include/core/SkRefCnt.h"
 #include "third_party/skia/include/core/SkSize.h"

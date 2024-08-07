@@ -4,8 +4,8 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/flow/surface_frame.h"
-#include "flutter/testing/testing.h"
+#include "flow/surface_frame.h"
+#include "testing/testing.h"
 
 namespace flutter {
 

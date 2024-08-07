@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/window/pointer_data_packet_converter.h"
+#include "lib/ui/window/pointer_data_packet_converter.h"
 
 #include <cmath>
 #include <cstring>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 namespace flutter {
 

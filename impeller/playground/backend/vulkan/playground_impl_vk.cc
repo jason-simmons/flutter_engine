@@ -4,14 +4,14 @@
 
 #include "impeller/playground/backend/vulkan/playground_impl_vk.h"
 
-#include "flutter/fml/paths.h"
+#include "fml/paths.h"
 #include "impeller/renderer/backend/vulkan/vk.h"
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/mapping.h"
+#include "fml/logging.h"
+#include "fml/mapping.h"
 #include "impeller/entity/vk/entity_shaders_vk.h"
 #include "impeller/entity/vk/framebuffer_blend_shaders_vk.h"
 #include "impeller/entity/vk/modern_shaders_vk.h"

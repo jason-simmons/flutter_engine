@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/snapshot_controller_impeller.h"
+#include "shell/common/snapshot_controller_impeller.h"
 
 #include <algorithm>
 
-#include "flutter/flow/surface.h"
-#include "flutter/fml/trace_event.h"
-#include "flutter/impeller/display_list/dl_dispatcher.h"
-#include "flutter/impeller/display_list/dl_image_impeller.h"
-#include "flutter/impeller/geometry/size.h"
-#include "flutter/shell/common/snapshot_controller.h"
+#include "flow/surface.h"
+#include "fml/trace_event.h"
+#include "impeller/display_list/dl_dispatcher.h"
+#include "impeller/display_list/dl_image_impeller.h"
+#include "impeller/geometry/size.h"
+#include "shell/common/snapshot_controller.h"
 #include "impeller/renderer/render_target.h"
 
 namespace flutter {

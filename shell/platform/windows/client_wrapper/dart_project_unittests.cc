@@ -5,7 +5,7 @@
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/windows/client_wrapper/include/flutter/dart_project.h"
+#include "shell/platform/windows/client_wrapper/include/flutter/dart_project.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

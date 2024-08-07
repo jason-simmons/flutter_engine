@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/shell.h"
+#include "shell/common/shell.h"
 
-#include "flutter/benchmarking/benchmarking.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/testing/dart_fixture.h"
-#include "flutter/testing/dart_isolate_runner.h"
-#include "flutter/testing/testing.h"
+#include "benchmarking/benchmarking.h"
+#include "shell/common/thread_host.h"
+#include "testing/dart_fixture.h"
+#include "testing/dart_isolate_runner.h"
+#include "testing/testing.h"
 #include "fml/synchronization/count_down_latch.h"
 #include "runtime/dart_vm_lifecycle.h"
 

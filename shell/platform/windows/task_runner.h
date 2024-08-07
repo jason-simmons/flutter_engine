@@ -13,8 +13,8 @@
 #include <queue>
 #include <variant>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/task_runner_window.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/task_runner_window.h"
 
 namespace flutter {
 

@@ -5,8 +5,8 @@
 #ifndef FLUTTER_SHELL_COMMON_DL_OP_SPY_H_
 #define FLUTTER_SHELL_COMMON_DL_OP_SPY_H_
 
-#include "flutter/display_list/dl_op_receiver.h"
-#include "flutter/display_list/utils/dl_receiver_utils.h"
+#include "display_list/dl_op_receiver.h"
+#include "display_list/utils/dl_receiver_utils.h"
 
 namespace flutter {
 

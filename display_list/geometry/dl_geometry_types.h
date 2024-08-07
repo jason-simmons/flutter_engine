@@ -5,14 +5,14 @@
 #ifndef FLUTTER_DISPLAY_LIST_GEOMETRY_DL_GEOMETRY_TYPES_H_
 #define FLUTTER_DISPLAY_LIST_GEOMETRY_DL_GEOMETRY_TYPES_H_
 
-#include "flutter/impeller/geometry/matrix.h"
-#include "flutter/impeller/geometry/rect.h"
-#include "flutter/impeller/geometry/scalar.h"
+#include "impeller/geometry/matrix.h"
+#include "impeller/geometry/rect.h"
+#include "impeller/geometry/scalar.h"
 
-#include "flutter/third_party/skia/include/core/SkM44.h"
-#include "flutter/third_party/skia/include/core/SkMatrix.h"
-#include "flutter/third_party/skia/include/core/SkRect.h"
-#include "flutter/third_party/skia/include/core/SkSize.h"
+#include "third_party/skia/include/core/SkM44.h"
+#include "third_party/skia/include/core/SkMatrix.h"
+#include "third_party/skia/include/core/SkRect.h"
+#include "third_party/skia/include/core/SkSize.h"
 
 namespace flutter {
 

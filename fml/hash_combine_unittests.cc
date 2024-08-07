@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/hash_combine.h"
+#include "fml/hash_combine.h"
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 
 namespace fml {
 namespace testing {

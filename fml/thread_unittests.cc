@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/thread.h"
+#include "fml/build_config.h"
+#include "fml/thread.h"
 
 #if defined(FML_OS_MACOSX) || defined(FML_OS_LINUX) || defined(FML_OS_ANDROID)
 #define FLUTTER_PTHREAD_SUPPORTED 1

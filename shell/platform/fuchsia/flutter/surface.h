@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_SURFACE_H_
 #define FLUTTER_SHELL_PLATFORM_FUCHSIA_FLUTTER_SURFACE_H_
 
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/weak_ptr.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "fml/memory/weak_ptr.h"
 
 namespace flutter_runner {
 

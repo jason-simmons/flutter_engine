@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/dart_isolate_runner.h"
-#include "flutter/testing/fixture_test.h"
+#include "testing/dart_isolate_runner.h"
+#include "testing/fixture_test.h"
 
 #include "tonic/converter/dart_converter.h"
 #include "tonic/file_loader/file_loader.h"

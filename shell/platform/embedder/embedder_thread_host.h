@@ -9,11 +9,11 @@
 #include <memory>
 #include <set>
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/embedder_task_runner.h"
+#include "common/task_runners.h"
+#include "fml/macros.h"
+#include "shell/common/thread_host.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder_task_runner.h"
 
 namespace flutter {
 

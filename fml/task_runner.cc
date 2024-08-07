@@ -4,15 +4,15 @@
 
 #define FML_USED_ON_EMBEDDER
 
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/memory/task_runner_checker.h"
+#include "fml/task_runner.h"
+#include "fml/memory/task_runner_checker.h"
 
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/message_loop.h"
-#include "flutter/fml/message_loop_impl.h"
-#include "flutter/fml/message_loop_task_queues.h"
+#include "fml/logging.h"
+#include "fml/message_loop.h"
+#include "fml/message_loop_impl.h"
+#include "fml/message_loop_task_queues.h"
 
 namespace fml {
 

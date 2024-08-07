@@ -13,8 +13,8 @@
 // singled out because it is most typically included from other header files.
 #import <Foundation/NSObject.h>
 
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/scoped_typeref.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/scoped_typeref.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 @class NSAutoreleasePool;

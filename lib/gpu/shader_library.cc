@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/gpu/shader_library.h"
+#include "lib/gpu/shader_library.h"
 
 #include <optional>
 #include <utility>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/lib/gpu/fixtures.h"
-#include "flutter/lib/gpu/shader.h"
-#include "flutter/lib/ui/ui_dart_state.h"
-#include "flutter/lib/ui/window/platform_configuration.h"
+#include "assets/asset_manager.h"
+#include "lib/gpu/fixtures.h"
+#include "lib/gpu/shader.h"
+#include "lib/ui/ui_dart_state.h"
+#include "lib/ui/window/platform_configuration.h"
 #include "fml/mapping.h"
 #include "fml/memory/ref_ptr.h"
 #include "impeller/base/validation.h"

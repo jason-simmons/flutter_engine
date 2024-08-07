@@ -8,7 +8,7 @@
 #import <Cocoa/Cocoa.h>
 #include <vector>
 
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/embedder.h"
 
 namespace flutter {
 

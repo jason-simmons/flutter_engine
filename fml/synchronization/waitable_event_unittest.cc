@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/synchronization/waitable_event.h"
+#include "fml/synchronization/waitable_event.h"
 
 #include <atomic>
 #include <cstddef>
@@ -12,7 +12,7 @@
 #include <type_traits>
 #include <vector>
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #include "gtest/gtest.h"
 
 // rand() is only used for tests in this file.

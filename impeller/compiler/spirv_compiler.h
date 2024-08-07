@@ -8,7 +8,7 @@
 #include <cstdint>
 #include <vector>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/compiler/includer.h"
 #include "impeller/compiler/source_options.h"
 #include "shaderc/shaderc.hpp"

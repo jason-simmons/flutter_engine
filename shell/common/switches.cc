@@ -9,13 +9,13 @@
 #include <sstream>
 #include <string>
 
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/size.h"
-#include "flutter/shell/version/version.h"
+#include "fml/native_library.h"
+#include "fml/paths.h"
+#include "fml/size.h"
+#include "shell/version/version.h"
 
 // Include once for the default enum definition.
-#include "flutter/shell/common/switches.h"
+#include "shell/common/switches.h"
 
 #undef FLUTTER_SHELL_COMMON_SWITCHES_H_
 
@@ -70,7 +70,7 @@ static const std::string kAllowedDartFlags[] = {
 #endif  // FLUTTER_RELEASE
 
 // Include again for struct definition.
-#include "flutter/shell/common/switches.h"
+#include "shell/common/switches.h"
 
 // Define symbols for the ICU data that is linked into the Flutter library on
 // Android.  This is a workaround for crashes seen when doing dynamic lookups

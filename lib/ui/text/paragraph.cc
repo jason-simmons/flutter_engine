@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/text/paragraph.h"
+#include "lib/ui/text/paragraph.h"
 
-#include "flutter/common/settings.h"
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/task_runner.h"
+#include "common/settings.h"
+#include "common/task_runners.h"
+#include "fml/logging.h"
+#include "fml/task_runner.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/skia/modules/skparagraph/include/DartTypes.h"
 #include "third_party/skia/modules/skparagraph/include/Paragraph.h"

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/android/native_activity/gtest_activity.h"
+#include "testing/android/native_activity/gtest_activity.h"
 
-#include "flutter/impeller/toolkit/android/native_window.h"
-#include "flutter/testing/logger_listener.h"
-#include "flutter/testing/test_timeout_listener.h"
+#include "impeller/toolkit/android/native_window.h"
+#include "testing/logger_listener.h"
+#include "testing/test_timeout_listener.h"
 
 namespace flutter {
 

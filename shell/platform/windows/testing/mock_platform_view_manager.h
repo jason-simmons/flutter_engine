@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_MOCK_PLATFORM_VIEW_MANAGER_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_MOCK_PLATFORM_VIEW_MANAGER_H_
 
-#include "flutter/shell/platform/windows/platform_view_plugin.h"
+#include "shell/platform/windows/platform_view_plugin.h"
 
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 #include "gmock/gmock.h"
 
 namespace flutter {

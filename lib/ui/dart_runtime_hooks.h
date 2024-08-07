@@ -5,7 +5,7 @@
 #ifndef FLUTTER_LIB_UI_DART_RUNTIME_HOOKS_H_
 #define FLUTTER_LIB_UI_DART_RUNTIME_HOOKS_H_
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/tonic/dart_library_natives.h"
 

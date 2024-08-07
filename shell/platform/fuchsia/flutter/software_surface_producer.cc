@@ -13,8 +13,8 @@
 #include <utility>
 #include <vector>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 
 namespace flutter_runner {
 

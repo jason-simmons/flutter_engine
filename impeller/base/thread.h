@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "flutter/fml/synchronization/shared_mutex.h"
+#include "fml/synchronization/shared_mutex.h"
 #include "impeller/base/thread_safety.h"
 
 namespace impeller {

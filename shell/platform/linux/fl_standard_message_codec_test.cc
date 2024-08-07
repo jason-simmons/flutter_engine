@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_message_codec.h"
+#include "shell/platform/linux/testing/fl_test.h"
 #include "gtest/gtest.h"
 
 // NOTE(robert-ancell) These test cases assumes a little-endian architecture.

@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/platform/win/errors_win.h"
+#include "fml/platform/win/errors_win.h"
 
 #include <Windows.h>
 
 #include <sstream>
 
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/platform/win/wstring_conversion.h"
 
 namespace fml {
 

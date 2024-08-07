@@ -11,7 +11,7 @@
 #include <string>
 #include <utility>
 
-#include "flutter/shell/platform/common/public/flutter_messenger.h"
+#include "shell/platform/common/public/flutter_messenger.h"
 
 namespace flutter {
 

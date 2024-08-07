@@ -8,7 +8,7 @@
 #include <lib/async/cpp/wait.h>
 #include <lib/zx/handle.h>
 
-#include "flutter/fml/memory/ref_counted.h"
+#include "fml/memory/ref_counted.h"
 #include "third_party/tonic/dart_wrappable.h"
 
 namespace tonic {

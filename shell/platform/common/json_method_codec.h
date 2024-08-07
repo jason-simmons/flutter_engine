@@ -7,8 +7,8 @@
 
 #include <rapidjson/document.h>
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_call.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_codec.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_call.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_codec.h"
 
 namespace flutter {
 

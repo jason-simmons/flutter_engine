@@ -7,11 +7,11 @@
 
 #include <functional>
 
-#include "flutter/shell/platform/common/geometry.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/windows_lifecycle_manager.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_fragment_root_delegate_win.h"
-#include "flutter/third_party/accessibility/gfx/native_widget_types.h"
+#include "shell/platform/common/geometry.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/windows_lifecycle_manager.h"
+#include "third_party/accessibility/ax/platform/ax_fragment_root_delegate_win.h"
+#include "third_party/accessibility/gfx/native_widget_types.h"
 
 namespace flutter {
 

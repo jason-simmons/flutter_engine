@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_TOOLKIT_ANDROID_NATIVE_WINDOW_H_
 #define FLUTTER_IMPELLER_TOOLKIT_ANDROID_NATIVE_WINDOW_H_
 
-#include "flutter/fml/unique_object.h"
+#include "fml/unique_object.h"
 #include "impeller/geometry/size.h"
 #include "impeller/toolkit/android/proc_table.h"
 

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_surface_gl_impeller.h"
+#include "shell/platform/android/android_surface_gl_impeller.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/impeller/toolkit/egl/surface.h"
-#include "flutter/shell/gpu/gpu_surface_gl_impeller.h"
+#include "fml/logging.h"
+#include "impeller/toolkit/egl/surface.h"
+#include "shell/gpu/gpu_surface_gl_impeller.h"
 
 namespace flutter {
 

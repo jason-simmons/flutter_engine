@@ -7,8 +7,8 @@
 #include <limits>
 #include <utility>
 
-#include "flutter/shell/platform/embedder/tests/embedder_test_backingstore_producer.h"
-#include "flutter/shell/platform/embedder/tests/embedder_unittests_util.h"
+#include "shell/platform/embedder/tests/embedder_test_backingstore_producer.h"
+#include "shell/platform/embedder/tests/embedder_unittests_util.h"
 
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/core/SkSurface.h"

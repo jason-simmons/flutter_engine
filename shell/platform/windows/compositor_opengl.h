@@ -7,11 +7,11 @@
 
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/impeller/renderer/backend/gles/proc_table_gles.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/compositor.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "fml/macros.h"
+#include "impeller/renderer/backend/gles/proc_table_gles.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/compositor.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 
 namespace flutter {
 

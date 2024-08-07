@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/flutter_project_bundle.h"
+#include "shell/platform/windows/flutter_project_bundle.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

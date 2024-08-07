@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
+#include "shell/platform/glfw/client_wrapper/testing/stub_flutter_glfw_api.h"
 
 static flutter::testing::StubFlutterGlfwApi* s_stub_implementation;
 

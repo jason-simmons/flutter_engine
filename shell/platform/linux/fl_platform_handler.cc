@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_platform_handler.h"
+#include "shell/platform/linux/fl_platform_handler.h"
 
 #include <gtk/gtk.h>
 #include <cstring>
 
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_method_codec.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_channel.h"
 
 static constexpr char kChannelName[] = "flutter/platform";
 static constexpr char kBadArgumentsError[] = "Bad Arguments";

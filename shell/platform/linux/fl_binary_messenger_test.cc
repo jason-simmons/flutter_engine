@@ -8,16 +8,16 @@
 #include <pthread.h>
 #include <cstring>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_method_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
-#include "flutter/shell/platform/linux/testing/mock_binary_messenger_response_handle.h"
-#include "flutter/shell/platform/linux/testing/mock_renderer.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_method_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_standard_method_codec.h"
+#include "shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/linux/testing/mock_binary_messenger_response_handle.h"
+#include "shell/platform/linux/testing/mock_renderer.h"
 
 G_DECLARE_FINAL_TYPE(FlFakeBinaryMessenger,
                      fl_fake_binary_messenger,

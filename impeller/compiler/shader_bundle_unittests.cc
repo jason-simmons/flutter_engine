@@ -5,7 +5,7 @@
 #include "gtest/gtest.h"
 #include "impeller/compiler/shader_bundle.h"
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 #include "impeller/compiler/source_options.h"
 #include "impeller/compiler/types.h"
 #include "impeller/shader_bundle/shader_bundle_flatbuffers.h"

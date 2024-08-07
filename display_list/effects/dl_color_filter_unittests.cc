@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/display_list/testing/dl_test_equality.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "display_list/testing/dl_test_equality.h"
 
 namespace flutter {
 namespace testing {

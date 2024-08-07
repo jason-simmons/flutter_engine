@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#include "flutter/shell/platform/android/surface_texture_external_texture.h"
+#include "shell/platform/android/surface_texture_external_texture.h"
 
 namespace flutter {
 

@@ -5,8 +5,8 @@
 #ifndef FLUTTER_LIB_UI_DART_UI_H_
 #define FLUTTER_LIB_UI_DART_UI_H_
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/macros.h"
+#include "common/settings.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

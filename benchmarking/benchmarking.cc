@@ -4,10 +4,10 @@
 
 #include "benchmarking.h"
 
-#include "flutter/fml/backtrace.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/icu_util.h"
+#include "fml/backtrace.h"
+#include "fml/build_config.h"
+#include "fml/command_line.h"
+#include "fml/icu_util.h"
 
 namespace benchmarking {
 

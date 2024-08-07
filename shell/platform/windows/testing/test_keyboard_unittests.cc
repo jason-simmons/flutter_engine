@@ -4,7 +4,7 @@
 
 #include <windows.h>
 
-#include "flutter/shell/platform/windows/testing/test_keyboard.h"
+#include "shell/platform/windows/testing/test_keyboard.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

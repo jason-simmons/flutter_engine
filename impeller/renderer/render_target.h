@@ -9,7 +9,7 @@
 #include <map>
 #include <optional>
 
-#include "flutter/fml/hash_combine.h"
+#include "fml/hash_combine.h"
 #include "impeller/core/allocator.h"
 #include "impeller/core/formats.h"
 #include "impeller/geometry/size.h"

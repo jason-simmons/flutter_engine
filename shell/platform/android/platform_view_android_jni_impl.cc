@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/platform_view_android_jni_impl.h"
+#include "shell/platform/android/platform_view_android_jni_impl.h"
 
 #include <android/hardware_buffer_jni.h>
 #include <android/native_window_jni.h>
@@ -15,24 +15,24 @@
 #include "include/android/SkImageAndroid.h"
 #include "unicode/uchar.h"
 
-#include "flutter/assets/directory_asset_bundle.h"
-#include "flutter/common/constants.h"
-#include "flutter/fml/file.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/native_library.h"
-#include "flutter/fml/platform/android/jni_util.h"
-#include "flutter/fml/platform/android/jni_weak_ref.h"
-#include "flutter/fml/platform/android/scoped_java_ref.h"
-#include "flutter/fml/size.h"
-#include "flutter/lib/ui/plugins/callback_cache.h"
-#include "flutter/runtime/dart_service_isolate.h"
-#include "flutter/shell/common/run_configuration.h"
-#include "flutter/shell/platform/android/android_shell_holder.h"
-#include "flutter/shell/platform/android/apk_asset_provider.h"
-#include "flutter/shell/platform/android/flutter_main.h"
-#include "flutter/shell/platform/android/image_external_texture_gl.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
-#include "flutter/shell/platform/android/platform_view_android.h"
+#include "assets/directory_asset_bundle.h"
+#include "common/constants.h"
+#include "fml/file.h"
+#include "fml/mapping.h"
+#include "fml/native_library.h"
+#include "fml/platform/android/jni_util.h"
+#include "fml/platform/android/jni_weak_ref.h"
+#include "fml/platform/android/scoped_java_ref.h"
+#include "fml/size.h"
+#include "lib/ui/plugins/callback_cache.h"
+#include "runtime/dart_service_isolate.h"
+#include "shell/common/run_configuration.h"
+#include "shell/platform/android/android_shell_holder.h"
+#include "shell/platform/android/apk_asset_provider.h"
+#include "shell/platform/android/flutter_main.h"
+#include "shell/platform/android/image_external_texture_gl.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/platform_view_android.h"
 
 #define ANDROID_SHELL_HOLDER \
   (reinterpret_cast<AndroidShellHolder*>(shell_holder))

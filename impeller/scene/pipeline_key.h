@@ -5,7 +5,7 @@
 #ifndef FLUTTER_IMPELLER_SCENE_PIPELINE_KEY_H_
 #define FLUTTER_IMPELLER_SCENE_PIPELINE_KEY_H_
 
-#include "flutter/fml/hash_combine.h"
+#include "fml/hash_combine.h"
 
 namespace impeller {
 namespace scene {

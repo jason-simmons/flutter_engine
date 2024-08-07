@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/compositor_context.h"
+#include "flow/compositor_context.h"
 
 #include <optional>
 #include <utility>
-#include "flutter/flow/layers/layer_tree.h"
+#include "flow/layers/layer_tree.h"
 #include "third_party/skia/include/core/SkCanvas.h"
 
 namespace flutter {

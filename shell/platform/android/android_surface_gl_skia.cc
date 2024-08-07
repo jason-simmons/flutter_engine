@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_surface_gl_skia.h"
+#include "shell/platform/android/android_surface_gl_skia.h"
 
 #include <GLES/gl.h>
 #include <utility>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/shell/platform/android/android_egl_surface.h"
-#include "flutter/shell/platform/android/android_shell_holder.h"
+#include "fml/logging.h"
+#include "fml/memory/ref_ptr.h"
+#include "shell/platform/android/android_egl_surface.h"
+#include "shell/platform/android/android_shell_holder.h"
 
 namespace flutter {
 

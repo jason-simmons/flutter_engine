@@ -7,7 +7,7 @@
 
 #if !SLIMPELLER
 
-#include "flutter/shell/common/snapshot_controller.h"
+#include "shell/common/snapshot_controller.h"
 #include "third_party/skia/include/core/SkSurface.h"
 
 namespace flutter {

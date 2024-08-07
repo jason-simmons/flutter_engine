@@ -7,9 +7,9 @@
 
 #include <string>
 
-#include "flutter/flow/layers/layer.h"
-#include "flutter/flow/stopwatch.h"
-#include "flutter/fml/macros.h"
+#include "flow/layers/layer.h"
+#include "flow/stopwatch.h"
+#include "fml/macros.h"
 
 class SkTextBlob;
 

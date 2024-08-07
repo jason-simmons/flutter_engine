@@ -7,7 +7,7 @@
 #include <cstring>
 #include <memory>
 
-#include "flutter/fml/trace_event.h"
+#include "fml/trace_event.h"
 #include "impeller/base/allocation.h"
 #include "impeller/base/config.h"
 #include "impeller/base/validation.h"

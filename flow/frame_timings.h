@@ -7,12 +7,12 @@
 
 #include <mutex>
 
-#include "flutter/common/settings.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/status.h"
-#include "flutter/fml/time/time_delta.h"
-#include "flutter/fml/time/time_point.h"
+#include "common/settings.h"
+#include "flow/raster_cache.h"
+#include "fml/macros.h"
+#include "fml/status.h"
+#include "fml/time/time_delta.h"
+#include "fml/time/time_point.h"
 
 #define TRACE_EVENT_WITH_FRAME_NUMBER(recorder, category_group, name,       \
                                       flow_id_count, flow_ids)              \

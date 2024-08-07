@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <Metal/Metal.h>
 
-#include "flutter/common/graphics/texture.h"
+#include "common/graphics/texture.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterTexture.h"
 #include "third_party/skia/include/core/SkCanvas.h"
 #include "third_party/skia/include/core/SkImage.h"

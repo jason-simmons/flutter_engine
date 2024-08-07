@@ -4,13 +4,13 @@
 
 #include <wordexp.h>
 
-#include "flutter/fml/backtrace.h"
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/fml/logging.h"
-#include "flutter/impeller/base/validation.h"
-#include "flutter/impeller/golden_tests/golden_digest.h"
-#include "flutter/impeller/golden_tests/working_directory.h"
+#include "fml/backtrace.h"
+#include "fml/build_config.h"
+#include "fml/command_line.h"
+#include "fml/logging.h"
+#include "impeller/base/validation.h"
+#include "impeller/golden_tests/golden_digest.h"
+#include "impeller/golden_tests/working_directory.h"
 #include "gtest/gtest.h"
 
 namespace {

@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/frame_timings.h"
+#include "flow/frame_timings.h"
 
 #include <memory>
 #include <string>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/time/time_point.h"
+#include "common/settings.h"
+#include "fml/logging.h"
+#include "fml/time/time_point.h"
 
 namespace flutter {
 

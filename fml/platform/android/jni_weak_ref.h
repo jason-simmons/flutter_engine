@@ -7,7 +7,7 @@
 
 #include <jni.h>
 
-#include "flutter/fml/platform/android/scoped_java_ref.h"
+#include "fml/platform/android/scoped_java_ref.h"
 
 namespace fml {
 namespace jni {

@@ -5,8 +5,8 @@
 #ifndef FLUTTER_IMPELLER_TYPOGRAPHER_BACKENDS_STB_TYPEFACE_STB_H_
 #define FLUTTER_IMPELLER_TYPOGRAPHER_BACKENDS_STB_TYPEFACE_STB_H_
 
-#include "flutter/fml/mapping.h"
-#include "flutter/third_party/stb/stb_truetype.h"
+#include "fml/mapping.h"
+#include "third_party/stb/stb_truetype.h"
 #include "impeller/base/backend_cast.h"
 #include "impeller/typographer/typeface.h"
 

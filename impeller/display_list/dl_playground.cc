@@ -4,7 +4,7 @@
 
 #include "impeller/display_list/dl_playground.h"
 
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 #include "impeller/aiks/aiks_context.h"
 #include "impeller/display_list/dl_dispatcher.h"
 #include "impeller/display_list/dl_image_impeller.h"

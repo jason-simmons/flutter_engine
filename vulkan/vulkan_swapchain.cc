@@ -4,7 +4,7 @@
 
 #include "vulkan_swapchain.h"
 
-#include "flutter/vulkan/procs/vulkan_proc_table.h"
+#include "vulkan/procs/vulkan_proc_table.h"
 
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkSurface.h"

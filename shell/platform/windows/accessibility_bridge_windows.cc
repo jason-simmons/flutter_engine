@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/accessibility_bridge_windows.h"
+#include "shell/platform/windows/accessibility_bridge_windows.h"
 
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/windows/flutter_platform_node_delegate_windows.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_platform_node_delegate_base.h"
+#include "fml/logging.h"
+#include "shell/platform/windows/flutter_platform_node_delegate_windows.h"
+#include "third_party/accessibility/ax/platform/ax_platform_node_delegate_base.h"
 
 namespace flutter {
 

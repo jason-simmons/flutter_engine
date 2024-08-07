@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/windows/testing/flutter_windows_engine_builder.h"
+#include "shell/platform/windows/testing/flutter_windows_engine_builder.h"
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/windows/windows_proc_table.h"
+#include "fml/macros.h"
+#include "shell/platform/windows/windows_proc_table.h"
 
 namespace flutter {
 namespace testing {

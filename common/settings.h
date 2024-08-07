@@ -14,11 +14,11 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/closure.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/time/time_point.h"
-#include "flutter/fml/unique_fd.h"
+#include "fml/build_config.h"
+#include "fml/closure.h"
+#include "fml/mapping.h"
+#include "fml/time/time_point.h"
+#include "fml/unique_fd.h"
 
 namespace flutter {
 

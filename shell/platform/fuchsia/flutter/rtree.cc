@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/fuchsia/flutter/rtree.h"
+#include "shell/platform/fuchsia/flutter/rtree.h"
 
 #include <list>
 
-#include "flutter/display_list/geometry/dl_region.h"
-#include "flutter/fml/logging.h"
+#include "display_list/geometry/dl_region.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkBBHFactory.h"
 #include "third_party/skia/include/core/SkRect.h"
 

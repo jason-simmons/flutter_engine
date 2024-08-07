@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/common/shell_io_manager.h"
+#include "shell/common/shell_io_manager.h"
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/lib/ui/painting/multi_frame_codec.h"
-#include "flutter/testing/dart_isolate_runner.h"
-#include "flutter/testing/fixture_test.h"
-#include "flutter/testing/post_task_sync.h"
-#include "flutter/testing/test_gl_surface.h"  // nogncheck
-#include "flutter/testing/testing.h"
+#include "common/task_runners.h"
+#include "fml/mapping.h"
+#include "lib/ui/painting/multi_frame_codec.h"
+#include "testing/dart_isolate_runner.h"
+#include "testing/fixture_test.h"
+#include "testing/post_task_sync.h"
+#include "testing/test_gl_surface.h"  // nogncheck
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

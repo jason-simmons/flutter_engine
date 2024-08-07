@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/flow/layers/shader_mask_layer.h"
+#include "flow/layers/shader_mask_layer.h"
 
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/flow/layers/opacity_layer.h"
-#include "flutter/flow/raster_cache.h"
-#include "flutter/flow/raster_cache_util.h"
-#include "flutter/flow/testing/layer_test.h"
-#include "flutter/flow/testing/mock_layer.h"
-#include "flutter/fml/macros.h"
+#include "flow/layers/layer_tree.h"
+#include "flow/layers/opacity_layer.h"
+#include "flow/raster_cache.h"
+#include "flow/raster_cache_util.h"
+#include "flow/testing/layer_test.h"
+#include "flow/testing/mock_layer.h"
+#include "fml/macros.h"
 #include "gtest/gtest.h"
 
 // TODO(zanderso): https://github.com/flutter/flutter/issues/127701

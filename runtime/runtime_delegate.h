@@ -8,13 +8,13 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/flow/layers/layer_tree.h"
-#include "flutter/lib/ui/semantics/custom_accessibility_action.h"
-#include "flutter/lib/ui/semantics/semantics_node.h"
-#include "flutter/lib/ui/text/font_collection.h"
-#include "flutter/lib/ui/window/platform_message.h"
-#include "flutter/shell/common/platform_message_handler.h"
+#include "assets/asset_manager.h"
+#include "flow/layers/layer_tree.h"
+#include "lib/ui/semantics/custom_accessibility_action.h"
+#include "lib/ui/semantics/semantics_node.h"
+#include "lib/ui/text/font_collection.h"
+#include "lib/ui/window/platform_message.h"
+#include "shell/common/platform_message_handler.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 
 namespace flutter {

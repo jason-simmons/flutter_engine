@@ -5,8 +5,8 @@
 #include <memory>
 #include <string>
 
-#include "flutter/shell/platform/windows/client_wrapper/include/flutter/flutter_engine.h"
-#include "flutter/shell/platform/windows/client_wrapper/testing/stub_flutter_windows_api.h"
+#include "shell/platform/windows/client_wrapper/include/flutter/flutter_engine.h"
+#include "shell/platform/windows/client_wrapper/testing/stub_flutter_windows_api.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

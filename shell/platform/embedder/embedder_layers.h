@@ -8,9 +8,9 @@
 #include <memory>
 #include <vector>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder.h"
+#include "flow/embedded_views.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder.h"
 #include "third_party/skia/include/core/SkMatrix.h"
 #include "third_party/skia/include/core/SkSize.h"
 

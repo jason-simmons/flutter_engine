@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/gradient.h"
+#include "lib/ui/painting/gradient.h"
 
-#include "flutter/lib/ui/floating_point.h"
+#include "lib/ui/floating_point.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_args.h"
 #include "third_party/tonic/dart_binding_macros.h"

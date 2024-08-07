@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_service_isolate.h"
+#include "runtime/dart_service_isolate.h"
 
 #include <algorithm>
 #include <cstring>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/posix_wrappers.h"
-#include "flutter/runtime/embedder_resources.h"
+#include "fml/logging.h"
+#include "fml/posix_wrappers.h"
+#include "runtime/embedder_resources.h"
 #include "third_party/dart/runtime/include/dart_api.h"
 #include "third_party/tonic/converter/dart_converter.h"
 #include "third_party/tonic/dart_library_natives.h"

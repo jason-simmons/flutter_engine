@@ -9,9 +9,9 @@
 #include <string>
 #include <unordered_map>
 
-#include "flutter/lib/gpu/export.h"
-#include "flutter/lib/gpu/shader.h"
-#include "flutter/lib/ui/dart_wrapper.h"
+#include "lib/gpu/export.h"
+#include "lib/gpu/shader.h"
+#include "lib/ui/dart_wrapper.h"
 #include "fml/memory/ref_ptr.h"
 
 namespace flutter {

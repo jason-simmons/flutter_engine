@@ -4,9 +4,9 @@
 
 #if !SLIMPELLER
 
-#include "flutter/lib/ui/painting/display_list_deferred_image_gpu_skia.h"
+#include "lib/ui/painting/display_list_deferred_image_gpu_skia.h"
 
-#include "flutter/fml/make_copyable.h"
+#include "fml/make_copyable.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkImage.h"
 #include "third_party/skia/include/gpu/ganesh/SkImageGanesh.h"

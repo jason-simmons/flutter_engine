@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/plugins/callback_cache.h"
+#include "lib/ui/plugins/callback_cache.h"
 
 #include <fstream>
 #include <iterator>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
-#include "flutter/fml/paths.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
+#include "fml/paths.h"
 #include "rapidjson/document.h"
 #include "rapidjson/stringbuffer.h"
 #include "rapidjson/writer.h"

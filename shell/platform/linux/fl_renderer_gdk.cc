@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_renderer_gdk.h"
+#include "shell/platform/linux/fl_renderer_gdk.h"
 
 struct _FlRendererGdk {
   FlRenderer parent_instance;

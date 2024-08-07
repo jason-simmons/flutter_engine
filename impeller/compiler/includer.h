@@ -7,7 +7,7 @@
 
 #include <string>
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 #include "impeller/compiler/include_dir.h"
 #include "shaderc/shaderc.hpp"
 

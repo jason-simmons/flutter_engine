@@ -10,8 +10,8 @@
 
 #include <limits>
 
-#include "flutter/fml/logging.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/logging.h"
+#include "fml/trace_event.h"
 
 // TODO(fxbug.dev/87076): Add MouseSource tests.
 

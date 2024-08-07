@@ -5,11 +5,11 @@
 #ifndef FLUTTER_SHELL_PLATFORM_ANDROID_IMAGE_EXTERNAL_TEXTURE_H_
 #define FLUTTER_SHELL_PLATFORM_ANDROID_IMAGE_EXTERNAL_TEXTURE_H_
 
-#include "flutter/common/graphics/texture.h"
-#include "flutter/fml/logging.h"
-#include "flutter/shell/platform/android/image_lru.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
-#include "flutter/shell/platform/android/platform_view_android_jni_impl.h"
+#include "common/graphics/texture.h"
+#include "fml/logging.h"
+#include "shell/platform/android/image_lru.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
+#include "shell/platform/android/platform_view_android_jni_impl.h"
 
 #include <android/hardware_buffer.h>
 #include <android/hardware_buffer_jni.h>

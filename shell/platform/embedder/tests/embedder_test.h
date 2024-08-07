@@ -8,10 +8,10 @@
 #include <map>
 #include <memory>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/tests/embedder_test_context.h"
-#include "flutter/testing/testing.h"
-#include "flutter/testing/thread_test.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/tests/embedder_test_context.h"
+#include "testing/testing.h"
+#include "testing/thread_test.h"
 #include "gtest/gtest.h"
 
 namespace flutter {

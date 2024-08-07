@@ -4,7 +4,7 @@
 
 #if !SLIMPELLER
 
-#include "flutter/flow/layers/offscreen_surface.h"
+#include "flow/layers/offscreen_surface.h"
 
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkData.h"

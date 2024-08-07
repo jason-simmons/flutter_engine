@@ -10,9 +10,9 @@
 #include <optional>
 #include <string>
 
-#include "flutter/fml/synchronization/count_down_latch.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/synchronization/count_down_latch.h"
+#include "fml/task_runner.h"
+#include "fml/trace_event.h"
 
 namespace flutter {
 

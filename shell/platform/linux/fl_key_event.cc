@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_key_event.h"
+#include "shell/platform/linux/fl_key_event.h"
 
 FlKeyEvent* fl_key_event_new_from_gdk_event(GdkEvent* event) {
   g_return_val_if_fail(event != nullptr, nullptr);

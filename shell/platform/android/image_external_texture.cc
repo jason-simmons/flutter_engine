@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/image_external_texture.h"
+#include "shell/platform/android/image_external_texture.h"
 
 #include <android/hardware_buffer_jni.h>
 #include <android/sensor.h>
 
-#include "flutter/fml/platform/android/jni_util.h"
-#include "flutter/impeller/toolkit/android/proc_table.h"
-#include "flutter/shell/platform/android/jni/platform_view_android_jni.h"
+#include "fml/platform/android/jni_util.h"
+#include "impeller/toolkit/android/proc_table.h"
+#include "shell/platform/android/jni/platform_view_android_jni.h"
 
 namespace flutter {
 

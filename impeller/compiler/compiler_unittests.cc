@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 #include <cstring>
-#include "flutter/testing/testing.h"
+#include "testing/testing.h"
 #include "gtest/gtest.h"
 #include "impeller/base/validation.h"
 #include "impeller/compiler/compiler.h"

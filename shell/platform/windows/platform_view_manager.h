@@ -7,9 +7,9 @@
 
 #include <memory>
 
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_channel.h"
-#include "flutter/shell/platform/windows/flutter_windows_internal.h"
-#include "flutter/shell/platform/windows/task_runner.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_channel.h"
+#include "shell/platform/windows/flutter_windows_internal.h"
+#include "shell/platform/windows/task_runner.h"
 
 namespace flutter {
 

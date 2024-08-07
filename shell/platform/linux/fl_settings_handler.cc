@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_settings_handler.h"
+#include "shell/platform/linux/fl_settings_handler.h"
 
 #include <gmodule.h>
 
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
-#include "flutter/shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h"
+#include "shell/platform/linux/public/flutter_linux/fl_binary_messenger.h"
+#include "shell/platform/linux/public/flutter_linux/fl_json_message_codec.h"
 
 static constexpr char kChannelName[] = "flutter/settings";
 static constexpr char kTextScaleFactorKey[] = "textScaleFactor";

@@ -8,9 +8,9 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/file.h"
-#include "flutter/fml/mapping.h"
-#include "flutter/testing/assertions.h"
+#include "fml/file.h"
+#include "fml/mapping.h"
+#include "testing/assertions.h"
 #include "gtest/gtest.h"
 #include "third_party/skia/include/core/SkData.h"
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/mapping.h"
+#include "fml/mapping.h"
 
 #include <fcntl.h>
 #include <io.h>
@@ -10,9 +10,9 @@
 
 #include <type_traits>
 
-#include "flutter/fml/file.h"
-#include "flutter/fml/platform/win/errors_win.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/file.h"
+#include "fml/platform/win/errors_win.h"
+#include "fml/platform/win/wstring_conversion.h"
 
 namespace fml {
 

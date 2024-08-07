@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/aiks/aiks_unittests.h"
+#include "impeller/aiks/aiks_unittests.h"
 
-#include "flutter/display_list/dl_blend_mode.h"
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/dl_color.h"
-#include "flutter/display_list/dl_paint.h"
-#include "flutter/display_list/effects/dl_color_filter.h"
-#include "flutter/testing/testing.h"
+#include "display_list/dl_blend_mode.h"
+#include "display_list/dl_builder.h"
+#include "display_list/dl_color.h"
+#include "display_list/dl_paint.h"
+#include "display_list/effects/dl_color_filter.h"
+#include "testing/testing.h"
 
 namespace impeller {
 namespace testing {

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/glfw/glfw_event_loop.h"
+#include "shell/platform/glfw/glfw_event_loop.h"
 
 #include <GLFW/glfw3.h>
 

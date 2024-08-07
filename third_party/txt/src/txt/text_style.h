@@ -21,7 +21,7 @@
 #include <string>
 #include <vector>
 
-#include "flutter/display_list/dl_paint.h"
+#include "display_list/dl_paint.h"
 #include "font_features.h"
 #include "font_style.h"
 #include "font_weight.h"

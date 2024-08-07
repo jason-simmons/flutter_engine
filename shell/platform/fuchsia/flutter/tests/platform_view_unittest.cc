@@ -19,12 +19,12 @@
 #include <string>
 #include <vector>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/lib/ui/window/platform_message.h"
-#include "flutter/lib/ui/window/pointer_data.h"
-#include "flutter/lib/ui/window/viewport_metrics.h"
-#include "flutter/shell/common/context_options.h"
-#include "flutter/shell/platform/fuchsia/flutter/platform_view.h"
+#include "flow/embedded_views.h"
+#include "lib/ui/window/platform_message.h"
+#include "lib/ui/window/pointer_data.h"
+#include "lib/ui/window/viewport_metrics.h"
+#include "shell/common/context_options.h"
+#include "shell/platform/fuchsia/flutter/platform_view.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 
@@ -32,8 +32,8 @@
 #include "fakes/platform_message.h"
 #include "fakes/touch_source.h"
 #include "fakes/view_ref_focused.h"
-#include "flutter/shell/platform/fuchsia/flutter/surface.h"
-#include "flutter/shell/platform/fuchsia/flutter/task_runner_adapter.h"
+#include "shell/platform/fuchsia/flutter/surface.h"
+#include "shell/platform/fuchsia/flutter/task_runner_adapter.h"
 #include "platform/assert.h"
 #include "pointer_event_utility.h"
 

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/darwin/common/framework/Source/FlutterStandardCodecHelper.h"
+#include "shell/platform/darwin/common/framework/Source/FlutterStandardCodecHelper.h"
 #include <stdint.h>
 
 #include <vector>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 // The google-runtime-int lint suggests uint64_t in place of unsigned long,
 // however these functions are frequently used with NSUInteger, which is

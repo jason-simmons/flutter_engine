@@ -4,9 +4,9 @@
 
 #include <initializer_list>
 
-#include "flutter/common/settings.h"
-#include "flutter/fml/command_line.h"
-#include "flutter/shell/common/switches.h"
+#include "common/settings.h"
+#include "fml/command_line.h"
+#include "shell/common/switches.h"
 
 #include "gtest/gtest.h"
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/impeller/aiks/aiks_unittests.h"
+#include "impeller/aiks/aiks_unittests.h"
 
 #include "impeller/aiks/canvas.h"
 #include "impeller/entity/contents/filters/gaussian_blur_filter_contents.h"

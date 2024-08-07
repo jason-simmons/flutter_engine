@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/test_gl_surface.h"
+#include "testing/test_gl_surface.h"
 
 #include <EGL/egl.h>
 #include <EGL/eglext.h>
@@ -12,8 +12,8 @@
 #include <sstream>
 #include <string>
 
-#include "flutter/fml/build_config.h"
-#include "flutter/fml/logging.h"
+#include "fml/build_config.h"
+#include "fml/logging.h"
 #include "third_party/skia/include/core/SkColorSpace.h"
 #include "third_party/skia/include/core/SkColorType.h"
 #include "third_party/skia/include/core/SkSurface.h"

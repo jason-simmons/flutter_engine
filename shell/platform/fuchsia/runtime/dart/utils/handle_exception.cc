@@ -12,7 +12,7 @@
 
 #include <string>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/tonic/converter/dart_converter.h"
 
 namespace {

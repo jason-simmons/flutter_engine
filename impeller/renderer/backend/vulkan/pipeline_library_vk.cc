@@ -9,8 +9,8 @@
 #include <optional>
 #include <sstream>
 
-#include "flutter/fml/container.h"
-#include "flutter/fml/trace_event.h"
+#include "fml/container.h"
+#include "fml/trace_event.h"
 #include "impeller/base/promise.h"
 #include "impeller/base/timing.h"
 #include "impeller/base/validation.h"

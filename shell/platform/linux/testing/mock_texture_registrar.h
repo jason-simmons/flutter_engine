@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_TEXTURE_REGISTRAR_H_
 #define FLUTTER_SHELL_PLATFORM_LINUX_TESTING_MOCK_TEXTURE_REGISTRAR_H_
 
-#include "flutter/shell/platform/linux/fl_texture_registrar_private.h"
+#include "shell/platform/linux/fl_texture_registrar_private.h"
 
 G_BEGIN_DECLS
 

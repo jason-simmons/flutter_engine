@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/linux/fl_key_embedder_responder.h"
+#include "shell/platform/linux/fl_key_embedder_responder.h"
 
 #include "gtest/gtest.h"
 
-#include "flutter/shell/platform/embedder/test_utils/key_codes.g.h"
-#include "flutter/shell/platform/embedder/test_utils/proc_table_replacement.h"
-#include "flutter/shell/platform/linux/fl_binary_messenger_private.h"
-#include "flutter/shell/platform/linux/fl_engine_private.h"
-#include "flutter/shell/platform/linux/testing/fl_test.h"
+#include "shell/platform/embedder/test_utils/key_codes.g.h"
+#include "shell/platform/embedder/test_utils/proc_table_replacement.h"
+#include "shell/platform/linux/fl_binary_messenger_private.h"
+#include "shell/platform/linux/fl_engine_private.h"
+#include "shell/platform/linux/testing/fl_test.h"
 
 namespace {
 constexpr gboolean kRelease = FALSE;

@@ -11,8 +11,8 @@
 #include <string>
 #include <vector>
 
-#include "flutter/fml/trace_event.h"
-#include "flutter/vulkan/vulkan_skia_proc_table.h"
+#include "fml/trace_event.h"
+#include "vulkan/vulkan_skia_proc_table.h"
 #include "flutter_vma/flutter_skia_vma.h"
 
 #include "third_party/skia/include/core/SkSurface.h"

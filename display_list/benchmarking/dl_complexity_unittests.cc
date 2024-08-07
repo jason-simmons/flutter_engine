@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/benchmarking/dl_complexity.h"
-#include "flutter/display_list/benchmarking/dl_complexity_gl.h"
-#include "flutter/display_list/benchmarking/dl_complexity_metal.h"
-#include "flutter/display_list/display_list.h"
-#include "flutter/display_list/dl_builder.h"
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/testing/dl_test_snippets.h"
-#include "flutter/testing/testing.h"
+#include "display_list/benchmarking/dl_complexity.h"
+#include "display_list/benchmarking/dl_complexity_gl.h"
+#include "display_list/benchmarking/dl_complexity_metal.h"
+#include "display_list/display_list.h"
+#include "display_list/dl_builder.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/testing/dl_test_snippets.h"
+#include "testing/testing.h"
 
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "third_party/skia/include/core/SkColor.h"

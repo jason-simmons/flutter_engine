@@ -5,11 +5,11 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_ENGINE_MODIFIER_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_TESTING_ENGINE_MODIFIER_H_
 
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 
 #include <chrono>
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 
 namespace flutter {
 

@@ -11,10 +11,10 @@
 #include <mutex>
 #include <set>
 
-#include "flutter/assets/asset_manager.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/task_runner.h"
-#include "flutter/fml/unique_fd.h"
+#include "assets/asset_manager.h"
+#include "fml/macros.h"
+#include "fml/task_runner.h"
+#include "fml/unique_fd.h"
 #include "third_party/skia/include/gpu/GrContextOptions.h"
 
 class GrDirectContext;

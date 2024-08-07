@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/testing/testing.h"
+#include "fml/synchronization/waitable_event.h"
+#include "testing/testing.h"
 #include "gmock/gmock.h"
 #include "impeller/core/host_buffer.h"
 #include "impeller/fixtures/sample.comp.h"

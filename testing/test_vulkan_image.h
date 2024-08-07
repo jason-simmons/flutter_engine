@@ -5,10 +5,10 @@
 #ifndef FLUTTER_TESTING_TEST_VULKAN_IMAGE_H_
 #define FLUTTER_TESTING_TEST_VULKAN_IMAGE_H_
 
-#include "flutter/fml/macros.h"
+#include "fml/macros.h"
 
-#include "flutter/fml/memory/ref_ptr.h"
-#include "flutter/vulkan/procs/vulkan_handle.h"
+#include "fml/memory/ref_ptr.h"
+#include "vulkan/procs/vulkan_handle.h"
 #include "third_party/skia/include/core/SkSize.h"
 
 namespace flutter {

@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_ACCESSIBILITY_BRIDGE_WINDOWS_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_ACCESSIBILITY_BRIDGE_WINDOWS_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/accessibility_bridge.h"
-#include "flutter/third_party/accessibility/ax/platform/ax_fragment_root_delegate_win.h"
+#include "fml/macros.h"
+#include "shell/platform/common/accessibility_bridge.h"
+#include "third_party/accessibility/ax/platform/ax_fragment_root_delegate_win.h"
 
 namespace flutter {
 

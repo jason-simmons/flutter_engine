@@ -6,10 +6,10 @@
 
 #include <utility>
 
-#include "flutter/shell/platform/common/accessibility_bridge.h"
-#include "flutter/third_party/accessibility/ax/ax_action_data.h"
-#include "flutter/third_party/accessibility/ax/ax_tree_manager_map.h"
-#include "flutter/third_party/accessibility/gfx/geometry/rect_conversions.h"
+#include "shell/platform/common/accessibility_bridge.h"
+#include "third_party/accessibility/ax/ax_action_data.h"
+#include "third_party/accessibility/ax/ax_tree_manager_map.h"
+#include "third_party/accessibility/gfx/geometry/rect_conversions.h"
 
 namespace flutter {
 

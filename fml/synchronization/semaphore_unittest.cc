@@ -4,9 +4,9 @@
 
 #include <thread>
 
-#include "flutter/fml/synchronization/semaphore.h"
-#include "flutter/fml/thread.h"
-#include "flutter/fml/time/time_point.h"
+#include "fml/synchronization/semaphore.h"
+#include "fml/thread.h"
+#include "fml/time/time_point.h"
 #include "gtest/gtest.h"
 
 TEST(SemaphoreTest, SimpleValidity) {

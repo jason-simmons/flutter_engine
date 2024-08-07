@@ -15,12 +15,12 @@
 #include <lib/async-loop/cpp/loop.h>
 #include <lib/sys/cpp/service_directory.h>
 
-#include "flutter/flow/embedded_views.h"
-#include "flutter/flow/surface.h"
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/shell.h"
-#include "flutter/shell/common/thread_host.h"
-#include "flutter/shell/platform/fuchsia/flutter/accessibility_bridge.h"
+#include "flow/embedded_views.h"
+#include "flow/surface.h"
+#include "fml/macros.h"
+#include "shell/common/shell.h"
+#include "shell/common/thread_host.h"
+#include "shell/platform/fuchsia/flutter/accessibility_bridge.h"
 
 #include "external_view_embedder.h"
 #include "flatland_connection.h"

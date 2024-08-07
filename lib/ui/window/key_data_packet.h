@@ -8,8 +8,8 @@
 #include <functional>
 #include <vector>
 
-#include "flutter/fml/macros.h"
-#include "flutter/lib/ui/window/key_data.h"
+#include "fml/macros.h"
+#include "lib/ui/window/key_data.h"
 
 namespace flutter {
 

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/lib/ui/painting/image_generator_registry.h"
+#include "lib/ui/painting/image_generator_registry.h"
 
-#include "flutter/fml/mapping.h"
-#include "flutter/shell/common/shell_test.h"
-#include "flutter/testing/testing.h"
+#include "fml/mapping.h"
+#include "shell/common/shell_test.h"
+#include "testing/testing.h"
 
 #include "third_party/skia/include/codec/SkCodecAnimation.h"
 

@@ -7,7 +7,7 @@
 #include <cstdint>
 #include <cstdlib>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 
 zircon_dart_byte_array_t* zircon_dart_byte_array_create(uint32_t size) {
   zircon_dart_byte_array_t* arr = static_cast<zircon_dart_byte_array_t*>(

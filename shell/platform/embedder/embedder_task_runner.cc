@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/embedder/embedder_task_runner.h"
+#include "shell/platform/embedder/embedder_task_runner.h"
 
-#include "flutter/fml/message_loop_impl.h"
-#include "flutter/fml/message_loop_task_queues.h"
+#include "fml/message_loop_impl.h"
+#include "fml/message_loop_task_queues.h"
 
 namespace flutter {
 

@@ -9,9 +9,9 @@
 #include <string_view>
 #include <vector>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
-#include "flutter/testing/test_dart_native_resolver.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
+#include "testing/test_dart_native_resolver.h"
 
 namespace flutter {
 namespace testing {

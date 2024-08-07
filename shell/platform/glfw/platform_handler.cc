@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/glfw/platform_handler.h"
+#include "shell/platform/glfw/platform_handler.h"
 
 #include <iostream>
 
-#include "flutter/shell/platform/common/json_method_codec.h"
+#include "shell/platform/common/json_method_codec.h"
 
 static constexpr char kChannelName[] = "flutter/platform";
 

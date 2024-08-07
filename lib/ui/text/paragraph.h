@@ -5,10 +5,10 @@
 #ifndef FLUTTER_LIB_UI_TEXT_PARAGRAPH_H_
 #define FLUTTER_LIB_UI_TEXT_PARAGRAPH_H_
 
-#include "flutter/fml/message_loop.h"
-#include "flutter/lib/ui/dart_wrapper.h"
-#include "flutter/lib/ui/painting/canvas.h"
-#include "flutter/third_party/txt/src/txt/paragraph.h"
+#include "fml/message_loop.h"
+#include "lib/ui/dart_wrapper.h"
+#include "lib/ui/painting/canvas.h"
+#include "third_party/txt/src/txt/paragraph.h"
 
 namespace flutter {
 

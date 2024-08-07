@@ -5,9 +5,9 @@
 #ifndef FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_METAL_H_
 #define FLUTTER_SHELL_COMMON_SHELL_TEST_PLATFORM_VIEW_METAL_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/common/shell_test_platform_view.h"
-#include "flutter/shell/gpu/gpu_surface_metal_delegate.h"
+#include "fml/macros.h"
+#include "shell/common/shell_test_platform_view.h"
+#include "shell/gpu/gpu_surface_metal_delegate.h"
 
 namespace flutter {
 namespace testing {

@@ -38,7 +38,7 @@
 #include "base/logging.h"
 #include "base/win/atl_module.h"
 #include "base/win/display.h"
-#include "flutter/fml/platform/win/wstring_conversion.h"
+#include "fml/platform/win/wstring_conversion.h"
 #include "gfx/geometry/rect_conversions.h"
 
 // From ax.constants.mojom

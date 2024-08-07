@@ -5,14 +5,14 @@
 #ifndef FLUTTER_TESTING_DART_ISOLATE_RUNNER_H_
 #define FLUTTER_TESTING_DART_ISOLATE_RUNNER_H_
 
-#include "flutter/common/task_runners.h"
-#include "flutter/fml/make_copyable.h"
-#include "flutter/fml/paths.h"
-#include "flutter/fml/synchronization/waitable_event.h"
-#include "flutter/fml/thread.h"
-#include "flutter/runtime/dart_isolate.h"
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/runtime/dart_vm_lifecycle.h"
+#include "common/task_runners.h"
+#include "fml/make_copyable.h"
+#include "fml/paths.h"
+#include "fml/synchronization/waitable_event.h"
+#include "fml/thread.h"
+#include "runtime/dart_isolate.h"
+#include "runtime/dart_vm.h"
+#include "runtime/dart_vm_lifecycle.h"
 
 namespace flutter {
 namespace testing {

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/testing/test_dart_native_resolver.h"
+#include "testing/test_dart_native_resolver.h"
 
 #include <mutex>
 #include <vector>
 
-#include "flutter/fml/logging.h"
+#include "fml/logging.h"
 #include "third_party/tonic/logging/dart_error.h"
 #include "tonic/converter/dart_converter.h"
 

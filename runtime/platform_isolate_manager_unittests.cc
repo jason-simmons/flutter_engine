@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/runtime/dart_vm.h"
-#include "flutter/runtime/dart_vm_lifecycle.h"
-#include "flutter/runtime/platform_isolate_manager.h"
-#include "flutter/testing/fixture_test.h"
-#include "flutter/testing/testing.h"
+#include "runtime/dart_vm.h"
+#include "runtime/dart_vm_lifecycle.h"
+#include "runtime/platform_isolate_manager.h"
+#include "testing/fixture_test.h"
+#include "testing/testing.h"
 
 namespace flutter {
 namespace testing {

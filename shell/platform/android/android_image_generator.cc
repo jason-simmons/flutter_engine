@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_image_generator.h"
+#include "shell/platform/android/android_image_generator.h"
 
 #include <memory>
 #include <utility>
@@ -10,7 +10,7 @@
 #include <android/bitmap.h>
 #include <android/hardware_buffer.h>
 
-#include "flutter/fml/platform/android/jni_util.h"
+#include "fml/platform/android/jni_util.h"
 
 #include "third_party/skia/include/codec/SkCodecAnimation.h"
 

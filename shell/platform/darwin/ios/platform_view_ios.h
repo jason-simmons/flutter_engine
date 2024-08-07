@@ -7,11 +7,11 @@
 
 #include <memory>
 
-#include "flutter/fml/closure.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/platform/darwin/scoped_nsobject.h"
-#include "flutter/fml/platform/darwin/weak_nsobject.h"
-#include "flutter/shell/common/platform_view.h"
+#include "fml/closure.h"
+#include "fml/macros.h"
+#include "fml/platform/darwin/scoped_nsobject.h"
+#include "fml/platform/darwin/weak_nsobject.h"
+#include "shell/common/platform_view.h"
 #import "flutter/shell/platform/darwin/common/framework/Headers/FlutterTexture.h"
 #import "flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h"
 #import "flutter/shell/platform/darwin/ios/framework/Source/FlutterView.h"

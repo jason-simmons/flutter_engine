@@ -5,8 +5,8 @@
 #ifndef FLUTTER_DISPLAY_LIST_EFFECTS_DL_MASK_FILTER_H_
 #define FLUTTER_DISPLAY_LIST_EFFECTS_DL_MASK_FILTER_H_
 
-#include "flutter/display_list/dl_attributes.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_attributes.h"
+#include "fml/logging.h"
 
 #include "third_party/skia/include/core/SkScalar.h"
 

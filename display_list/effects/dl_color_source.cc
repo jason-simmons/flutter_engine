@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/display_list/effects/dl_color_source.h"
+#include "display_list/effects/dl_color_source.h"
 
-#include "flutter/display_list/dl_sampling_options.h"
-#include "flutter/display_list/effects/dl_runtime_effect.h"
-#include "flutter/fml/logging.h"
+#include "display_list/dl_sampling_options.h"
+#include "display_list/effects/dl_runtime_effect.h"
+#include "fml/logging.h"
 
 namespace flutter {
 

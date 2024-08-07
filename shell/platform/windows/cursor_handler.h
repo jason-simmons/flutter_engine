@@ -7,12 +7,12 @@
 
 #include <unordered_map>
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
-#include "flutter/shell/platform/common/client_wrapper/include/flutter/method_channel.h"
-#include "flutter/shell/platform/windows/public/flutter_windows.h"
-#include "flutter/shell/platform/windows/window_binding_handler.h"
+#include "fml/macros.h"
+#include "shell/platform/common/client_wrapper/include/flutter/binary_messenger.h"
+#include "shell/platform/common/client_wrapper/include/flutter/encodable_value.h"
+#include "shell/platform/common/client_wrapper/include/flutter/method_channel.h"
+#include "shell/platform/windows/public/flutter_windows.h"
+#include "shell/platform/windows/window_binding_handler.h"
 
 namespace flutter {
 

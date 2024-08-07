@@ -8,9 +8,9 @@
 #include <functional>
 #include <set>
 
-#include "flutter/fml/mapping.h"
-#include "flutter/fml/memory/weak_ptr.h"
-#include "flutter/lib/ui/painting/image_generator.h"
+#include "fml/mapping.h"
+#include "fml/memory/weak_ptr.h"
+#include "lib/ui/painting/image_generator.h"
 
 namespace flutter {
 

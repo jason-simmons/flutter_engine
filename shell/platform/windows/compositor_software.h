@@ -5,10 +5,10 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_COMPOSITOR_SOFTWARE_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_COMPOSITOR_SOFTWARE_H_
 
-#include "flutter/fml/macros.h"
-#include "flutter/shell/platform/embedder/embedder.h"
-#include "flutter/shell/platform/windows/compositor.h"
-#include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "fml/macros.h"
+#include "shell/platform/embedder/embedder.h"
+#include "shell/platform/windows/compositor.h"
+#include "shell/platform/windows/flutter_windows_engine.h"
 
 namespace flutter {
 

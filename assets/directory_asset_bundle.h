@@ -6,10 +6,10 @@
 #define FLUTTER_ASSETS_DIRECTORY_ASSET_BUNDLE_H_
 
 #include <optional>
-#include "flutter/assets/asset_resolver.h"
-#include "flutter/fml/macros.h"
-#include "flutter/fml/memory/ref_counted.h"
-#include "flutter/fml/unique_fd.h"
+#include "assets/asset_resolver.h"
+#include "fml/macros.h"
+#include "fml/memory/ref_counted.h"
+#include "fml/unique_fd.h"
 
 namespace flutter {
 
