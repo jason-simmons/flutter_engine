@@ -302,7 +302,7 @@ is_chromecast = false
 is_chromeos_lacros = false
 ozone_platform_headless = false
 
-# Needed for //flutter/third_party/swiftshader and //third_party/angle.
+# Needed for //third_party/swiftshader and //third_party/angle.
 if (is_linux) {
   ozone_platform_x11 = true
   ozone_platform_wayland = true
@@ -354,8 +354,8 @@ _native_compiler_configs = [
 
 if (use_flutter_cxx) {
   _native_compiler_configs += [
-    "//flutter/third_party/libcxxabi:libcxxabi_config",
-    "//flutter/third_party/libcxx:libcxx_config",
+    "//third_party/libcxxabi:libcxxabi_config",
+    "//third_party/libcxx:libcxx_config",
   ]
 }
 
@@ -616,7 +616,7 @@ if (use_flutter_cxx) {
           deps = []
         }
         if (!defined(invoker.no_default_deps) || !invoker.no_default_deps) {
-          deps += [ "//flutter/third_party/libcxx" ]
+          deps += [ "//third_party/libcxx" ]
         }
       }
     }

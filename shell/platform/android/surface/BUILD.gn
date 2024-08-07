@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/shell/config.gni")
+import("//shell/config.gni")
 
 source_set("surface") {
   sources = [
@@ -16,12 +16,12 @@ source_set("surface") {
 
   deps = [
     ":native_window",
-    "//flutter/flow",
-    "//flutter/fml",
-    "//flutter/shell/common",
-    "//flutter/shell/platform/android/context",
-    "//flutter/shell/platform/android/jni",
-    "//flutter/skia",
+    "//flow",
+    "//fml",
+    "//shell/common",
+    "//shell/platform/android/context",
+    "//shell/platform/android/jni",
+    "//skia",
   ]
 }
 
@@ -34,8 +34,8 @@ source_set("native_window") {
   public_configs = [ "//flutter:config" ]
 
   deps = [
-    "//flutter/fml",
-    "//flutter/skia",
+    "//fml",
+    "//skia",
   ]
 }
 
@@ -51,13 +51,13 @@ source_set("surface_mock") {
 
   deps = [
     ":surface",
-    "//flutter/flow",
-    "//flutter/shell/gpu:gpu_surface_gl",
-    "//flutter/third_party/googletest:gmock",
-    "//flutter/third_party/googletest:gtest",
+    "//flow",
+    "//shell/gpu:gpu_surface_gl",
+    "//third_party/googletest:gmock",
+    "//third_party/googletest:gtest",
   ]
 
   if (shell_enable_vulkan) {
-    deps += [ "//flutter/vulkan" ]
+    deps += [ "//vulkan" ]
   }
 }

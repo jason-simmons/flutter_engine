@@ -36,7 +36,7 @@ if (ios_sdk_path == "") {
   if (use_rbe && create_xcode_symlinks) {
     ios_sdk_args += [
       "--symlink",
-      rebase_path("//flutter/prebuilts"),
+      rebase_path("//prebuilts"),
     ]
   }
   if (!use_ios_simulator && ios_device_sdk_path == "") {

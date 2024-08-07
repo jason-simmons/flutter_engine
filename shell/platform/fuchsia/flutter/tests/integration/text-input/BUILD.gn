@@ -4,9 +4,9 @@
 
 assert(is_fuchsia)
 
-import("//flutter/tools/fuchsia/fuchsia_archive.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/package.gni")
+import("//engine_tools/fuchsia/fuchsia_archive.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/package.gni")
 
 group("tests") {
   testonly = true
@@ -18,7 +18,7 @@ executable("text-input-test-bin") {
   output_name = "text-input-test"
   sources = [ "text-input-test.cc" ]
 
-  # This is needed for //flutter/third_party/googletest for linking zircon
+  # This is needed for //third_party/googletest for linking zircon
   # symbols.
   libs = [ "${fuchsia_arch_root}/sysroot/lib/libzircon.so" ]
 
@@ -42,11 +42,11 @@ executable("text-input-test-bin") {
     "${fuchsia_sdk}/pkg/sys_component_cpp_testing",
     "${fuchsia_sdk}/pkg/zx",
     "text-input-view:package",
-    "//flutter/fml",
-    "//flutter/shell/platform/fuchsia/flutter/tests/integration/utils:check_view",
-    "//flutter/shell/platform/fuchsia/flutter/tests/integration/utils:portable_ui_test",
-    "//flutter/third_party/googletest:gtest",
-    "//flutter/third_party/googletest:gtest_main",
+    "//fml",
+    "//shell/platform/fuchsia/flutter/tests/integration/utils:check_view",
+    "//shell/platform/fuchsia/flutter/tests/integration/utils:portable_ui_test",
+    "//third_party/googletest:gtest",
+    "//third_party/googletest:gtest_main",
   ]
 }
 
@@ -57,7 +57,7 @@ fuchsia_test_archive("text-input-test") {
     # "OOT" copies of the runners used by tests, to avoid conflicting with the
     # runners in the base fuchsia image.
     # TODO(fxbug.dev/106575): Fix this with subpackages.
-    "//flutter/shell/platform/fuchsia/flutter:oot_flutter_jit_runner",
+    "//shell/platform/fuchsia/flutter:oot_flutter_jit_runner",
   ]
 
   binary = "$target_name"

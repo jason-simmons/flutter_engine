@@ -2,13 +2,13 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/common/config.gni")
-import("//flutter/impeller/tools/impeller.gni")
-import("//flutter/shell/config.gni")
-import("//flutter/testing/testing.gni")
+import("//common/config.gni")
+import("//impeller/tools/impeller.gni")
+import("//shell/config.gni")
+import("//testing/testing.gni")
 
 if (is_fuchsia) {
-  import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+  import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 }
 
 source_set("flow") {
@@ -93,19 +93,19 @@ source_set("flow") {
   public_configs = [ "//flutter:config" ]
 
   public_deps = [
-    "//flutter/common",
-    "//flutter/common/graphics",
-    "//flutter/display_list",
-    "//flutter/fml",
-    "//flutter/third_party/txt",
+    "//common",
+    "//common/graphics",
+    "//display_list",
+    "//fml",
+    "//third_party/txt",
   ]
 
-  deps = [ "//flutter/skia" ]
+  deps = [ "//skia" ]
 
   if (impeller_supports_rendering) {
     deps += [
-      "//flutter/impeller",
-      "//flutter/impeller/typographer/backends/skia:typographer_skia_backend",
+      "//impeller",
+      "//impeller/typographer/backends/skia:typographer_skia_backend",
     ]
   }
 }
@@ -113,7 +113,7 @@ source_set("flow") {
 if (enable_unittests) {
   test_fixtures("flow_fixtures") {
     fixtures =
-        [ "//flutter/third_party/txt/third_party/fonts/Roboto-Regular.ttf" ]
+        [ "//third_party/txt/third_party/fonts/Roboto-Regular.ttf" ]
   }
 
   source_set("flow_testing") {
@@ -136,13 +136,13 @@ if (enable_unittests) {
     ]
 
     public_deps = [
-      "//flutter/testing:skia",
-      "//flutter/third_party/googletest:gtest",
+      "//testing:skia",
+      "//third_party/googletest:gtest",
     ]
 
     deps = [
       ":flow",
-      "//flutter/common/graphics",
+      "//common/graphics",
     ]
   }
 
@@ -191,14 +191,14 @@ if (enable_unittests) {
       ":flow_fixtures",
       ":flow_testing",
       "$dart_src/runtime:libdart_jit",  # for tracing
-      "//flutter/common/graphics",
-      "//flutter/display_list/testing:display_list_testing",
-      "//flutter/fml",
-      "//flutter/shell/common:base64",
-      "//flutter/skia",
-      "//flutter/testing:skia",
-      "//flutter/testing:testing_lib",
-      "//flutter/third_party/googletest:gtest",
+      "//common/graphics",
+      "//display_list/testing:display_list_testing",
+      "//fml",
+      "//shell/common:base64",
+      "//skia",
+      "//testing:skia",
+      "//testing:testing_lib",
+      "//third_party/googletest:gtest",
     ]
 
     if (!defined(defines)) {

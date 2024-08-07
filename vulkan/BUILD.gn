@@ -3,7 +3,7 @@
 # found in the LICENSE file.
 
 if (is_fuchsia) {
-  import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+  import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 }
 
 source_set("vulkan") {
@@ -45,13 +45,13 @@ source_set("vulkan") {
 
   deps = [
     "procs",
-    "//flutter/flutter_vma:flutter_skia_vma",
-    "//flutter/fml",
-    "//flutter/skia",
+    "//flutter_vma:flutter_skia_vma",
+    "//fml",
+    "//skia",
   ]
 
   public_configs = [ "//flutter:config" ]
 
   public_deps =
-      [ "//flutter/third_party/vulkan-deps/vulkan-headers/src:vulkan_headers" ]
+      [ "//third_party/vulkan-deps/vulkan-headers/src:vulkan_headers" ]
 }

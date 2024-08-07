@@ -3,7 +3,7 @@
 # found in the LICENSE file.
 
 import("//build/toolchain/toolchain.gni")
-import("//flutter/common/fuchsia_config.gni")
+import("//common/fuchsia_config.gni")
 
 # The inputs to this template are 'binary_path' and a boolean 'unstripped'.
 # If 'unstripped' is specified, we append '.debug' to the symbols name.
@@ -20,7 +20,7 @@ template("_copy_debug_symbols") {
                              "testonly",
                            ])
 
-    script = "//flutter/tools/fuchsia/copy_debug_symbols.py"
+    script = "//engine_tools/fuchsia/copy_debug_symbols.py"
 
     sources = [ binary_path ]
 

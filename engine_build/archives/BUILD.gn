@@ -2,21 +2,21 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/build/zip_bundle.gni")
-import("//flutter/common/config.gni")
+import("//engine_build/zip_bundle.gni")
+import("//common/config.gni")
 
 generated_file("artifacts_entitlement_config") {
   outputs = [ "$target_gen_dir/entitlements.txt" ]
 
   data_keys = [ "entitlement_file_path" ]
 
-  deps = [ "//flutter/lib/snapshot:generate_snapshot_bin" ]
+  deps = [ "//lib/snapshot:generate_snapshot_bin" ]
   if (flutter_runtime_mode == "debug") {
     deps += [
-      "//flutter/impeller/compiler:impellerc",
-      "//flutter/impeller/tessellator:tessellator_shared",
-      "//flutter/shell/testing:testing",
-      "//flutter/tools/path_ops:path_ops",
+      "//impeller/compiler:impellerc",
+      "//impeller/tessellator:tessellator_shared",
+      "//shell/testing:testing",
+      "//engine_tools/path_ops:path_ops",
     ]
   }
 }
@@ -31,13 +31,13 @@ generated_file("artifacts_entitlement_config") {
 # gen_snapshot_x64 are used in its place).
 #
 # Target-specific iOS artifacts.zip are produced in:
-# //flutter/sky/tools/create_full_ios_framework.py
+# //sky/tools/create_full_ios_framework.py
 #
 # Target-specific Android archives are produced in:
-# //flutter/shell/platform/android:gen_snapshot
+# //shell/platform/android:gen_snapshot
 #
 # macOS-specific gen_snapshot_arm64 and gen_snapshot_x64 are produced in:
-# //flutter/sky/tools/create_macos_gen_snapshots.py
+# //sky/tools/create_macos_gen_snapshots.py
 #
 # TODO: https://github.com/flutter/flutter/issues/38935
 # Target-specific binaries such as gen_snapshot should be separated into a
@@ -46,12 +46,12 @@ if (build_engine_artifacts) {
   zip_bundle("artifacts") {
     deps = [
       "$dart_src/runtime/bin:gen_snapshot",
-      "//flutter/flutter_frontend_server:frontend_server",
-      "//flutter/impeller/compiler:impellerc",
-      "//flutter/impeller/tessellator:tessellator_shared",
-      "//flutter/lib/snapshot:generate_snapshot_bin",
-      "//flutter/shell/testing:testing",
-      "//flutter/tools/path_ops:path_ops",
+      "//flutter_frontend_server:frontend_server",
+      "//impeller/compiler:impellerc",
+      "//impeller/tessellator:tessellator_shared",
+      "//lib/snapshot:generate_snapshot_bin",
+      "//shell/testing:testing",
+      "//engine_tools/path_ops:path_ops",
     ]
     if (is_mac) {
       # TODO(godofredoc): Remove after paths are standardized flutter/flutter#105351.
@@ -96,7 +96,7 @@ if (build_engine_artifacts) {
       }
       files += [
         {
-          source = "//flutter/third_party/icu/flutter/icudtl.dat"
+          source = "//third_party/icu/flutter/icudtl.dat"
           destination = "icudtl.dat"
         },
         {
@@ -108,7 +108,7 @@ if (build_engine_artifacts) {
           destination = "impellerc$exe"
         },
         {
-          source = "//flutter/impeller/compiler/shader_lib"
+          source = "//impeller/compiler/shader_lib"
           destination = "shader_lib"
         },
         {
@@ -150,7 +150,7 @@ if (build_engine_artifacts) {
 
 if (host_os == "linux" || host_os == "win") {
   group("embedder") {
-    deps = [ "//flutter/shell/platform/embedder:embedder-archive" ]
+    deps = [ "//shell/platform/embedder:embedder-archive" ]
   }
 }
 
@@ -166,7 +166,7 @@ zip_bundle("flutter_patched_sdk") {
     path_prefix = "flutter_patched_sdk_product/"
   }
   output = "flutter_patched_sdk${file_suffix}.zip"
-  deps = [ "//flutter/lib/snapshot:strong_platform" ]
+  deps = [ "//lib/snapshot:strong_platform" ]
   files = [
     {
       source = "$root_out_dir/flutter_patched_sdk/vm_outline_strong.dill"
@@ -250,9 +250,9 @@ if (host_os == "win") {
     output = "$full_target_platform_name-$flutter_runtime_mode/$full_target_platform_name-flutter.zip"
     deps = [
       "//flutter:gen_snapshot",
-      "//flutter/shell/platform/common:publish_headers",
-      "//flutter/shell/platform/windows:flutter_windows",
-      "//flutter/shell/platform/windows:publish_headers_windows",
+      "//shell/platform/common:publish_headers",
+      "//shell/platform/windows:flutter_windows",
+      "//shell/platform/windows:publish_headers_windows",
     ]
     files = [
       {
@@ -302,7 +302,7 @@ if (host_os == "win") {
 if (is_mac) {
   group("flutter_embedder_framework") {
     deps = [
-      "//flutter/shell/platform/embedder:flutter_embedder_framework_archive",
+      "//shell/platform/embedder:flutter_embedder_framework_archive",
     ]
   }
 }

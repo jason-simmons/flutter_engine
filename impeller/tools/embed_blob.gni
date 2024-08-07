@@ -28,14 +28,14 @@ template("embed_blob") {
       "--source",
       rebase_path(invoker.blob),
     ]
-    script = "//flutter/impeller/tools/xxd.py"
+    script = "//impeller/tools/xxd.py"
     deps = invoker.deps
   }
 
   embed_config = "embed_$target_name"
   config(embed_config) {
     include_dirs = [ get_path_info(
-            get_label_info("//flutter/impeller:impeller", "target_gen_dir"),
+            get_label_info("//impeller:impeller", "target_gen_dir"),
             "dir") ]
   }
 

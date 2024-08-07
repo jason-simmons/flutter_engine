@@ -2,9 +2,9 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/tools/fuchsia/dart/dart_component.gni")
-import("//flutter/tools/fuchsia/fuchsia_archive.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/fidl_library.gni")
+import("//engine_tools/fuchsia/dart/dart_component.gni")
+import("//engine_tools/fuchsia/fuchsia_archive.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/fidl_library.gni")
 
 group("tests") {
   testonly = true
@@ -18,7 +18,7 @@ executable("dart-aot-runner-integration-test-bin") {
 
   sources = [ "dart-aot-runner-integration-test.cc" ]
 
-  # This is needed for //flutter/third_party/googletest for linking zircon
+  # This is needed for //third_party/googletest for linking zircon
   # symbols.
   libs = [ "${fuchsia_arch_root}/sysroot/lib/libzircon.so" ]
 
@@ -31,10 +31,10 @@ executable("dart-aot-runner-integration-test-bin") {
     "${fuchsia_sdk}/pkg/sys_component_cpp_testing",
     "${fuchsia_sdk}/pkg/zx",
     "../dart_echo_server:aot_echo_package",
-    "//flutter/fml",
-    "//flutter/shell/platform/fuchsia/dart_runner/fidl:dart_test",
-    "//flutter/third_party/googletest:gtest",
-    "//flutter/third_party/googletest:gtest_main",
+    "//fml",
+    "//shell/platform/fuchsia/dart_runner/fidl:dart_test",
+    "//third_party/googletest:gtest",
+    "//third_party/googletest:gtest_main",
   ]
 }
 

@@ -3,8 +3,8 @@
 # found in the LICENSE file.
 
 import("//build/compiled_action.gni")
-import("//flutter/build/dart/rules.gni")
-import("//flutter/common/config.gni")
+import("//engine_build/dart/rules.gni")
+import("//common/config.gni")
 
 is_aot_test =
     flutter_runtime_mode == "profile" || flutter_runtime_mode == "release"

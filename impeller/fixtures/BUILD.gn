@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/impeller/tools/impeller.gni")
-import("//flutter/testing/testing.gni")
+import("//impeller/tools/impeller.gni")
+import("//testing/testing.gni")
 
 impeller_shaders("modern_shader_fixtures") {
   name = "modern_fixtures"
@@ -108,9 +108,9 @@ impellerc("runtime_stages") {
 
 test_fixtures("file_fixtures") {
   fixtures = [
-    "//flutter/third_party/txt/third_party/fonts/HomemadeApple.ttf",
-    "//flutter/third_party/txt/third_party/fonts/NotoColorEmoji.ttf",
-    "//flutter/third_party/txt/third_party/fonts/Roboto-Regular.ttf",
+    "//third_party/txt/third_party/fonts/HomemadeApple.ttf",
+    "//third_party/txt/third_party/fonts/NotoColorEmoji.ttf",
+    "//third_party/txt/third_party/fonts/Roboto-Regular.ttf",
     "airplane.jpg",
     "bay_bridge.jpg",
     "blend_mode_dst.png",
@@ -171,7 +171,7 @@ impellerc("flutter_gpu_shaders") {
     "flutter_gpu_texture.vert",
   ]
 
-  fixtures = rebase_path("//flutter/impeller/fixtures")
+  fixtures = rebase_path("//impeller/fixtures")
   shader_bundle = "{\"UnlitFragment\": {\"type\": \"fragment\", \"file\": \"${fixtures}/flutter_gpu_unlit.frag\"}, \"UnlitVertex\": {\"type\": \"vertex\", \"file\": \"${fixtures}/flutter_gpu_unlit.vert\"}, \"TextureFragment\": {\"type\": \"fragment\", \"file\": \"${fixtures}/flutter_gpu_texture.frag\"}, \"TextureVertex\": {\"type\": \"vertex\", \"file\": \"${fixtures}/flutter_gpu_texture.vert\"}}"
   shader_bundle_output = "playground.shaderbundle"
 }

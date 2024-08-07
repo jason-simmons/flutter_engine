@@ -7,7 +7,7 @@ import("//build/toolchain/toolchain.gni")
 
 # The ANGLE build requires this file to point to the location of third-party
 # dependencies.
-angle_root = "//flutter/third_party/angle"
+angle_root = "//third_party/angle"
 
 angle_vma_version = 30000001
 
@@ -18,21 +18,21 @@ if (!is_fuchsia) {
 }
 
 # Overrides for ANGLE's dependencies.
-angle_abseil_cpp_dir = "//flutter/third_party/abseil-cpp"
-angle_glslang_dir = "//flutter/third_party/vulkan-deps/glslang/src"
+angle_abseil_cpp_dir = "//third_party/abseil-cpp"
+angle_glslang_dir = "//third_party/vulkan-deps/glslang/src"
 angle_googletest_dir = "//third_party/googletest/googletest/src"
 
 # Note: This path doesn't actually exist; see
 # //build/secondary/third_party/jsoncpp/BUILD.gn
 angle_jsoncpp_dir = "//third_party/jsoncpp"
 angle_libjpeg_turbo_dir = "//third_party/libjpeg_turbo"
-angle_libpng_dir = "//flutter/third_party/libpng"
-angle_spirv_headers_dir = "//flutter/third_party/vulkan-deps/spirv-headers/src"
-angle_spirv_tools_dir = "//flutter/third_party/vulkan-deps/spirv-tools/src"
-angle_spirv_cross_dir = "//flutter/third_party/vulkan-deps/spirv-cross/src"
-angle_spirv_headers_dir = "//flutter/third_party/vulkan-deps/spirv-headers/src"
+angle_libpng_dir = "//third_party/libpng"
+angle_spirv_headers_dir = "//third_party/vulkan-deps/spirv-headers/src"
+angle_spirv_tools_dir = "//third_party/vulkan-deps/spirv-tools/src"
+angle_spirv_cross_dir = "//third_party/vulkan-deps/spirv-cross/src"
+angle_spirv_headers_dir = "//third_party/vulkan-deps/spirv-headers/src"
 angle_vulkan_memory_allocator_dir =
-    "//flutter/third_party/vulkan_memory_allocator"
+    "//third_party/vulkan_memory_allocator"
 
 # This is a general Chromium flag, but in the Flutter build only ANGLE needs it
 # so it is defined here.

@@ -3,8 +3,8 @@
 # found in the LICENSE file.
 
 import("//build/compiled_action.gni")
-import("//flutter/common/fuchsia_config.gni")
-import("//flutter/tools/fuchsia/dart_kernel.gni")
+import("//common/fuchsia_config.gni")
+import("//engine_tools/fuchsia/dart_kernel.gni")
 import("$dart_src/build/dart/dart_action.gni")
 
 dart_kernel("shim_kernel") {

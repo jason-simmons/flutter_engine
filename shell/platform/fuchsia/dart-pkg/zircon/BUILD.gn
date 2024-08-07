@@ -2,11 +2,11 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/testing/testing.gni")
-import("//flutter/tools/fuchsia/dart/dart_library.gni")
-import("//flutter/tools/fuchsia/flutter/flutter_component.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/package.gni")
+import("//testing/testing.gni")
+import("//engine_tools/fuchsia/dart/dart_library.gni")
+import("//engine_tools/fuchsia/flutter/flutter_component.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/package.gni")
 
 config("zircon_config") {
   include_dirs = [ "." ]
@@ -35,8 +35,8 @@ source_set("zircon") {
     "${fuchsia_sdk}/pkg/async-loop-cpp",
     "${fuchsia_sdk}/pkg/fdio",
     "${fuchsia_sdk}/pkg/zx",
-    "//flutter/fml",
-    "//flutter/third_party/tonic",
+    "//fml",
+    "//third_party/tonic",
   ]
 }
 
@@ -65,7 +65,7 @@ dart_library("zircon_tests_lib") {
   package_root = "test"
 
   sources = [ "zircon_tests.dart" ]
-  deps = [ "//flutter/shell/platform/fuchsia/dart:litetest" ]
+  deps = [ "//shell/platform/fuchsia/dart:litetest" ]
 }
 
 flutter_component("zircon_tests_component") {

@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/impeller/tools/impeller.gni")
+import("//impeller/tools/impeller.gni")
 
 if (impeller_enable_compute) {
   impeller_shaders("compute_shaders") {
@@ -93,7 +93,7 @@ impeller_component("renderer") {
     public_deps += [ ":compute_shaders" ]
   }
 
-  deps = [ "//flutter/fml" ]
+  deps = [ "//fml" ]
 }
 
 impeller_component("renderer_unittests") {
@@ -113,7 +113,7 @@ impeller_component("renderer_unittests") {
     "../fixtures",
     "../playground:playground_test",
     "../tessellator:tessellator_libtess",
-    "//flutter/testing:testing_lib",
+    "//testing:testing_lib",
   ]
 
   if (impeller_enable_compute) {
@@ -133,10 +133,10 @@ impeller_component("renderer_dart_unittests") {
     "../fixtures:flutter_gpu_fixtures",
     "../fixtures:flutter_gpu_shaders",
     "../playground:playground_test",
-    "//flutter/lib/gpu",
-    "//flutter/lib/snapshot",
-    "//flutter/runtime:runtime",
-    "//flutter/testing:fixture_test",
-    "//flutter/testing:testing",
+    "//lib/gpu",
+    "//lib/snapshot",
+    "//runtime:runtime",
+    "//testing:fixture_test",
+    "//testing:testing",
   ]
 }

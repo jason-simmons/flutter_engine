@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/third_party/glfw/glfw_args.gni")
+import("//third_party/glfw/glfw_args.gni")
 import("tools/impeller.gni")
 
 config("impeller_public_config") {
@@ -87,17 +87,17 @@ impeller_component("impeller_unittests") {
   }
 
   if (impeller_enable_vulkan) {
-    deps += [ "//flutter/impeller/renderer/backend/vulkan:vulkan_unittests" ]
+    deps += [ "//impeller/renderer/backend/vulkan:vulkan_unittests" ]
   }
 
   if (impeller_enable_opengles) {
-    deps += [ "//flutter/impeller/renderer/backend/gles:gles_unittests" ]
+    deps += [ "//impeller/renderer/backend/gles:gles_unittests" ]
   }
 
   if (glfw_vulkan_library != "") {
     deps += [
-      "//flutter/third_party/swiftshader",
-      "//flutter/third_party/vulkan-deps/vulkan-loader/src:libvulkan",
+      "//third_party/swiftshader",
+      "//third_party/vulkan-deps/vulkan-loader/src:libvulkan",
       "//third_party/vulkan_validation_layers",
       "//third_party/vulkan_validation_layers:vulkan_gen_json_files",
     ]

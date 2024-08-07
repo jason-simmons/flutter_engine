@@ -140,8 +140,8 @@ if (host_os == "win" && host_cpu == "x86") {
 _target_prebuilt_config = "$_target_os_name-$target_cpu"
 _host_prebuilt_config = "$_host_os_name-$_host_cpu"
 
-target_prebuilts_path = "//flutter/prebuilts/$_target_prebuilt_config"
-host_prebuilts_path = "//flutter/prebuilts/$_host_prebuilt_config"
+target_prebuilts_path = "//prebuilts/$_target_prebuilt_config"
+host_prebuilts_path = "//prebuilts/$_host_prebuilt_config"
 
 if (flutter_prebuilt_dart_sdk) {
   target_prebuilt_dart_sdk = "$target_prebuilts_path/dart-sdk"
@@ -165,7 +165,7 @@ if (flutter_prebuilt_dart_sdk) {
 #
 # !is_android is necessary because of the way that Android 32-bit arm
 # gen_snapshot is built on Windows using the host toolchain, since we have no
-# 32-bit arm toolchain for Windows. See comments in //flutter/tools/gn for
+# 32-bit arm toolchain for Windows. See comments in //engine_tools/gn for
 # details.
 #
 # TODO: We can't build the engine artifacts for arm (32-bit) right now;

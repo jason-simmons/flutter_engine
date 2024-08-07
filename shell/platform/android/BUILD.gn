@@ -4,14 +4,14 @@
 
 import("//build/config/android/config.gni")
 import("//build/toolchain/clang.gni")
-import("//flutter/build/bin_to_obj.gni")
-import("//flutter/build/zip_bundle.gni")
-import("//flutter/common/config.gni")
-import("//flutter/impeller/tools/impeller.gni")
-import("//flutter/shell/config.gni")
-import("//flutter/shell/gpu/gpu.gni")
-import("//flutter/shell/version/version.gni")
-import("//flutter/vulkan/config.gni")
+import("//engine_build/bin_to_obj.gni")
+import("//engine_build/zip_bundle.gni")
+import("//common/config.gni")
+import("//impeller/tools/impeller.gni")
+import("//shell/config.gni")
+import("//shell/gpu/gpu.gni")
+import("//shell/version/version.gni")
+import("//vulkan/config.gni")
 
 shell_gpu_configuration("android_gpu_configuration") {
   enable_software = true
@@ -27,9 +27,9 @@ source_set("image_generator") {
   ]
 
   deps = [
-    "//flutter/fml",
-    "//flutter/lib/ui:ui",
-    "//flutter/skia",
+    "//fml",
+    "//lib/ui:ui",
+    "//skia",
   ]
 
   libs = [
@@ -53,10 +53,10 @@ executable("flutter_shell_native_unittests") {
   public_configs = [ "//flutter:config" ]
   deps = [
     ":flutter_shell_native_src",
-    "//flutter/fml",
-    "//flutter/shell/platform/android/jni:jni_mock",
-    "//flutter/third_party/googletest:gmock",
-    "//flutter/third_party/googletest:gtest",
+    "//fml",
+    "//shell/platform/android/jni:jni_mock",
+    "//third_party/googletest:gmock",
+    "//third_party/googletest:gtest",
   ]
 }
 
@@ -70,7 +70,7 @@ shared_library("flutter_shell_native") {
 
 bin_to_assembly("icudtl_asm") {
   deps = []
-  input = "//flutter/third_party/icu/flutter/icudtl.dat"
+  input = "//third_party/icu/flutter/icudtl.dat"
   symbol = "_binary_icudtl_dat_start"
   size_symbol = "_binary_icudtl_dat_size"
   executable = false
@@ -145,29 +145,29 @@ source_set("flutter_shell_native_src") {
     ":android_gpu_configuration",
     ":icudtl_asm",
     ":image_generator",
-    "//flutter/assets",
-    "//flutter/common",
-    "//flutter/common/graphics",
-    "//flutter/flow",
-    "//flutter/fml",
-    "//flutter/impeller",
-    "//flutter/impeller/toolkit/android",
-    "//flutter/impeller/toolkit/egl",
-    "//flutter/impeller/toolkit/gles",
-    "//flutter/impeller/toolkit/glvk",
-    "//flutter/lib/ui",
-    "//flutter/runtime",
-    "//flutter/runtime:libdart",
-    "//flutter/shell/common",
-    "//flutter/shell/platform/android/context",
-    "//flutter/shell/platform/android/external_view_embedder",
-    "//flutter/shell/platform/android/jni",
-    "//flutter/shell/platform/android/platform_view_android_delegate",
-    "//flutter/shell/platform/android/surface",
-    "//flutter/shell/platform/android/surface:native_window",
-    "//flutter/skia",
-    "//flutter/third_party/txt",
-    "//flutter/vulkan",
+    "//assets",
+    "//common",
+    "//common/graphics",
+    "//flow",
+    "//fml",
+    "//impeller",
+    "//impeller/toolkit/android",
+    "//impeller/toolkit/egl",
+    "//impeller/toolkit/gles",
+    "//impeller/toolkit/glvk",
+    "//lib/ui",
+    "//runtime",
+    "//runtime:libdart",
+    "//shell/common",
+    "//shell/platform/android/context",
+    "//shell/platform/android/external_view_embedder",
+    "//shell/platform/android/jni",
+    "//shell/platform/android/platform_view_android_delegate",
+    "//shell/platform/android/surface",
+    "//shell/platform/android/surface:native_window",
+    "//skia",
+    "//third_party/txt",
+    "//vulkan",
   ]
 
   public_configs = [ "//flutter:config" ]
@@ -182,7 +182,7 @@ source_set("flutter_shell_native_src") {
 }
 
 action("gen_android_build_config_java") {
-  script = "//flutter/tools/gen_android_buildconfig.py"
+  script = "//engine_tools/gen_android_buildconfig.py"
 
   build_config_java = "$target_gen_dir/io/flutter/BuildConfig.java"
 
@@ -362,41 +362,41 @@ android_java_sources = [
 ]
 
 embedding_dependencies_jars = [
-  "//flutter/third_party/android_embedding_dependencies/lib/activity-1.8.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/annotation-jvm-1.8.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/annotation-experimental-1.4.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/annotations-23.0.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/collection-1.1.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/core-1.13.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/core-1.10.3.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/core-common-2.2.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/core-runtime-2.2.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/customview-1.0.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/fragment-1.7.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/kotlin-stdlib-1.8.22.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/kotlin-stdlib-common-1.8.22.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/kotlin-stdlib-jdk7-1.8.20.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/kotlin-stdlib-jdk8-1.8.20.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/kotlinx-coroutines-android-1.7.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/kotlinx-coroutines-core-jvm-1.7.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-common-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-common-java8-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-livedata-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-livedata-core-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-process-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-runtime-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/lifecycle-viewmodel-2.7.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/loader-1.0.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/savedstate-1.2.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/tracing-1.2.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/versionedparcelable-1.1.1.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/viewpager-1.0.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/window-1.2.0.jar",
-  "//flutter/third_party/android_embedding_dependencies/lib/window-java-1.2.0.jar",
+  "//third_party/android_embedding_dependencies/lib/activity-1.8.1.jar",
+  "//third_party/android_embedding_dependencies/lib/annotation-jvm-1.8.0.jar",
+  "//third_party/android_embedding_dependencies/lib/annotation-experimental-1.4.0.jar",
+  "//third_party/android_embedding_dependencies/lib/annotations-23.0.0.jar",
+  "//third_party/android_embedding_dependencies/lib/collection-1.1.0.jar",
+  "//third_party/android_embedding_dependencies/lib/core-1.13.1.jar",
+  "//third_party/android_embedding_dependencies/lib/core-1.10.3.jar",
+  "//third_party/android_embedding_dependencies/lib/core-common-2.2.0.jar",
+  "//third_party/android_embedding_dependencies/lib/core-runtime-2.2.0.jar",
+  "//third_party/android_embedding_dependencies/lib/customview-1.0.0.jar",
+  "//third_party/android_embedding_dependencies/lib/fragment-1.7.1.jar",
+  "//third_party/android_embedding_dependencies/lib/kotlin-stdlib-1.8.22.jar",
+  "//third_party/android_embedding_dependencies/lib/kotlin-stdlib-common-1.8.22.jar",
+  "//third_party/android_embedding_dependencies/lib/kotlin-stdlib-jdk7-1.8.20.jar",
+  "//third_party/android_embedding_dependencies/lib/kotlin-stdlib-jdk8-1.8.20.jar",
+  "//third_party/android_embedding_dependencies/lib/kotlinx-coroutines-android-1.7.1.jar",
+  "//third_party/android_embedding_dependencies/lib/kotlinx-coroutines-core-jvm-1.7.1.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-common-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-common-java8-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-livedata-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-livedata-core-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-process-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-runtime-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/lifecycle-viewmodel-2.7.0.jar",
+  "//third_party/android_embedding_dependencies/lib/loader-1.0.0.jar",
+  "//third_party/android_embedding_dependencies/lib/savedstate-1.2.1.jar",
+  "//third_party/android_embedding_dependencies/lib/tracing-1.2.0.jar",
+  "//third_party/android_embedding_dependencies/lib/versionedparcelable-1.1.1.jar",
+  "//third_party/android_embedding_dependencies/lib/viewpager-1.0.0.jar",
+  "//third_party/android_embedding_dependencies/lib/window-1.2.0.jar",
+  "//third_party/android_embedding_dependencies/lib/window-java-1.2.0.jar",
 ]
 
 action("check_imports") {
-  script = "//flutter/tools/android_illegal_imports.py"
+  script = "//engine_tools/android_illegal_imports.py"
 
   sources = android_java_sources
 
@@ -451,15 +451,15 @@ action("flutter_shell_java") {
 
   if (host_os == "mac") {
     _javacbin = rebase_path(
-            "//flutter/third_party/java/openjdk/Contents/Home/bin/javac")
+            "//third_party/java/openjdk/Contents/Home/bin/javac")
     _jarbin =
-        rebase_path("//flutter/third_party/java/openjdk/Contents/Home/bin/jar")
+        rebase_path("//third_party/java/openjdk/Contents/Home/bin/jar")
   } else if (host_os == "win") {
-    _javacbin = rebase_path("//flutter/third_party/java/openjdk/bin/javac.exe")
-    _jarbin = rebase_path("//flutter/third_party/java/openjdk/bin/jar.exe")
+    _javacbin = rebase_path("//third_party/java/openjdk/bin/javac.exe")
+    _jarbin = rebase_path("//third_party/java/openjdk/bin/jar.exe")
   } else {
-    _javacbin = rebase_path("//flutter/third_party/java/openjdk/bin/javac")
-    _jarbin = rebase_path("//flutter/third_party/java/openjdk/bin/jar")
+    _javacbin = rebase_path("//third_party/java/openjdk/bin/javac")
+    _jarbin = rebase_path("//third_party/java/openjdk/bin/jar")
   }
 
   args = [
@@ -558,7 +558,7 @@ action("android_jar") {
   }
 
   if (flutter_runtime_mode == "profile") {
-    deps += [ "//flutter/shell/vmservice:vmservice_snapshot" ]
+    deps += [ "//shell/vmservice:vmservice_snapshot" ]
     args += [
       "--native_lib",
       rebase_path(
@@ -570,9 +570,9 @@ action("android_jar") {
 }
 
 action("pom_libflutter") {
-  script = "//flutter/tools/androidx/generate_pom_file.py"
+  script = "//engine_tools/androidx/generate_pom_file.py"
 
-  inputs = [ "//flutter/tools/androidx/files.json" ]
+  inputs = [ "//engine_tools/androidx/files.json" ]
 
   artifact_id =
       string_replace(android_app_abi, "-", "_") + "_" + flutter_runtime_mode
@@ -593,9 +593,9 @@ action("pom_libflutter") {
 }
 
 action("pom_embedding") {
-  script = "//flutter/tools/androidx/generate_pom_file.py"
+  script = "//engine_tools/androidx/generate_pom_file.py"
 
-  inputs = [ "//flutter/tools/androidx/files.json" ]
+  inputs = [ "//engine_tools/androidx/files.json" ]
 
   artifact_id = "flutter_embedding_$flutter_runtime_mode"
 
@@ -646,7 +646,7 @@ zip_bundle("flutter_jar_zip") {
 }
 
 action("gen_android_javadoc") {
-  script = "//flutter/tools/javadoc/gen_javadoc.py"
+  script = "//engine_tools/javadoc/gen_javadoc.py"
   sources = android_java_sources + embedding_dependencies_jars
 
   outputs = [ "$target_gen_dir/javadocs" ]
@@ -838,7 +838,7 @@ group("android") {
 # Renames embedding android artifacts and places them in the final
 # expected folder structure.
 action("embedding_jars") {
-  script = "//flutter/build/android_artifacts.py"
+  script = "//engine_build/android_artifacts.py"
 
   deps = [
     ":flutter_shell_java",
@@ -883,7 +883,7 @@ action("embedding_jars") {
 # Renames android artifacts and places them in the final
 # expected folder structure.
 action("abi_jars") {
-  script = "//flutter/build/android_artifacts.py"
+  script = "//engine_build/android_artifacts.py"
   deps = [
     ":android_jar",
     ":pom_libflutter",

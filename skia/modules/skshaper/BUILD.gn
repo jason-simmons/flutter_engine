@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-_skia_root = "//flutter/third_party/skia"
+_skia_root = "//third_party/skia"
 
 import("$_skia_root/gn/skia.gni")
 import("$_skia_root/modules/skshaper/skshaper.gni")
@@ -51,7 +51,7 @@ if (skia_enable_skshaper) {
       sources += skia_shaper_harfbuzz_sources
       deps += [
         "../skunicode",
-        "//flutter/third_party/harfbuzz",
+        "//third_party/harfbuzz",
       ]
     }
     configs += [ "../../:skia_private" ]

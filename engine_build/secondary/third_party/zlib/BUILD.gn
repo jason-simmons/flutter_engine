@@ -3,7 +3,7 @@
 # found in the LICENSE file.
 
 group("zlib") {
-  public_deps = [ "//flutter/third_party/zlib" ]
+  public_deps = [ "//third_party/zlib" ]
 
   # Add the third_party root directory to the include path to support Dart
   # sources that include zlib headers using "zlib/zlib.h"
@@ -11,9 +11,9 @@ group("zlib") {
 }
 
 config("zlib_config") {
-  configs = [ "//flutter/third_party/zlib:zlib_config" ]
+  configs = [ "//third_party/zlib:zlib_config" ]
 }
 
 config("include_third_party") {
-  include_dirs = [ "//flutter/third_party" ]
+  include_dirs = [ "//third_party" ]
 }

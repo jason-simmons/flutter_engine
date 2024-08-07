@@ -68,8 +68,8 @@ wasm_lib("skwasm") {
   }
 
   deps = [
-    "//flutter/skia",
-    "//flutter/skia/modules/skparagraph",
-    "//flutter/skia/modules/skunicode",
+    "//skia",
+    "//skia/modules/skparagraph",
+    "//skia/modules/skunicode",
   ]
 }

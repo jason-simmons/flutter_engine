@@ -3,14 +3,14 @@
 # found in the LICENSE file.
 
 import("//build/compiled_action.gni")
-import("//flutter/build/bin_to_obj.gni")
-import("//flutter/common/config.gni")
-import("//flutter/impeller/tools/impeller.gni")
-import("//flutter/lib/ui/dart_ui.gni")
+import("//engine_build/bin_to_obj.gni")
+import("//common/config.gni")
+import("//impeller/tools/impeller.gni")
+import("//lib/ui/dart_ui.gni")
 import("$dart_src/utils/compile_platform.gni")
 
 if (is_fuchsia) {
-  import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+  import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 }
 
 # Generates the Dart/Flutter core platform files and tools.
@@ -219,7 +219,7 @@ if (host_os == "mac" && (target_os == "mac" || target_os == "ios")) {
   }
 
   action("create_macos_gen_snapshots") {
-    script = "//flutter/sky/tools/create_macos_binary.py"
+    script = "//sky/tools/create_macos_binary.py"
     outputs = [ "${root_out_dir}/gen_snapshot_${target_cpu}" ]
     args = [
       "--in-arm64",
@@ -258,10 +258,10 @@ compile_platform("strong_platform") {
   single_root_base = rebase_path("../../../")
   if (impeller_enable_3d) {
     libraries_specification_uri =
-        "org-dartlang-sdk:///flutter/lib/snapshot/libraries_experimental.json"
+        "org-dartlang-sdk:///lib/snapshot/libraries_experimental.json"
   } else {
     libraries_specification_uri =
-        "org-dartlang-sdk:///flutter/lib/snapshot/libraries.json"
+        "org-dartlang-sdk:///lib/snapshot/libraries.json"
   }
 
   outputs = [

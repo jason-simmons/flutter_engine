@@ -3,10 +3,10 @@
 # found in the LICENSE file.
 
 config("compression_utils_config") {
-  include_dirs = [ "//flutter/third_party/zlib/google" ]
+  include_dirs = [ "//third_party/zlib/google" ]
 }
 
 group("compression_utils_portable") {
-  public_deps = [ "//flutter/third_party/zlib/google:compression_utils_portable" ]
+  public_deps = [ "//third_party/zlib/google:compression_utils_portable" ]
   public_configs = [ ":compression_utils_config" ]
 }

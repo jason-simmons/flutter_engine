@@ -4,7 +4,7 @@
 
 assert(is_fuchsia)
 
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
 group("integration") {
   testonly = true

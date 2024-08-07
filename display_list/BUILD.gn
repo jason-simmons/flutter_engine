@@ -2,12 +2,12 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/common/config.gni")
-import("//flutter/impeller/tools/impeller.gni")
-import("//flutter/testing/testing.gni")
+import("//common/config.gni")
+import("//impeller/tools/impeller.gni")
+import("//testing/testing.gni")
 
 if (is_fuchsia) {
-  import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+  import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 }
 
 config("display_list_config") {
@@ -87,10 +87,10 @@ source_set("display_list") {
   public_configs = [ ":display_list_config" ]
 
   public_deps = [
-    "//flutter/fml",
-    "//flutter/impeller/runtime_stage",
-    "//flutter/impeller/typographer",
-    "//flutter/skia",
+    "//fml",
+    "//impeller/runtime_stage",
+    "//impeller/typographer",
+    "//skia",
   ]
 
   if (!defined(defines)) {
@@ -100,7 +100,7 @@ source_set("display_list") {
 
 test_fixtures("display_list_fixtures") {
   fixtures =
-      [ "//flutter/third_party/txt/third_party/fonts/Roboto-Regular.ttf" ]
+      [ "//third_party/txt/third_party/fonts/Roboto-Regular.ttf" ]
 }
 
 if (enable_unittests) {
@@ -129,10 +129,10 @@ if (enable_unittests) {
     deps = [
       ":display_list",
       ":display_list_fixtures",
-      "//flutter/display_list/testing:display_list_testing",
-      "//flutter/impeller/typographer/backends/skia:typographer_skia_backend",
-      "//flutter/testing",
-      "//flutter/testing:skia",
+      "//display_list/testing:display_list_testing",
+      "//impeller/typographer/backends/skia:typographer_skia_backend",
+      "//testing",
+      "//testing:skia",
     ]
 
     if (!defined(defines)) {
@@ -143,7 +143,7 @@ if (enable_unittests) {
       defines += [ "_USE_MATH_DEFINES" ]
     }
 
-    # This is needed for //flutter/third_party/googletest for linking zircon
+    # This is needed for //third_party/googletest for linking zircon
     # symbols.
     if (is_fuchsia) {
       libs = [ "${fuchsia_arch_root}/sysroot/lib/libzircon.so" ]
@@ -158,12 +158,12 @@ if (enable_unittests) {
     deps = [
       ":display_list",
       ":display_list_fixtures",
-      "//flutter/common/graphics",
-      "//flutter/display_list/testing:display_list_surface_provider",
-      "//flutter/display_list/testing:display_list_testing",
-      "//flutter/impeller/typographer/backends/skia:typographer_skia_backend",
-      "//flutter/testing",
-      "//flutter/third_party/txt",
+      "//common/graphics",
+      "//display_list/testing:display_list_surface_provider",
+      "//display_list/testing:display_list_testing",
+      "//impeller/typographer/backends/skia:typographer_skia_backend",
+      "//testing",
+      "//third_party/txt",
     ]
 
     if (!defined(defines)) {
@@ -174,7 +174,7 @@ if (enable_unittests) {
       defines += [ "_USE_MATH_DEFINES" ]
     }
 
-    # This is needed for //flutter/third_party/googletest for linking zircon
+    # This is needed for //third_party/googletest for linking zircon
     # symbols.
     if (is_fuchsia) {
       libs = [ "${fuchsia_arch_root}/sysroot/lib/libzircon.so" ]
@@ -189,9 +189,9 @@ if (enable_unittests) {
     deps = [
       ":display_list",
       ":display_list_fixtures",
-      "//flutter/benchmarking",
-      "//flutter/display_list/testing:display_list_testing",
-      "//flutter/testing:testing_lib",
+      "//benchmarking",
+      "//display_list/testing:display_list_testing",
+      "//testing:testing_lib",
     ]
   }
 
@@ -202,8 +202,8 @@ if (enable_unittests) {
 
     deps = [
       ":display_list_fixtures",
-      "//flutter/benchmarking",
-      "//flutter/testing:testing_lib",
+      "//benchmarking",
+      "//testing:testing_lib",
     ]
   }
 
@@ -214,8 +214,8 @@ if (enable_unittests) {
 
     deps = [
       ":display_list_fixtures",
-      "//flutter/benchmarking",
-      "//flutter/testing:testing_lib",
+      "//benchmarking",
+      "//testing:testing_lib",
     ]
   }
 }
@@ -232,14 +232,14 @@ source_set("display_list_benchmarks_source") {
     ":display_list",
     ":display_list_fixtures",
     "$dart_src/runtime:libdart_jit",  # for tracing
-    "//flutter/benchmarking",
-    "//flutter/common/graphics",
-    "//flutter/display_list/testing:display_list_surface_provider",
-    "//flutter/display_list/testing:display_list_testing",
-    "//flutter/fml",
-    "//flutter/skia",
-    "//flutter/testing:skia",
-    "//flutter/testing:testing_lib",
+    "//benchmarking",
+    "//common/graphics",
+    "//display_list/testing:display_list_surface_provider",
+    "//display_list/testing:display_list_testing",
+    "//fml",
+    "//skia",
+    "//testing:skia",
+    "//testing:testing_lib",
   ]
 }
 
@@ -258,7 +258,7 @@ if (is_ios) {
       "//build/config/gcc:symbol_visibility_hidden",
       "//build/config:symbol_visibility_hidden",
     ]
-    configs += [ "//flutter/benchmarking:benchmark_library_config" ]
+    configs += [ "//benchmarking:benchmark_library_config" ]
     cflags = [
       "-fobjc-arc",
       "-mios-simulator-version-min=$ios_testing_deployment_target",
@@ -267,7 +267,7 @@ if (is_ios) {
         [ "-Wl,-install_name,@rpath/libios_display_list_benchmarks.dylib" ]
     deps = [
       ":display_list_benchmarks_source",
-      "//flutter/benchmarking:benchmarking_library",
+      "//benchmarking:benchmarking_library",
     ]
   }
 }

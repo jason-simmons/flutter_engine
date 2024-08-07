@@ -14,8 +14,8 @@ source_set("native_activity") {
   ]
 
   public_deps = [
-    "//flutter/fml",
-    "//flutter/impeller/toolkit/android",
+    "//fml",
+    "//impeller/toolkit/android",
   ]
 
   libs = [
@@ -36,6 +36,6 @@ source_set("gtest_activity") {
 
   public_deps = [
     ":native_activity",
-    "//flutter/testing:testing_lib",
+    "//testing:testing_lib",
   ]
 }

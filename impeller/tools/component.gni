@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/common/config.gni")
-import("//flutter/testing/testing.gni")
+import("//common/config.gni")
+import("//testing/testing.gni")
 
 # ------------------------------------------------------------------------------
 # @brief           Define an Impeller component. Components are different
@@ -31,7 +31,7 @@ template("impeller_component") {
         public_configs = []
       }
 
-      public_configs += [ "//flutter/impeller:impeller_public_config" ]
+      public_configs += [ "//impeller:impeller_public_config" ]
 
       if (!defined(invoker.cflags)) {
         cflags = []

@@ -4,6 +4,6 @@
 
 source_set("cpu-features") {
   public_configs =
-      [ "//flutter/third_party/android_tools:cpu_features_include" ]
-  deps = [ "//flutter/third_party/android_tools:cpu_features" ]
+      [ "//third_party/android_tools:cpu_features_include" ]
+  deps = [ "//third_party/android_tools:cpu_features" ]
 }

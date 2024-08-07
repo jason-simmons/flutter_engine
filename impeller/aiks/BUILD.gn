@@ -36,7 +36,7 @@ impeller_component("aiks") {
     "../geometry",
   ]
 
-  deps = [ "//flutter/fml" ]
+  deps = [ "//fml" ]
 }
 
 impeller_component("aiks_playground") {
@@ -49,11 +49,11 @@ impeller_component("aiks_playground") {
   deps = [
     ":aiks",
     "../playground:playground_test",
-    "//flutter/display_list",
-    "//flutter/impeller/display_list:display_list",
+    "//display_list",
+    "//impeller/display_list:display_list",
   ]
   public_deps = [
-    "//flutter/impeller/typographer/backends/skia:typographer_skia_backend",
+    "//impeller/typographer/backends/skia:typographer_skia_backend",
   ]
 }
 
@@ -66,9 +66,9 @@ impeller_component("context_spy") {
     "testing/context_spy.h",
   ]
   deps = [
-    "//flutter/impeller/entity:entity_test_helpers",
-    "//flutter/impeller/renderer",
-    "//flutter/testing:testing_lib",
+    "//impeller/entity:entity_test_helpers",
+    "//impeller/renderer",
+    "//testing:testing_lib",
   ]
 }
 
@@ -99,13 +99,13 @@ template("aiks_unittests_component") {
       ":aiks",
       ":aiks_playground",
       ":context_spy",
-      "//flutter/impeller/geometry:geometry_asserts",
-      "//flutter/impeller/golden_tests:golden_playground_test",
-      "//flutter/impeller/playground:playground_test",
-      "//flutter/impeller/scene",
-      "//flutter/impeller/typographer/backends/stb:typographer_stb_backend",
-      "//flutter/testing:testing_lib",
-      "//flutter/third_party/txt",
+      "//impeller/geometry:geometry_asserts",
+      "//impeller/golden_tests:golden_playground_test",
+      "//impeller/playground:playground_test",
+      "//impeller/scene",
+      "//impeller/typographer/backends/stb:typographer_stb_backend",
+      "//testing:testing_lib",
+      "//third_party/txt",
     ]
     if (defined(invoker.public_configs)) {
       public_configs = invoker.public_configs
@@ -129,6 +129,6 @@ executable("canvas_benchmarks") {
   sources = [ "canvas_benchmarks.cc" ]
   deps = [
     ":aiks",
-    "//flutter/benchmarking",
+    "//benchmarking",
   ]
 }

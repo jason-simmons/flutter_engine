@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/common/config.gni")
-import("//flutter/testing/testing.gni")
+import("//common/config.gni")
+import("//testing/testing.gni")
 
 source_set("test_font") {
   sources = [
@@ -11,8 +11,8 @@ source_set("test_font") {
     "test_font_data.h",
   ]
   deps = [
-    "//flutter/skia",
-    "//flutter/third_party/txt",
+    "//skia",
+    "//third_party/txt",
   ]
   public_configs = [ "//flutter:config" ]
   defines = []
@@ -33,7 +33,7 @@ group("libdart") {
   } else {
     public_deps += [
       "$dart_src/runtime:libdart_jit",
-      "//flutter/lib/snapshot",
+      "//lib/snapshot",
     ]
   }
 }
@@ -45,8 +45,8 @@ source_set("dart_plugin_registrant") {
   ]
   deps = [
     "$dart_src/runtime:dart_api",
-    "//flutter/fml",
-    "//flutter/third_party/tonic",
+    "//fml",
+    "//third_party/tonic",
   ]
 }
 
@@ -95,9 +95,9 @@ source_set("runtime") {
   }
 
   public_deps = [
-    "//flutter/lib/gpu",
-    "//flutter/lib/ui",
-    "//flutter/third_party/rapidjson",
+    "//lib/gpu",
+    "//lib/ui",
+    "//third_party/rapidjson",
   ]
 
   public_configs = [ "//flutter:config" ]
@@ -108,15 +108,15 @@ source_set("runtime") {
     "$dart_src/runtime:dart_api",
     "$dart_src/runtime/bin:dart_io_api",
     "$dart_src/runtime/bin:native_assets_api",
-    "//flutter/assets",
-    "//flutter/common",
-    "//flutter/flow",
-    "//flutter/fml",
-    "//flutter/lib/io",
-    "//flutter/shell/common:display",
-    "//flutter/skia",
-    "//flutter/third_party/tonic",
-    "//flutter/third_party/txt",
+    "//assets",
+    "//common",
+    "//flow",
+    "//fml",
+    "//lib/io",
+    "//shell/common:display",
+    "//skia",
+    "//third_party/tonic",
+    "//third_party/txt",
   ]
 
   if (flutter_runtime_mode != "release" && !is_fuchsia) {
@@ -150,14 +150,14 @@ if (enable_unittests) {
       ":runtime",
       ":runtime_fixtures",
       "$dart_src/runtime/bin:elf_loader",
-      "//flutter/common",
-      "//flutter/fml",
-      "//flutter/lib/snapshot",
-      "//flutter/skia",
-      "//flutter/testing",
-      "//flutter/testing:dart",
-      "//flutter/testing:fixture_test",
-      "//flutter/third_party/tonic",
+      "//common",
+      "//fml",
+      "//lib/snapshot",
+      "//skia",
+      "//testing",
+      "//testing:dart",
+      "//testing:fixture_test",
+      "//third_party/tonic",
     ]
   }
 
@@ -175,10 +175,10 @@ if (enable_unittests) {
 
     public_deps = [
       ":no_plugin_registrant",
-      "//flutter/fml",
-      "//flutter/lib/snapshot",
-      "//flutter/testing",
-      "//flutter/testing:fixture_test",
+      "//fml",
+      "//lib/snapshot",
+      "//testing",
+      "//testing:fixture_test",
     ]
   }
 
@@ -196,11 +196,11 @@ if (enable_unittests) {
 
     public_deps = [
       ":plugin_registrant",
-      "//flutter/fml",
-      "//flutter/lib/snapshot",
-      "//flutter/runtime:dart_plugin_registrant",
-      "//flutter/testing",
-      "//flutter/testing:fixture_test",
+      "//fml",
+      "//lib/snapshot",
+      "//runtime:dart_plugin_registrant",
+      "//testing",
+      "//testing:fixture_test",
     ]
   }
 }

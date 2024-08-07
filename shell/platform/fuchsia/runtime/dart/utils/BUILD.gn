@@ -4,9 +4,9 @@
 
 assert(is_fuchsia)
 
-import("//flutter/common/config.gni")
-import("//flutter/testing/testing.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//common/config.gni")
+import("//testing/testing.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
 config("utils_config") {
   include_dirs = [ "../../.." ]
@@ -48,8 +48,8 @@ template("make_utils") {
              "${fuchsia_sdk}/pkg/trace",
              "${fuchsia_sdk}/pkg/vfs_cpp",
              "${fuchsia_sdk}/pkg/zx",
-             "//flutter/fml",
-             "//flutter/third_party/tonic",
+             "//fml",
+             "//third_party/tonic",
            ]
 
     public_configs = [ ":utils_config" ]
@@ -59,13 +59,13 @@ template("make_utils") {
 action("generate_build_info_cc_file") {
   inputs = [
     "build_info_in.cc",
-    "//flutter/.git/logs/HEAD",
+    "//.git/logs/HEAD",
     "//fuchsia/sdk/$host_os/meta/manifest.json",
     "$dart_src/.git/logs/HEAD",
   ]
   outputs = [ "$target_gen_dir/build_info.cc" ]
 
-  script = "//flutter/tools/fuchsia/make_build_info.py"
+  script = "//engine_tools/fuchsia/make_build_info.py"
   args = [
     "--input",
     rebase_path("build_info_in.cc", root_build_dir),
@@ -92,7 +92,7 @@ executable("dart_utils_unittests") {
   sources = [ "build_info_unittests.cc" ]
 
   libs = [
-    # This is needed for //flutter/third_party/googletest for linking zircon
+    # This is needed for //third_party/googletest for linking zircon
     # symbols.
     "${fuchsia_arch_root}/sysroot/lib/libzircon.so",
   ]
@@ -104,7 +104,7 @@ executable("dart_utils_unittests") {
     "$dart_src/runtime/bin:dart_io_api",
     "${fuchsia_sdk}/pkg/inspect_component_cpp",
     "${fuchsia_sdk}/pkg/sys_cpp",
-    "//flutter/testing",
+    "//testing",
   ]
 }
 

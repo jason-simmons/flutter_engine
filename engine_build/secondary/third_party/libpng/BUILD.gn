@@ -3,5 +3,5 @@
 # found in the LICENSE file.
 
 group("libpng") {
-  public_deps = [ "//flutter/third_party/libpng" ]
+  public_deps = [ "//third_party/libpng" ]
 }

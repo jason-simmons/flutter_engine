@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
 config("zircon_ffi_config") {
   include_dirs = [ "." ]
@@ -28,6 +28,6 @@ shared_library("zircon_ffi") {
   deps = [
     "$dart_src/runtime:dart_api",
     "${fuchsia_sdk}/pkg/zx",
-    "//flutter/fml",
+    "//fml",
   ]
 }

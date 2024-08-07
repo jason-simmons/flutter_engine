@@ -4,7 +4,7 @@
 
 assert(is_fuchsia)
 
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
 group("fakes") {
   testonly = true
@@ -28,9 +28,9 @@ source_set("focus") {
 
   deps = [
     "${fuchsia_sdk}/pkg/sys_cpp_testing",
-    "//flutter/lib/ui",
-    "//flutter/testing",
-    "//flutter/third_party/rapidjson",
+    "//lib/ui",
+    "//testing",
+    "//third_party/rapidjson",
   ]
 }
 
@@ -41,8 +41,8 @@ source_set("pointer") {
 
   deps = [
     "${fuchsia_sdk}/pkg/sys_cpp_testing",
-    "//flutter/lib/ui",
-    "//flutter/testing",
-    "//flutter/third_party/rapidjson",
+    "//lib/ui",
+    "//testing",
+    "//third_party/rapidjson",
   ]
 }

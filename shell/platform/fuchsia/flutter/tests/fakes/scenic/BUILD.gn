@@ -4,7 +4,7 @@
 
 assert(is_fuchsia)
 
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
 source_set("scenic") {
   testonly = true
@@ -24,6 +24,6 @@ source_set("scenic") {
     "${fuchsia_sdk}/pkg/async-cpp",
     "${fuchsia_sdk}/pkg/async-testing",
     "${fuchsia_sdk}/pkg/fidl_cpp",
-    "//flutter/fml",
+    "//fml",
   ]
 }

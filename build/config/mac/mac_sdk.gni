@@ -27,7 +27,7 @@ if (mac_sdk_path == "") {
     # RBE has a restriction that paths cannot come from outside the build root.
     find_sdk_args += [
       "--symlink",
-      rebase_path("//flutter/prebuilts"),
+      rebase_path("//prebuilts"),
     ]
   }
   find_sdk_args += [

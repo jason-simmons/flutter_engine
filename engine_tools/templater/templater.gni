@@ -13,7 +13,7 @@ template("templater") {
       "The values referenced in the template must be specified. Use the --key=value format for each value.")
 
   compiled_action(target_name) {
-    tool = "//flutter/tools/templater"
+    tool = "//engine_tools/templater"
 
     inputs = [ invoker.input ]
     outputs = [ invoker.output ]

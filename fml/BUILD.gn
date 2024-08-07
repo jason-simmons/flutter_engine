@@ -2,11 +2,11 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/common/config.gni")
-import("//flutter/testing/testing.gni")
+import("//common/config.gni")
+import("//testing/testing.gni")
 
 if (is_fuchsia) {
-  import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+  import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 }
 
 source_set("fml") {
@@ -119,19 +119,19 @@ source_set("fml") {
     "$dart_src/runtime:dart_api",
 
     # These need to be in sync with the Fuchsia buildroot.
-    "//flutter/third_party/icu",
+    "//third_party/icu",
   ]
 
   if (enable_backtrace) {
     # This abseil dependency is only used by backtrace.cc.
-    deps += [ "//flutter/third_party/abseil-cpp/absl/debugging:symbolize" ]
+    deps += [ "//third_party/abseil-cpp/absl/debugging:symbolize" ]
   }
 
-  configs += [ "//flutter/third_party/icu:icu_config" ]
+  configs += [ "//third_party/icu:icu_config" ]
 
   public_configs = [
     "//flutter:config",
-    "//flutter/common:flutter_config",
+    "//common:flutter_config",
   ]
 
   libs = []
@@ -272,7 +272,7 @@ source_set("build_config") {
 
   public_configs = [
     "//flutter:config",
-    "//flutter/common:flutter_config",
+    "//common:flutter_config",
   ]
 }
 
@@ -284,7 +284,7 @@ source_set("command_line") {
 
   public_configs = [
     "//flutter:config",
-    "//flutter/common:flutter_config",
+    "//common:flutter_config",
   ]
 }
 
@@ -317,7 +317,7 @@ source_set("string_conversion") {
   public_configs = [
     ":string_conversion_config",
     "//flutter:config",
-    "//flutter/common:flutter_config",
+    "//common:flutter_config",
   ]
 }
 
@@ -332,8 +332,8 @@ if (enable_unittests) {
     sources = [ "message_loop_task_queues_benchmark.cc" ]
 
     deps = [
-      "//flutter/benchmarking",
-      "//flutter/fml",
+      "//benchmarking",
+      "//fml",
     ]
   }
 
@@ -404,10 +404,10 @@ if (enable_unittests) {
 
     deps = [
       ":fml_fixtures",
-      "//flutter/fml",
-      "//flutter/runtime",
-      "//flutter/runtime:libdart",
-      "//flutter/testing",
+      "//fml",
+      "//runtime",
+      "//runtime:libdart",
+      "//testing",
     ]
 
     if (is_fuchsia) {
@@ -416,7 +416,7 @@ if (enable_unittests) {
         "${fuchsia_sdk}/pkg/sys_component_cpp_testing",
       ]
 
-      # This is needed for //flutter/third_party/googletest for linking zircon
+      # This is needed for //third_party/googletest for linking zircon
       # symbols.
       libs = [ "${fuchsia_arch_root}/sysroot/lib/libzircon.so" ]
     }
@@ -434,8 +434,8 @@ if (enable_unittests) {
 
     deps = [
       ":fml_fixtures",
-      "//flutter/fml",
-      "//flutter/testing",
+      "//fml",
+      "//testing",
     ]
   }
 }

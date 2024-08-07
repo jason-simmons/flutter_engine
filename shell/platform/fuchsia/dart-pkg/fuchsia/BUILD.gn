@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
 config("sdk_ext_config") {
   include_dirs = [ "../.." ]
@@ -21,8 +21,8 @@ source_set("sdk_ext") {
   deps = [
     "${fuchsia_sdk}/pkg/async-cpp",
     "../zircon",
-    "//flutter/fml",
-    "//flutter/third_party/tonic",
+    "//fml",
+    "//third_party/tonic",
   ]
 
   public_deps = [ "${fuchsia_sdk}/pkg/zx" ]

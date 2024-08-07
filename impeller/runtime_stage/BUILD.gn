@@ -2,11 +2,11 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/third_party/flatbuffers/flatbuffers.gni")
+import("//third_party/flatbuffers/flatbuffers.gni")
 import("../tools/impeller.gni")
 
 config("runtime_stage_config") {
-  configs = [ "//flutter/impeller:impeller_public_config" ]
+  configs = [ "//impeller:impeller_public_config" ]
   include_dirs = [
     "$root_gen_dir/flutter",
     "$root_gen_dir/flutter/impeller/runtime_stage",
@@ -16,7 +16,7 @@ config("runtime_stage_config") {
 flatbuffers("runtime_stage_types_flatbuffers") {
   flatbuffers = [ "runtime_stage_types.fbs" ]
   public_configs = [ ":runtime_stage_config" ]
-  public_deps = [ "//flutter/third_party/flatbuffers" ]
+  public_deps = [ "//third_party/flatbuffers" ]
 }
 
 flatbuffers("runtime_stage_flatbuffers") {
@@ -24,7 +24,7 @@ flatbuffers("runtime_stage_flatbuffers") {
   public_configs = [ ":runtime_stage_config" ]
   public_deps = [
     ":runtime_stage_types_flatbuffers",
-    "//flutter/third_party/flatbuffers",
+    "//third_party/flatbuffers",
   ]
 }
 
@@ -37,7 +37,7 @@ impeller_component("runtime_stage") {
     ":runtime_stage_flatbuffers",
     "../base",
     "../core",
-    "//flutter/fml",
+    "//fml",
   ]
 }
 
@@ -52,6 +52,6 @@ impeller_component("runtime_stage_unittests") {
   deps = [
     ":runtime_stage",
     "../playground:playground_test",
-    "//flutter/testing",
+    "//testing",
   ]
 }

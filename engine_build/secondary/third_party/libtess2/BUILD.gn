@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-source_root = "//flutter/third_party/libtess2"
+source_root = "//third_party/libtess2"
 
 source_set("libtess2") {
   public = [ "$source_root/Include/tesselator.h" ]

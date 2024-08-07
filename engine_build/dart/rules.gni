@@ -6,8 +6,8 @@
 
 import("//build/compiled_action.gni")
 import("//build/module_args/dart.gni")
-import("//flutter/build/dart/dart.gni")
-import("//flutter/common/config.gni")
+import("//engine_build/dart/dart.gni")
+import("//common/config.gni")
 
 import("$dart_src/build/dart/dart_action.gni")
 import("$dart_src/sdk_args.gni")
@@ -38,7 +38,7 @@ template("flutter_frontend_server") {
 
   kernel_output = invoker.kernel_output
 
-  common_deps = [ "//flutter/lib/snapshot:strong_platform" ]
+  common_deps = [ "//lib/snapshot:strong_platform" ]
   if (defined(invoker.deps)) {
     common_deps += invoker.deps
   }
@@ -57,7 +57,7 @@ template("flutter_frontend_server") {
     # As we move towards a single pub workspace for the engine, this will be
     # the correct package config to use, as we will no longer have a per-package
     # .dart_tool/package_config.json.
-    package_config = rebase_path("//flutter/.dart_tool/package_config.json")
+    package_config = rebase_path("//.dart_tool/package_config.json")
   }
   packages_args += [
     "--packages",
@@ -82,7 +82,7 @@ template("flutter_frontend_server") {
                 ]
 
   if (flutter_prebuilt_dart_sdk) {
-    common_deps += [ "//flutter/flutter_frontend_server:frontend_server" ]
+    common_deps += [ "//flutter_frontend_server:frontend_server" ]
     action(target_name) {
       forward_variables_from(invoker,
                              [
@@ -239,7 +239,7 @@ template("flutter_snapshot") {
         assert(false)
       }
     } else {
-      deps += [ "//flutter/lib/snapshot:generate_snapshot_bin" ]
+      deps += [ "//lib/snapshot:generate_snapshot_bin" ]
       vm_snapshot_data =
           "$root_gen_dir/flutter/lib/snapshot/vm_isolate_snapshot.bin"
       snapshot_data = "$root_gen_dir/flutter/lib/snapshot/isolate_snapshot.bin"
@@ -316,7 +316,7 @@ template("application_snapshot") {
     # As we move towards a single pub workspace for the engine, this will be
     # the correct package config to use, as we will no longer have a per-package
     # .dart_tool/package_config.json.
-    package_config = rebase_path("//flutter/.dart_tool/package_config.json")
+    package_config = rebase_path("//.dart_tool/package_config.json")
   }
 
   extra_deps = []

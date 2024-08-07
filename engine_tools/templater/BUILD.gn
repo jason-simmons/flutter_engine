@@ -5,7 +5,7 @@
 executable("templater") {
   sources = [ "templater_main.cc" ]
   deps = [
-    "//flutter/fml",
+    "//fml",
     "//third_party/inja",
   ]
 }

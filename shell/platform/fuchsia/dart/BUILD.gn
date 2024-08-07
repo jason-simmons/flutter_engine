@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/build/dart/rules.gni")
-import("//flutter/tools/fuchsia/dart/dart_library.gni")
+import("//engine_build/dart/rules.gni")
+import("//engine_tools/fuchsia/dart/dart_library.gni")
 
 application_snapshot("kernel_compiler") {
   main_dart = "compiler.dart"
@@ -99,7 +99,7 @@ dart_library("expect") {
 }
 
 dart_library("litetest") {
-  package_root = "//flutter/testing/litetest"
+  package_root = "//testing/litetest"
   package_name = "litetest"
 
   pubspec = "$package_root/pubspec.yaml"
@@ -361,7 +361,7 @@ dart_library("quiver") {
 }
 
 dart_library("vector_math") {
-  package_root = "//flutter/third_party/pkg/vector_math"
+  package_root = "//third_party/pkg/vector_math"
   package_name = "vector_math"
 
   pubspec = "$package_root/pubspec.yaml"

@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/build/dart/rules.gni")
+import("//engine_build/dart/rules.gni")
 
 application_snapshot("const_finder") {
   main_dart = "bin/main.dart"
@@ -12,5 +12,5 @@ application_snapshot("const_finder") {
 
   inputs = [ "bin/main.dart" ]
 
-  deps = [ "//flutter/flutter_frontend_server:frontend_server" ]
+  deps = [ "//flutter_frontend_server:frontend_server" ]
 }

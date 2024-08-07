@@ -421,7 +421,7 @@ config("compiler") {
   # Fuchsia-specific flags setup.
   # -----------------------------
   if (is_fuchsia) {
-    configs = ["//flutter/tools/fuchsia/gn-sdk/src/config:compiler"]
+    configs = ["//engine_tools/fuchsia/gn-sdk/src/config:compiler"]
   }
 
   asmflags = cflags
@@ -527,8 +527,8 @@ config("runtime_library") {
       ldflags += [ "-nostdlib++" ]
     }
     include_dirs = [
-      "//flutter/third_party/libcxx/include",
-      "//flutter/third_party/libcxxabi/include",
+      "//third_party/libcxx/include",
+      "//third_party/libcxxabi/include",
     ]
   }
 
@@ -577,7 +577,7 @@ config("runtime_library") {
 
   # Fuchsia standard library setup.
   if (is_fuchsia) {
-    configs = ["//flutter/tools/fuchsia/gn-sdk/src/config:runtime_library"]
+    configs = ["//engine_tools/fuchsia/gn-sdk/src/config:runtime_library"]
   }
 }
 

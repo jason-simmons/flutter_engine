@@ -2,11 +2,11 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/tools/fuchsia/gn-sdk/src/gn_configs.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/gn_configs.gni")
 
-import("//flutter/tools/fuchsia/dart/dart_component.gni")
-import("//flutter/tools/fuchsia/dart/dart_library.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/package.gni")
+import("//engine_tools/fuchsia/dart/dart_component.gni")
+import("//engine_tools/fuchsia/dart/dart_library.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/package.gni")
 
 dart_library("lib") {
   testonly = true
@@ -48,7 +48,7 @@ fuchsia_package("aot_echo_package") {
     # "OOT" copy of the runner used by tests, to avoid conflicting with the
     # runners in the base fuchsia image.
     # TODO(fxbug.dev/106575): Fix this with subpackages.
-    "//flutter/shell/platform/fuchsia/dart_runner:oot_dart_aot_runner",
+    "//shell/platform/fuchsia/dart_runner:oot_dart_aot_runner",
   ]
 }
 
@@ -62,6 +62,6 @@ fuchsia_package("jit_echo_package") {
     # "OOT" copy of the runner used by tests, to avoid conflicting with the
     # runners in the base fuchsia image.
     # TODO(fxbug.dev/106575): Fix this with subpackages.
-    "//flutter/shell/platform/fuchsia/dart_runner:oot_dart_jit_runner",
+    "//shell/platform/fuchsia/dart_runner:oot_dart_jit_runner",
   ]
 }

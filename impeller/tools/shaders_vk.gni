@@ -2,11 +2,11 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/impeller/tools/args.gni")
-import("//flutter/impeller/tools/compiler.gni")
-import("//flutter/impeller/tools/embed_blob.gni")
-import("//flutter/impeller/tools/malioc.gni")
-import("//flutter/impeller/tools/shader_archive.gni")
+import("//impeller/tools/args.gni")
+import("//impeller/tools/compiler.gni")
+import("//impeller/tools/embed_blob.gni")
+import("//impeller/tools/malioc.gni")
+import("//impeller/tools/shader_archive.gni")
 
 template("impeller_shaders_vk") {
   assert(defined(invoker.shaders), "Impeller shaders must be specified.")

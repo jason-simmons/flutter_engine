@@ -9,7 +9,7 @@ import("//build/toolchain/gcc_toolchain.gni")
 
 declare_args() {
   # The location of an activated embedded emsdk.
-  emsdk_dir = rebase_path("//flutter/prebuilts/emsdk")
+  emsdk_dir = rebase_path("//prebuilts/emsdk")
 
   wasm_use_pthreads = false
   wasm_use_dwarf = false

@@ -18,6 +18,6 @@ impeller_component("glvk") {
     "../../renderer/backend/vulkan",
     "../../toolkit/egl",
     "../../toolkit/gles",
-    "//flutter/fml",
+    "//fml",
   ]
 }

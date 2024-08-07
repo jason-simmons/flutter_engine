@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/build/dart/dart.gni")
+import("//engine_build/dart/dart.gni")
 
 # Generates an assembly file defining a given symbol with the bytes from a
 # binary file. Places the symbol in a text section if 'executable' is true,

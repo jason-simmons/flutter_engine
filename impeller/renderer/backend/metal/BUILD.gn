@@ -56,7 +56,7 @@ impeller_component("metal") {
 
   public_deps = [
     "../../:renderer",
-    "//flutter/fml",
+    "//fml",
   ]
 
   frameworks = [ "Metal.framework" ]
@@ -72,8 +72,8 @@ impeller_component("metal_unittests") {
 
   deps = [
     ":metal",
-    "//flutter/impeller/playground:playground_test",
-    "//flutter/testing:testing_lib",
+    "//impeller/playground:playground_test",
+    "//testing:testing_lib",
   ]
 
   frameworks = [

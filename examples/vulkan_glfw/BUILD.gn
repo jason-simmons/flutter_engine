@@ -13,8 +13,8 @@ executable("vulkan_glfw") {
   ldflags = [ "-rdynamic" ]
 
   deps = [
-    "//flutter/shell/platform/embedder:embedder",
-    "//flutter/third_party/glfw",
-    "//flutter/third_party/vulkan-deps/vulkan-headers/src:vulkan_headers",
+    "//shell/platform/embedder:embedder",
+    "//third_party/glfw",
+    "//third_party/vulkan-deps/vulkan-headers/src:vulkan_headers",
   ]
 }

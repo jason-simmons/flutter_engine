@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/impeller/tools/impeller.gni")
-import("//flutter/shell/version/version.gni")
+import("//impeller/tools/impeller.gni")
+import("//shell/version/version.gni")
 
 impeller_component("utilities") {
   # Current versions of libcxx have deprecated some of the UTF-16 string
@@ -19,12 +19,12 @@ impeller_component("utilities") {
     "../base",
     "../geometry",
     "../runtime_stage",
-    "//flutter/fml",
+    "//fml",
   ]
 }
 
 impeller_component("compiler_lib") {
-  include_dirs = [ "//flutter/third_party/vulkan-deps/spirv-cross/src/" ]
+  include_dirs = [ "//third_party/vulkan-deps/spirv-cross/src/" ]
 
   # Current versions of libcxx have deprecated some of the UTF-16 string
   # conversion APIs.
@@ -69,8 +69,8 @@ impeller_component("compiler_lib") {
     "../base",
     "../geometry",
     "../runtime_stage",
-    "//flutter/fml",
-    "//flutter/impeller/shader_bundle:shader_bundle_flatbuffers",
+    "//fml",
+    "//impeller/shader_bundle:shader_bundle_flatbuffers",
 
     # All third_party deps must be included by the global license script.
     "//third_party/inja",
@@ -113,6 +113,6 @@ impeller_component("compiler_unittests") {
 
   deps = [
     ":compiler_lib",
-    "//flutter/testing:testing_lib",
+    "//testing:testing_lib",
   ]
 }

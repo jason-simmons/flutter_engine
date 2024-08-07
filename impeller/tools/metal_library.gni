@@ -44,7 +44,7 @@ template("metal_library") {
       metal_library_symbols_path,
     ]
 
-    script = "//flutter/impeller/tools/metal_library.py"
+    script = "//impeller/tools/metal_library.py"
 
     depfile = "$target_gen_dir/mtl/$metal_library_name.depfile"
 

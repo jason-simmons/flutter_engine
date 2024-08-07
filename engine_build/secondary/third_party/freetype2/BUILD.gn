@@ -3,5 +3,5 @@
 # found in the LICENSE file.
 
 group("freetype2") {
-  public_deps = [ "//flutter/third_party/freetype2" ]
+  public_deps = [ "//third_party/freetype2" ]
 }

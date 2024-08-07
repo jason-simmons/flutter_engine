@@ -3,17 +3,17 @@
 # found in the LICENSE file.
 
 group("icui18n_hidden_visibility") {
-  public_deps = [ "//flutter/third_party/icu:icui18n_hidden_visibility" ]
+  public_deps = [ "//third_party/icu:icui18n_hidden_visibility" ]
 }
 
 group("icuuc_hidden_visibility") {
-  public_deps = [ "//flutter/third_party/icu:icuuc_hidden_visibility" ]
+  public_deps = [ "//third_party/icu:icuuc_hidden_visibility" ]
 }
 
 group("icui18n") {
-  public_deps = [ "//flutter/third_party/icu:icui18n" ]
+  public_deps = [ "//third_party/icu:icui18n" ]
 }
 
 group("icuuc") {
-  public_deps = [ "//flutter/third_party/icu:icuuc" ]
+  public_deps = [ "//third_party/icu:icuuc" ]
 }

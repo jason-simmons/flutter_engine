@@ -3,9 +3,9 @@
 # found in the LICENSE file.
 
 group("harfbuzz") {
-  public_deps = [ "//flutter/third_party/harfbuzz" ]
+  public_deps = [ "//third_party/harfbuzz" ]
 }
 
 group("harfbuzz_subset") {
-  public_deps = [ "//flutter/third_party/harfbuzz:harfbuzz_subset" ]
+  public_deps = [ "//third_party/harfbuzz:harfbuzz_subset" ]
 }

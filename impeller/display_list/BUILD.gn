@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/impeller/tools/impeller.gni")
+import("//impeller/tools/impeller.gni")
 
 impeller_component("skia_conversions") {
   sources = [
@@ -13,10 +13,10 @@ impeller_component("skia_conversions") {
   public_deps = [
     "../core",
     "../geometry",
-    "//flutter/display_list",
-    "//flutter/fml",
-    "//flutter/skia",
-    "//flutter/skia/modules/skparagraph",
+    "//display_list",
+    "//fml",
+    "//skia",
+    "//skia/modules/skparagraph",
   ]
 }
 
@@ -35,10 +35,10 @@ impeller_component("display_list") {
   public_deps = [
     ":skia_conversions",
     "../aiks",
-    "//flutter/display_list",
-    "//flutter/fml",
-    "//flutter/impeller/typographer/backends/skia:typographer_skia_backend",
-    "//flutter/skia",
+    "//display_list",
+    "//fml",
+    "//impeller/typographer/backends/skia:typographer_skia_backend",
+    "//skia",
   ]
 
   if (!defined(defines)) {
@@ -92,10 +92,10 @@ template("display_list_unittests_component") {
     deps += [
       ":display_list",
       "../playground:playground_test",
-      "//flutter/impeller/golden_tests:screenshot",
-      "//flutter/impeller/scene",
-      "//flutter/impeller/typographer/backends/stb:typographer_stb_backend",
-      "//flutter/third_party/txt",
+      "//impeller/golden_tests:screenshot",
+      "//impeller/scene",
+      "//impeller/typographer/backends/stb:typographer_stb_backend",
+      "//third_party/txt",
     ]
     if (defined(invoker.public_configs)) {
       public_configs = invoker.public_configs
@@ -104,11 +104,11 @@ template("display_list_unittests_component") {
 }
 
 display_list_unittests_component("display_list_unittests") {
-  deps = [ "//flutter/impeller/aiks:aiks_unittests" ]
+  deps = [ "//impeller/aiks:aiks_unittests" ]
 }
 
 display_list_unittests_component("display_list_unittests_golden") {
-  deps = [ "//flutter/impeller/aiks:aiks_unittests_golden" ]
+  deps = [ "//impeller/aiks:aiks_unittests_golden" ]
   defines = [
     "IMPELLER_GOLDEN_TESTS",
     "IMPELLER_ENABLE_VALIDATION=1",
@@ -122,6 +122,6 @@ impeller_component("skia_conversions_unittests") {
 
   deps = [
     ":skia_conversions",
-    "//flutter/testing:testing_lib",
+    "//testing:testing_lib",
   ]
 }

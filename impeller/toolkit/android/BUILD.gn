@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/testing/android/native_activity/native_activity.gni")
+import("//testing/android/native_activity/native_activity.gni")
 import("../../tools/impeller.gni")
 
 config("public_android_config") {
@@ -30,7 +30,7 @@ impeller_component("android") {
   public_deps = [
     "../../base",
     "../../geometry",
-    "//flutter/fml",
+    "//fml",
   ]
 
   public_configs = [ ":public_android_config" ]
@@ -50,7 +50,7 @@ source_set("unittests_lib") {
   deps = [
     ":android",
     ":unittests_fixtures",
-    "//flutter/testing",
+    "//testing",
   ]
 
   defines = [ "TESTING" ]
@@ -73,6 +73,6 @@ native_activity_apk("apk_unittests") {
 
   deps = [
     ":unittests_lib",
-    "//flutter/testing/android/native_activity:gtest_activity",
+    "//testing/android/native_activity:gtest_activity",
   ]
 }

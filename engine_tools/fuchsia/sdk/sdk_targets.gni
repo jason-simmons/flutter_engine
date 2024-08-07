@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/tools/fuchsia/dart/dart_library.gni")
-import("//flutter/tools/fuchsia/gn-sdk/src/fidl_library.gni")
+import("//engine_tools/fuchsia/dart/dart_library.gni")
+import("//engine_tools/fuchsia/gn-sdk/src/fidl_library.gni")
 
 template("_fuchsia_dart_library") {
   assert(defined(invoker.meta), "The meta file content must be specified.")
@@ -25,7 +25,7 @@ template("_fuchsia_dart_library") {
   }
 
   foreach(dep, meta.fidl_deps) {
-    _deps += [ "//flutter/tools/fuchsia/fidl:$dep" ]
+    _deps += [ "//engine_tools/fuchsia/fidl:$dep" ]
   }
 
   # Compute the third_party deps. The Fuchsia SDK doesn't know where to resolve
@@ -56,7 +56,7 @@ template("_fuchsia_dart_library") {
   }
 
   foreach(third_party_dep, meta.third_party_deps) {
-    _deps += [ "//flutter/shell/platform/fuchsia/dart:" + third_party_dep.name ]
+    _deps += [ "//shell/platform/fuchsia/dart:" + third_party_dep.name ]
   }
 
   dart_library(target_name) {

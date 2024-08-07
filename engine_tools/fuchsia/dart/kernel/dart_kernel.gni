@@ -2,32 +2,32 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-# NOTE: Generally, the build rules in //flutter/tools/fuchsia/dart/,
-# //flutter/tools/fuchsia/dart/kernel/, and similar SUBDIRECTORIES of
-# //flutter/tools/fuchsia/ (such as //flutter/tools/fuchsia/flutter/)
+# NOTE: Generally, the build rules in //engine_tools/fuchsia/dart/,
+# //engine_tools/fuchsia/dart/kernel/, and similar SUBDIRECTORIES of
+# //engine_tools/fuchsia/ (such as //engine_tools/fuchsia/flutter/)
 # mirror the directory paths and much of the build rule content of fuchsia.git
 # //build/...
 #
 # Most of the fuchsia-derived build rules were implemented after some similar
-# build rules already existed in the directory //flutter/tools/fuchsia/
+# build rules already existed in the directory //engine_tools/fuchsia/
 # and several existing build targets use these (legacy) build rules.
-# Though some rules and targets in //flutter/tools/fuchsia/ have similar names
+# Though some rules and targets in //engine_tools/fuchsia/ have similar names
 # to the fuchsia.git-derived rules, the rule structures and behavior can be
 # different. Therefore both are maintained for now.
 #
 # This file--dart_kernel.gni--and its primary template--dart_kernel()--match
 # pre-existing (legacy) template and filename in
-# //flutter/tools/fuchsia/dart_kernel.gni.
+# //engine_tools/fuchsia/dart_kernel.gni.
 #
 # The templates appear to have different behavior, so both will be maintained
 # until we can determine a better way to reconcile them.
 
-import("//flutter/tools/fuchsia/dart/config.gni")
-import("//flutter/tools/fuchsia/dart/dart_library.gni")
-import("//flutter/tools/fuchsia/dart/toolchain.gni")
+import("//engine_tools/fuchsia/dart/config.gni")
+import("//engine_tools/fuchsia/dart/dart_library.gni")
+import("//engine_tools/fuchsia/dart/toolchain.gni")
 
 _gen_kernel_label =
-    "//flutter/tools/fuchsia/dart/kernel:gen_kernel($host_toolchain)"
+    "//engine_tools/fuchsia/dart/kernel:gen_kernel($host_toolchain)"
 _gen_kernel_path =
     get_label_info(_gen_kernel_label, "root_out_dir") + "/dart-tools/gen_kernel"
 
@@ -55,7 +55,7 @@ template("_convert_kernel_manifest") {
     _converted_file_name =
         "${target_gen_dir}/${target_name}_kernel_manifest.json"
 
-    script = "//flutter/tools/fuchsia/dart/kernel/convert_manifest_to_json.py"
+    script = "//engine_tools/fuchsia/dart/kernel/convert_manifest_to_json.py"
     args = [
       "--path_prefix",
       rebase_path(root_out_dir) + "/",
@@ -209,11 +209,11 @@ template("dart_kernel") {
 
     if (invoker.platform_name == flutter_platform_name) {
       _kernel_deps += [
-        "//flutter/shell/platform/fuchsia/flutter/kernel:kernel_platform_files",
+        "//shell/platform/fuchsia/flutter/kernel:kernel_platform_files",
       ]
       _platform_path = "$root_out_dir/flutter_runner_patched_sdk"
     } else if (invoker.platform_name == dart_platform_name) {
-      _kernel_deps += [ "//flutter/shell/platform/fuchsia/dart_runner/kernel:kernel_platform_files" ]
+      _kernel_deps += [ "//shell/platform/fuchsia/dart_runner/kernel:kernel_platform_files" ]
       _platform_path = "$root_out_dir/dart_runner_patched_sdk"
     } else {
       assert(false,
@@ -247,7 +247,7 @@ template("dart_kernel") {
 
     # gen_kernel writes absolute paths to depfiles, convert them to relative.
     # See more information in https://fxbug.dev/75451.
-    script = "//flutter/tools/fuchsia/depfile_path_to_relative.py"
+    script = "//engine_tools/fuchsia/depfile_path_to_relative.py"
     args = [
       "--depfile=" + rebase_path(depfile, root_build_dir),
       "--",

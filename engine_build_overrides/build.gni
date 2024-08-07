@@ -12,4 +12,4 @@ build_with_chromium = false
 # builds in the Android tree.
 perfetto_build_with_embedder = true
 
-perfetto_root_path = "//flutter/third_party/perfetto/"
+perfetto_root_path = "//third_party/perfetto/"

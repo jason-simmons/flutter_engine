@@ -2,7 +2,7 @@
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
-import("//flutter/build/zip_bundle.gni")
+import("//engine_build/zip_bundle.gni")
 
 # Similar to `sky_engine`, zip up the `flutter_gpu` Dart package and upload
 # it to GCS for distribution. This is only done during Android builds on CI.
@@ -19,7 +19,7 @@ if (is_android) {
     output = "$android_zip_archive_dir/flutter_gpu.zip"
     files = [
       {
-        source = "//flutter/lib/gpu"
+        source = "//lib/gpu"
         destination = "flutter_gpu"
       },
     ]
@@ -32,7 +32,7 @@ if (is_android) {
     output = "flutter_gpu.zip"
     files = [
       {
-        source = "//flutter/lib/gpu"
+        source = "//lib/gpu"
         destination = "flutter_gpu"
       },
     ]

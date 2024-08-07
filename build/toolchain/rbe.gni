@@ -35,7 +35,7 @@ declare_args() {
 
   rbe_dir = rebase_path("$buildtools_path/linux-x64/reclient")
 
-  rbe_cfg = rebase_path("//flutter/build/rbe/rewrapper-linux.cfg")
+  rbe_cfg = rebase_path("//engine_build/rbe/rewrapper-linux.cfg")
 }
 
 rewrapper_command = [
