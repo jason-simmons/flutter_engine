@@ -126,7 +126,7 @@ impeller_component("renderer_dart_unittests") {
 
   sources = [ "renderer_dart_unittests.cc" ]
 
-  public_configs = [ "//flutter:export_dynamic_symbols" ]
+  public_configs = [ "//engine:export_dynamic_symbols" ]
 
   deps = [
     ":renderer",

@@ -183,7 +183,7 @@ copy("publish_headers_windows") {
 shared_library("flutter_windows") {
   deps = [ ":flutter_windows_source" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }
 
 test_fixtures("flutter_windows_fixtures") {
@@ -255,7 +255,7 @@ executable("flutter_windows_unittests") {
   configs +=
       [ "//shell/platform/common:desktop_library_implementation" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 
   deps = [
     ":flutter_windows_fixtures",
@@ -276,7 +276,7 @@ executable("flutter_windows_unittests") {
 shared_library("flutter_windows_glfw") {
   deps = [ "//shell/platform/glfw:flutter_glfw" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }
 
 group("windows_glfw") {

@@ -21,6 +21,6 @@ source_set("common") {
 
   public_configs = [
     ":flutter_config",
-    "//flutter:config",
+    "//engine:config",
   ]
 }

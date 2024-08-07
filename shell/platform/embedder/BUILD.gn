@@ -186,7 +186,7 @@ template("embedder_source_set") {
     public_configs += [
       ":embedder_gpu_configuration_config",
       ":embedder_header_config",
-      "//flutter:config",
+      "//engine:config",
       "//impeller:impeller_public_config",
     ]
   }
@@ -203,7 +203,7 @@ embedder_source_set("embedder_as_internal_library") {
 source_set("embedder_headers") {
   public = [ "embedder.h" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }
 
 source_set("embedder_test_utils") {
@@ -214,7 +214,7 @@ source_set("embedder_test_utils") {
 
   deps = [ ":embedder_headers" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }
 
 # For using the embedder API as internal implementation detail of an
@@ -262,7 +262,7 @@ if (enable_unittests) {
 
     configs += [
       ":embedder_gpu_configuration_config",
-      "//flutter:export_dynamic_symbols",
+      "//engine:export_dynamic_symbols",
     ]
 
     include_dirs = [ "." ]
@@ -350,7 +350,7 @@ if (enable_unittests) {
     configs += [
       ":embedder_jit_snapshot_setup",
       ":embedder_gpu_configuration_config",
-      "//flutter:export_dynamic_symbols",
+      "//engine:export_dynamic_symbols",
     ]
 
     include_dirs = [ "." ]
@@ -380,7 +380,7 @@ if (enable_unittests) {
 
     configs += [
       ":embedder_gpu_configuration_config",
-      "//flutter:export_dynamic_symbols",
+      "//engine:export_dynamic_symbols",
     ]
 
     include_dirs = [ "." ]
@@ -396,7 +396,7 @@ if (enable_unittests) {
 
     configs += [
       ":embedder_gpu_configuration_config",
-      "//flutter:export_dynamic_symbols",
+      "//engine:export_dynamic_symbols",
     ]
 
     sources = [ "tests/embedder_unittests_proctable.cc" ]
@@ -437,7 +437,7 @@ shared_library("flutter_engine_library") {
 
   deps = [ ":embedder" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }
 
 copy("copy_headers") {

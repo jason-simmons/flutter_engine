@@ -56,7 +56,7 @@ source_set("flutter_framework_source_arc") {
     "//shell/platform/darwin/common:framework_common",
     "//third_party/icu",
   ]
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 
   sources = [
     "framework/Source/FlutterCallbackCache.mm",
@@ -207,7 +207,7 @@ source_set("flutter_framework_source") {
 
   public_configs = [
     ":ios_gpu_configuration_config",
-    "//flutter:config",
+    "//engine:config",
   ]
 
   frameworks = [
@@ -302,7 +302,7 @@ shared_library("ios_test_flutter") {
   ]
   public_configs = [
     ":ios_gpu_configuration_config",
-    "//flutter:config",
+    "//engine:config",
   ]
 
   if (darwin_extension_safe) {
@@ -328,7 +328,7 @@ shared_library("create_flutter_framework_dylib") {
     ":flutter_framework_source_arc",
   ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }
 
 copy("copy_dylib") {

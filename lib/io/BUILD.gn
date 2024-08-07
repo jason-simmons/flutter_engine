@@ -19,5 +19,5 @@ source_set("io") {
 
   configs += [ "$dart_src/runtime:dart_config" ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 }

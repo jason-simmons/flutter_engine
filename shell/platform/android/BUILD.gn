@@ -50,7 +50,7 @@ executable("flutter_shell_native_unittests") {
     "image_lru_unittests.cc",
     "platform_view_android_unittests.cc",
   ]
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
   deps = [
     ":flutter_shell_native_src",
     "//fml",
@@ -170,7 +170,7 @@ source_set("flutter_shell_native_src") {
     "//vulkan",
   ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 
   defines = []
 

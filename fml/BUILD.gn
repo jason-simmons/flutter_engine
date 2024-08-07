@@ -130,7 +130,7 @@ source_set("fml") {
   configs += [ "//third_party/icu:icu_config" ]
 
   public_configs = [
-    "//flutter:config",
+    "//engine:config",
     "//common:flutter_config",
   ]
 
@@ -271,7 +271,7 @@ source_set("build_config") {
   sources = [ "build_config.h" ]
 
   public_configs = [
-    "//flutter:config",
+    "//engine:config",
     "//common:flutter_config",
   ]
 }
@@ -283,7 +283,7 @@ source_set("command_line") {
   ]
 
   public_configs = [
-    "//flutter:config",
+    "//engine:config",
     "//common:flutter_config",
   ]
 }
@@ -316,7 +316,7 @@ source_set("string_conversion") {
 
   public_configs = [
     ":string_conversion_config",
-    "//flutter:config",
+    "//engine:config",
     "//common:flutter_config",
   ]
 }

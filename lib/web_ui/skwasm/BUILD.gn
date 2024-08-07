@@ -5,7 +5,7 @@
 import("//build/toolchain/wasm.gni")
 
 wasm_lib("skwasm") {
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 
   sources = [
     "canvas.cpp",

@@ -160,7 +160,7 @@ source_set("ui") {
     "window/viewport_metrics.h",
   ]
 
-  public_configs = [ "//flutter:config" ]
+  public_configs = [ "//engine:config" ]
 
   public_deps = [
     "//flow",
@@ -246,7 +246,7 @@ if (enable_unittests) {
   executable("ui_benchmarks") {
     testonly = true
 
-    public_configs = [ "//flutter:export_dynamic_symbols" ]
+    public_configs = [ "//engine:export_dynamic_symbols" ]
 
     sources = [ "ui_benchmarks.cc" ]
 
@@ -263,7 +263,7 @@ if (enable_unittests) {
   executable("ui_unittests") {
     testonly = true
 
-    public_configs = [ "//flutter:export_dynamic_symbols" ]
+    public_configs = [ "//engine:export_dynamic_symbols" ]
 
     sources = [
       "compositing/scene_builder_unittests.cc",
