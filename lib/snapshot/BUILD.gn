@@ -255,7 +255,7 @@ source_set("snapshot") {
 # Compiles the Dart/Flutter core libraries to kernel bytecode.
 compile_platform("strong_platform") {
   single_root_scheme = "org-dartlang-sdk"
-  single_root_base = rebase_path("../../../")
+  single_root_base = rebase_path("../../")
   if (impeller_enable_3d) {
     libraries_specification_uri =
         "org-dartlang-sdk:///lib/snapshot/libraries_experimental.json"
