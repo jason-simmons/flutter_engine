@@ -8,8 +8,8 @@ import("../tools/impeller.gni")
 config("runtime_stage_config") {
   configs = [ "//impeller:impeller_public_config" ]
   include_dirs = [
-    "$root_gen_dir/flutter",
-    "$root_gen_dir/flutter/impeller/runtime_stage",
+    "$root_gen_dir",
+    "$root_gen_dir/impeller/runtime_stage",
   ]
 }
 
