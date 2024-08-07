@@ -120,11 +120,11 @@ if (build_engine_artifacts) {
           destination = "libtessellator$dll"
         },
         {
-          source = "$root_gen_dir/flutter/lib/snapshot/isolate_snapshot.bin"
+          source = "$root_gen_dir/lib/snapshot/isolate_snapshot.bin"
           destination = "isolate_snapshot.bin"
         },
         {
-          source = "$root_gen_dir/flutter/lib/snapshot/vm_isolate_snapshot.bin"
+          source = "$root_gen_dir/lib/snapshot/vm_isolate_snapshot.bin"
           destination = "vm_isolate_snapshot.bin"
         },
         {
