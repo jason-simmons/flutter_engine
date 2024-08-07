@@ -7,7 +7,7 @@ group("default") {
   if (target_os == "wasm") {
     deps = [ "//wasm" ]
   } else {
-    deps = [ "//flutter" ]
+    deps = [ "//engine" ]
   }
 }
 
@@ -17,6 +17,6 @@ group("dist") {
   if (target_os == "wasm") {
     deps = [ "//wasm" ]
   } else {
-    deps = [ "//flutter:dist" ]
+    deps = [ "//engine:dist" ]
   }
 }
