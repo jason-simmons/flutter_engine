@@ -70,7 +70,7 @@ config("export_dynamic_test_symbols") {
   }
 }
 
-group("flutter") {
+group("engine") {
   testonly = true
 
   # Compile the engine.
