@@ -16,8 +16,7 @@ import re
 import subprocess
 import sys
 
-SRC_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
+SRC_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def get_out_dir(args):
   if args.target_os is not None:
@@ -245,11 +244,11 @@ def setup_rbe(args):
     rbe_gn_args['rbe_platform'] = args.rbe_platform
 
   rbe_gn_args['rbe_dir'] = os.path.join(
-      SRC_ROOT, 'flutter', 'buildtools', buildtools_dir(), 'reclient'
+      SRC_ROOT, 'buildtools', buildtools_dir(), 'reclient'
   )
 
   rbe_gn_args['rbe_cfg'] = os.path.join(
-      SRC_ROOT, 'flutter', 'build', 'rbe', 'rewrapper-' + buildtools_dir() + '.cfg'
+      SRC_ROOT, 'build', 'rbe', 'rewrapper-' + buildtools_dir() + '.cfg'
   )
 
   if sys.platform == 'darwin':
@@ -281,7 +280,7 @@ def setup_apple_sdks():
       ('iPhoneOS', 'ios_device_sdk_path'),
       ('iPhoneSimulator', 'ios_simulator_sdk_path'),
   ]
-  sdks_path = os.path.join(SRC_ROOT, 'flutter', 'prebuilts', 'SDKs')
+  sdks_path = os.path.join(SRC_ROOT, 'prebuilts', 'SDKs')
   sdk_entries = os.listdir(sdks_path)
   for (prefix, arg) in prefixes:
     for entry in sdk_entries:
@@ -312,10 +311,10 @@ def get_repository_version(repository):
 def setup_git_versions():
   revision_args = {}
 
-  engine_path = os.path.join(SRC_ROOT, 'flutter')
+  engine_path = os.path.join(SRC_ROOT)
   revision_args['engine_version'] = get_repository_version(engine_path)
 
-  skia_path = os.path.join(SRC_ROOT, 'flutter', 'third_party', 'skia')
+  skia_path = os.path.join(SRC_ROOT, 'third_party', 'skia')
   revision_args['skia_version'] = get_repository_version(skia_path)
 
   revision_args['dart_version'] = get_repository_version(get_dart_path())
@@ -402,7 +401,7 @@ def to_gn_args(args):
 
   gn_args = {}
 
-  gn_args['buildtools_path'] = '//flutter/buildtools'
+  gn_args['buildtools_path'] = '//engine_buildtools'
 
   gn_args['is_debug'] = args.unoptimized
 
@@ -702,8 +701,8 @@ def to_gn_args(args):
     gn_args['dart_use_compressed_pointers'] = True
 
   if args.target_os == 'fuchsia':
-    gn_args['gn_configs_path'] = '//flutter/build/config/fuchsia/gn_configs.gni'
-    gn_args['fuchsia_gn_sdk'] = '//flutter/tools/fuchsia/gn-sdk'
+    gn_args['gn_configs_path'] = '//engine_build/config/fuchsia/gn_configs.gni'
+    gn_args['fuchsia_gn_sdk'] = '//engine_tools/fuchsia/gn-sdk'
 
   # Flags for Dart features:
   if args.use_mallinfo2:
@@ -758,9 +757,9 @@ def to_gn_args(args):
     # Requires RTTI. We may want to build this in debug modes, punting on that
     # for now.
     gn_args['angle_enable_vulkan_validation_layers'] = False
-    gn_args['angle_vulkan_headers_dir'] = '//flutter/third_party/vulkan-deps/vulkan-headers/src'
-    gn_args['angle_vulkan_loader_dir'] = '//flutter/third_party/vulkan-deps/vulkan-loader/src'
-    gn_args['angle_vulkan_tools_dir'] = '//flutter/third_party/vulkan-deps/vulkan-tools/src'
+    gn_args['angle_vulkan_headers_dir'] = '//third_party/vulkan-deps/vulkan-headers/src'
+    gn_args['angle_vulkan_loader_dir'] = '//third_party/vulkan-deps/vulkan-loader/src'
+    gn_args['angle_vulkan_tools_dir'] = '//third_party/vulkan-deps/vulkan-tools/src'
 
   if args.darwin_extension_safe:
     gn_args['darwin_extension_safe'] = True
@@ -828,13 +827,13 @@ def to_gn_wasm_args(args, gn_args):
 
 
 def run_impeller_cmake(args):
-  impeller_cmake_dir = os.path.join('flutter', 'third_party', 'impeller-cmake-example')
+  impeller_cmake_dir = os.path.join('third_party', 'impeller-cmake-example')
   if not os.path.isdir(os.path.join(SRC_ROOT, impeller_cmake_dir)):
     print('The Impeller cmake example directory "{}" does not exist'.format(impeller_cmake_dir))
     return 1
   cmake_cmd = [
       'python3',
-      os.path.join(SRC_ROOT, 'flutter', 'ci', 'impeller_cmake_build_test.py'),
+      os.path.join(SRC_ROOT, 'ci', 'impeller_cmake_build_test.py'),
       '--path',
       impeller_cmake_dir,
       '--cmake',
@@ -1232,7 +1231,7 @@ def main(argv):
   exe = '.exe' if sys.platform.startswith(('cygwin', 'win')) else ''
 
   command = [
-      '%s/flutter/third_party/gn/gn%s' % (SRC_ROOT, exe),
+      '%s/third_party/gn/gn%s' % (SRC_ROOT, exe),
       'gen',
       '--check',
       '--export-compile-commands',
